@@ -20,6 +20,11 @@ if System.get_env("PHX_SERVER") do
   config :leetcode_spaced, LeetcodeSpacedWeb.Endpoint, server: true
 end
 
+# Configure OAuth with environment variables for all environments
+config :ueberauth, Ueberauth.Strategy.Google.OAuth,
+  client_id: System.get_env("GOOGLE_CLIENT_ID"),
+  client_secret: System.get_env("GOOGLE_CLIENT_SECRET")
+
 
 
 if config_env() == :prod do
