@@ -31,6 +31,7 @@ defmodule LeetcodeSpacedWeb.AuthController do
 
       {:error, changeset} ->
         IO.inspect(changeset, label: "Changeset Error")
+
         conn
         |> put_flash(:error, "Authentication failed: Unable to create user account")
         |> redirect(to: ~p"/")
@@ -52,10 +53,11 @@ defmodule LeetcodeSpacedWeb.AuthController do
 
   defp create_or_update_user(%Ueberauth.Auth{} = auth) do
     # Handle missing name by using email prefix or a default
-    name = auth.info.name ||
-           auth.info.first_name ||
-           (auth.info.email && String.split(auth.info.email, "@") |> hd()) ||
-           "User"
+    name =
+      auth.info.name ||
+        auth.info.first_name ||
+        (auth.info.email && String.split(auth.info.email, "@") |> hd()) ||
+        "User"
 
     user_params = %{
       email: auth.info.email,
