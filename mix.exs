@@ -68,7 +68,8 @@ defmodule LeetcodeSpaced.MixProject do
       {:dns_cluster, "~> 0.2.0"},
       {:bandit, "~> 1.5"},
       {:ueberauth, "~> 0.10"},
-      {:ueberauth_google, "~> 0.12"}
+      {:ueberauth_google, "~> 0.12"},
+      {:ex_fsrs, path: "../ex_fsrs"}
     ]
   end
 

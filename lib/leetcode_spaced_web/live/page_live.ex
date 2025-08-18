@@ -131,7 +131,10 @@ defmodule LeetcodeSpacedWeb.PageLive do
               Ready to continue your coding journey? Let's practice some algorithms!
             </p>
             <div class="flex justify-center space-x-4">
-              <button class="inline-flex items-center bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white text-lg px-8 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200">
+              <.link
+                navigate="/lists"
+                class="inline-flex items-center bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white text-lg px-8 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200"
+              >
                 <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path
                     stroke-linecap="round"
@@ -141,7 +144,7 @@ defmodule LeetcodeSpacedWeb.PageLive do
                   />
                 </svg>
                 Start Practicing
-              </button>
+              </.link>
               <button class="inline-flex items-center bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white text-lg px-8 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200">
                 <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path

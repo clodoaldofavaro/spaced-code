@@ -18,6 +18,8 @@ defmodule LeetcodeSpacedWeb.Router do
     pipe_through :browser
 
     live "/", PageLive, :index
+    live "/lists", ListsLive, :index
+    live "/lists/:id", ListDetailsLive, :show
   end
 
   scope "/auth", LeetcodeSpacedWeb do

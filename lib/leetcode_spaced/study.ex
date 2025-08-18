@@ -22,6 +22,20 @@ defmodule LeetcodeSpaced.Study do
   end
 
   @doc """
+  Returns the list of lists for a specific user.
+
+  ## Examples
+
+      iex> list_lists_for_user(123)
+      [%List{}, ...]
+
+  """
+  def list_lists_for_user(user_id) do
+    from(l in List, where: l.user_id == ^user_id, order_by: [desc: l.inserted_at])
+    |> Repo.all()
+  end
+
+  @doc """
   Gets a single list.
 
   Raises `Ecto.NoResultsError` if the List does not exist.
@@ -196,5 +210,48 @@ defmodule LeetcodeSpaced.Study do
   """
   def change_problem(%Problem{} = problem, attrs \\ %{}) do
     Problem.changeset(problem, attrs)
+  end
+
+  @doc """
+  Gets problems for a specific list.
+  """
+  def get_problems_for_list(list_id) do
+    from(p in Problem,
+      join: lp in "lists_problems", on: lp.problem_id == p.id,
+      where: lp.list_id == ^list_id,
+      order_by: [asc: p.old_leetcode_id]
+    )
+    |> Repo.all()
+  end
+
+  @doc """
+  Adds a problem to a list.
+  """
+  def add_problem_to_list(list_id, problem_id) do
+    attrs = %{
+      list_id: list_id, 
+      problem_id: problem_id, 
+      inserted_at: DateTime.utc_now(), 
+      updated_at: DateTime.utc_now()
+    }
+    
+    case Repo.insert_all("lists_problems", [attrs]) do
+      {1, _} -> {:ok, :added}
+      _ -> {:error, :failed}
+    end
+  end
+
+  @doc """
+  Removes a problem from a list.
+  """
+  def remove_problem_from_list(list_id, problem_id) do
+    case from(lp in "lists_problems",
+      where: lp.list_id == ^list_id and lp.problem_id == ^problem_id
+    )
+    |> Repo.delete_all() do
+      {1, _} -> {:ok, :removed}
+      {0, _} -> {:error, :not_found}
+      _ -> {:error, :failed}
+    end
   end
 end

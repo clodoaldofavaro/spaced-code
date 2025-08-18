@@ -14,7 +14,7 @@ defmodule LeetcodeSpaced.Study.List do
   @doc false
   def changeset(list, attrs) do
     list
-    |> cast(attrs, [:name, :description, :is_public])
-    |> validate_required([:name, :description, :is_public])
+    |> cast(attrs, [:name, :description, :is_public, :user_id])
+    |> validate_required([:name, :description, :is_public, :user_id])
   end
 end

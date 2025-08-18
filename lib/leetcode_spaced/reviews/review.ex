@@ -10,6 +10,14 @@ defmodule LeetcodeSpaced.Reviews.Review do
     field :user_id, :id
     field :problem_id, :id
     field :list_id, :id
+    
+    # FSRS fields
+    field :fsrs_state, :string, default: "learning"
+    field :fsrs_step, :integer
+    field :stability, :float
+    field :difficulty, :float
+    field :due, :utc_datetime
+    field :last_review, :utc_datetime
 
     timestamps(type: :utc_datetime)
   end
@@ -17,7 +25,12 @@ defmodule LeetcodeSpaced.Reviews.Review do
   @doc false
   def changeset(review, attrs) do
     review
-    |> cast(attrs, [:confidence, :reviewed_at, :next_review, :review_count])
-    |> validate_required([:confidence, :reviewed_at, :next_review, :review_count])
+    |> cast(attrs, [
+      :confidence, :reviewed_at, :next_review, :review_count, 
+      :user_id, :problem_id, :list_id,
+      :fsrs_state, :fsrs_step, :stability, :difficulty, :due, :last_review
+    ])
+    |> validate_required([:user_id, :problem_id, :list_id])
+    |> validate_inclusion(:fsrs_state, ["learning", "review", "relearning"])
   end
 end
