@@ -12,7 +12,7 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
       list = Study.get_list!(list_id_int)
       problems = Study.get_problems_for_list(list_id_int)
       due_problems = Reviews.get_due_problems_for_list(list_id_int, current_user.id)
-      
+
       socket =
         socket
         |> assign(current_user: current_user)
@@ -55,7 +55,7 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
           {:ok, _} ->
             problems = Study.get_problems_for_list(socket.assigns.list_id)
             due_problems = Reviews.get_due_problems_for_list(socket.assigns.list_id, socket.assigns.current_user.id)
-            
+
             socket =
               socket
               |> assign(problems: problems)
@@ -81,7 +81,7 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
       {:ok, _} ->
         problems = Study.get_problems_for_list(socket.assigns.list_id)
         due_problems = Reviews.get_due_problems_for_list(socket.assigns.list_id, socket.assigns.current_user.id)
-        
+
         socket =
           socket
           |> assign(problems: problems)
@@ -99,7 +99,7 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
     require Logger
     Logger.info("=== REVIEW EVENT START ===")
     Logger.info("Problem ID: #{problem_id}, Rating: #{rating}")
-    
+
     # Validate FSRS rating
     if rating == "" or is_nil(rating) do
       Logger.error("Invalid rating: empty or nil")
@@ -107,28 +107,28 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
     else
       problem_id_int = String.to_integer(problem_id)
       rating_atom = String.to_atom(rating)
-      
+
       Logger.info("Calling mark_problem_solved with: problem_id=#{problem_id_int}, user_id=#{socket.assigns.current_user.id}, list_id=#{socket.assigns.list_id}, rating=#{rating_atom}")
-      
+
       case Reviews.mark_problem_solved(problem_id_int, socket.assigns.current_user.id, socket.assigns.list_id, rating_atom) do
         {:ok, result} ->
           Logger.info("Review successful: #{inspect(result)}")
           # Add to recently solved for temporary green state
           recently_solved = [problem_id_int | socket.assigns.recently_solved]
-          
+
           # Refresh both problems and due problems
           problems = Study.get_problems_for_list(socket.assigns.list_id)
           due_problems = Reviews.get_due_problems_for_list(socket.assigns.list_id, socket.assigns.current_user.id)
-          
+
           Logger.info("Refreshed data - problems: #{length(problems)}, due_problems: #{length(due_problems)}")
-          
+
           socket =
             socket
             |> assign(problems: problems)
             |> assign(due_problems: due_problems)
             |> assign(recently_solved: recently_solved)
             |> put_flash(:info, "Problem reviewed! 🎉")
-          
+
           # Clear recently solved after 3 seconds
           Process.send_after(self(), {:clear_recently_solved, problem_id_int}, 3000)
 
@@ -244,7 +244,7 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
                 </div>
               </div>
             </div>
-            
+
             <div class="bg-base-200 rounded-lg p-4 border border-base-300">
               <div class="flex items-center">
                 <div class="bg-orange-100 rounded-lg p-2 mr-3">
@@ -258,7 +258,7 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
                 </div>
               </div>
             </div>
-            
+
             <div class="bg-base-200 rounded-lg p-4 border border-base-300">
               <div class="flex items-center">
                 <div class="bg-green-100 rounded-lg p-2 mr-3">
@@ -301,10 +301,7 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
           <div class="mb-8 bg-base-200 rounded-xl p-6 border border-base-300">
             <h2 class="text-xl font-semibold text-base-content mb-4">Add New Problem</h2>
             <.form for={@problem_form} phx-submit="add_problem" class="space-y-4">
-              <.input field={@problem_form[:title]} type="text" label="Title" placeholder="Enter problem title..." />
-              <.input field={@problem_form[:url]} type="url" label="LeetCode URL" placeholder="https://leetcode.com/problems/..." />
-              <.input field={@problem_form[:old_leetcode_id]} type="number" label="LeetCode ID" placeholder="1" />
-              <.input field={@problem_form[:difficulty]} type="select" label="Difficulty" options={[{"Easy", "Easy"}, {"Medium", "Medium"}, {"Hard", "Hard"}]} />
+              <.input field={@problem_form[:url]} type="url" label="LeetCode URL" placeholder="https://leetcode.com/problems/flood-fill/description/" />
               <div class="flex space-x-3">
                 <button
                   type="submit"
@@ -345,7 +342,7 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
                     </span>
                     <span class="text-base-content/60 text-sm">#{problem.old_leetcode_id}</span>
                   </div>
-                  
+
                   <%= if problem.topics && length(problem.topics) > 0 do %>
                     <div class="flex flex-wrap gap-2 mb-4">
                       <%= for topic <- problem.topics do %>
@@ -356,7 +353,7 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
                     </div>
                   <% end %>
                 </div>
-                
+
                 <div class="flex items-center space-x-2">
                   <!-- Mark as Solved with Confidence -->
                   <%= if problem.id in @recently_solved do %>
@@ -387,7 +384,7 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
                       </button>
                     </form>
                   <% end %>
-                  
+
                   <!-- Open in LeetCode -->
                   <a
                     href={problem.url}
@@ -400,7 +397,7 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
                     </svg>
                     Solve
                   </a>
-                  
+
                   <!-- Remove from List -->
                   <button
                     type="button"
@@ -417,7 +414,7 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
               </div>
             </div>
           <% end %>
-          
+
           <%= if Enum.empty?(displayed_problems(assigns)) do %>
             <div class="text-center py-12">
               <svg class="w-20 h-20 text-base-content/30 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
