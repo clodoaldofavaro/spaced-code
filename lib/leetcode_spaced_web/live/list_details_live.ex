@@ -108,9 +108,9 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
       problem_id_int = String.to_integer(problem_id)
       rating_atom = String.to_atom(rating)
 
-      Logger.info("Calling mark_problem_solved with: problem_id=#{problem_id_int}, user_id=#{socket.assigns.current_user.id}, list_id=#{socket.assigns.list_id}, rating=#{rating_atom}")
+      Logger.info("Calling mark_problem_solved with: problem_id=#{problem_id_int}, user_id=#{socket.assigns.current_user.id}, rating=#{rating_atom}")
 
-      case Reviews.mark_problem_solved(problem_id_int, socket.assigns.current_user.id, socket.assigns.list_id, rating_atom) do
+      case Reviews.mark_problem_solved(problem_id_int, socket.assigns.current_user.id, rating_atom) do
         {:ok, result} ->
           Logger.info("Review successful: #{inspect(result)}")
           # Add to recently solved for temporary green state

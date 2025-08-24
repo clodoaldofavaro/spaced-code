@@ -9,7 +9,6 @@ defmodule LeetcodeSpaced.Reviews.Review do
     field :review_count, :integer
     field :user_id, :id
     field :problem_id, :id
-    field :list_id, :id
     
     # FSRS fields
     field :fsrs_state, :string, default: "learning"
@@ -27,10 +26,10 @@ defmodule LeetcodeSpaced.Reviews.Review do
     review
     |> cast(attrs, [
       :confidence, :reviewed_at, :next_review, :review_count, 
-      :user_id, :problem_id, :list_id,
+      :user_id, :problem_id,
       :fsrs_state, :fsrs_step, :stability, :difficulty, :due, :last_review
     ])
-    |> validate_required([:user_id, :problem_id, :list_id])
+    |> validate_required([:user_id, :problem_id])
     |> validate_inclusion(:fsrs_state, ["learning", "review", "relearning"])
   end
 end

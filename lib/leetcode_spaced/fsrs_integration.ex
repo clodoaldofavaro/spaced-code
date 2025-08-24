@@ -16,18 +16,16 @@ defmodule LeetcodeSpaced.FsrsIntegration do
   ## Parameters
     - problem_id: The ID of the problem
     - user_id: The ID of the user
-    - list_id: The ID of the list
     
   ## Returns
     - A Review struct with initial FSRS state
   """
-  def new_card(problem_id, user_id, list_id) do
+  def new_card(problem_id, user_id) do
     now = DateTime.utc_now()
     
     %Review{
       problem_id: problem_id,
       user_id: user_id,
-      list_id: list_id,
       fsrs_state: "learning",
       fsrs_step: 0,
       stability: nil,
@@ -61,7 +59,7 @@ defmodule LeetcodeSpaced.FsrsIntegration do
       {updated_fsrs_card, _review_log} = ExFsrs.review_card(fsrs_card, rating)
       
       # Convert back to Review struct
-      updated_review = from_fsrs_card(updated_fsrs_card, review.user_id, review.list_id)
+      updated_review = from_fsrs_card(updated_fsrs_card, review.user_id)
       
       # Update review count and timestamps
       updated_review = %{updated_review |
@@ -115,12 +113,11 @@ defmodule LeetcodeSpaced.FsrsIntegration do
   ## Parameters
     - fsrs_card: An ExFsrs card struct
     - user_id: The user ID to associate with the review
-    - list_id: The list ID to associate with the review
     
   ## Returns
     - A Review struct with updated FSRS data
   """
-  def from_fsrs_card(fsrs_card, user_id, list_id) do
+  def from_fsrs_card(fsrs_card, user_id) do
     state = case fsrs_card.state do
       :learning -> "learning"
       :review -> "review"
@@ -131,7 +128,6 @@ defmodule LeetcodeSpaced.FsrsIntegration do
     %Review{
       problem_id: fsrs_card.card_id,
       user_id: user_id,
-      list_id: list_id,
       fsrs_state: state,
       fsrs_step: fsrs_card.step,
       stability: fsrs_card.stability,

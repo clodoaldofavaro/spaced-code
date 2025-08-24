@@ -10,7 +10,6 @@ defmodule LeetcodeSpaced.ReviewsTest do
     @valid_attrs %{
       problem_id: 1,
       user_id: 1, 
-      list_id: 1,
       fsrs_state: "learning",
       fsrs_step: 0,
       stability: 2.5,
@@ -28,7 +27,7 @@ defmodule LeetcodeSpaced.ReviewsTest do
       difficulty: 4.5,
       review_count: 2
     }
-    @invalid_attrs %{problem_id: nil, user_id: nil, list_id: nil}
+    @invalid_attrs %{problem_id: nil, user_id: nil}
 
     test "list_reviews/0 returns all reviews" do
       review = review_fixture()
@@ -44,7 +43,6 @@ defmodule LeetcodeSpaced.ReviewsTest do
       assert {:ok, %Review{} = review} = Reviews.create_review(@valid_attrs)
       assert review.problem_id == 1
       assert review.user_id == 1
-      assert review.list_id == 1
       assert review.fsrs_state == "learning"
       assert review.fsrs_step == 0
       assert review.stability == 2.5

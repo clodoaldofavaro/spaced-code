@@ -110,7 +110,7 @@ defmodule LeetcodeSpaced.Reviews do
     
     from(p in LeetcodeSpaced.Study.Problem,
       join: lp in "lists_problems", on: lp.problem_id == p.id,
-      left_join: r in Review, on: r.problem_id == p.id and r.user_id == ^user_id and r.list_id == ^list_id,
+      left_join: r in Review, on: r.problem_id == p.id and r.user_id == ^user_id,
       where: lp.list_id == ^list_id and (is_nil(r.due) or r.due <= ^today),
       order_by: [asc: coalesce(r.due, p.inserted_at)],
       select: p
@@ -124,22 +124,21 @@ defmodule LeetcodeSpaced.Reviews do
   ## Parameters
     - problem_id: ID of the problem
     - user_id: ID of the user
-    - list_id: ID of the list
     - rating: FSRS rating (:again, :hard, :good, :easy)
   """
-  def mark_problem_solved(problem_id, user_id, list_id, rating) do
+  def mark_problem_solved(problem_id, user_id, rating) do
     require Logger
     alias LeetcodeSpaced.FsrsIntegration
     
-    Logger.info("Reviews.mark_problem_solved called with: #{problem_id}, #{user_id}, #{list_id}, #{rating}")
+    Logger.info("Reviews.mark_problem_solved called with: #{problem_id}, #{user_id}, #{rating}")
     
-    existing_review = get_existing_review(problem_id, user_id, list_id)
+    existing_review = get_existing_review(problem_id, user_id)
     Logger.info("Existing review: #{inspect(existing_review)}")
     
     review = if existing_review do
       existing_review
     else
-      FsrsIntegration.new_card(problem_id, user_id, list_id)
+      FsrsIntegration.new_card(problem_id, user_id)
     end
     
     Logger.info("Review to process: #{inspect(review)}")
@@ -151,7 +150,6 @@ defmodule LeetcodeSpaced.Reviews do
         attrs = %{
           problem_id: updated_review.problem_id,
           user_id: updated_review.user_id,
-          list_id: updated_review.list_id,
           fsrs_state: updated_review.fsrs_state,
           fsrs_step: updated_review.fsrs_step,
           stability: updated_review.stability,
@@ -182,9 +180,9 @@ defmodule LeetcodeSpaced.Reviews do
     end
   end
 
-  defp get_existing_review(problem_id, user_id, list_id) do
+  defp get_existing_review(problem_id, user_id) do
     from(r in Review,
-      where: r.problem_id == ^problem_id and r.user_id == ^user_id and r.list_id == ^list_id
+      where: r.problem_id == ^problem_id and r.user_id == ^user_id
     )
     |> Repo.one()
   end
