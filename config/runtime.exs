@@ -26,22 +26,31 @@ config :ueberauth, Ueberauth.Strategy.Google.OAuth,
   client_secret: System.get_env("GOOGLE_CLIENT_SECRET")
 
 if config_env() == :prod do
-  database_url =
-    System.get_env("DATABASE_URL") ||
-      raise """
-      environment variable DATABASE_URL is missing.
-      For example: ecto://USER:PASS@HOST/DATABASE
-      """
+  # Support both DATABASE_URL and individual database config
+  database_url = System.get_env("DATABASE_URL")
+  
+  database_config = 
+    if database_url do
+      # If DATABASE_URL is provided, use it
+      maybe_ipv6 = if System.get_env("ECTO_IPV6") in ~w(true 1), do: [:inet6], else: []
+      [
+        url: database_url,
+        pool_size: String.to_integer(System.get_env("POOL_SIZE") || "10"),
+        socket_options: maybe_ipv6
+      ]
+    else
+      # Otherwise, build from individual environment variables
+      [
+        username: System.get_env("DATABASE_USER") || raise("DATABASE_USER is missing"),
+        password: System.get_env("DATABASE_PASSWORD") || raise("DATABASE_PASSWORD is missing"),
+        hostname: System.get_env("DATABASE_HOST") || raise("DATABASE_HOST is missing"),
+        database: System.get_env("DATABASE_NAME") || raise("DATABASE_NAME is missing"),
+        port: String.to_integer(System.get_env("DATABASE_PORT") || "5432"),
+        pool_size: String.to_integer(System.get_env("POOL_SIZE") || "10")
+      ]
+    end
 
-  maybe_ipv6 = if System.get_env("ECTO_IPV6") in ~w(true 1), do: [:inet6], else: []
-
-  config :leetcode_spaced, LeetcodeSpaced.Repo,
-    # ssl: true,
-    url: database_url,
-    pool_size: String.to_integer(System.get_env("POOL_SIZE") || "10"),
-    # For machines with several cores, consider starting multiple pools of `pool_size`
-    # pool_count: 4,
-    socket_options: maybe_ipv6
+  config :leetcode_spaced, LeetcodeSpaced.Repo, database_config
 
   # The secret key base is used to sign/encrypt cookies and other secrets.
   # A default value is used in config/dev.exs and config/test.exs but you
