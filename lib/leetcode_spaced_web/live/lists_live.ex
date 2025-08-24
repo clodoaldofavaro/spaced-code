@@ -8,7 +8,7 @@ defmodule LeetcodeSpacedWeb.ListsLive do
 
     if current_user do
       lists = Study.list_lists_for_user(current_user.id)
-      
+
       socket =
         socket
         |> assign(current_user: current_user)
@@ -41,7 +41,7 @@ defmodule LeetcodeSpacedWeb.ListsLive do
     case Study.create_list(list_params) do
       {:ok, _list} ->
         lists = Study.list_lists_for_user(socket.assigns.current_user.id)
-        
+
         socket =
           socket
           |> assign(lists: lists)
@@ -58,11 +58,11 @@ defmodule LeetcodeSpacedWeb.ListsLive do
 
   def handle_event("delete_list", %{"id" => id}, socket) do
     list = Study.get_list!(id)
-    
+
     case Study.delete_list(list) do
       {:ok, _list} ->
         lists = Study.list_lists_for_user(socket.assigns.current_user.id)
-        
+
         socket =
           socket
           |> assign(lists: lists)
@@ -236,11 +236,11 @@ defmodule LeetcodeSpacedWeb.ListsLive do
                     </svg>
                   </button>
                 </div>
-                
+
                 <p class="text-base-content/70 mb-6">
                   {list.description}
                 </p>
-                
+
                 <div class="flex items-center justify-between">
                   <div class="flex items-center text-base-content/60 text-sm">
                     <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
