@@ -1,0 +1,249 @@
+id;name;url;difficulty;category;is_premium
+100;Same Tree;https://leetcode.com/problems/same-tree;Easy;Breadth First Search;false
+101;Symmetric Tree;https://leetcode.com/problems/symmetric-tree;Easy;Breadth First Search;false
+102;Binary Tree Level Order Traversal;https://leetcode.com/problems/binary-tree-level-order-traversal;Medium;Breadth First Search;false
+103;Binary Tree Zigzag Level Order Traversal;https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal;Medium;Breadth First Search;false
+104;Maximum Depth of Binary Tree;https://leetcode.com/problems/maximum-depth-of-binary-tree;Easy;Breadth First Search;false
+107;Binary Tree Level Order Traversal II;https://leetcode.com/problems/binary-tree-level-order-traversal-ii;Medium;Breadth First Search;false
+111;Minimum Depth of Binary Tree;https://leetcode.com/problems/minimum-depth-of-binary-tree;Easy;Breadth First Search;false
+112;Path Sum;https://leetcode.com/problems/path-sum;Easy;Breadth First Search;false
+116;Populating Next Right Pointers in Each Node;https://leetcode.com/problems/populating-next-right-pointers-in-each-node;Medium;Breadth First Search;false
+117;Populating Next Right Pointers in Each Node II;https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii;Medium;Breadth First Search;false
+126;Word Ladder II;https://leetcode.com/problems/word-ladder-ii;Hard;Breadth First Search;false
+127;Word Ladder;https://leetcode.com/problems/word-ladder;Hard;Breadth First Search;false
+130;Surrounded Regions;https://leetcode.com/problems/surrounded-regions;Medium;Breadth First Search;false
+133;Clone Graph;https://leetcode.com/problems/clone-graph;Medium;Breadth First Search;false
+199;Binary Tree Right Side View;https://leetcode.com/problems/binary-tree-right-side-view;Medium;Breadth First Search;false
+200;Number of Islands;https://leetcode.com/problems/number-of-islands;Medium;Breadth First Search;false
+207;Course Schedule;https://leetcode.com/problems/course-schedule;Medium;Breadth First Search;false
+210;Course Schedule II;https://leetcode.com/problems/course-schedule-ii;Medium;Breadth First Search;false
+226;Invert Binary Tree;https://leetcode.com/problems/invert-binary-tree;Easy;Breadth First Search;false
+261;Graph Valid Tree;https://leetcode.com/problems/graph-valid-tree;Medium;Breadth First Search;true
+269;Alien Dictionary;https://leetcode.com/problems/alien-dictionary;Hard;Breadth First Search;true
+279;Perfect Squares;https://leetcode.com/problems/perfect-squares;Medium;Breadth First Search;false
+286;Walls and Gates;https://leetcode.com/problems/walls-and-gates;Medium;Breadth First Search;true
+297;Serialize and Deserialize Binary Tree;https://leetcode.com/problems/serialize-and-deserialize-binary-tree;Hard;Breadth First Search;false
+301;Remove Invalid Parentheses;https://leetcode.com/problems/remove-invalid-parentheses;Hard;Breadth First Search;false
+302;Smallest Rectangle Enclosing Black Pixels;https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels;Hard;Breadth First Search;true
+310;Minimum Height Trees;https://leetcode.com/problems/minimum-height-trees;Medium;Breadth First Search;false
+314;Binary Tree Vertical Order Traversal;https://leetcode.com/problems/binary-tree-vertical-order-traversal;Medium;Breadth First Search;true
+317;Shortest Distance from All Buildings;https://leetcode.com/problems/shortest-distance-from-all-buildings;Hard;Breadth First Search;true
+322;Coin Change;https://leetcode.com/problems/coin-change;Medium;Breadth First Search;false
+323;Number of Connected Components in an Undirected Graph;https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph;Medium;Breadth First Search;true
+329;Longest Increasing Path in a Matrix;https://leetcode.com/problems/longest-increasing-path-in-a-matrix;Hard;Breadth First Search;false
+339;Nested List Weight Sum;https://leetcode.com/problems/nested-list-weight-sum;Medium;Breadth First Search;true
+364;Nested List Weight Sum II;https://leetcode.com/problems/nested-list-weight-sum-ii;Medium;Breadth First Search;true
+365;Water and Jug Problem;https://leetcode.com/problems/water-and-jug-problem;Medium;Breadth First Search;false
+399;Evaluate Division;https://leetcode.com/problems/evaluate-division;Medium;Breadth First Search;false
+404;Sum of Left Leaves;https://leetcode.com/problems/sum-of-left-leaves;Easy;Breadth First Search;false
+407;Trapping Rain Water II;https://leetcode.com/problems/trapping-rain-water-ii;Hard;Breadth First Search;false
+417;Pacific Atlantic Water Flow;https://leetcode.com/problems/pacific-atlantic-water-flow;Medium;Breadth First Search;false
+428;Serialize and Deserialize N-ary Tree;https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree;Hard;Breadth First Search;true
+429;N-ary Tree Level Order Traversal;https://leetcode.com/problems/n-ary-tree-level-order-traversal;Medium;Breadth First Search;false
+431;Encode N-ary Tree to Binary Tree;https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree;Hard;Breadth First Search;true
+433;Minimum Genetic Mutation;https://leetcode.com/problems/minimum-genetic-mutation;Medium;Breadth First Search;false
+449;Serialize and Deserialize BST;https://leetcode.com/problems/serialize-and-deserialize-bst;Medium;Breadth First Search;false
+463;Island Perimeter;https://leetcode.com/problems/island-perimeter;Easy;Breadth First Search;false
+488;Zuma Game;https://leetcode.com/problems/zuma-game;Hard;Breadth First Search;false
+490;The Maze;https://leetcode.com/problems/the-maze;Medium;Breadth First Search;true
+499;The Maze III;https://leetcode.com/problems/the-maze-iii;Hard;Breadth First Search;true
+505;The Maze II;https://leetcode.com/problems/the-maze-ii;Medium;Breadth First Search;true
+513;Find Bottom Left Tree Value;https://leetcode.com/problems/find-bottom-left-tree-value;Medium;Breadth First Search;false
+514;Freedom Trail;https://leetcode.com/problems/freedom-trail;Hard;Breadth First Search;false
+515;Find Largest Value in Each Tree Row;https://leetcode.com/problems/find-largest-value-in-each-tree-row;Medium;Breadth First Search;false
+529;Minesweeper;https://leetcode.com/problems/minesweeper;Medium;Breadth First Search;false
+530;Minimum Absolute Difference in BST;https://leetcode.com/problems/minimum-absolute-difference-in-bst;Easy;Breadth First Search;false
+542;01 Matrix;https://leetcode.com/problems/01-matrix;Medium;Breadth First Search;false
+547;Number of Provinces;https://leetcode.com/problems/number-of-provinces;Medium;Breadth First Search;false
+559;Maximum Depth of N-ary Tree;https://leetcode.com/problems/maximum-depth-of-n-ary-tree;Easy;Breadth First Search;false
+582;Kill Process;https://leetcode.com/problems/kill-process;Medium;Breadth First Search;true
+617;Merge Two Binary Trees;https://leetcode.com/problems/merge-two-binary-trees;Easy;Breadth First Search;false
+623;Add One Row to Tree;https://leetcode.com/problems/add-one-row-to-tree;Medium;Breadth First Search;false
+637;Average of Levels in Binary Tree;https://leetcode.com/problems/average-of-levels-in-binary-tree;Easy;Breadth First Search;false
+653;Two Sum IV - Input is a BST;https://leetcode.com/problems/two-sum-iv-input-is-a-bst;Easy;Breadth First Search;false
+655;Print Binary Tree;https://leetcode.com/problems/print-binary-tree;Medium;Breadth First Search;false
+662;Maximum Width of Binary Tree;https://leetcode.com/problems/maximum-width-of-binary-tree;Medium;Breadth First Search;false
+672;Bulb Switcher II;https://leetcode.com/problems/bulb-switcher-ii;Medium;Breadth First Search;false
+675;Cut Off Trees for Golf Event;https://leetcode.com/problems/cut-off-trees-for-golf-event;Hard;Breadth First Search;false
+684;Redundant Connection;https://leetcode.com/problems/redundant-connection;Medium;Breadth First Search;false
+685;Redundant Connection II;https://leetcode.com/problems/redundant-connection-ii;Hard;Breadth First Search;false
+690;Employee Importance;https://leetcode.com/problems/employee-importance;Medium;Breadth First Search;false
+694;Number of Distinct Islands;https://leetcode.com/problems/number-of-distinct-islands;Medium;Breadth First Search;true
+695;Max Area of Island;https://leetcode.com/problems/max-area-of-island;Medium;Breadth First Search;false
+711;Number of Distinct Islands II;https://leetcode.com/problems/number-of-distinct-islands-ii;Hard;Breadth First Search;true
+721;Accounts Merge;https://leetcode.com/problems/accounts-merge;Medium;Breadth First Search;false
+733;Flood Fill;https://leetcode.com/problems/flood-fill;Easy;Breadth First Search;false
+737;Sentence Similarity II;https://leetcode.com/problems/sentence-similarity-ii;Medium;Breadth First Search;true
+742;Closest Leaf in a Binary Tree;https://leetcode.com/problems/closest-leaf-in-a-binary-tree;Medium;Breadth First Search;true
+743;Network Delay Time;https://leetcode.com/problems/network-delay-time;Medium;Breadth First Search;false
+749;Contain Virus;https://leetcode.com/problems/contain-virus;Hard;Breadth First Search;false
+752;Open the Lock;https://leetcode.com/problems/open-the-lock;Medium;Breadth First Search;false
+756;Pyramid Transition Matrix;https://leetcode.com/problems/pyramid-transition-matrix;Medium;Breadth First Search;false
+765;Couples Holding Hands;https://leetcode.com/problems/couples-holding-hands;Hard;Breadth First Search;false
+773;Sliding Puzzle;https://leetcode.com/problems/sliding-puzzle;Hard;Breadth First Search;false
+778;Swim in Rising Water;https://leetcode.com/problems/swim-in-rising-water;Hard;Breadth First Search;false
+783;Minimum Distance Between BST Nodes;https://leetcode.com/problems/minimum-distance-between-bst-nodes;Easy;Breadth First Search;false
+785;Is Graph Bipartite?;https://leetcode.com/problems/is-graph-bipartite;Medium;Breadth First Search;false
+787;Cheapest Flights Within K Stops;https://leetcode.com/problems/cheapest-flights-within-k-stops;Medium;Breadth First Search;false
+797;All Paths From Source to Target;https://leetcode.com/problems/all-paths-from-source-to-target;Medium;Breadth First Search;false
+802;Find Eventual Safe States;https://leetcode.com/problems/find-eventual-safe-states;Medium;Breadth First Search;false
+815;Bus Routes;https://leetcode.com/problems/bus-routes;Hard;Breadth First Search;false
+827;Making A Large Island;https://leetcode.com/problems/making-a-large-island;Hard;Breadth First Search;false
+839;Similar String Groups;https://leetcode.com/problems/similar-string-groups;Hard;Breadth First Search;false
+841;Keys and Rooms;https://leetcode.com/problems/keys-and-rooms;Medium;Breadth First Search;false
+847;Shortest Path Visiting All Nodes;https://leetcode.com/problems/shortest-path-visiting-all-nodes;Hard;Breadth First Search;false
+854;K-Similar Strings;https://leetcode.com/problems/k-similar-strings;Hard;Breadth First Search;false
+863;All Nodes Distance K in Binary Tree;https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree;Medium;Breadth First Search;false
+864;Shortest Path to Get All Keys;https://leetcode.com/problems/shortest-path-to-get-all-keys;Hard;Breadth First Search;false
+865;Smallest Subtree with all the Deepest Nodes;https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes;Medium;Breadth First Search;false
+886;Possible Bipartition;https://leetcode.com/problems/possible-bipartition;Medium;Breadth First Search;false
+909;Snakes and Ladders;https://leetcode.com/problems/snakes-and-ladders;Medium;Breadth First Search;false
+919;Complete Binary Tree Inserter;https://leetcode.com/problems/complete-binary-tree-inserter;Medium;Breadth First Search;false
+924;Minimize Malware Spread;https://leetcode.com/problems/minimize-malware-spread;Hard;Breadth First Search;false
+928;Minimize Malware Spread II;https://leetcode.com/problems/minimize-malware-spread-ii;Hard;Breadth First Search;false
+934;Shortest Bridge;https://leetcode.com/problems/shortest-bridge;Medium;Breadth First Search;false
+958;Check Completeness of a Binary Tree;https://leetcode.com/problems/check-completeness-of-a-binary-tree;Medium;Breadth First Search;false
+959;Regions Cut By Slashes;https://leetcode.com/problems/regions-cut-by-slashes;Medium;Breadth First Search;false
+965;Univalued Binary Tree;https://leetcode.com/problems/univalued-binary-tree;Easy;Breadth First Search;false
+967;Numbers With Same Consecutive Differences;https://leetcode.com/problems/numbers-with-same-consecutive-differences;Medium;Breadth First Search;false
+987;Vertical Order Traversal of a Binary Tree;https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree;Hard;Breadth First Search;false
+993;Cousins in Binary Tree;https://leetcode.com/problems/cousins-in-binary-tree;Easy;Breadth First Search;false
+994;Rotting Oranges;https://leetcode.com/problems/rotting-oranges;Medium;Breadth First Search;false
+1020;Number of Enclaves;https://leetcode.com/problems/number-of-enclaves;Medium;Breadth First Search;false
+1034;Coloring A Border;https://leetcode.com/problems/coloring-a-border;Medium;Breadth First Search;false
+1036;Escape a Large Maze;https://leetcode.com/problems/escape-a-large-maze;Hard;Breadth First Search;false
+1042;Flower Planting With No Adjacent;https://leetcode.com/problems/flower-planting-with-no-adjacent;Medium;Breadth First Search;false
+1087;Brace Expansion;https://leetcode.com/problems/brace-expansion;Medium;Breadth First Search;true
+1091;Shortest Path in Binary Matrix;https://leetcode.com/problems/shortest-path-in-binary-matrix;Medium;Breadth First Search;false
+1096;Brace Expansion II;https://leetcode.com/problems/brace-expansion-ii;Hard;Breadth First Search;false
+1102;Path With Maximum Minimum Value;https://leetcode.com/problems/path-with-maximum-minimum-value;Medium;Breadth First Search;true
+1123;Lowest Common Ancestor of Deepest Leaves;https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves;Medium;Breadth First Search;false
+1129;Shortest Path with Alternating Colors;https://leetcode.com/problems/shortest-path-with-alternating-colors;Medium;Breadth First Search;false
+1161;Maximum Level Sum of a Binary Tree;https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree;Medium;Breadth First Search;false
+1162;As Far from Land as Possible;https://leetcode.com/problems/as-far-from-land-as-possible;Medium;Breadth First Search;false
+1197;Minimum Knight Moves;https://leetcode.com/problems/minimum-knight-moves;Medium;Breadth First Search;true
+1202;Smallest String With Swaps;https://leetcode.com/problems/smallest-string-with-swaps;Medium;Breadth First Search;false
+1203;Sort Items by Groups Respecting Dependencies;https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies;Hard;Breadth First Search;false
+1210;Minimum Moves to Reach Target with Rotations;https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations;Hard;Breadth First Search;false
+1215;Stepping Numbers;https://leetcode.com/problems/stepping-numbers;Medium;Breadth First Search;true
+1236;Web Crawler;https://leetcode.com/problems/web-crawler;Medium;Breadth First Search;true
+1242;Web Crawler Multithreaded;https://leetcode.com/problems/web-crawler-multithreaded;Medium;Breadth First Search;true
+1245;Tree Diameter;https://leetcode.com/problems/tree-diameter;Medium;Breadth First Search;true
+1254;Number of Closed Islands;https://leetcode.com/problems/number-of-closed-islands;Medium;Breadth First Search;false
+1257;Smallest Common Region;https://leetcode.com/problems/smallest-common-region;Medium;Breadth First Search;true
+1261;Find Elements in a Contaminated Binary Tree;https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree;Medium;Breadth First Search;false
+1263;Minimum Moves to Move a Box to Their Target Location;https://leetcode.com/problems/minimum-moves-to-move-a-box-to-their-target-location;Hard;Breadth First Search;false
+1267;Count Servers that Communicate;https://leetcode.com/problems/count-servers-that-communicate;Medium;Breadth First Search;false
+1273;Delete Tree Nodes;https://leetcode.com/problems/delete-tree-nodes;Medium;Breadth First Search;true
+1284;Minimum Number of Flips to Convert Binary Matrix to Zero Matrix;https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix;Hard;Breadth First Search;false
+1293;Shortest Path in a Grid with Obstacles Elimination;https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination;Hard;Breadth First Search;false
+1298;Maximum Candies You Can Get from Boxes;https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes;Hard;Breadth First Search;false
+1302;Deepest Leaves Sum;https://leetcode.com/problems/deepest-leaves-sum;Medium;Breadth First Search;false
+1306;Jump Game III;https://leetcode.com/problems/jump-game-iii;Medium;Breadth First Search;false
+1311;Get Watched Videos by Your Friends;https://leetcode.com/problems/get-watched-videos-by-your-friends;Medium;Breadth First Search;false
+1315;Sum of Nodes with Even-Valued Grandparent;https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent;Medium;Breadth First Search;false
+1319;Number of Operations to Make Network Connected;https://leetcode.com/problems/number-of-operations-to-make-network-connected;Medium;Breadth First Search;false
+1345;Jump Game IV;https://leetcode.com/problems/jump-game-iv;Hard;Breadth First Search;false
+1361;Validate Binary Tree Nodes;https://leetcode.com/problems/validate-binary-tree-nodes;Medium;Breadth First Search;false
+1368;Minimum Cost to Make at Least One Valid Path in a Grid;https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid;Hard;Breadth First Search;false
+1376;Time Needed to Inform All Employees;https://leetcode.com/problems/time-needed-to-inform-all-employees;Medium;Breadth First Search;false
+1377;Frog Position After T Seconds;https://leetcode.com/problems/frog-position-after-t-seconds;Hard;Breadth First Search;false
+1379;Find a Corresponding Node of a Binary Tree in a Clone of That Tree;https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree;Easy;Breadth First Search;false
+1391;Check if There is a Valid Path in a Grid;https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid;Medium;Breadth First Search;false
+1430;Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree;https://leetcode.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree;Medium;Breadth First Search;true
+1443;Minimum Time to Collect All Apples in a Tree;https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree;Medium;Breadth First Search;false
+1448;Count Good Nodes in Binary Tree;https://leetcode.com/problems/count-good-nodes-in-binary-tree;Medium;Breadth First Search;false
+1457;Pseudo-Palindromic Paths in a Binary Tree;https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree;Medium;Breadth First Search;false
+1462;Course Schedule IV;https://leetcode.com/problems/course-schedule-iv;Medium;Breadth First Search;false
+1466;Reorder Routes to Make All Paths Lead to the City Zero;https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero;Medium;Breadth First Search;false
+1469;Find All The Lonely Nodes;https://leetcode.com/problems/find-all-the-lonely-nodes;Easy;Breadth First Search;true
+1483;Kth Ancestor of a Tree Node;https://leetcode.com/problems/kth-ancestor-of-a-tree-node;Hard;Breadth First Search;false
+1485;Clone Binary Tree With Random Pointer;https://leetcode.com/problems/clone-binary-tree-with-random-pointer;Medium;Breadth First Search;true
+1490;Clone N-ary Tree;https://leetcode.com/problems/clone-n-ary-tree;Medium;Breadth First Search;true
+1519;Number of Nodes in the Sub-Tree With the Same Label;https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label;Medium;Breadth First Search;false
+1559;Detect Cycles in 2D Grid;https://leetcode.com/problems/detect-cycles-in-2d-grid;Medium;Breadth First Search;false
+1568;Minimum Number of Days to Disconnect Island;https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island;Hard;Breadth First Search;false
+1602;Find Nearest Right Node in Binary Tree;https://leetcode.com/problems/find-nearest-right-node-in-binary-tree;Medium;Breadth First Search;true
+1609;Even Odd Tree;https://leetcode.com/problems/even-odd-tree;Medium;Breadth First Search;false
+1625;Lexicographically Smallest String After Applying Operations;https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations;Medium;Breadth First Search;false
+1631;Path With Minimum Effort;https://leetcode.com/problems/path-with-minimum-effort;Medium;Breadth First Search;false
+1654;Minimum Jumps to Reach Home;https://leetcode.com/problems/minimum-jumps-to-reach-home;Medium;Breadth First Search;false
+1660;Correct a Binary Tree;https://leetcode.com/problems/correct-a-binary-tree;Medium;Breadth First Search;true
+1730;Shortest Path to Get Food;https://leetcode.com/problems/shortest-path-to-get-food;Medium;Breadth First Search;true
+1740;Find Distance in a Binary Tree;https://leetcode.com/problems/find-distance-in-a-binary-tree;Medium;Breadth First Search;true
+1765;Map of Highest Peak;https://leetcode.com/problems/map-of-highest-peak;Medium;Breadth First Search;false
+1778;Shortest Path in a Hidden Grid;https://leetcode.com/problems/shortest-path-in-a-hidden-grid;Medium;Breadth First Search;true
+1810;Minimum Path Cost in a Hidden Grid;https://leetcode.com/problems/minimum-path-cost-in-a-hidden-grid;Medium;Breadth First Search;true
+1905;Count Sub Islands;https://leetcode.com/problems/count-sub-islands;Medium;Breadth First Search;false
+1926;Nearest Exit from Entrance in Maze;https://leetcode.com/problems/nearest-exit-from-entrance-in-maze;Medium;Breadth First Search;false
+1970;Last Day Where You Can Still Cross;https://leetcode.com/problems/last-day-where-you-can-still-cross;Hard;Breadth First Search;false
+1971;Find if Path Exists in Graph;https://leetcode.com/problems/find-if-path-exists-in-graph;Easy;Breadth First Search;false
+1992;Find All Groups of Farmland;https://leetcode.com/problems/find-all-groups-of-farmland;Medium;Breadth First Search;false
+1993;Operations on Tree;https://leetcode.com/problems/operations-on-tree;Medium;Breadth First Search;false
+2039;The Time When the Network Becomes Idle;https://leetcode.com/problems/the-time-when-the-network-becomes-idle;Medium;Breadth First Search;false
+2045;Second Minimum Time to Reach Destination;https://leetcode.com/problems/second-minimum-time-to-reach-destination;Hard;Breadth First Search;false
+2059;Minimum Operations to Convert Number;https://leetcode.com/problems/minimum-operations-to-convert-number;Medium;Breadth First Search;false
+2092;Find All People With Secret;https://leetcode.com/problems/find-all-people-with-secret;Hard;Breadth First Search;false
+2101;Detonate the Maximum Bombs;https://leetcode.com/problems/detonate-the-maximum-bombs;Medium;Breadth First Search;false
+2146;K Highest Ranked Items Within a Price Range;https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range;Medium;Breadth First Search;false
+2174;Remove All Ones With Row and Column Flips II;https://leetcode.com/problems/remove-all-ones-with-row-and-column-flips-ii;Medium;Breadth First Search;true
+2192;All Ancestors of a Node in a Directed Acyclic Graph;https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph;Medium;Breadth First Search;false
+2204;Distance to a Cycle in Undirected Graph;https://leetcode.com/problems/distance-to-a-cycle-in-undirected-graph;Hard;Breadth First Search;true
+2258;Escape the Spreading Fire;https://leetcode.com/problems/escape-the-spreading-fire;Hard;Breadth First Search;false
+2277;Closest Node to Path in Tree;https://leetcode.com/problems/closest-node-to-path-in-tree;Hard;Breadth First Search;true
+2290;Minimum Obstacle Removal to Reach Corner;https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner;Hard;Breadth First Search;false
+2316;Count Unreachable Pairs of Nodes in an Undirected Graph;https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph;Medium;Breadth First Search;false
+2328;Number of Increasing Paths in a Grid;https://leetcode.com/problems/number-of-increasing-paths-in-a-grid;Hard;Breadth First Search;false
+2360;Longest Cycle in a Graph;https://leetcode.com/problems/longest-cycle-in-a-graph;Hard;Breadth First Search;false
+2368;Reachable Nodes With Restrictions;https://leetcode.com/problems/reachable-nodes-with-restrictions;Medium;Breadth First Search;false
+2385;Amount of Time for Binary Tree to Be Infected;https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected;Medium;Breadth First Search;false
+2415;Reverse Odd Levels of Binary Tree;https://leetcode.com/problems/reverse-odd-levels-of-binary-tree;Medium;Breadth First Search;false
+2445;Number of Nodes With Value One;https://leetcode.com/problems/number-of-nodes-with-value-one;Medium;Breadth First Search;true
+2458;Height of Binary Tree After Subtree Removal Queries;https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries;Hard;Breadth First Search;false
+2467;Most Profitable Path in a Tree;https://leetcode.com/problems/most-profitable-path-in-a-tree;Medium;Breadth First Search;false
+2471;Minimum Number of Operations to Sort a Binary Tree by Level;https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level;Medium;Breadth First Search;false
+2477;Minimum Fuel Cost to Report to the Capital;https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital;Medium;Breadth First Search;false
+2492;Minimum Score of a Path Between Two Cities;https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities;Medium;Breadth First Search;false
+2493;Divide Nodes Into the Maximum Number of Groups;https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups;Hard;Breadth First Search;false
+2503;Maximum Number of Points From Grid Queries;https://leetcode.com/problems/maximum-number-of-points-from-grid-queries;Hard;Breadth First Search;false
+2556;Disconnect Path in a Binary Matrix by at Most One Flip;https://leetcode.com/problems/disconnect-path-in-a-binary-matrix-by-at-most-one-flip;Medium;Breadth First Search;false
+2577;Minimum Time to Visit a Cell In a Grid;https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid;Hard;Breadth First Search;false
+2583;Kth Largest Sum in a Binary Tree;https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree;Medium;Breadth First Search;false
+2596;Check Knight Tour Configuration;https://leetcode.com/problems/check-knight-tour-configuration;Medium;Breadth First Search;false
+2608;Shortest Cycle in a Graph;https://leetcode.com/problems/shortest-cycle-in-a-graph;Hard;Breadth First Search;false
+2612;Minimum Reverse Operations;https://leetcode.com/problems/minimum-reverse-operations;Hard;Breadth First Search;false
+2617;Minimum Number of Visited Cells in a Grid;https://leetcode.com/problems/minimum-number-of-visited-cells-in-a-grid;Hard;Breadth First Search;false
+2641;Cousins in Binary Tree II;https://leetcode.com/problems/cousins-in-binary-tree-ii;Medium;Breadth First Search;false
+2658;Maximum Number of Fish in a Grid;https://leetcode.com/problems/maximum-number-of-fish-in-a-grid;Medium;Breadth First Search;false
+2685;Count the Number of Complete Components;https://leetcode.com/problems/count-the-number-of-complete-components;Medium;Breadth First Search;false
+2773;Height of Special Binary Tree;https://leetcode.com/problems/height-of-special-binary-tree;Medium;Breadth First Search;true
+2812;Find the Safest Path in a Grid;https://leetcode.com/problems/find-the-safest-path-in-a-grid;Medium;Breadth First Search;false
+2814;Minimum Time Takes to Reach Destination Without Drowning;https://leetcode.com/problems/minimum-time-takes-to-reach-destination-without-drowning;Hard;Breadth First Search;true
+2850;Minimum Moves to Spread Stones Over Grid;https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid;Medium;Breadth First Search;false
+2852;Sum of Remoteness of All Cells;https://leetcode.com/problems/sum-of-remoteness-of-all-cells;Medium;Breadth First Search;true
+2858;Minimum Edge Reversals So Every Node Is Reachable;https://leetcode.com/problems/minimum-edge-reversals-so-every-node-is-reachable;Hard;Breadth First Search;false
+2998;Minimum Number of Operations to Make X and Y Equal;https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal;Medium;Breadth First Search;false
+3015;Count the Number of Houses at a Certain Distance I;https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-i;Medium;Breadth First Search;false
+3123;Find Edges in Shortest Paths;https://leetcode.com/problems/find-edges-in-shortest-paths;Hard;Breadth First Search;false
+3141;Maximum Hamming Distances;https://leetcode.com/problems/maximum-hamming-distances;Hard;Breadth First Search;true
+3157;Find the Level of Tree with Minimum Sum;https://leetcode.com/problems/find-the-level-of-tree-with-minimum-sum;Medium;Breadth First Search;true
+3203;Find Minimum Diameter After Merging Two Trees;https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees;Hard;Breadth First Search;false
+3235;Check if the Rectangle Corner Is Reachable;https://leetcode.com/problems/check-if-the-rectangle-corner-is-reachable;Hard;Breadth First Search;false
+3243;Shortest Distance After Road Addition Queries I;https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i;Medium;Breadth First Search;false
+3283;Maximum Number of Moves to Kill All Pawns;https://leetcode.com/problems/maximum-number-of-moves-to-kill-all-pawns;Hard;Breadth First Search;false
+3286;Find a Safe Walk Through a Grid;https://leetcode.com/problems/find-a-safe-walk-through-a-grid;Medium;Breadth First Search;false
+3310;Remove Methods From Project;https://leetcode.com/problems/remove-methods-from-project;Medium;Breadth First Search;false
+3372;Maximize the Number of Target Nodes After Connecting Trees I;https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i;Medium;Breadth First Search;false
+3373;Maximize the Number of Target Nodes After Connecting Trees II;https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-ii;Hard;Breadth First Search;false
+3383;Minimum Runes to Add to Cast Spell;https://leetcode.com/problems/minimum-runes-to-add-to-cast-spell;Hard;Breadth First Search;true
+3387;Maximize Amount After Two Days of Conversions;https://leetcode.com/problems/maximize-amount-after-two-days-of-conversions;Medium;Breadth First Search;false
+3419;Minimize the Maximum Edge Weight of Graph;https://leetcode.com/problems/minimize-the-maximum-edge-weight-of-graph;Medium;Breadth First Search;false
+3481;Apply Substitutions;https://leetcode.com/problems/apply-substitutions;Medium;Breadth First Search;true
+3493;Properties Graph;https://leetcode.com/problems/properties-graph;Medium;Breadth First Search;false
+3528;Unit Conversion I;https://leetcode.com/problems/unit-conversion-i;Medium;Breadth First Search;false
+3535;Unit Conversion II;https://leetcode.com/problems/unit-conversion-ii;Medium;Breadth First Search;true
+3552;Grid Teleportation Traversal;https://leetcode.com/problems/grid-teleportation-traversal;Medium;Breadth First Search;false
+3568;Minimum Moves to Clean the Classroom;https://leetcode.com/problems/minimum-moves-to-clean-the-classroom;Medium;Breadth First Search;false
+3607;Power Grid Maintenance;https://leetcode.com/problems/power-grid-maintenance;Medium;Breadth First Search;false
+3619;Count Islands With Total Value Divisible by K;https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k;Medium;Breadth First Search;false
+3629;Minimum Jumps to Reach End via Prime Teleportation;https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation;Medium;Breadth First Search;false

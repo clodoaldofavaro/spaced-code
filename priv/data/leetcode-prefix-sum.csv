@@ -1,0 +1,211 @@
+id;name;url;difficulty;category;is_premium
+209;Minimum Size Subarray Sum;https://leetcode.com/problems/minimum-size-subarray-sum;Medium;Prefix Sum;false
+238;Product of Array Except Self;https://leetcode.com/problems/product-of-array-except-self;Medium;Prefix Sum;false
+253;Meeting Rooms II;https://leetcode.com/problems/meeting-rooms-ii;Medium;Prefix Sum;true
+303;Range Sum Query - Immutable;https://leetcode.com/problems/range-sum-query-immutable;Easy;Prefix Sum;false
+304;Range Sum Query 2D - Immutable;https://leetcode.com/problems/range-sum-query-2d-immutable;Medium;Prefix Sum;false
+325;Maximum Size Subarray Sum Equals k;https://leetcode.com/problems/maximum-size-subarray-sum-equals-k;Medium;Prefix Sum;true
+363;Max Sum of Rectangle No Larger Than K;https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k;Hard;Prefix Sum;false
+370;Range Addition;https://leetcode.com/problems/range-addition;Medium;Prefix Sum;true
+410;Split Array Largest Sum;https://leetcode.com/problems/split-array-largest-sum;Hard;Prefix Sum;false
+497;Random Point in Non-overlapping Rectangles;https://leetcode.com/problems/random-point-in-non-overlapping-rectangles;Medium;Prefix Sum;false
+523;Continuous Subarray Sum;https://leetcode.com/problems/continuous-subarray-sum;Medium;Prefix Sum;false
+525;Contiguous Array;https://leetcode.com/problems/contiguous-array;Medium;Prefix Sum;false
+528;Random Pick with Weight;https://leetcode.com/problems/random-pick-with-weight;Medium;Prefix Sum;false
+548;Split Array with Equal Sum;https://leetcode.com/problems/split-array-with-equal-sum;Hard;Prefix Sum;true
+560;Subarray Sum Equals K;https://leetcode.com/problems/subarray-sum-equals-k;Medium;Prefix Sum;false
+644;Maximum Average Subarray II;https://leetcode.com/problems/maximum-average-subarray-ii;Hard;Prefix Sum;true
+689;Maximum Sum of 3 Non-Overlapping Subarrays;https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays;Hard;Prefix Sum;false
+713;Subarray Product Less Than K;https://leetcode.com/problems/subarray-product-less-than-k;Medium;Prefix Sum;false
+724;Find Pivot Index;https://leetcode.com/problems/find-pivot-index;Easy;Prefix Sum;false
+731;My Calendar II;https://leetcode.com/problems/my-calendar-ii;Medium;Prefix Sum;false
+732;My Calendar III;https://leetcode.com/problems/my-calendar-iii;Hard;Prefix Sum;false
+798;Smallest Rotation with Highest Score;https://leetcode.com/problems/smallest-rotation-with-highest-score;Hard;Prefix Sum;false
+813;Largest Sum of Averages;https://leetcode.com/problems/largest-sum-of-averages;Medium;Prefix Sum;false
+848;Shifting Letters;https://leetcode.com/problems/shifting-letters;Medium;Prefix Sum;false
+862;Shortest Subarray with Sum at Least K;https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k;Hard;Prefix Sum;false
+903;Valid Permutations for DI Sequence;https://leetcode.com/problems/valid-permutations-for-di-sequence;Hard;Prefix Sum;false
+930;Binary Subarrays With Sum;https://leetcode.com/problems/binary-subarrays-with-sum;Medium;Prefix Sum;false
+974;Subarray Sums Divisible by K;https://leetcode.com/problems/subarray-sums-divisible-by-k;Medium;Prefix Sum;false
+995;Minimum Number of K Consecutive Bit Flips;https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips;Hard;Prefix Sum;false
+1000;Minimum Cost to Merge Stones;https://leetcode.com/problems/minimum-cost-to-merge-stones;Hard;Prefix Sum;false
+1004;Max Consecutive Ones III;https://leetcode.com/problems/max-consecutive-ones-iii;Medium;Prefix Sum;false
+1074;Number of Submatrices That Sum to Target;https://leetcode.com/problems/number-of-submatrices-that-sum-to-target;Hard;Prefix Sum;false
+1094;Car Pooling;https://leetcode.com/problems/car-pooling;Medium;Prefix Sum;false
+1109;Corporate Flight Bookings;https://leetcode.com/problems/corporate-flight-bookings;Medium;Prefix Sum;false
+1124;Longest Well-Performing Interval;https://leetcode.com/problems/longest-well-performing-interval;Medium;Prefix Sum;false
+1140;Stone Game II;https://leetcode.com/problems/stone-game-ii;Medium;Prefix Sum;false
+1177;Can Make Palindrome from Substring;https://leetcode.com/problems/can-make-palindrome-from-substring;Medium;Prefix Sum;false
+1208;Get Equal Substrings Within Budget;https://leetcode.com/problems/get-equal-substrings-within-budget;Medium;Prefix Sum;false
+1248;Count Number of Nice Subarrays;https://leetcode.com/problems/count-number-of-nice-subarrays;Medium;Prefix Sum;false
+1292;Maximum Side Length of a Square with Sum Less than or Equal to Threshold;https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold;Medium;Prefix Sum;false
+1310;XOR Queries of a Subarray;https://leetcode.com/problems/xor-queries-of-a-subarray;Medium;Prefix Sum;false
+1314;Matrix Block Sum;https://leetcode.com/problems/matrix-block-sum;Medium;Prefix Sum;false
+1352;Product of the Last K Numbers;https://leetcode.com/problems/product-of-the-last-k-numbers;Medium;Prefix Sum;false
+1371;Find the Longest Substring Containing Vowels in Even Counts;https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts;Medium;Prefix Sum;false
+1413;Minimum Value to Get Positive Step by Step Sum;https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum;Easy;Prefix Sum;false
+1420;Build Array Where You Can Find The Maximum Exactly K Comparisons;https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons;Hard;Prefix Sum;false
+1422;Maximum Score After Splitting a String;https://leetcode.com/problems/maximum-score-after-splitting-a-string;Easy;Prefix Sum;false
+1423;Maximum Points You Can Obtain from Cards;https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards;Medium;Prefix Sum;false
+1442;Count Triplets That Can Form Two Arrays of Equal XOR;https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor;Medium;Prefix Sum;false
+1444;Number of Ways of Cutting a Pizza;https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza;Hard;Prefix Sum;false
+1480;Running Sum of 1d Array;https://leetcode.com/problems/running-sum-of-1d-array;Easy;Prefix Sum;false
+1508;Range Sum of Sorted Subarray Sums;https://leetcode.com/problems/range-sum-of-sorted-subarray-sums;Medium;Prefix Sum;false
+1524;Number of Sub-arrays With Odd Sum;https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum;Medium;Prefix Sum;false
+1546;Maximum Number of Non-Overlapping Subarrays With Sum Equals Target;https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target;Medium;Prefix Sum;false
+1588;Sum of All Odd Length Subarrays;https://leetcode.com/problems/sum-of-all-odd-length-subarrays;Easy;Prefix Sum;false
+1589;Maximum Sum Obtained of Any Permutation;https://leetcode.com/problems/maximum-sum-obtained-of-any-permutation;Medium;Prefix Sum;false
+1590;Make Sum Divisible by P;https://leetcode.com/problems/make-sum-divisible-by-p;Medium;Prefix Sum;false
+1658;Minimum Operations to Reduce X to Zero;https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero;Medium;Prefix Sum;false
+1664;Ways to Make a Fair Array;https://leetcode.com/problems/ways-to-make-a-fair-array;Medium;Prefix Sum;false
+1674;Minimum Moves to Make Array Complementary;https://leetcode.com/problems/minimum-moves-to-make-array-complementary;Medium;Prefix Sum;false
+1685;Sum of Absolute Differences in a Sorted Array;https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array;Medium;Prefix Sum;false
+1687;Delivering Boxes from Storage to Ports;https://leetcode.com/problems/delivering-boxes-from-storage-to-ports;Hard;Prefix Sum;false
+1703;Minimum Adjacent Swaps for K Consecutive Ones;https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones;Hard;Prefix Sum;false
+1712;Ways to Split Array Into Three Subarrays;https://leetcode.com/problems/ways-to-split-array-into-three-subarrays;Medium;Prefix Sum;false
+1732;Find the Highest Altitude;https://leetcode.com/problems/find-the-highest-altitude;Easy;Prefix Sum;false
+1737;Change Minimum Characters to Satisfy One of Three Conditions;https://leetcode.com/problems/change-minimum-characters-to-satisfy-one-of-three-conditions;Medium;Prefix Sum;false
+1738;Find Kth Largest XOR Coordinate Value;https://leetcode.com/problems/find-kth-largest-xor-coordinate-value;Medium;Prefix Sum;false
+1744;Can You Eat Your Favorite Candy on Your Favorite Day?;https://leetcode.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day;Medium;Prefix Sum;false
+1769;Minimum Number of Operations to Move All Balls to Each Box;https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box;Medium;Prefix Sum;false
+1788;Maximize the Beauty of the Garden;https://leetcode.com/problems/maximize-the-beauty-of-the-garden;Hard;Prefix Sum;true
+1829;Maximum XOR for Each Query;https://leetcode.com/problems/maximum-xor-for-each-query;Medium;Prefix Sum;false
+1838;Frequency of the Most Frequent Element;https://leetcode.com/problems/frequency-of-the-most-frequent-element;Medium;Prefix Sum;false
+1854;Maximum Population Year;https://leetcode.com/problems/maximum-population-year;Easy;Prefix Sum;false
+1856;Maximum Subarray Min-Product;https://leetcode.com/problems/maximum-subarray-min-product;Medium;Prefix Sum;false
+1862;Sum of Floored Pairs;https://leetcode.com/problems/sum-of-floored-pairs;Hard;Prefix Sum;false
+1871;Jump Game VII;https://leetcode.com/problems/jump-game-vii;Medium;Prefix Sum;false
+1872;Stone Game VIII;https://leetcode.com/problems/stone-game-viii;Hard;Prefix Sum;false
+1878;Get Biggest Three Rhombus Sums in a Grid;https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid;Medium;Prefix Sum;false
+1889;Minimum Space Wasted From Packaging;https://leetcode.com/problems/minimum-space-wasted-from-packaging;Hard;Prefix Sum;false
+1893;Check if All the Integers in a Range Are Covered;https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered;Easy;Prefix Sum;false
+1894;Find the Student that Will Replace the Chalk;https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk;Medium;Prefix Sum;false
+1895;Largest Magic Square;https://leetcode.com/problems/largest-magic-square;Medium;Prefix Sum;false
+1915;Number of Wonderful Substrings;https://leetcode.com/problems/number-of-wonderful-substrings;Medium;Prefix Sum;false
+1930;Unique Length-3 Palindromic Subsequences;https://leetcode.com/problems/unique-length-3-palindromic-subsequences;Medium;Prefix Sum;false
+1943;Describe the Painting;https://leetcode.com/problems/describe-the-painting;Medium;Prefix Sum;false
+1983;Widest Pair of Indices With Equal Range Sum;https://leetcode.com/problems/widest-pair-of-indices-with-equal-range-sum;Medium;Prefix Sum;true
+1991;Find the Middle Index in Array;https://leetcode.com/problems/find-the-middle-index-in-array;Easy;Prefix Sum;false
+2017;Grid Game;https://leetcode.com/problems/grid-game;Medium;Prefix Sum;false
+2021;Brightest Position on Street;https://leetcode.com/problems/brightest-position-on-street;Medium;Prefix Sum;true
+2024;Maximize the Confusion of an Exam;https://leetcode.com/problems/maximize-the-confusion-of-an-exam;Medium;Prefix Sum;false
+2025;Maximum Number of Ways to Partition an Array;https://leetcode.com/problems/maximum-number-of-ways-to-partition-an-array;Hard;Prefix Sum;false
+2055;Plates Between Candles;https://leetcode.com/problems/plates-between-candles;Medium;Prefix Sum;false
+2083;Substrings That Begin and End With the Same Letter;https://leetcode.com/problems/substrings-that-begin-and-end-with-the-same-letter;Medium;Prefix Sum;true
+2100;Find Good Days to Rob the Bank;https://leetcode.com/problems/find-good-days-to-rob-the-bank;Medium;Prefix Sum;false
+2106;Maximum Fruits Harvested After at Most K Steps;https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps;Hard;Prefix Sum;false
+2121;Intervals Between Identical Elements;https://leetcode.com/problems/intervals-between-identical-elements;Medium;Prefix Sum;false
+2132;Stamping the Grid;https://leetcode.com/problems/stamping-the-grid;Hard;Prefix Sum;false
+2145;Count the Hidden Sequences;https://leetcode.com/problems/count-the-hidden-sequences;Medium;Prefix Sum;false
+2171;Removing Minimum Number of Magic Beans;https://leetcode.com/problems/removing-minimum-number-of-magic-beans;Medium;Prefix Sum;false
+2207;Maximize Number of Subsequences in a String;https://leetcode.com/problems/maximize-number-of-subsequences-in-a-string;Medium;Prefix Sum;false
+2209;Minimum White Tiles After Covering With Carpets;https://leetcode.com/problems/minimum-white-tiles-after-covering-with-carpets;Hard;Prefix Sum;false
+2218;Maximum Value of K Coins From Piles;https://leetcode.com/problems/maximum-value-of-k-coins-from-piles;Hard;Prefix Sum;false
+2219;Maximum Sum Score of Array;https://leetcode.com/problems/maximum-sum-score-of-array;Medium;Prefix Sum;true
+2222;Number of Ways to Select Buildings;https://leetcode.com/problems/number-of-ways-to-select-buildings;Medium;Prefix Sum;false
+2234;Maximum Total Beauty of the Gardens;https://leetcode.com/problems/maximum-total-beauty-of-the-gardens;Hard;Prefix Sum;false
+2237;Count Positions on Street With Required Brightness;https://leetcode.com/problems/count-positions-on-street-with-required-brightness;Medium;Prefix Sum;true
+2245;Maximum Trailing Zeros in a Cornered Path;https://leetcode.com/problems/maximum-trailing-zeros-in-a-cornered-path;Medium;Prefix Sum;false
+2251;Number of Flowers in Full Bloom;https://leetcode.com/problems/number-of-flowers-in-full-bloom;Hard;Prefix Sum;false
+2256;Minimum Average Difference;https://leetcode.com/problems/minimum-average-difference;Medium;Prefix Sum;false
+2270;Number of Ways to Split Array;https://leetcode.com/problems/number-of-ways-to-split-array;Medium;Prefix Sum;false
+2271;Maximum White Tiles Covered by a Carpet;https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet;Medium;Prefix Sum;false
+2281;Sum of Total Strength of Wizards;https://leetcode.com/problems/sum-of-total-strength-of-wizards;Hard;Prefix Sum;false
+2302;Count Subarrays With Score Less Than K;https://leetcode.com/problems/count-subarrays-with-score-less-than-k;Hard;Prefix Sum;false
+2381;Shifting Letters II;https://leetcode.com/problems/shifting-letters-ii;Medium;Prefix Sum;false
+2382;Maximum Segment Sum After Removals;https://leetcode.com/problems/maximum-segment-sum-after-removals;Hard;Prefix Sum;false
+2389;Longest Subsequence With Limited Sum;https://leetcode.com/problems/longest-subsequence-with-limited-sum;Easy;Prefix Sum;false
+2391;Minimum Amount of Time to Collect Garbage;https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage;Medium;Prefix Sum;false
+2398;Maximum Number of Robots Within Budget;https://leetcode.com/problems/maximum-number-of-robots-within-budget;Hard;Prefix Sum;false
+2406;Divide Intervals Into Minimum Number of Groups;https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups;Medium;Prefix Sum;false
+2420;Find All Good Indices;https://leetcode.com/problems/find-all-good-indices;Medium;Prefix Sum;false
+2428;Maximum Sum of an Hourglass;https://leetcode.com/problems/maximum-sum-of-an-hourglass;Medium;Prefix Sum;false
+2438;Range Product Queries of Powers;https://leetcode.com/problems/range-product-queries-of-powers;Medium;Prefix Sum;false
+2439;Minimize Maximum of Array;https://leetcode.com/problems/minimize-maximum-of-array;Medium;Prefix Sum;false
+2448;Minimum Cost to Make Array Equal;https://leetcode.com/problems/minimum-cost-to-make-array-equal;Hard;Prefix Sum;false
+2483;Minimum Penalty for a Shop;https://leetcode.com/problems/minimum-penalty-for-a-shop;Medium;Prefix Sum;false
+2485;Find the Pivot Integer;https://leetcode.com/problems/find-the-pivot-integer;Easy;Prefix Sum;false
+2488;Count Subarrays With Median K;https://leetcode.com/problems/count-subarrays-with-median-k;Hard;Prefix Sum;false
+2489;Number of Substrings With Fixed Ratio;https://leetcode.com/problems/number-of-substrings-with-fixed-ratio;Medium;Prefix Sum;true
+2505;Bitwise OR of All Subsequence Sums;https://leetcode.com/problems/bitwise-or-of-all-subsequence-sums;Medium;Prefix Sum;true
+2528;Maximize the Minimum Powered City;https://leetcode.com/problems/maximize-the-minimum-powered-city;Hard;Prefix Sum;false
+2536;Increment Submatrices by One;https://leetcode.com/problems/increment-submatrices-by-one;Medium;Prefix Sum;false
+2552;Count Increasing Quadruplets;https://leetcode.com/problems/count-increasing-quadruplets;Hard;Prefix Sum;false
+2559;Count Vowel Strings in Ranges;https://leetcode.com/problems/count-vowel-strings-in-ranges;Medium;Prefix Sum;false
+2574;Left and Right Sum Differences;https://leetcode.com/problems/left-and-right-sum-differences;Easy;Prefix Sum;false
+2587;Rearrange Array to Maximize Prefix Score;https://leetcode.com/problems/rearrange-array-to-maximize-prefix-score;Medium;Prefix Sum;false
+2588;Count the Number of Beautiful Subarrays;https://leetcode.com/problems/count-the-number-of-beautiful-subarrays;Medium;Prefix Sum;false
+2602;Minimum Operations to Make All Array Elements Equal;https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal;Medium;Prefix Sum;false
+2615;Sum of Distances;https://leetcode.com/problems/sum-of-distances;Medium;Prefix Sum;false
+2640;Find the Score of All Prefixes of an Array;https://leetcode.com/problems/find-the-score-of-all-prefixes-of-an-array;Medium;Prefix Sum;false
+2680;Maximum OR;https://leetcode.com/problems/maximum-or;Medium;Prefix Sum;false
+2681;Power of Heroes;https://leetcode.com/problems/power-of-heroes;Hard;Prefix Sum;false
+2731;Movement of Robots;https://leetcode.com/problems/movement-of-robots;Medium;Prefix Sum;false
+2772;Apply Operations to Make All Array Elements Equal to Zero;https://leetcode.com/problems/apply-operations-to-make-all-array-elements-equal-to-zero;Medium;Prefix Sum;false
+2819;Minimum Relative Loss After Buying Chocolates;https://leetcode.com/problems/minimum-relative-loss-after-buying-chocolates;Hard;Prefix Sum;true
+2838;Maximum Coins Heroes Can Collect;https://leetcode.com/problems/maximum-coins-heroes-can-collect;Medium;Prefix Sum;true
+2845;Count of Interesting Subarrays;https://leetcode.com/problems/count-of-interesting-subarrays;Medium;Prefix Sum;false
+2848;Points That Intersect With Cars;https://leetcode.com/problems/points-that-intersect-with-cars;Easy;Prefix Sum;false
+2875;Minimum Size Subarray in Infinite Array;https://leetcode.com/problems/minimum-size-subarray-in-infinite-array;Medium;Prefix Sum;false
+2906;Construct Product Matrix;https://leetcode.com/problems/construct-product-matrix;Medium;Prefix Sum;false
+2947;Count Beautiful Substrings I;https://leetcode.com/problems/count-beautiful-substrings-i;Medium;Prefix Sum;false
+2949;Count Beautiful Substrings II;https://leetcode.com/problems/count-beautiful-substrings-ii;Hard;Prefix Sum;false
+2950;Number of Divisible Substrings;https://leetcode.com/problems/number-of-divisible-substrings;Medium;Prefix Sum;true
+2955;Number of Same-End Substrings;https://leetcode.com/problems/number-of-same-end-substrings;Medium;Prefix Sum;true
+2968;Apply Operations to Maximize Frequency Score;https://leetcode.com/problems/apply-operations-to-maximize-frequency-score;Hard;Prefix Sum;false
+2971;Find Polygon With the Largest Perimeter;https://leetcode.com/problems/find-polygon-with-the-largest-perimeter;Medium;Prefix Sum;false
+2983;Palindrome Rearrangement Queries;https://leetcode.com/problems/palindrome-rearrangement-queries;Hard;Prefix Sum;false
+3015;Count the Number of Houses at a Certain Distance I;https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-i;Medium;Prefix Sum;false
+3017;Count the Number of Houses at a Certain Distance II;https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-ii;Hard;Prefix Sum;false
+3026;Maximum Good Subarray Sum;https://leetcode.com/problems/maximum-good-subarray-sum;Medium;Prefix Sum;false
+3028;Ant on the Boundary;https://leetcode.com/problems/ant-on-the-boundary;Easy;Prefix Sum;false
+3070;Count Submatrices with Top-Left Element and Sum Less Than k;https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k;Medium;Prefix Sum;false
+3077;Maximum Strength of K Disjoint Subarrays;https://leetcode.com/problems/maximum-strength-of-k-disjoint-subarrays;Hard;Prefix Sum;false
+3086;Minimum Moves to Pick K Ones;https://leetcode.com/problems/minimum-moves-to-pick-k-ones;Hard;Prefix Sum;false
+3096;Minimum Levels to Gain More Points;https://leetcode.com/problems/minimum-levels-to-gain-more-points;Medium;Prefix Sum;false
+3104;Find Longest Self-Contained Substring;https://leetcode.com/problems/find-longest-self-contained-substring;Hard;Prefix Sum;true
+3129;Find All Possible Stable Binary Arrays I;https://leetcode.com/problems/find-all-possible-stable-binary-arrays-i;Medium;Prefix Sum;false
+3130;Find All Possible Stable Binary Arrays II;https://leetcode.com/problems/find-all-possible-stable-binary-arrays-ii;Hard;Prefix Sum;false
+3147;Taking Maximum Energy From the Mystic Dungeon;https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon;Medium;Prefix Sum;false
+3152;Special Array II;https://leetcode.com/problems/special-array-ii;Medium;Prefix Sum;false
+3179;Find the N-th Value After K Seconds;https://leetcode.com/problems/find-the-n-th-value-after-k-seconds;Medium;Prefix Sum;false
+3191;Minimum Operations to Make Binary Array Elements Equal to One I;https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i;Medium;Prefix Sum;false
+3212;Count Submatrices With Equal Frequency of X and Y;https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y;Medium;Prefix Sum;false
+3224;Minimum Array Changes to Make Differences Equal;https://leetcode.com/problems/minimum-array-changes-to-make-differences-equal;Medium;Prefix Sum;false
+3225;Maximum Score From Grid Operations;https://leetcode.com/problems/maximum-score-from-grid-operations;Hard;Prefix Sum;false
+3250;Find the Count of Monotonic Pairs I;https://leetcode.com/problems/find-the-count-of-monotonic-pairs-i;Hard;Prefix Sum;false
+3251;Find the Count of Monotonic Pairs II;https://leetcode.com/problems/find-the-count-of-monotonic-pairs-ii;Hard;Prefix Sum;false
+3261;Count Substrings That Satisfy K-Constraint II;https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-ii;Hard;Prefix Sum;false
+3279;Maximum Total Area Occupied by Pistons;https://leetcode.com/problems/maximum-total-area-occupied-by-pistons;Hard;Prefix Sum;true
+3312;Sorted GCD Pair Queries;https://leetcode.com/problems/sorted-gcd-pair-queries;Hard;Prefix Sum;false
+3333;Find the Original Typed String II;https://leetcode.com/problems/find-the-original-typed-string-ii;Hard;Prefix Sum;false
+3346;Maximum Frequency of an Element After Performing Operations I;https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-i;Medium;Prefix Sum;false
+3347;Maximum Frequency of an Element After Performing Operations II;https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii;Hard;Prefix Sum;false
+3354;Make Array Elements Equal to Zero;https://leetcode.com/problems/make-array-elements-equal-to-zero;Easy;Prefix Sum;false
+3355;Zero Array Transformation I;https://leetcode.com/problems/zero-array-transformation-i;Medium;Prefix Sum;false
+3356;Zero Array Transformation II;https://leetcode.com/problems/zero-array-transformation-ii;Medium;Prefix Sum;false
+3361;Shift Distance Between Two Strings;https://leetcode.com/problems/shift-distance-between-two-strings;Medium;Prefix Sum;false
+3362;Zero Array Transformation III;https://leetcode.com/problems/zero-array-transformation-iii;Medium;Prefix Sum;false
+3364;Minimum Positive Sum Subarray;https://leetcode.com/problems/minimum-positive-sum-subarray;Easy;Prefix Sum;false
+3381;Maximum Subarray Sum With Length Divisible by K;https://leetcode.com/problems/maximum-subarray-sum-with-length-divisible-by-k;Medium;Prefix Sum;false
+3413;Maximum Coins From K Consecutive Bags;https://leetcode.com/problems/maximum-coins-from-k-consecutive-bags;Medium;Prefix Sum;false
+3425;Longest Special Path;https://leetcode.com/problems/longest-special-path;Hard;Prefix Sum;false
+3427;Sum of Variable Length Subarrays;https://leetcode.com/problems/sum-of-variable-length-subarrays;Easy;Prefix Sum;false
+3432;Count Partitions with Even Sum Difference;https://leetcode.com/problems/count-partitions-with-even-sum-difference;Easy;Prefix Sum;false
+3434;Maximum Frequency After Subarray Operation;https://leetcode.com/problems/maximum-frequency-after-subarray-operation;Medium;Prefix Sum;false
+3445;Maximum Difference Between Even and Odd Frequency II;https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-ii;Hard;Prefix Sum;false
+3473;Sum of K Subarrays With Length at Least M;https://leetcode.com/problems/sum-of-k-subarrays-with-length-at-least-m;Medium;Prefix Sum;false
+3480;Maximize Subarrays After Removing One Conflicting Pair;https://leetcode.com/problems/maximize-subarrays-after-removing-one-conflicting-pair;Hard;Prefix Sum;false
+3486;Longest Special Path II;https://leetcode.com/problems/longest-special-path-ii;Hard;Prefix Sum;false
+3494;Find the Minimum Amount of Time to Brew Potions;https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions;Medium;Prefix Sum;false
+3500;Minimum Cost to Divide Array Into Subarrays;https://leetcode.com/problems/minimum-cost-to-divide-array-into-subarrays;Hard;Prefix Sum;false
+3511;Make a Positive Array;https://leetcode.com/problems/make-a-positive-array;Medium;Prefix Sum;true
+3538;Merge Operations for Minimum Travel Time;https://leetcode.com/problems/merge-operations-for-minimum-travel-time;Hard;Prefix Sum;false
+3540;Minimum Time to Visit All Houses;https://leetcode.com/problems/minimum-time-to-visit-all-houses;Medium;Prefix Sum;true
+3546;Equal Sum Grid Partition I;https://leetcode.com/problems/equal-sum-grid-partition-i;Medium;Prefix Sum;false
+3548;Equal Sum Grid Partition II;https://leetcode.com/problems/equal-sum-grid-partition-ii;Hard;Prefix Sum;false
+3578;Count Partitions With Max-Min Difference at Most K;https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k;Medium;Prefix Sum;false
+3599;Partition Array to Minimize XOR;https://leetcode.com/problems/partition-array-to-minimize-xor;Medium;Prefix Sum;false
+3628;Maximum Number of Subsequences After One Inserting;https://leetcode.com/problems/maximum-number-of-subsequences-after-one-inserting;Medium;Prefix Sum;false
+3636;Threshold Majority Queries;https://leetcode.com/problems/threshold-majority-queries;Hard;Prefix Sum;false
+3652;Best Time to Buy and Sell Stock using Strategy;https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy;Medium;Prefix Sum;false

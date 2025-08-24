@@ -1,0 +1,201 @@
+id;name;url;difficulty;category;is_premium
+23;Merge k Sorted Lists;https://leetcode.com/problems/merge-k-sorted-lists;Hard;Heap Priority Queue;false
+215;Kth Largest Element in an Array;https://leetcode.com/problems/kth-largest-element-in-an-array;Medium;Heap Priority Queue;false
+218;The Skyline Problem;https://leetcode.com/problems/the-skyline-problem;Hard;Heap Priority Queue;false
+239;Sliding Window Maximum;https://leetcode.com/problems/sliding-window-maximum;Hard;Heap Priority Queue;false
+253;Meeting Rooms II;https://leetcode.com/problems/meeting-rooms-ii;Medium;Heap Priority Queue;true
+264;Ugly Number II;https://leetcode.com/problems/ugly-number-ii;Medium;Heap Priority Queue;false
+272;Closest Binary Search Tree Value II;https://leetcode.com/problems/closest-binary-search-tree-value-ii;Hard;Heap Priority Queue;true
+295;Find Median from Data Stream;https://leetcode.com/problems/find-median-from-data-stream;Hard;Heap Priority Queue;false
+347;Top K Frequent Elements;https://leetcode.com/problems/top-k-frequent-elements;Medium;Heap Priority Queue;false
+355;Design Twitter;https://leetcode.com/problems/design-twitter;Medium;Heap Priority Queue;false
+358;Rearrange String k Distance Apart;https://leetcode.com/problems/rearrange-string-k-distance-apart;Hard;Heap Priority Queue;true
+373;Find K Pairs with Smallest Sums;https://leetcode.com/problems/find-k-pairs-with-smallest-sums;Medium;Heap Priority Queue;false
+378;Kth Smallest Element in a Sorted Matrix;https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix;Medium;Heap Priority Queue;false
+407;Trapping Rain Water II;https://leetcode.com/problems/trapping-rain-water-ii;Hard;Heap Priority Queue;false
+420;Strong Password Checker;https://leetcode.com/problems/strong-password-checker;Hard;Heap Priority Queue;false
+451;Sort Characters By Frequency;https://leetcode.com/problems/sort-characters-by-frequency;Medium;Heap Priority Queue;false
+480;Sliding Window Median;https://leetcode.com/problems/sliding-window-median;Hard;Heap Priority Queue;false
+499;The Maze III;https://leetcode.com/problems/the-maze-iii;Hard;Heap Priority Queue;true
+502;IPO;https://leetcode.com/problems/ipo;Hard;Heap Priority Queue;false
+505;The Maze II;https://leetcode.com/problems/the-maze-ii;Medium;Heap Priority Queue;true
+506;Relative Ranks;https://leetcode.com/problems/relative-ranks;Easy;Heap Priority Queue;false
+621;Task Scheduler;https://leetcode.com/problems/task-scheduler;Medium;Heap Priority Queue;false
+630;Course Schedule III;https://leetcode.com/problems/course-schedule-iii;Hard;Heap Priority Queue;false
+632;Smallest Range Covering Elements from K Lists;https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists;Hard;Heap Priority Queue;false
+642;Design Search Autocomplete System;https://leetcode.com/problems/design-search-autocomplete-system;Hard;Heap Priority Queue;true
+658;Find K Closest Elements;https://leetcode.com/problems/find-k-closest-elements;Medium;Heap Priority Queue;false
+659;Split Array into Consecutive Subsequences;https://leetcode.com/problems/split-array-into-consecutive-subsequences;Medium;Heap Priority Queue;false
+675;Cut Off Trees for Golf Event;https://leetcode.com/problems/cut-off-trees-for-golf-event;Hard;Heap Priority Queue;false
+683;K Empty Slots;https://leetcode.com/problems/k-empty-slots;Hard;Heap Priority Queue;true
+692;Top K Frequent Words;https://leetcode.com/problems/top-k-frequent-words;Medium;Heap Priority Queue;false
+703;Kth Largest Element in a Stream;https://leetcode.com/problems/kth-largest-element-in-a-stream;Easy;Heap Priority Queue;false
+743;Network Delay Time;https://leetcode.com/problems/network-delay-time;Medium;Heap Priority Queue;false
+759;Employee Free Time;https://leetcode.com/problems/employee-free-time;Hard;Heap Priority Queue;true
+767;Reorganize String;https://leetcode.com/problems/reorganize-string;Medium;Heap Priority Queue;false
+778;Swim in Rising Water;https://leetcode.com/problems/swim-in-rising-water;Hard;Heap Priority Queue;false
+786;K-th Smallest Prime Fraction;https://leetcode.com/problems/k-th-smallest-prime-fraction;Medium;Heap Priority Queue;false
+787;Cheapest Flights Within K Stops;https://leetcode.com/problems/cheapest-flights-within-k-stops;Medium;Heap Priority Queue;false
+855;Exam Room;https://leetcode.com/problems/exam-room;Medium;Heap Priority Queue;false
+857;Minimum Cost to Hire K Workers;https://leetcode.com/problems/minimum-cost-to-hire-k-workers;Hard;Heap Priority Queue;false
+862;Shortest Subarray with Sum at Least K;https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k;Hard;Heap Priority Queue;false
+871;Minimum Number of Refueling Stops;https://leetcode.com/problems/minimum-number-of-refueling-stops;Hard;Heap Priority Queue;false
+882;Reachable Nodes In Subdivided Graph;https://leetcode.com/problems/reachable-nodes-in-subdivided-graph;Hard;Heap Priority Queue;false
+912;Sort an Array;https://leetcode.com/problems/sort-an-array;Medium;Heap Priority Queue;false
+973;K Closest Points to Origin;https://leetcode.com/problems/k-closest-points-to-origin;Medium;Heap Priority Queue;false
+1046;Last Stone Weight;https://leetcode.com/problems/last-stone-weight;Easy;Heap Priority Queue;false
+1054;Distant Barcodes;https://leetcode.com/problems/distant-barcodes;Medium;Heap Priority Queue;false
+1057;Campus Bikes;https://leetcode.com/problems/campus-bikes;Medium;Heap Priority Queue;true
+1086;High Five;https://leetcode.com/problems/high-five;Easy;Heap Priority Queue;true
+1094;Car Pooling;https://leetcode.com/problems/car-pooling;Medium;Heap Priority Queue;false
+1102;Path With Maximum Minimum Value;https://leetcode.com/problems/path-with-maximum-minimum-value;Medium;Heap Priority Queue;true
+1135;Connecting Cities With Minimum Cost;https://leetcode.com/problems/connecting-cities-with-minimum-cost;Medium;Heap Priority Queue;true
+1167;Minimum Cost to Connect Sticks;https://leetcode.com/problems/minimum-cost-to-connect-sticks;Medium;Heap Priority Queue;true
+1168;Optimize Water Distribution in a Village;https://leetcode.com/problems/optimize-water-distribution-in-a-village;Hard;Heap Priority Queue;true
+1172;Dinner Plate Stacks;https://leetcode.com/problems/dinner-plate-stacks;Hard;Heap Priority Queue;false
+1183;Maximum Number of Ones;https://leetcode.com/problems/maximum-number-of-ones;Hard;Heap Priority Queue;true
+1199;Minimum Time to Build Blocks;https://leetcode.com/problems/minimum-time-to-build-blocks;Hard;Heap Priority Queue;true
+1263;Minimum Moves to Move a Box to Their Target Location;https://leetcode.com/problems/minimum-moves-to-move-a-box-to-their-target-location;Hard;Heap Priority Queue;false
+1268;Search Suggestions System;https://leetcode.com/problems/search-suggestions-system;Medium;Heap Priority Queue;false
+1337;The K Weakest Rows in a Matrix;https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix;Easy;Heap Priority Queue;false
+1338;Reduce Array Size to The Half;https://leetcode.com/problems/reduce-array-size-to-the-half;Medium;Heap Priority Queue;false
+1353;Maximum Number of Events That Can Be Attended;https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended;Medium;Heap Priority Queue;false
+1354;Construct Target Array With Multiple Sums;https://leetcode.com/problems/construct-target-array-with-multiple-sums;Hard;Heap Priority Queue;false
+1368;Minimum Cost to Make at Least One Valid Path in a Grid;https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid;Hard;Heap Priority Queue;false
+1383;Maximum Performance of a Team;https://leetcode.com/problems/maximum-performance-of-a-team;Hard;Heap Priority Queue;false
+1388;Pizza With 3n Slices;https://leetcode.com/problems/pizza-with-3n-slices;Hard;Heap Priority Queue;false
+1405;Longest Happy String;https://leetcode.com/problems/longest-happy-string;Medium;Heap Priority Queue;false
+1424;Diagonal Traverse II;https://leetcode.com/problems/diagonal-traverse-ii;Medium;Heap Priority Queue;false
+1425;Constrained Subsequence Sum;https://leetcode.com/problems/constrained-subsequence-sum;Hard;Heap Priority Queue;false
+1438;Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit;https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit;Medium;Heap Priority Queue;false
+1439;Find the Kth Smallest Sum of a Matrix With Sorted Rows;https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows;Hard;Heap Priority Queue;false
+1464;Maximum Product of Two Elements in an Array;https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array;Easy;Heap Priority Queue;false
+1488;Avoid Flood in The City;https://leetcode.com/problems/avoid-flood-in-the-city;Medium;Heap Priority Queue;false
+1499;Max Value of Equation;https://leetcode.com/problems/max-value-of-equation;Hard;Heap Priority Queue;false
+1500;Design a File Sharing System;https://leetcode.com/problems/design-a-file-sharing-system;Medium;Heap Priority Queue;true
+1514;Path with Maximum Probability;https://leetcode.com/problems/path-with-maximum-probability;Medium;Heap Priority Queue;false
+1606;Find Servers That Handled Most Number of Requests;https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests;Hard;Heap Priority Queue;false
+1631;Path With Minimum Effort;https://leetcode.com/problems/path-with-minimum-effort;Medium;Heap Priority Queue;false
+1642;Furthest Building You Can Reach;https://leetcode.com/problems/furthest-building-you-can-reach;Medium;Heap Priority Queue;false
+1648;Sell Diminishing-Valued Colored Balls;https://leetcode.com/problems/sell-diminishing-valued-colored-balls;Medium;Heap Priority Queue;false
+1675;Minimize Deviation in Array;https://leetcode.com/problems/minimize-deviation-in-array;Hard;Heap Priority Queue;false
+1686;Stone Game VI;https://leetcode.com/problems/stone-game-vi;Medium;Heap Priority Queue;false
+1687;Delivering Boxes from Storage to Ports;https://leetcode.com/problems/delivering-boxes-from-storage-to-ports;Hard;Heap Priority Queue;false
+1696;Jump Game VI;https://leetcode.com/problems/jump-game-vi;Medium;Heap Priority Queue;false
+1705;Maximum Number of Eaten Apples;https://leetcode.com/problems/maximum-number-of-eaten-apples;Medium;Heap Priority Queue;false
+1738;Find Kth Largest XOR Coordinate Value;https://leetcode.com/problems/find-kth-largest-xor-coordinate-value;Medium;Heap Priority Queue;false
+1753;Maximum Score From Removing Stones;https://leetcode.com/problems/maximum-score-from-removing-stones;Medium;Heap Priority Queue;false
+1776;Car Fleet II;https://leetcode.com/problems/car-fleet-ii;Hard;Heap Priority Queue;false
+1786;Number of Restricted Paths From First to Last Node;https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node;Medium;Heap Priority Queue;false
+1792;Maximum Average Pass Ratio;https://leetcode.com/problems/maximum-average-pass-ratio;Medium;Heap Priority Queue;false
+1801;Number of Orders in the Backlog;https://leetcode.com/problems/number-of-orders-in-the-backlog;Medium;Heap Priority Queue;false
+1810;Minimum Path Cost in a Hidden Grid;https://leetcode.com/problems/minimum-path-cost-in-a-hidden-grid;Medium;Heap Priority Queue;true
+1825;Finding MK Average;https://leetcode.com/problems/finding-mk-average;Hard;Heap Priority Queue;false
+1834;Single-Threaded CPU;https://leetcode.com/problems/single-threaded-cpu;Medium;Heap Priority Queue;false
+1845;Seat Reservation Manager;https://leetcode.com/problems/seat-reservation-manager;Medium;Heap Priority Queue;false
+1851;Minimum Interval to Include Each Query;https://leetcode.com/problems/minimum-interval-to-include-each-query;Hard;Heap Priority Queue;false
+1878;Get Biggest Three Rhombus Sums in a Grid;https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid;Medium;Heap Priority Queue;false
+1882;Process Tasks Using Servers;https://leetcode.com/problems/process-tasks-using-servers;Medium;Heap Priority Queue;false
+1912;Design Movie Rental System;https://leetcode.com/problems/design-movie-rental-system;Hard;Heap Priority Queue;false
+1942;The Number of the Smallest Unoccupied Chair;https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair;Medium;Heap Priority Queue;false
+1962;Remove Stones to Minimize the Total;https://leetcode.com/problems/remove-stones-to-minimize-the-total;Medium;Heap Priority Queue;false
+1985;Find the Kth Largest Integer in the Array;https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array;Medium;Heap Priority Queue;false
+2015;Average Height of Buildings in Each Segment;https://leetcode.com/problems/average-height-of-buildings-in-each-segment;Medium;Heap Priority Queue;true
+2034;Stock Price Fluctuation;https://leetcode.com/problems/stock-price-fluctuation;Medium;Heap Priority Queue;false
+2054;Two Best Non-Overlapping Events;https://leetcode.com/problems/two-best-non-overlapping-events;Medium;Heap Priority Queue;false
+2093;Minimum Cost to Reach City With Discounts;https://leetcode.com/problems/minimum-cost-to-reach-city-with-discounts;Medium;Heap Priority Queue;true
+2099;Find Subsequence of Length K With the Largest Sum;https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum;Easy;Heap Priority Queue;false
+2102;Sequentially Ordinal Rank Tracker;https://leetcode.com/problems/sequentially-ordinal-rank-tracker;Hard;Heap Priority Queue;false
+2146;K Highest Ranked Items Within a Price Range;https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range;Medium;Heap Priority Queue;false
+2163;Minimum Difference in Sums After Removal of Elements;https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements;Hard;Heap Priority Queue;false
+2182;Construct String With Repeat Limit;https://leetcode.com/problems/construct-string-with-repeat-limit;Medium;Heap Priority Queue;false
+2208;Minimum Operations to Halve Array Sum;https://leetcode.com/problems/minimum-operations-to-halve-array-sum;Medium;Heap Priority Queue;false
+2231;Largest Number After Digit Swaps by Parity;https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity;Easy;Heap Priority Queue;false
+2233;Maximum Product After K Increments;https://leetcode.com/problems/maximum-product-after-k-increments;Medium;Heap Priority Queue;false
+2285;Maximum Total Importance of Roads;https://leetcode.com/problems/maximum-total-importance-of-roads;Medium;Heap Priority Queue;false
+2290;Minimum Obstacle Removal to Reach Corner;https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner;Hard;Heap Priority Queue;false
+2333;Minimum Sum of Squared Difference;https://leetcode.com/problems/minimum-sum-of-squared-difference;Medium;Heap Priority Queue;false
+2335;Minimum Amount of Time to Fill Cups;https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups;Easy;Heap Priority Queue;false
+2336;Smallest Number in Infinite Set;https://leetcode.com/problems/smallest-number-in-infinite-set;Medium;Heap Priority Queue;false
+2342;Max Sum of a Pair With Equal Sum of Digits;https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits;Medium;Heap Priority Queue;false
+2343;Query Kth Smallest Trimmed Number;https://leetcode.com/problems/query-kth-smallest-trimmed-number;Medium;Heap Priority Queue;false
+2344;Minimum Deletions to Make Array Divisible;https://leetcode.com/problems/minimum-deletions-to-make-array-divisible;Hard;Heap Priority Queue;false
+2349;Design a Number Container System;https://leetcode.com/problems/design-a-number-container-system;Medium;Heap Priority Queue;false
+2353;Design a Food Rating System;https://leetcode.com/problems/design-a-food-rating-system;Medium;Heap Priority Queue;false
+2357;Make Array Zero by Subtracting Equal Amounts;https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts;Easy;Heap Priority Queue;false
+2386;Find the K-Sum of an Array;https://leetcode.com/problems/find-the-k-sum-of-an-array;Hard;Heap Priority Queue;false
+2398;Maximum Number of Robots Within Budget;https://leetcode.com/problems/maximum-number-of-robots-within-budget;Hard;Heap Priority Queue;false
+2402;Meeting Rooms III;https://leetcode.com/problems/meeting-rooms-iii;Hard;Heap Priority Queue;false
+2406;Divide Intervals Into Minimum Number of Groups;https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups;Medium;Heap Priority Queue;false
+2424;Longest Uploaded Prefix;https://leetcode.com/problems/longest-uploaded-prefix;Medium;Heap Priority Queue;false
+2454;Next Greater Element IV;https://leetcode.com/problems/next-greater-element-iv;Hard;Heap Priority Queue;false
+2456;Most Popular Video Creator;https://leetcode.com/problems/most-popular-video-creator;Medium;Heap Priority Queue;false
+2462;Total Cost to Hire K Workers;https://leetcode.com/problems/total-cost-to-hire-k-workers;Medium;Heap Priority Queue;false
+2473;Minimum Cost to Buy Apples;https://leetcode.com/problems/minimum-cost-to-buy-apples;Medium;Heap Priority Queue;true
+2497;Maximum Star Sum of a Graph;https://leetcode.com/problems/maximum-star-sum-of-a-graph;Medium;Heap Priority Queue;false
+2500;Delete Greatest Value in Each Row;https://leetcode.com/problems/delete-greatest-value-in-each-row;Easy;Heap Priority Queue;false
+2503;Maximum Number of Points From Grid Queries;https://leetcode.com/problems/maximum-number-of-points-from-grid-queries;Hard;Heap Priority Queue;false
+2512;Reward Top K Students;https://leetcode.com/problems/reward-top-k-students;Medium;Heap Priority Queue;false
+2530;Maximal Score After Applying K Operations;https://leetcode.com/problems/maximal-score-after-applying-k-operations;Medium;Heap Priority Queue;false
+2532;Time to Cross a Bridge;https://leetcode.com/problems/time-to-cross-a-bridge;Hard;Heap Priority Queue;false
+2542;Maximum Subsequence Score;https://leetcode.com/problems/maximum-subsequence-score;Medium;Heap Priority Queue;false
+2551;Put Marbles in Bags;https://leetcode.com/problems/put-marbles-in-bags;Hard;Heap Priority Queue;false
+2558;Take Gifts From the Richest Pile;https://leetcode.com/problems/take-gifts-from-the-richest-pile;Easy;Heap Priority Queue;false
+2577;Minimum Time to Visit a Cell In a Grid;https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid;Hard;Heap Priority Queue;false
+2593;Find Score of an Array After Marking All Elements;https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements;Medium;Heap Priority Queue;false
+2599;Make the Prefix Sum Non-negative;https://leetcode.com/problems/make-the-prefix-sum-non-negative;Medium;Heap Priority Queue;true
+2611;Mice and Cheese;https://leetcode.com/problems/mice-and-cheese;Medium;Heap Priority Queue;false
+2617;Minimum Number of Visited Cells in a Grid;https://leetcode.com/problems/minimum-number-of-visited-cells-in-a-grid;Hard;Heap Priority Queue;false
+2642;Design Graph With Shortest Path Calculator;https://leetcode.com/problems/design-graph-with-shortest-path-calculator;Hard;Heap Priority Queue;false
+2662;Minimum Cost of a Path With Special Roads;https://leetcode.com/problems/minimum-cost-of-a-path-with-special-roads;Medium;Heap Priority Queue;false
+2679;Sum in a Matrix;https://leetcode.com/problems/sum-in-a-matrix;Medium;Heap Priority Queue;false
+2699;Modify Graph Edge Weights;https://leetcode.com/problems/modify-graph-edge-weights;Hard;Heap Priority Queue;false
+2714;Find Shortest Path with K Hops;https://leetcode.com/problems/find-shortest-path-with-k-hops;Hard;Heap Priority Queue;true
+2737;Find the Closest Marked Node;https://leetcode.com/problems/find-the-closest-marked-node;Medium;Heap Priority Queue;true
+2762;Continuous Subarrays;https://leetcode.com/problems/continuous-subarrays;Medium;Heap Priority Queue;false
+2812;Find the Safest Path in a Grid;https://leetcode.com/problems/find-the-safest-path-in-a-grid;Medium;Heap Priority Queue;false
+2813;Maximum Elegance of a K-Length Subsequence;https://leetcode.com/problems/maximum-elegance-of-a-k-length-subsequence;Hard;Heap Priority Queue;false
+2931;Maximum Spending After Buying Items;https://leetcode.com/problems/maximum-spending-after-buying-items;Hard;Heap Priority Queue;false
+2940;Find Building Where Alice and Bob Can Meet;https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet;Hard;Heap Priority Queue;false
+2944;Minimum Number of Coins for Fruits;https://leetcode.com/problems/minimum-number-of-coins-for-fruits;Medium;Heap Priority Queue;false
+2959;Number of Possible Sets of Closing Branches;https://leetcode.com/problems/number-of-possible-sets-of-closing-branches;Hard;Heap Priority Queue;false
+2969;Minimum Number of Coins for Fruits II;https://leetcode.com/problems/minimum-number-of-coins-for-fruits-ii;Hard;Heap Priority Queue;true
+2973;Find Number of Coins to Place in Tree Nodes;https://leetcode.com/problems/find-number-of-coins-to-place-in-tree-nodes;Hard;Heap Priority Queue;false
+2974;Minimum Number Game;https://leetcode.com/problems/minimum-number-game;Easy;Heap Priority Queue;false
+3013;Divide an Array Into Subarrays With Minimum Cost II;https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii;Hard;Heap Priority Queue;false
+3049;Earliest Second to Mark Indices II;https://leetcode.com/problems/earliest-second-to-mark-indices-ii;Hard;Heap Priority Queue;false
+3066;Minimum Operations to Exceed Threshold Value II;https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii;Medium;Heap Priority Queue;false
+3080;Mark Elements on Array by Performing Queries;https://leetcode.com/problems/mark-elements-on-array-by-performing-queries;Medium;Heap Priority Queue;false
+3081;Replace Question Marks in String to Minimize Its Value;https://leetcode.com/problems/replace-question-marks-in-string-to-minimize-its-value;Medium;Heap Priority Queue;false
+3092;Most Frequent IDs;https://leetcode.com/problems/most-frequent-ids;Medium;Heap Priority Queue;false
+3112;Minimum Time to Visit Disappearing Nodes;https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes;Medium;Heap Priority Queue;false
+3123;Find Edges in Shortest Paths;https://leetcode.com/problems/find-edges-in-shortest-paths;Hard;Heap Priority Queue;false
+3170;Lexicographically Minimum String After Removing Stars;https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars;Medium;Heap Priority Queue;false
+3264;Final Array State After K Multiplication Operations I;https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i;Easy;Heap Priority Queue;false
+3266;Final Array State After K Multiplication Operations II;https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-ii;Hard;Heap Priority Queue;false
+3275;K-th Nearest Obstacle Queries;https://leetcode.com/problems/k-th-nearest-obstacle-queries;Medium;Heap Priority Queue;false
+3286;Find a Safe Walk Through a Grid;https://leetcode.com/problems/find-a-safe-walk-through-a-grid;Medium;Heap Priority Queue;false
+3296;Minimum Number of Seconds to Make Mountain Height Zero;https://leetcode.com/problems/minimum-number-of-seconds-to-make-mountain-height-zero;Medium;Heap Priority Queue;false
+3318;Find X-Sum of All K-Long Subarrays I;https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i;Easy;Heap Priority Queue;false
+3321;Find X-Sum of All K-Long Subarrays II;https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-ii;Hard;Heap Priority Queue;false
+3341;Find Minimum Time to Reach Last Room I;https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i;Medium;Heap Priority Queue;false
+3342;Find Minimum Time to Reach Last Room II;https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii;Medium;Heap Priority Queue;false
+3362;Zero Array Transformation III;https://leetcode.com/problems/zero-array-transformation-iii;Medium;Heap Priority Queue;false
+3369;Design an Array Statistics Tracker;https://leetcode.com/problems/design-an-array-statistics-tracker;Hard;Heap Priority Queue;true
+3377;Digit Operations to Make Two Integers Equal;https://leetcode.com/problems/digit-operations-to-make-two-integers-equal;Medium;Heap Priority Queue;false
+3391;Design a 3D Binary Matrix with Efficient Layer Tracking;https://leetcode.com/problems/design-a-3d-binary-matrix-with-efficient-layer-tracking;Medium;Heap Priority Queue;true
+3408;Design Task Manager;https://leetcode.com/problems/design-task-manager;Medium;Heap Priority Queue;false
+3422;Minimum Operations to Make Subarray Elements Equal;https://leetcode.com/problems/minimum-operations-to-make-subarray-elements-equal;Medium;Heap Priority Queue;true
+3462;Maximum Sum With at Most K Elements;https://leetcode.com/problems/maximum-sum-with-at-most-k-elements;Medium;Heap Priority Queue;false
+3476;Maximize Profit from Task Assignment;https://leetcode.com/problems/maximize-profit-from-task-assignment;Medium;Heap Priority Queue;true
+3478;Choose K Elements With Maximum Sum;https://leetcode.com/problems/choose-k-elements-with-maximum-sum;Medium;Heap Priority Queue;false
+3505;Minimum Operations to Make Elements Within K Subarrays Equal;https://leetcode.com/problems/minimum-operations-to-make-elements-within-k-subarrays-equal;Hard;Heap Priority Queue;false
+3506;Find Time Required to Eliminate Bacterial Strains;https://leetcode.com/problems/find-time-required-to-eliminate-bacterial-strains;Hard;Heap Priority Queue;true
+3507;Minimum Pair Removal to Sort Array I;https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i;Easy;Heap Priority Queue;false
+3510;Minimum Pair Removal to Sort Array II;https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii;Hard;Heap Priority Queue;false
+3572;Maximize Y‑Sum by Picking a Triplet of Distinct X‑Values;https://leetcode.com/problems/maximize-ysum-by-picking-a-triplet-of-distinct-xvalues;Medium;Heap Priority Queue;false
+3594;Minimum Time to Transport All Individuals;https://leetcode.com/problems/minimum-time-to-transport-all-individuals;Hard;Heap Priority Queue;false
+3604;Minimum Time to Reach Destination in Directed Graph;https://leetcode.com/problems/minimum-time-to-reach-destination-in-directed-graph;Medium;Heap Priority Queue;false
+3607;Power Grid Maintenance;https://leetcode.com/problems/power-grid-maintenance;Medium;Heap Priority Queue;false
+3620;Network Recovery Pathways;https://leetcode.com/problems/network-recovery-pathways;Hard;Heap Priority Queue;false
+3645;Maximum Total from Optimal Activation Order;https://leetcode.com/problems/maximum-total-from-optimal-activation-order;Medium;Heap Priority Queue;false

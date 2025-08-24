@@ -1,0 +1,722 @@
+id;name;url;difficulty;category;is_premium
+1;Two Sum;https://leetcode.com/problems/two-sum;Easy;Hash Table;false
+3;Longest Substring Without Repeating Characters;https://leetcode.com/problems/longest-substring-without-repeating-characters;Medium;Hash Table;false
+12;Integer to Roman;https://leetcode.com/problems/integer-to-roman;Medium;Hash Table;false
+13;Roman to Integer;https://leetcode.com/problems/roman-to-integer;Easy;Hash Table;false
+17;Letter Combinations of a Phone Number;https://leetcode.com/problems/letter-combinations-of-a-phone-number;Medium;Hash Table;false
+30;Substring with Concatenation of All Words;https://leetcode.com/problems/substring-with-concatenation-of-all-words;Hard;Hash Table;false
+36;Valid Sudoku;https://leetcode.com/problems/valid-sudoku;Medium;Hash Table;false
+37;Sudoku Solver;https://leetcode.com/problems/sudoku-solver;Hard;Hash Table;false
+41;First Missing Positive;https://leetcode.com/problems/first-missing-positive;Hard;Hash Table;false
+49;Group Anagrams;https://leetcode.com/problems/group-anagrams;Medium;Hash Table;false
+73;Set Matrix Zeroes;https://leetcode.com/problems/set-matrix-zeroes;Medium;Hash Table;false
+76;Minimum Window Substring;https://leetcode.com/problems/minimum-window-substring;Hard;Hash Table;false
+105;Construct Binary Tree from Preorder and Inorder Traversal;https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal;Medium;Hash Table;false
+106;Construct Binary Tree from Inorder and Postorder Traversal;https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal;Medium;Hash Table;false
+126;Word Ladder II;https://leetcode.com/problems/word-ladder-ii;Hard;Hash Table;false
+127;Word Ladder;https://leetcode.com/problems/word-ladder;Hard;Hash Table;false
+128;Longest Consecutive Sequence;https://leetcode.com/problems/longest-consecutive-sequence;Medium;Hash Table;false
+133;Clone Graph;https://leetcode.com/problems/clone-graph;Medium;Hash Table;false
+138;Copy List with Random Pointer;https://leetcode.com/problems/copy-list-with-random-pointer;Medium;Hash Table;false
+139;Word Break;https://leetcode.com/problems/word-break;Medium;Hash Table;false
+140;Word Break II;https://leetcode.com/problems/word-break-ii;Hard;Hash Table;false
+141;Linked List Cycle;https://leetcode.com/problems/linked-list-cycle;Easy;Hash Table;false
+142;Linked List Cycle II;https://leetcode.com/problems/linked-list-cycle-ii;Medium;Hash Table;false
+146;LRU Cache;https://leetcode.com/problems/lru-cache;Medium;Hash Table;false
+149;Max Points on a Line;https://leetcode.com/problems/max-points-on-a-line;Hard;Hash Table;false
+159;Longest Substring with At Most Two Distinct Characters;https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters;Medium;Hash Table;true
+160;Intersection of Two Linked Lists;https://leetcode.com/problems/intersection-of-two-linked-lists;Easy;Hash Table;false
+166;Fraction to Recurring Decimal;https://leetcode.com/problems/fraction-to-recurring-decimal;Medium;Hash Table;false
+169;Majority Element;https://leetcode.com/problems/majority-element;Easy;Hash Table;false
+170;Two Sum III - Data structure design;https://leetcode.com/problems/two-sum-iii-data-structure-design;Easy;Hash Table;true
+187;Repeated DNA Sequences;https://leetcode.com/problems/repeated-dna-sequences;Medium;Hash Table;false
+202;Happy Number;https://leetcode.com/problems/happy-number;Easy;Hash Table;false
+205;Isomorphic Strings;https://leetcode.com/problems/isomorphic-strings;Easy;Hash Table;false
+208;Implement Trie (Prefix Tree);https://leetcode.com/problems/implement-trie-prefix-tree;Medium;Hash Table;false
+217;Contains Duplicate;https://leetcode.com/problems/contains-duplicate;Easy;Hash Table;false
+219;Contains Duplicate II;https://leetcode.com/problems/contains-duplicate-ii;Easy;Hash Table;false
+229;Majority Element II;https://leetcode.com/problems/majority-element-ii;Medium;Hash Table;false
+242;Valid Anagram;https://leetcode.com/problems/valid-anagram;Easy;Hash Table;false
+244;Shortest Word Distance II;https://leetcode.com/problems/shortest-word-distance-ii;Medium;Hash Table;true
+246;Strobogrammatic Number;https://leetcode.com/problems/strobogrammatic-number;Easy;Hash Table;true
+249;Group Shifted Strings;https://leetcode.com/problems/group-shifted-strings;Medium;Hash Table;true
+264;Ugly Number II;https://leetcode.com/problems/ugly-number-ii;Medium;Hash Table;false
+266;Palindrome Permutation;https://leetcode.com/problems/palindrome-permutation;Easy;Hash Table;true
+267;Palindrome Permutation II;https://leetcode.com/problems/palindrome-permutation-ii;Medium;Hash Table;true
+268;Missing Number;https://leetcode.com/problems/missing-number;Easy;Hash Table;false
+288;Unique Word Abbreviation;https://leetcode.com/problems/unique-word-abbreviation;Medium;Hash Table;true
+290;Word Pattern;https://leetcode.com/problems/word-pattern;Easy;Hash Table;false
+291;Word Pattern II;https://leetcode.com/problems/word-pattern-ii;Medium;Hash Table;true
+299;Bulls and Cows;https://leetcode.com/problems/bulls-and-cows;Medium;Hash Table;false
+305;Number of Islands II;https://leetcode.com/problems/number-of-islands-ii;Hard;Hash Table;true
+311;Sparse Matrix Multiplication;https://leetcode.com/problems/sparse-matrix-multiplication;Medium;Hash Table;true
+314;Binary Tree Vertical Order Traversal;https://leetcode.com/problems/binary-tree-vertical-order-traversal;Medium;Hash Table;true
+325;Maximum Size Subarray Sum Equals k;https://leetcode.com/problems/maximum-size-subarray-sum-equals-k;Medium;Hash Table;true
+336;Palindrome Pairs;https://leetcode.com/problems/palindrome-pairs;Hard;Hash Table;false
+340;Longest Substring with At Most K Distinct Characters;https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters;Medium;Hash Table;true
+347;Top K Frequent Elements;https://leetcode.com/problems/top-k-frequent-elements;Medium;Hash Table;false
+348;Design Tic-Tac-Toe;https://leetcode.com/problems/design-tic-tac-toe;Medium;Hash Table;true
+349;Intersection of Two Arrays;https://leetcode.com/problems/intersection-of-two-arrays;Easy;Hash Table;false
+350;Intersection of Two Arrays II;https://leetcode.com/problems/intersection-of-two-arrays-ii;Easy;Hash Table;false
+353;Design Snake Game;https://leetcode.com/problems/design-snake-game;Medium;Hash Table;true
+355;Design Twitter;https://leetcode.com/problems/design-twitter;Medium;Hash Table;false
+356;Line Reflection;https://leetcode.com/problems/line-reflection;Medium;Hash Table;true
+358;Rearrange String k Distance Apart;https://leetcode.com/problems/rearrange-string-k-distance-apart;Hard;Hash Table;true
+359;Logger Rate Limiter;https://leetcode.com/problems/logger-rate-limiter;Easy;Hash Table;true
+379;Design Phone Directory;https://leetcode.com/problems/design-phone-directory;Medium;Hash Table;true
+380;Insert Delete GetRandom O(1);https://leetcode.com/problems/insert-delete-getrandom-o1;Medium;Hash Table;false
+381;Insert Delete GetRandom O(1) - Duplicates allowed;https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed;Hard;Hash Table;false
+383;Ransom Note;https://leetcode.com/problems/ransom-note;Easy;Hash Table;false
+387;First Unique Character in a String;https://leetcode.com/problems/first-unique-character-in-a-string;Easy;Hash Table;false
+389;Find the Difference;https://leetcode.com/problems/find-the-difference;Easy;Hash Table;false
+391;Perfect Rectangle;https://leetcode.com/problems/perfect-rectangle;Hard;Hash Table;false
+395;Longest Substring with At Least K Repeating Characters;https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters;Medium;Hash Table;false
+398;Random Pick Index;https://leetcode.com/problems/random-pick-index;Medium;Hash Table;false
+409;Longest Palindrome;https://leetcode.com/problems/longest-palindrome;Easy;Hash Table;false
+421;Maximum XOR of Two Numbers in an Array;https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array;Medium;Hash Table;false
+423;Reconstruct Original Digits from English;https://leetcode.com/problems/reconstruct-original-digits-from-english;Medium;Hash Table;false
+424;Longest Repeating Character Replacement;https://leetcode.com/problems/longest-repeating-character-replacement;Medium;Hash Table;false
+432;All O`one Data Structure;https://leetcode.com/problems/all-oone-data-structure;Hard;Hash Table;false
+433;Minimum Genetic Mutation;https://leetcode.com/problems/minimum-genetic-mutation;Medium;Hash Table;false
+438;Find All Anagrams in a String;https://leetcode.com/problems/find-all-anagrams-in-a-string;Medium;Hash Table;false
+442;Find All Duplicates in an Array;https://leetcode.com/problems/find-all-duplicates-in-an-array;Medium;Hash Table;false
+447;Number of Boomerangs;https://leetcode.com/problems/number-of-boomerangs;Medium;Hash Table;false
+448;Find All Numbers Disappeared in an Array;https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array;Easy;Hash Table;false
+451;Sort Characters By Frequency;https://leetcode.com/problems/sort-characters-by-frequency;Medium;Hash Table;false
+454;4Sum II;https://leetcode.com/problems/4sum-ii;Medium;Hash Table;false
+457;Circular Array Loop;https://leetcode.com/problems/circular-array-loop;Medium;Hash Table;false
+460;LFU Cache;https://leetcode.com/problems/lfu-cache;Hard;Hash Table;false
+480;Sliding Window Median;https://leetcode.com/problems/sliding-window-median;Hard;Hash Table;false
+491;Non-decreasing Subsequences;https://leetcode.com/problems/non-decreasing-subsequences;Medium;Hash Table;false
+496;Next Greater Element I;https://leetcode.com/problems/next-greater-element-i;Easy;Hash Table;false
+500;Keyboard Row;https://leetcode.com/problems/keyboard-row;Easy;Hash Table;false
+508;Most Frequent Subtree Sum;https://leetcode.com/problems/most-frequent-subtree-sum;Medium;Hash Table;false
+519;Random Flip Matrix;https://leetcode.com/problems/random-flip-matrix;Medium;Hash Table;false
+522;Longest Uncommon Subsequence II;https://leetcode.com/problems/longest-uncommon-subsequence-ii;Medium;Hash Table;false
+523;Continuous Subarray Sum;https://leetcode.com/problems/continuous-subarray-sum;Medium;Hash Table;false
+525;Contiguous Array;https://leetcode.com/problems/contiguous-array;Medium;Hash Table;false
+531;Lonely Pixel I;https://leetcode.com/problems/lonely-pixel-i;Medium;Hash Table;true
+532;K-diff Pairs in an Array;https://leetcode.com/problems/k-diff-pairs-in-an-array;Medium;Hash Table;false
+533;Lonely Pixel II;https://leetcode.com/problems/lonely-pixel-ii;Medium;Hash Table;true
+535;Encode and Decode TinyURL;https://leetcode.com/problems/encode-and-decode-tinyurl;Medium;Hash Table;false
+548;Split Array with Equal Sum;https://leetcode.com/problems/split-array-with-equal-sum;Hard;Hash Table;true
+554;Brick Wall;https://leetcode.com/problems/brick-wall;Medium;Hash Table;false
+560;Subarray Sum Equals K;https://leetcode.com/problems/subarray-sum-equals-k;Medium;Hash Table;false
+567;Permutation in String;https://leetcode.com/problems/permutation-in-string;Medium;Hash Table;false
+575;Distribute Candies;https://leetcode.com/problems/distribute-candies;Easy;Hash Table;false
+582;Kill Process;https://leetcode.com/problems/kill-process;Medium;Hash Table;true
+588;Design In-Memory File System;https://leetcode.com/problems/design-in-memory-file-system;Hard;Hash Table;true
+594;Longest Harmonious Subsequence;https://leetcode.com/problems/longest-harmonious-subsequence;Easy;Hash Table;false
+599;Minimum Index Sum of Two Lists;https://leetcode.com/problems/minimum-index-sum-of-two-lists;Easy;Hash Table;false
+609;Find Duplicate File in System;https://leetcode.com/problems/find-duplicate-file-in-system;Medium;Hash Table;false
+616;Add Bold Tag in String;https://leetcode.com/problems/add-bold-tag-in-string;Medium;Hash Table;true
+621;Task Scheduler;https://leetcode.com/problems/task-scheduler;Medium;Hash Table;false
+631;Design Excel Sum Formula;https://leetcode.com/problems/design-excel-sum-formula;Hard;Hash Table;true
+632;Smallest Range Covering Elements from K Lists;https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists;Hard;Hash Table;false
+635;Design Log Storage System;https://leetcode.com/problems/design-log-storage-system;Medium;Hash Table;true
+645;Set Mismatch;https://leetcode.com/problems/set-mismatch;Easy;Hash Table;false
+648;Replace Words;https://leetcode.com/problems/replace-words;Medium;Hash Table;false
+652;Find Duplicate Subtrees;https://leetcode.com/problems/find-duplicate-subtrees;Medium;Hash Table;false
+653;Two Sum IV - Input is a BST;https://leetcode.com/problems/two-sum-iv-input-is-a-bst;Easy;Hash Table;false
+659;Split Array into Consecutive Subsequences;https://leetcode.com/problems/split-array-into-consecutive-subsequences;Medium;Hash Table;false
+666;Path Sum IV;https://leetcode.com/problems/path-sum-iv;Medium;Hash Table;true
+676;Implement Magic Dictionary;https://leetcode.com/problems/implement-magic-dictionary;Medium;Hash Table;false
+677;Map Sum Pairs;https://leetcode.com/problems/map-sum-pairs;Medium;Hash Table;false
+681;Next Closest Time;https://leetcode.com/problems/next-closest-time;Medium;Hash Table;true
+690;Employee Importance;https://leetcode.com/problems/employee-importance;Medium;Hash Table;false
+691;Stickers to Spell Word;https://leetcode.com/problems/stickers-to-spell-word;Hard;Hash Table;false
+692;Top K Frequent Words;https://leetcode.com/problems/top-k-frequent-words;Medium;Hash Table;false
+694;Number of Distinct Islands;https://leetcode.com/problems/number-of-distinct-islands;Medium;Hash Table;true
+697;Degree of an Array;https://leetcode.com/problems/degree-of-an-array;Easy;Hash Table;false
+705;Design HashSet;https://leetcode.com/problems/design-hashset;Easy;Hash Table;false
+706;Design HashMap;https://leetcode.com/problems/design-hashmap;Easy;Hash Table;false
+710;Random Pick with Blacklist;https://leetcode.com/problems/random-pick-with-blacklist;Hard;Hash Table;false
+711;Number of Distinct Islands II;https://leetcode.com/problems/number-of-distinct-islands-ii;Hard;Hash Table;true
+720;Longest Word in Dictionary;https://leetcode.com/problems/longest-word-in-dictionary;Medium;Hash Table;false
+721;Accounts Merge;https://leetcode.com/problems/accounts-merge;Medium;Hash Table;false
+726;Number of Atoms;https://leetcode.com/problems/number-of-atoms;Hard;Hash Table;false
+734;Sentence Similarity;https://leetcode.com/problems/sentence-similarity;Easy;Hash Table;true
+736;Parse Lisp Expression;https://leetcode.com/problems/parse-lisp-expression;Hard;Hash Table;false
+737;Sentence Similarity II;https://leetcode.com/problems/sentence-similarity-ii;Medium;Hash Table;true
+740;Delete and Earn;https://leetcode.com/problems/delete-and-earn;Medium;Hash Table;false
+745;Prefix and Suffix Search;https://leetcode.com/problems/prefix-and-suffix-search;Hard;Hash Table;false
+748;Shortest Completing Word;https://leetcode.com/problems/shortest-completing-word;Easy;Hash Table;false
+752;Open the Lock;https://leetcode.com/problems/open-the-lock;Medium;Hash Table;false
+758;Bold Words in String;https://leetcode.com/problems/bold-words-in-string;Medium;Hash Table;true
+760;Find Anagram Mappings;https://leetcode.com/problems/find-anagram-mappings;Easy;Hash Table;true
+763;Partition Labels;https://leetcode.com/problems/partition-labels;Medium;Hash Table;false
+767;Reorganize String;https://leetcode.com/problems/reorganize-string;Medium;Hash Table;false
+770;Basic Calculator IV;https://leetcode.com/problems/basic-calculator-iv;Hard;Hash Table;false
+771;Jewels and Stones;https://leetcode.com/problems/jewels-and-stones;Easy;Hash Table;false
+781;Rabbits in Forest;https://leetcode.com/problems/rabbits-in-forest;Medium;Hash Table;false
+791;Custom Sort String;https://leetcode.com/problems/custom-sort-string;Medium;Hash Table;false
+792;Number of Matching Subsequences;https://leetcode.com/problems/number-of-matching-subsequences;Medium;Hash Table;false
+804;Unique Morse Code Words;https://leetcode.com/problems/unique-morse-code-words;Easy;Hash Table;false
+811;Subdomain Visit Count;https://leetcode.com/problems/subdomain-visit-count;Medium;Hash Table;false
+815;Bus Routes;https://leetcode.com/problems/bus-routes;Hard;Hash Table;false
+817;Linked List Components;https://leetcode.com/problems/linked-list-components;Medium;Hash Table;false
+819;Most Common Word;https://leetcode.com/problems/most-common-word;Easy;Hash Table;false
+820;Short Encoding of Words;https://leetcode.com/problems/short-encoding-of-words;Medium;Hash Table;false
+822;Card Flipping Game;https://leetcode.com/problems/card-flipping-game;Medium;Hash Table;false
+823;Binary Trees With Factors;https://leetcode.com/problems/binary-trees-with-factors;Medium;Hash Table;false
+828;Count Unique Characters of All Substrings of a Given String;https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string;Hard;Hash Table;false
+833;Find And Replace in String;https://leetcode.com/problems/find-and-replace-in-string;Medium;Hash Table;false
+839;Similar String Groups;https://leetcode.com/problems/similar-string-groups;Hard;Hash Table;false
+840;Magic Squares In Grid;https://leetcode.com/problems/magic-squares-in-grid;Medium;Hash Table;false
+846;Hand of Straights;https://leetcode.com/problems/hand-of-straights;Medium;Hash Table;false
+854;K-Similar Strings;https://leetcode.com/problems/k-similar-strings;Hard;Hash Table;false
+859;Buddy Strings;https://leetcode.com/problems/buddy-strings;Easy;Hash Table;false
+863;All Nodes Distance K in Binary Tree;https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree;Medium;Hash Table;false
+865;Smallest Subtree with all the Deepest Nodes;https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes;Medium;Hash Table;false
+869;Reordered Power of 2;https://leetcode.com/problems/reordered-power-of-2;Medium;Hash Table;false
+873;Length of Longest Fibonacci Subsequence;https://leetcode.com/problems/length-of-longest-fibonacci-subsequence;Medium;Hash Table;false
+874;Walking Robot Simulation;https://leetcode.com/problems/walking-robot-simulation;Medium;Hash Table;false
+884;Uncommon Words from Two Sentences;https://leetcode.com/problems/uncommon-words-from-two-sentences;Easy;Hash Table;false
+888;Fair Candy Swap;https://leetcode.com/problems/fair-candy-swap;Easy;Hash Table;false
+889;Construct Binary Tree from Preorder and Postorder Traversal;https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal;Medium;Hash Table;false
+890;Find and Replace Pattern;https://leetcode.com/problems/find-and-replace-pattern;Medium;Hash Table;false
+893;Groups of Special-Equivalent Strings;https://leetcode.com/problems/groups-of-special-equivalent-strings;Medium;Hash Table;false
+895;Maximum Frequency Stack;https://leetcode.com/problems/maximum-frequency-stack;Hard;Hash Table;false
+904;Fruit Into Baskets;https://leetcode.com/problems/fruit-into-baskets;Medium;Hash Table;false
+911;Online Election;https://leetcode.com/problems/online-election;Medium;Hash Table;false
+914;X of a Kind in a Deck of Cards;https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards;Easy;Hash Table;false
+916;Word Subsets;https://leetcode.com/problems/word-subsets;Medium;Hash Table;false
+923;3Sum With Multiplicity;https://leetcode.com/problems/3sum-with-multiplicity;Medium;Hash Table;false
+924;Minimize Malware Spread;https://leetcode.com/problems/minimize-malware-spread;Hard;Hash Table;false
+928;Minimize Malware Spread II;https://leetcode.com/problems/minimize-malware-spread-ii;Hard;Hash Table;false
+929;Unique Email Addresses;https://leetcode.com/problems/unique-email-addresses;Easy;Hash Table;false
+930;Binary Subarrays With Sum;https://leetcode.com/problems/binary-subarrays-with-sum;Medium;Hash Table;false
+939;Minimum Area Rectangle;https://leetcode.com/problems/minimum-area-rectangle;Medium;Hash Table;false
+947;Most Stones Removed with Same Row or Column;https://leetcode.com/problems/most-stones-removed-with-same-row-or-column;Medium;Hash Table;false
+952;Largest Component Size by Common Factor;https://leetcode.com/problems/largest-component-size-by-common-factor;Hard;Hash Table;false
+953;Verifying an Alien Dictionary;https://leetcode.com/problems/verifying-an-alien-dictionary;Easy;Hash Table;false
+954;Array of Doubled Pairs;https://leetcode.com/problems/array-of-doubled-pairs;Medium;Hash Table;false
+957;Prison Cells After N Days;https://leetcode.com/problems/prison-cells-after-n-days;Medium;Hash Table;false
+959;Regions Cut By Slashes;https://leetcode.com/problems/regions-cut-by-slashes;Medium;Hash Table;false
+961;N-Repeated Element in Size 2N Array;https://leetcode.com/problems/n-repeated-element-in-size-2n-array;Easy;Hash Table;false
+963;Minimum Area Rectangle II;https://leetcode.com/problems/minimum-area-rectangle-ii;Medium;Hash Table;false
+966;Vowel Spellchecker;https://leetcode.com/problems/vowel-spellchecker;Medium;Hash Table;false
+970;Powerful Integers;https://leetcode.com/problems/powerful-integers;Medium;Hash Table;false
+974;Subarray Sums Divisible by K;https://leetcode.com/problems/subarray-sums-divisible-by-k;Medium;Hash Table;false
+981;Time Based Key-Value Store;https://leetcode.com/problems/time-based-key-value-store;Medium;Hash Table;false
+982;Triples with Bitwise AND Equal To Zero;https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero;Hard;Hash Table;false
+987;Vertical Order Traversal of a Binary Tree;https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree;Hard;Hash Table;false
+992;Subarrays with K Different Integers;https://leetcode.com/problems/subarrays-with-k-different-integers;Hard;Hash Table;false
+996;Number of Squareful Arrays;https://leetcode.com/problems/number-of-squareful-arrays;Hard;Hash Table;false
+997;Find the Town Judge;https://leetcode.com/problems/find-the-town-judge;Easy;Hash Table;false
+1001;Grid Illumination;https://leetcode.com/problems/grid-illumination;Hard;Hash Table;false
+1002;Find Common Characters;https://leetcode.com/problems/find-common-characters;Easy;Hash Table;false
+1010;Pairs of Songs With Total Durations Divisible by 60;https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60;Medium;Hash Table;false
+1015;Smallest Integer Divisible by K;https://leetcode.com/problems/smallest-integer-divisible-by-k;Medium;Hash Table;false
+1016;Binary String With Substrings Representing 1 To N;https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n;Medium;Hash Table;false
+1027;Longest Arithmetic Subsequence;https://leetcode.com/problems/longest-arithmetic-subsequence;Medium;Hash Table;false
+1036;Escape a Large Maze;https://leetcode.com/problems/escape-a-large-maze;Hard;Hash Table;false
+1048;Longest String Chain;https://leetcode.com/problems/longest-string-chain;Medium;Hash Table;false
+1054;Distant Barcodes;https://leetcode.com/problems/distant-barcodes;Medium;Hash Table;false
+1072;Flip Columns For Maximum Number of Equal Rows;https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows;Medium;Hash Table;false
+1074;Number of Submatrices That Sum to Target;https://leetcode.com/problems/number-of-submatrices-that-sum-to-target;Hard;Hash Table;false
+1079;Letter Tile Possibilities;https://leetcode.com/problems/letter-tile-possibilities;Medium;Hash Table;false
+1086;High Five;https://leetcode.com/problems/high-five;Easy;Hash Table;true
+1090;Largest Values From Labels;https://leetcode.com/problems/largest-values-from-labels;Medium;Hash Table;false
+1100;Find K-Length Substrings With No Repeated Characters;https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters;Medium;Hash Table;true
+1110;Delete Nodes And Return Forest;https://leetcode.com/problems/delete-nodes-and-return-forest;Medium;Hash Table;false
+1122;Relative Sort Array;https://leetcode.com/problems/relative-sort-array;Easy;Hash Table;false
+1123;Lowest Common Ancestor of Deepest Leaves;https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves;Medium;Hash Table;false
+1124;Longest Well-Performing Interval;https://leetcode.com/problems/longest-well-performing-interval;Medium;Hash Table;false
+1128;Number of Equivalent Domino Pairs;https://leetcode.com/problems/number-of-equivalent-domino-pairs;Easy;Hash Table;false
+1133;Largest Unique Number;https://leetcode.com/problems/largest-unique-number;Easy;Hash Table;true
+1138;Alphabet Board Path;https://leetcode.com/problems/alphabet-board-path;Medium;Hash Table;false
+1146;Snapshot Array;https://leetcode.com/problems/snapshot-array;Medium;Hash Table;false
+1152;Analyze User Website Visit Pattern;https://leetcode.com/problems/analyze-user-website-visit-pattern;Medium;Hash Table;true
+1153;String Transforms Into Another String;https://leetcode.com/problems/string-transforms-into-another-string;Hard;Hash Table;true
+1156;Swap For Longest Repeated Character Substring;https://leetcode.com/problems/swap-for-longest-repeated-character-substring;Medium;Hash Table;false
+1160;Find Words That Can Be Formed by Characters;https://leetcode.com/problems/find-words-that-can-be-formed-by-characters;Easy;Hash Table;false
+1165;Single-Row Keyboard;https://leetcode.com/problems/single-row-keyboard;Easy;Hash Table;true
+1166;Design File System;https://leetcode.com/problems/design-file-system;Medium;Hash Table;true
+1169;Invalid Transactions;https://leetcode.com/problems/invalid-transactions;Medium;Hash Table;false
+1170;Compare Strings by Frequency of the Smallest Character;https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character;Medium;Hash Table;false
+1171;Remove Zero Sum Consecutive Nodes from Linked List;https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list;Medium;Hash Table;false
+1172;Dinner Plate Stacks;https://leetcode.com/problems/dinner-plate-stacks;Hard;Hash Table;false
+1177;Can Make Palindrome from Substring;https://leetcode.com/problems/can-make-palindrome-from-substring;Medium;Hash Table;false
+1178;Number of Valid Words for Each Puzzle;https://leetcode.com/problems/number-of-valid-words-for-each-puzzle;Hard;Hash Table;false
+1181;Before and After Puzzle;https://leetcode.com/problems/before-and-after-puzzle;Medium;Hash Table;true
+1189;Maximum Number of Balloons;https://leetcode.com/problems/maximum-number-of-balloons;Easy;Hash Table;false
+1198;Find Smallest Common Element in All Rows;https://leetcode.com/problems/find-smallest-common-element-in-all-rows;Medium;Hash Table;true
+1202;Smallest String With Swaps;https://leetcode.com/problems/smallest-string-with-swaps;Medium;Hash Table;false
+1207;Unique Number of Occurrences;https://leetcode.com/problems/unique-number-of-occurrences;Easy;Hash Table;false
+1213;Intersection of Three Sorted Arrays;https://leetcode.com/problems/intersection-of-three-sorted-arrays;Easy;Hash Table;true
+1218;Longest Arithmetic Subsequence of Given Difference;https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference;Medium;Hash Table;false
+1224;Maximum Equal Frequency;https://leetcode.com/problems/maximum-equal-frequency;Hard;Hash Table;false
+1244;Design A Leaderboard;https://leetcode.com/problems/design-a-leaderboard;Medium;Hash Table;true
+1248;Count Number of Nice Subarrays;https://leetcode.com/problems/count-number-of-nice-subarrays;Medium;Hash Table;false
+1257;Smallest Common Region;https://leetcode.com/problems/smallest-common-region;Medium;Hash Table;true
+1258;Synonymous Sentences;https://leetcode.com/problems/synonymous-sentences;Medium;Hash Table;true
+1261;Find Elements in a Contaminated Binary Tree;https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree;Medium;Hash Table;false
+1275;Find Winner on a Tic Tac Toe Game;https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game;Easy;Hash Table;false
+1282;Group the People Given the Group Size They Belong To;https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to;Medium;Hash Table;false
+1284;Minimum Number of Flips to Convert Binary Matrix to Zero Matrix;https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix;Hard;Hash Table;false
+1296;Divide Array in Sets of K Consecutive Numbers;https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers;Medium;Hash Table;false
+1297;Maximum Number of Occurrences of a Substring;https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring;Medium;Hash Table;false
+1311;Get Watched Videos by Your Friends;https://leetcode.com/problems/get-watched-videos-by-your-friends;Medium;Hash Table;false
+1331;Rank Transform of an Array;https://leetcode.com/problems/rank-transform-of-an-array;Easy;Hash Table;false
+1338;Reduce Array Size to The Half;https://leetcode.com/problems/reduce-array-size-to-the-half;Medium;Hash Table;false
+1345;Jump Game IV;https://leetcode.com/problems/jump-game-iv;Hard;Hash Table;false
+1346;Check If N and Its Double Exist;https://leetcode.com/problems/check-if-n-and-its-double-exist;Easy;Hash Table;false
+1347;Minimum Number of Steps to Make Two Strings Anagram;https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram;Medium;Hash Table;false
+1348;Tweet Counts Per Frequency;https://leetcode.com/problems/tweet-counts-per-frequency;Medium;Hash Table;false
+1357;Apply Discount Every n Orders;https://leetcode.com/problems/apply-discount-every-n-orders;Medium;Hash Table;false
+1358;Number of Substrings Containing All Three Characters;https://leetcode.com/problems/number-of-substrings-containing-all-three-characters;Medium;Hash Table;false
+1365;How Many Numbers Are Smaller Than the Current Number;https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number;Easy;Hash Table;false
+1366;Rank Teams by Votes;https://leetcode.com/problems/rank-teams-by-votes;Medium;Hash Table;false
+1370;Increasing Decreasing String;https://leetcode.com/problems/increasing-decreasing-string;Easy;Hash Table;false
+1371;Find the Longest Substring Containing Vowels in Even Counts;https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts;Medium;Hash Table;false
+1386;Cinema Seat Allocation;https://leetcode.com/problems/cinema-seat-allocation;Medium;Hash Table;false
+1394;Find Lucky Integer in an Array;https://leetcode.com/problems/find-lucky-integer-in-an-array;Easy;Hash Table;false
+1396;Design Underground System;https://leetcode.com/problems/design-underground-system;Medium;Hash Table;false
+1399;Count Largest Group;https://leetcode.com/problems/count-largest-group;Easy;Hash Table;false
+1400;Construct K Palindrome Strings;https://leetcode.com/problems/construct-k-palindrome-strings;Medium;Hash Table;false
+1410;HTML Entity Parser;https://leetcode.com/problems/html-entity-parser;Medium;Hash Table;false
+1418;Display Table of Food Orders in a Restaurant;https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant;Medium;Hash Table;false
+1426;Counting Elements;https://leetcode.com/problems/counting-elements;Easy;Hash Table;true
+1429;First Unique Number;https://leetcode.com/problems/first-unique-number;Medium;Hash Table;true
+1436;Destination City;https://leetcode.com/problems/destination-city;Easy;Hash Table;false
+1442;Count Triplets That Can Form Two Arrays of Equal XOR;https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor;Medium;Hash Table;false
+1443;Minimum Time to Collect All Apples in a Tree;https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree;Medium;Hash Table;false
+1452;People Whose List of Favorite Companies Is Not a Subset of Another List;https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list;Medium;Hash Table;false
+1460;Make Two Arrays Equal by Reversing Subarrays;https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays;Easy;Hash Table;false
+1461;Check If a String Contains All Binary Codes of Size K;https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k;Medium;Hash Table;false
+1477;Find Two Non-overlapping Sub-arrays Each With Target Sum;https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum;Medium;Hash Table;false
+1481;Least Number of Unique Integers after K Removals;https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals;Medium;Hash Table;false
+1485;Clone Binary Tree With Random Pointer;https://leetcode.com/problems/clone-binary-tree-with-random-pointer;Medium;Hash Table;true
+1487;Making File Names Unique;https://leetcode.com/problems/making-file-names-unique;Medium;Hash Table;false
+1488;Avoid Flood in The City;https://leetcode.com/problems/avoid-flood-in-the-city;Medium;Hash Table;false
+1490;Clone N-ary Tree;https://leetcode.com/problems/clone-n-ary-tree;Medium;Hash Table;true
+1496;Path Crossing;https://leetcode.com/problems/path-crossing;Easy;Hash Table;false
+1497;Check If Array Pairs Are Divisible by k;https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k;Medium;Hash Table;false
+1500;Design a File Sharing System;https://leetcode.com/problems/design-a-file-sharing-system;Medium;Hash Table;true
+1506;Find Root of N-Ary Tree;https://leetcode.com/problems/find-root-of-n-ary-tree;Medium;Hash Table;true
+1512;Number of Good Pairs;https://leetcode.com/problems/number-of-good-pairs;Easy;Hash Table;false
+1519;Number of Nodes in the Sub-Tree With the Same Label;https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label;Medium;Hash Table;false
+1525;Number of Good Ways to Split a String;https://leetcode.com/problems/number-of-good-ways-to-split-a-string;Medium;Hash Table;false
+1540;Can Convert String in K Moves;https://leetcode.com/problems/can-convert-string-in-k-moves;Medium;Hash Table;false
+1542;Find Longest Awesome Substring;https://leetcode.com/problems/find-longest-awesome-substring;Hard;Hash Table;false
+1546;Maximum Number of Non-Overlapping Subarrays With Sum Equals Target;https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target;Medium;Hash Table;false
+1554;Strings Differ by One Character;https://leetcode.com/problems/strings-differ-by-one-character;Medium;Hash Table;true
+1562;Find Latest Group of Size M;https://leetcode.com/problems/find-latest-group-of-size-m;Medium;Hash Table;false
+1570;Dot Product of Two Sparse Vectors;https://leetcode.com/problems/dot-product-of-two-sparse-vectors;Medium;Hash Table;true
+1577;Number of Ways Where Square of Number Is Equal to Product of Two Numbers;https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers;Medium;Hash Table;false
+1590;Make Sum Divisible by P;https://leetcode.com/problems/make-sum-divisible-by-p;Medium;Hash Table;false
+1593;Split a String Into the Max Number of Unique Substrings;https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings;Medium;Hash Table;false
+1600;Throne Inheritance;https://leetcode.com/problems/throne-inheritance;Medium;Hash Table;false
+1604;Alert Using Same Key-Card Three or More Times in a One Hour Period;https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period;Medium;Hash Table;false
+1612;Check If Two Expression Trees are Equivalent;https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent;Medium;Hash Table;true
+1624;Largest Substring Between Two Equal Characters;https://leetcode.com/problems/largest-substring-between-two-equal-characters;Easy;Hash Table;false
+1630;Arithmetic Subarrays;https://leetcode.com/problems/arithmetic-subarrays;Medium;Hash Table;false
+1636;Sort Array by Increasing Frequency;https://leetcode.com/problems/sort-array-by-increasing-frequency;Easy;Hash Table;false
+1638;Count Substrings That Differ by One Character;https://leetcode.com/problems/count-substrings-that-differ-by-one-character;Medium;Hash Table;false
+1640;Check Array Formation Through Concatenation;https://leetcode.com/problems/check-array-formation-through-concatenation;Easy;Hash Table;false
+1647;Minimum Deletions to Make Character Frequencies Unique;https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique;Medium;Hash Table;false
+1650;Lowest Common Ancestor of a Binary Tree III;https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii;Medium;Hash Table;true
+1656;Design an Ordered Stream;https://leetcode.com/problems/design-an-ordered-stream;Easy;Hash Table;false
+1657;Determine if Two Strings Are Close;https://leetcode.com/problems/determine-if-two-strings-are-close;Medium;Hash Table;false
+1658;Minimum Operations to Reduce X to Zero;https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero;Medium;Hash Table;false
+1660;Correct a Binary Tree;https://leetcode.com/problems/correct-a-binary-tree;Medium;Hash Table;true
+1674;Minimum Moves to Make Array Complementary;https://leetcode.com/problems/minimum-moves-to-make-array-complementary;Medium;Hash Table;false
+1676;Lowest Common Ancestor of a Binary Tree IV;https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv;Medium;Hash Table;true
+1679;Max Number of K-Sum Pairs;https://leetcode.com/problems/max-number-of-k-sum-pairs;Medium;Hash Table;false
+1684;Count the Number of Consistent Strings;https://leetcode.com/problems/count-the-number-of-consistent-strings;Easy;Hash Table;false
+1695;Maximum Erasure Value;https://leetcode.com/problems/maximum-erasure-value;Medium;Hash Table;false
+1711;Count Good Meals;https://leetcode.com/problems/count-good-meals;Medium;Hash Table;false
+1713;Minimum Operations to Make a Subsequence;https://leetcode.com/problems/minimum-operations-to-make-a-subsequence;Hard;Hash Table;false
+1726;Tuple with Same Product;https://leetcode.com/problems/tuple-with-same-product;Medium;Hash Table;false
+1733;Minimum Number of People to Teach;https://leetcode.com/problems/minimum-number-of-people-to-teach;Medium;Hash Table;false
+1737;Change Minimum Characters to Satisfy One of Three Conditions;https://leetcode.com/problems/change-minimum-characters-to-satisfy-one-of-three-conditions;Medium;Hash Table;false
+1740;Find Distance in a Binary Tree;https://leetcode.com/problems/find-distance-in-a-binary-tree;Medium;Hash Table;true
+1742;Maximum Number of Balls in a Box;https://leetcode.com/problems/maximum-number-of-balls-in-a-box;Easy;Hash Table;false
+1743;Restore the Array From Adjacent Pairs;https://leetcode.com/problems/restore-the-array-from-adjacent-pairs;Medium;Hash Table;false
+1748;Sum of Unique Elements;https://leetcode.com/problems/sum-of-unique-elements;Easy;Hash Table;false
+1756;Design Most Recently Used Queue;https://leetcode.com/problems/design-most-recently-used-queue;Medium;Hash Table;true
+1763;Longest Nice Substring;https://leetcode.com/problems/longest-nice-substring;Easy;Hash Table;false
+1772;Sort Features by Popularity;https://leetcode.com/problems/sort-features-by-popularity;Medium;Hash Table;true
+1775;Equal Sum Arrays With Minimum Number of Operations;https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations;Medium;Hash Table;false
+1781;Sum of Beauty of All Substrings;https://leetcode.com/problems/sum-of-beauty-of-all-substrings;Medium;Hash Table;false
+1782;Count Pairs Of Nodes;https://leetcode.com/problems/count-pairs-of-nodes;Hard;Hash Table;false
+1788;Maximize the Beauty of the Garden;https://leetcode.com/problems/maximize-the-beauty-of-the-garden;Hard;Hash Table;true
+1790;Check if One String Swap Can Make Strings Equal;https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal;Easy;Hash Table;false
+1794;Count Pairs of Equal Substrings With Minimum Difference;https://leetcode.com/problems/count-pairs-of-equal-substrings-with-minimum-difference;Medium;Hash Table;true
+1796;Second Largest Digit in a String;https://leetcode.com/problems/second-largest-digit-in-a-string;Easy;Hash Table;false
+1797;Design Authentication Manager;https://leetcode.com/problems/design-authentication-manager;Medium;Hash Table;false
+1804;Implement Trie II (Prefix Tree);https://leetcode.com/problems/implement-trie-ii-prefix-tree;Medium;Hash Table;true
+1805;Number of Different Integers in a String;https://leetcode.com/problems/number-of-different-integers-in-a-string;Easy;Hash Table;false
+1807;Evaluate the Bracket Pairs of a String;https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string;Medium;Hash Table;false
+1814;Count Nice Pairs in an Array;https://leetcode.com/problems/count-nice-pairs-in-an-array;Medium;Hash Table;false
+1817;Finding the Users Active Minutes;https://leetcode.com/problems/finding-the-users-active-minutes;Medium;Hash Table;false
+1832;Check if the Sentence Is Pangram;https://leetcode.com/problems/check-if-the-sentence-is-pangram;Easy;Hash Table;false
+1836;Remove Duplicates From an Unsorted Linked List;https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list;Medium;Hash Table;true
+1852;Distinct Numbers in Each Subarray;https://leetcode.com/problems/distinct-numbers-in-each-subarray;Medium;Hash Table;true
+1857;Largest Color Value in a Directed Graph;https://leetcode.com/problems/largest-color-value-in-a-directed-graph;Hard;Hash Table;false
+1865;Finding Pairs With a Certain Sum;https://leetcode.com/problems/finding-pairs-with-a-certain-sum;Medium;Hash Table;false
+1876;Substrings of Size Three with Distinct Characters;https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters;Easy;Hash Table;false
+1893;Check if All the Integers in a Range Are Covered;https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered;Easy;Hash Table;false
+1897;Redistribute Characters to Make All Strings Equal;https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal;Easy;Hash Table;false
+1906;Minimum Absolute Difference Queries;https://leetcode.com/problems/minimum-absolute-difference-queries;Medium;Hash Table;false
+1912;Design Movie Rental System;https://leetcode.com/problems/design-movie-rental-system;Hard;Hash Table;false
+1915;Number of Wonderful Substrings;https://leetcode.com/problems/number-of-wonderful-substrings;Medium;Hash Table;false
+1930;Unique Length-3 Palindromic Subsequences;https://leetcode.com/problems/unique-length-3-palindromic-subsequences;Medium;Hash Table;false
+1932;Merge BSTs to Create Single BST;https://leetcode.com/problems/merge-bsts-to-create-single-bst;Hard;Hash Table;false
+1935;Maximum Number of Words You Can Type;https://leetcode.com/problems/maximum-number-of-words-you-can-type;Easy;Hash Table;false
+1938;Maximum Genetic Difference Query;https://leetcode.com/problems/maximum-genetic-difference-query;Hard;Hash Table;false
+1940;Longest Common Subsequence Between Sorted Arrays;https://leetcode.com/problems/longest-common-subsequence-between-sorted-arrays;Medium;Hash Table;true
+1941;Check if All Characters Have Equal Number of Occurrences;https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences;Easy;Hash Table;false
+1942;The Number of the Smallest Unoccupied Chair;https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair;Medium;Hash Table;false
+1943;Describe the Painting;https://leetcode.com/problems/describe-the-painting;Medium;Hash Table;false
+1948;Delete Duplicate Folders in System;https://leetcode.com/problems/delete-duplicate-folders-in-system;Hard;Hash Table;false
+1980;Find Unique Binary String;https://leetcode.com/problems/find-unique-binary-string;Medium;Hash Table;false
+1983;Widest Pair of Indices With Equal Range Sum;https://leetcode.com/problems/widest-pair-of-indices-with-equal-range-sum;Medium;Hash Table;true
+1993;Operations on Tree;https://leetcode.com/problems/operations-on-tree;Medium;Hash Table;false
+1994;The Number of Good Subsets;https://leetcode.com/problems/the-number-of-good-subsets;Hard;Hash Table;false
+1995;Count Special Quadruplets;https://leetcode.com/problems/count-special-quadruplets;Easy;Hash Table;false
+2001;Number of Pairs of Interchangeable Rectangles;https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles;Medium;Hash Table;false
+2006;Count Number of Pairs With Absolute Difference K;https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k;Easy;Hash Table;false
+2007;Find Original Array From Doubled Array;https://leetcode.com/problems/find-original-array-from-doubled-array;Medium;Hash Table;false
+2008;Maximum Earnings From Taxi;https://leetcode.com/problems/maximum-earnings-from-taxi;Medium;Hash Table;false
+2009;Minimum Number of Operations to Make Array Continuous;https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous;Hard;Hash Table;false
+2013;Detect Squares;https://leetcode.com/problems/detect-squares;Medium;Hash Table;false
+2019;The Score of Students Solving Math Expression;https://leetcode.com/problems/the-score-of-students-solving-math-expression;Hard;Hash Table;false
+2023;Number of Pairs of Strings With Concatenation Equal to Target;https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target;Medium;Hash Table;false
+2025;Maximum Number of Ways to Partition an Array;https://leetcode.com/problems/maximum-number-of-ways-to-partition-an-array;Hard;Hash Table;false
+2032;Two Out of Three;https://leetcode.com/problems/two-out-of-three;Easy;Hash Table;false
+2034;Stock Price Fluctuation;https://leetcode.com/problems/stock-price-fluctuation;Medium;Hash Table;false
+2043;Simple Bank System;https://leetcode.com/problems/simple-bank-system;Medium;Hash Table;false
+2048;Next Greater Numerically Balanced Number;https://leetcode.com/problems/next-greater-numerically-balanced-number;Medium;Hash Table;false
+2053;Kth Distinct String in an Array;https://leetcode.com/problems/kth-distinct-string-in-an-array;Easy;Hash Table;false
+2062;Count Vowel Substrings of a String;https://leetcode.com/problems/count-vowel-substrings-of-a-string;Easy;Hash Table;false
+2067;Number of Equal Count Substrings;https://leetcode.com/problems/number-of-equal-count-substrings;Medium;Hash Table;true
+2068;Check Whether Two Strings are Almost Equivalent;https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent;Easy;Hash Table;false
+2080;Range Frequency Queries;https://leetcode.com/problems/range-frequency-queries;Medium;Hash Table;false
+2083;Substrings That Begin and End With the Same Letter;https://leetcode.com/problems/substrings-that-begin-and-end-with-the-same-letter;Medium;Hash Table;true
+2085;Count Common Words With One Occurrence;https://leetcode.com/problems/count-common-words-with-one-occurrence;Easy;Hash Table;false
+2094;Finding 3-Digit Even Numbers;https://leetcode.com/problems/finding-3-digit-even-numbers;Easy;Hash Table;false
+2099;Find Subsequence of Length K With the Largest Sum;https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum;Easy;Hash Table;false
+2103;Rings and Rods;https://leetcode.com/problems/rings-and-rods;Easy;Hash Table;false
+2107;Number of Unique Flavors After Sharing K Candies;https://leetcode.com/problems/number-of-unique-flavors-after-sharing-k-candies;Medium;Hash Table;true
+2115;Find All Possible Recipes from Given Supplies;https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies;Medium;Hash Table;false
+2121;Intervals Between Identical Elements;https://leetcode.com/problems/intervals-between-identical-elements;Medium;Hash Table;false
+2122;Recover the Original Array;https://leetcode.com/problems/recover-the-original-array;Hard;Hash Table;false
+2131;Longest Palindrome by Concatenating Two Letter Words;https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words;Medium;Hash Table;false
+2133;Check if Every Row and Column Contains All Numbers;https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers;Easy;Hash Table;false
+2135;Count Words Obtained After Adding a Letter;https://leetcode.com/problems/count-words-obtained-after-adding-a-letter;Medium;Hash Table;false
+2150;Find All Lonely Numbers in the Array;https://leetcode.com/problems/find-all-lonely-numbers-in-the-array;Medium;Hash Table;false
+2152;Minimum Number of Lines to Cover Points;https://leetcode.com/problems/minimum-number-of-lines-to-cover-points;Medium;Hash Table;true
+2154;Keep Multiplying Found Values by Two;https://leetcode.com/problems/keep-multiplying-found-values-by-two;Easy;Hash Table;false
+2166;Design Bitset;https://leetcode.com/problems/design-bitset;Medium;Hash Table;false
+2168;Unique Substrings With Equal Digit Frequency;https://leetcode.com/problems/unique-substrings-with-equal-digit-frequency;Medium;Hash Table;true
+2170;Minimum Operations to Make the Array Alternating;https://leetcode.com/problems/minimum-operations-to-make-the-array-alternating;Medium;Hash Table;false
+2182;Construct String With Repeat Limit;https://leetcode.com/problems/construct-string-with-repeat-limit;Medium;Hash Table;false
+2186;Minimum Number of Steps to Make Two Strings Anagram II;https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii;Medium;Hash Table;false
+2190;Most Frequent Number Following Key In an Array;https://leetcode.com/problems/most-frequent-number-following-key-in-an-array;Easy;Hash Table;false
+2196;Create Binary Tree From Descriptions;https://leetcode.com/problems/create-binary-tree-from-descriptions;Medium;Hash Table;false
+2201;Count Artifacts That Can Be Extracted;https://leetcode.com/problems/count-artifacts-that-can-be-extracted;Medium;Hash Table;false
+2206;Divide Array Into Equal Pairs;https://leetcode.com/problems/divide-array-into-equal-pairs;Easy;Hash Table;false
+2215;Find the Difference of Two Arrays;https://leetcode.com/problems/find-the-difference-of-two-arrays;Easy;Hash Table;false
+2225;Find Players With Zero or One Losses;https://leetcode.com/problems/find-players-with-zero-or-one-losses;Medium;Hash Table;false
+2227;Encrypt and Decrypt Strings;https://leetcode.com/problems/encrypt-and-decrypt-strings;Hard;Hash Table;false
+2229;Check if an Array Is Consecutive;https://leetcode.com/problems/check-if-an-array-is-consecutive;Easy;Hash Table;true
+2244;Minimum Rounds to Complete All Tasks;https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks;Medium;Hash Table;false
+2248;Intersection of Multiple Arrays;https://leetcode.com/problems/intersection-of-multiple-arrays;Easy;Hash Table;false
+2249;Count Lattice Points Inside a Circle;https://leetcode.com/problems/count-lattice-points-inside-a-circle;Medium;Hash Table;false
+2250;Count Number of Rectangles Containing Each Point;https://leetcode.com/problems/count-number-of-rectangles-containing-each-point;Medium;Hash Table;false
+2251;Number of Flowers in Full Bloom;https://leetcode.com/problems/number-of-flowers-in-full-bloom;Hard;Hash Table;false
+2254;Design Video Sharing Platform;https://leetcode.com/problems/design-video-sharing-platform;Hard;Hash Table;true
+2260;Minimum Consecutive Cards to Pick Up;https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up;Medium;Hash Table;false
+2261;K Divisible Elements Subarrays;https://leetcode.com/problems/k-divisible-elements-subarrays;Medium;Hash Table;false
+2262;Total Appeal of A String;https://leetcode.com/problems/total-appeal-of-a-string;Hard;Hash Table;false
+2266;Count Number of Texts;https://leetcode.com/problems/count-number-of-texts;Medium;Hash Table;false
+2268;Minimum Number of Keypresses;https://leetcode.com/problems/minimum-number-of-keypresses;Medium;Hash Table;true
+2273;Find Resultant Array After Removing Anagrams;https://leetcode.com/problems/find-resultant-array-after-removing-anagrams;Easy;Hash Table;false
+2275;Largest Combination With Bitwise AND Greater Than Zero;https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero;Medium;Hash Table;false
+2283;Check if Number Has Equal Digit Count and Digit Value;https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value;Easy;Hash Table;false
+2284;Sender With Largest Word Count;https://leetcode.com/problems/sender-with-largest-word-count;Medium;Hash Table;false
+2287;Rearrange Characters to Make Target String;https://leetcode.com/problems/rearrange-characters-to-make-target-string;Easy;Hash Table;false
+2295;Replace Elements in an Array;https://leetcode.com/problems/replace-elements-in-an-array;Medium;Hash Table;false
+2301;Match Substring After Replacement;https://leetcode.com/problems/match-substring-after-replacement;Hard;Hash Table;false
+2306;Naming a Company;https://leetcode.com/problems/naming-a-company;Hard;Hash Table;false
+2309;Greatest English Letter in Upper and Lower Case;https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case;Easy;Hash Table;false
+2325;Decode the Message;https://leetcode.com/problems/decode-the-message;Easy;Hash Table;false
+2336;Smallest Number in Infinite Set;https://leetcode.com/problems/smallest-number-in-infinite-set;Medium;Hash Table;false
+2341;Maximum Number of Pairs in Array;https://leetcode.com/problems/maximum-number-of-pairs-in-array;Easy;Hash Table;false
+2342;Max Sum of a Pair With Equal Sum of Digits;https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits;Medium;Hash Table;false
+2347;Best Poker Hand;https://leetcode.com/problems/best-poker-hand;Easy;Hash Table;false
+2349;Design a Number Container System;https://leetcode.com/problems/design-a-number-container-system;Medium;Hash Table;false
+2350;Shortest Impossible Sequence of Rolls;https://leetcode.com/problems/shortest-impossible-sequence-of-rolls;Hard;Hash Table;false
+2351;First Letter to Appear Twice;https://leetcode.com/problems/first-letter-to-appear-twice;Easy;Hash Table;false
+2352;Equal Row and Column Pairs;https://leetcode.com/problems/equal-row-and-column-pairs;Medium;Hash Table;false
+2353;Design a Food Rating System;https://leetcode.com/problems/design-a-food-rating-system;Medium;Hash Table;false
+2354;Number of Excellent Pairs;https://leetcode.com/problems/number-of-excellent-pairs;Hard;Hash Table;false
+2357;Make Array Zero by Subtracting Equal Amounts;https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts;Easy;Hash Table;false
+2363;Merge Similar Items;https://leetcode.com/problems/merge-similar-items;Easy;Hash Table;false
+2364;Count Number of Bad Pairs;https://leetcode.com/problems/count-number-of-bad-pairs;Medium;Hash Table;false
+2365;Task Scheduler II;https://leetcode.com/problems/task-scheduler-ii;Medium;Hash Table;false
+2367;Number of Arithmetic Triplets;https://leetcode.com/problems/number-of-arithmetic-triplets;Easy;Hash Table;false
+2368;Reachable Nodes With Restrictions;https://leetcode.com/problems/reachable-nodes-with-restrictions;Medium;Hash Table;false
+2370;Longest Ideal Subsequence;https://leetcode.com/problems/longest-ideal-subsequence;Medium;Hash Table;false
+2374;Node With Highest Edge Score;https://leetcode.com/problems/node-with-highest-edge-score;Medium;Hash Table;false
+2384;Largest Palindromic Number;https://leetcode.com/problems/largest-palindromic-number;Medium;Hash Table;false
+2385;Amount of Time for Binary Tree to Be Infected;https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected;Medium;Hash Table;false
+2395;Find Subarrays With Equal Sum;https://leetcode.com/problems/find-subarrays-with-equal-sum;Easy;Hash Table;false
+2399;Check Distances Between Same Letters;https://leetcode.com/problems/check-distances-between-same-letters;Easy;Hash Table;false
+2402;Meeting Rooms III;https://leetcode.com/problems/meeting-rooms-iii;Hard;Hash Table;false
+2404;Most Frequent Even Element;https://leetcode.com/problems/most-frequent-even-element;Easy;Hash Table;false
+2405;Optimal Partition of String;https://leetcode.com/problems/optimal-partition-of-string;Medium;Hash Table;false
+2408;Design SQL;https://leetcode.com/problems/design-sql;Medium;Hash Table;true
+2418;Sort the People;https://leetcode.com/problems/sort-the-people;Easy;Hash Table;false
+2421;Number of Good Paths;https://leetcode.com/problems/number-of-good-paths;Hard;Hash Table;false
+2423;Remove Letter To Equalize Frequency;https://leetcode.com/problems/remove-letter-to-equalize-frequency;Easy;Hash Table;false
+2424;Longest Uploaded Prefix;https://leetcode.com/problems/longest-uploaded-prefix;Medium;Hash Table;false
+2434;Using a Robot to Print the Lexicographically Smallest String;https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string;Medium;Hash Table;false
+2441;Largest Positive Integer That Exists With Its Negative;https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative;Easy;Hash Table;false
+2442;Count Number of Distinct Integers After Reverse Operations;https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations;Medium;Hash Table;false
+2451;Odd String Difference;https://leetcode.com/problems/odd-string-difference;Easy;Hash Table;false
+2453;Destroy Sequential Targets;https://leetcode.com/problems/destroy-sequential-targets;Medium;Hash Table;false
+2456;Most Popular Video Creator;https://leetcode.com/problems/most-popular-video-creator;Medium;Hash Table;false
+2461;Maximum Sum of Distinct Subarrays With Length K;https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k;Medium;Hash Table;false
+2465;Number of Distinct Averages;https://leetcode.com/problems/number-of-distinct-averages;Easy;Hash Table;false
+2475;Number of Unequal Triplets in Array;https://leetcode.com/problems/number-of-unequal-triplets-in-array;Easy;Hash Table;false
+2488;Count Subarrays With Median K;https://leetcode.com/problems/count-subarrays-with-median-k;Hard;Hash Table;false
+2489;Number of Substrings With Fixed Ratio;https://leetcode.com/problems/number-of-substrings-with-fixed-ratio;Medium;Hash Table;true
+2491;Divide Players Into Teams of Equal Skill;https://leetcode.com/problems/divide-players-into-teams-of-equal-skill;Medium;Hash Table;false
+2499;Minimum Total Cost to Make Arrays Unequal;https://leetcode.com/problems/minimum-total-cost-to-make-arrays-unequal;Hard;Hash Table;false
+2501;Longest Square Streak in an Array;https://leetcode.com/problems/longest-square-streak-in-an-array;Medium;Hash Table;false
+2502;Design Memory Allocator;https://leetcode.com/problems/design-memory-allocator;Medium;Hash Table;false
+2506;Count Pairs Of Similar Strings;https://leetcode.com/problems/count-pairs-of-similar-strings;Easy;Hash Table;false
+2508;Add Edges to Make Degrees of All Nodes Even;https://leetcode.com/problems/add-edges-to-make-degrees-of-all-nodes-even;Hard;Hash Table;false
+2512;Reward Top K Students;https://leetcode.com/problems/reward-top-k-students;Medium;Hash Table;false
+2514;Count Anagrams;https://leetcode.com/problems/count-anagrams;Hard;Hash Table;false
+2516;Take K of Each Character From Left and Right;https://leetcode.com/problems/take-k-of-each-character-from-left-and-right;Medium;Hash Table;false
+2521;Distinct Prime Factors of Product of Array;https://leetcode.com/problems/distinct-prime-factors-of-product-of-array;Medium;Hash Table;false
+2524;Maximum Frequency Score of a Subarray;https://leetcode.com/problems/maximum-frequency-score-of-a-subarray;Hard;Hash Table;true
+2526;Find Consecutive Integers from a Data Stream;https://leetcode.com/problems/find-consecutive-integers-from-a-data-stream;Medium;Hash Table;false
+2531;Make Number of Distinct Characters Equal;https://leetcode.com/problems/make-number-of-distinct-characters-equal;Medium;Hash Table;false
+2537;Count the Number of Good Subarrays;https://leetcode.com/problems/count-the-number-of-good-subarrays;Medium;Hash Table;false
+2539;Count the Number of Good Subsequences;https://leetcode.com/problems/count-the-number-of-good-subsequences;Medium;Hash Table;true
+2540;Minimum Common Value;https://leetcode.com/problems/minimum-common-value;Easy;Hash Table;false
+2547;Minimum Cost to Split an Array;https://leetcode.com/problems/minimum-cost-to-split-an-array;Hard;Hash Table;false
+2549;Count Distinct Numbers on Board;https://leetcode.com/problems/count-distinct-numbers-on-board;Easy;Hash Table;false
+2554;Maximum Number of Integers to Choose From a Range I;https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i;Medium;Hash Table;false
+2561;Rearranging Fruits;https://leetcode.com/problems/rearranging-fruits;Hard;Hash Table;false
+2564;Substring XOR Queries;https://leetcode.com/problems/substring-xor-queries;Medium;Hash Table;false
+2570;Merge Two 2D Arrays by Summing Values;https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values;Easy;Hash Table;false
+2581;Count Number of Possible Root Nodes;https://leetcode.com/problems/count-number-of-possible-root-nodes;Hard;Hash Table;false
+2584;Split the Array to Make Coprime Products;https://leetcode.com/problems/split-the-array-to-make-coprime-products;Hard;Hash Table;false
+2588;Count the Number of Beautiful Subarrays;https://leetcode.com/problems/count-the-number-of-beautiful-subarrays;Medium;Hash Table;false
+2590;Design a Todo List;https://leetcode.com/problems/design-a-todo-list;Medium;Hash Table;true
+2593;Find Score of an Array After Marking All Elements;https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements;Medium;Hash Table;false
+2597;The Number of Beautiful Subsets;https://leetcode.com/problems/the-number-of-beautiful-subsets;Medium;Hash Table;false
+2598;Smallest Missing Non-negative Integer After Operations;https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations;Medium;Hash Table;false
+2605;Form Smallest Number From Two Digit Arrays;https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays;Easy;Hash Table;false
+2606;Find the Substring With Maximum Cost;https://leetcode.com/problems/find-the-substring-with-maximum-cost;Medium;Hash Table;false
+2610;Convert an Array Into a 2D Array With Conditions;https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions;Medium;Hash Table;false
+2615;Sum of Distances;https://leetcode.com/problems/sum-of-distances;Medium;Hash Table;false
+2641;Cousins in Binary Tree II;https://leetcode.com/problems/cousins-in-binary-tree-ii;Medium;Hash Table;false
+2653;Sliding Subarray Beauty;https://leetcode.com/problems/sliding-subarray-beauty;Medium;Hash Table;false
+2657;Find the Prefix Common Array of Two Arrays;https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays;Medium;Hash Table;false
+2661;First Completely Painted Row or Column;https://leetcode.com/problems/first-completely-painted-row-or-column;Medium;Hash Table;false
+2670;Find the Distinct Difference Array;https://leetcode.com/problems/find-the-distinct-difference-array;Easy;Hash Table;false
+2671;Frequency Tracker;https://leetcode.com/problems/frequency-tracker;Medium;Hash Table;false
+2682;Find the Losers of the Circular Game;https://leetcode.com/problems/find-the-losers-of-the-circular-game;Easy;Hash Table;false
+2707;Extra Characters in a String;https://leetcode.com/problems/extra-characters-in-a-string;Medium;Hash Table;false
+2711;Difference of Number of Distinct Values on Diagonals;https://leetcode.com/problems/difference-of-number-of-distinct-values-on-diagonals;Medium;Hash Table;false
+2713;Maximum Strictly Increasing Cells in a Matrix;https://leetcode.com/problems/maximum-strictly-increasing-cells-in-a-matrix;Hard;Hash Table;false
+2716;Minimize String Length;https://leetcode.com/problems/minimize-string-length;Easy;Hash Table;false
+2718;Sum of Matrix After Queries;https://leetcode.com/problems/sum-of-matrix-after-queries;Medium;Hash Table;false
+2729;Check if The Number is Fascinating;https://leetcode.com/problems/check-if-the-number-is-fascinating;Easy;Hash Table;false
+2732;Find a Good Subset of the Matrix;https://leetcode.com/problems/find-a-good-subset-of-the-matrix;Hard;Hash Table;false
+2743;Count Substrings Without Repeating Character;https://leetcode.com/problems/count-substrings-without-repeating-character;Medium;Hash Table;true
+2744;Find Maximum Number of String Pairs;https://leetcode.com/problems/find-maximum-number-of-string-pairs;Easy;Hash Table;false
+2747;Count Zero Request Servers;https://leetcode.com/problems/count-zero-request-servers;Medium;Hash Table;false
+2748;Number of Beautiful Pairs;https://leetcode.com/problems/number-of-beautiful-pairs;Easy;Hash Table;false
+2763;Sum of Imbalance Numbers of All Subarrays;https://leetcode.com/problems/sum-of-imbalance-numbers-of-all-subarrays;Hard;Hash Table;false
+2766;Relocate Marbles;https://leetcode.com/problems/relocate-marbles;Medium;Hash Table;false
+2767;Partition String Into Minimum Beautiful Substrings;https://leetcode.com/problems/partition-string-into-minimum-beautiful-substrings;Medium;Hash Table;false
+2768;Number of Black Blocks;https://leetcode.com/problems/number-of-black-blocks;Medium;Hash Table;false
+2780;Minimum Index of a Valid Split;https://leetcode.com/problems/minimum-index-of-a-valid-split;Medium;Hash Table;false
+2781;Length of the Longest Valid Substring;https://leetcode.com/problems/length-of-the-longest-valid-substring;Hard;Hash Table;false
+2784;Check if Array is Good;https://leetcode.com/problems/check-if-array-is-good;Easy;Hash Table;false
+2799;Count Complete Subarrays in an Array;https://leetcode.com/problems/count-complete-subarrays-in-an-array;Medium;Hash Table;false
+2808;Minimum Seconds to Equalize a Circular Array;https://leetcode.com/problems/minimum-seconds-to-equalize-a-circular-array;Medium;Hash Table;false
+2813;Maximum Elegance of a K-Length Subsequence;https://leetcode.com/problems/maximum-elegance-of-a-k-length-subsequence;Hard;Hash Table;false
+2815;Max Pair Sum in an Array;https://leetcode.com/problems/max-pair-sum-in-an-array;Easy;Hash Table;false
+2830;Maximize the Profit as the Salesman;https://leetcode.com/problems/maximize-the-profit-as-the-salesman;Medium;Hash Table;false
+2831;Find the Longest Equal Subarray;https://leetcode.com/problems/find-the-longest-equal-subarray;Medium;Hash Table;false
+2840;Check if Strings Can be Made Equal With Operations II;https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii;Medium;Hash Table;false
+2841;Maximum Sum of Almost Unique Subarray;https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray;Medium;Hash Table;false
+2842;Count K-Subsequences of a String With Maximum Beauty;https://leetcode.com/problems/count-k-subsequences-of-a-string-with-maximum-beauty;Hard;Hash Table;false
+2845;Count of Interesting Subarrays;https://leetcode.com/problems/count-of-interesting-subarrays;Medium;Hash Table;false
+2848;Points That Intersect With Cars;https://leetcode.com/problems/points-that-intersect-with-cars;Easy;Hash Table;false
+2852;Sum of Remoteness of All Cells;https://leetcode.com/problems/sum-of-remoteness-of-all-cells;Medium;Hash Table;true
+2856;Minimum Array Length After Pair Removals;https://leetcode.com/problems/minimum-array-length-after-pair-removals;Medium;Hash Table;false
+2857;Count Pairs of Points With Distance k;https://leetcode.com/problems/count-pairs-of-points-with-distance-k;Medium;Hash Table;false
+2869;Minimum Operations to Collect Elements;https://leetcode.com/problems/minimum-operations-to-collect-elements;Easy;Hash Table;false
+2870;Minimum Number of Operations to Make Array Empty;https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty;Medium;Hash Table;false
+2875;Minimum Size Subarray in Infinite Array;https://leetcode.com/problems/minimum-size-subarray-in-infinite-array;Medium;Hash Table;false
+2897;Apply Operations on Array to Maximize Sum of Squares;https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares;Hard;Hash Table;false
+2898;Maximum Linear Stock Score;https://leetcode.com/problems/maximum-linear-stock-score;Medium;Hash Table;true
+2902;Count of Sub-Multisets With Bounded Sum;https://leetcode.com/problems/count-of-sub-multisets-with-bounded-sum;Hard;Hash Table;false
+2910;Minimum Number of Groups to Create a Valid Assignment;https://leetcode.com/problems/minimum-number-of-groups-to-create-a-valid-assignment;Medium;Hash Table;false
+2913;Subarrays Distinct Element Sum of Squares I;https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i;Easy;Hash Table;false
+2932;Maximum Strong Pair XOR I;https://leetcode.com/problems/maximum-strong-pair-xor-i;Easy;Hash Table;false
+2933;High-Access Employees;https://leetcode.com/problems/high-access-employees;Medium;Hash Table;false
+2935;Maximum Strong Pair XOR II;https://leetcode.com/problems/maximum-strong-pair-xor-ii;Hard;Hash Table;false
+2947;Count Beautiful Substrings I;https://leetcode.com/problems/count-beautiful-substrings-i;Medium;Hash Table;false
+2949;Count Beautiful Substrings II;https://leetcode.com/problems/count-beautiful-substrings-ii;Hard;Hash Table;false
+2950;Number of Divisible Substrings;https://leetcode.com/problems/number-of-divisible-substrings;Medium;Hash Table;true
+2953;Count Complete Substrings;https://leetcode.com/problems/count-complete-substrings;Hard;Hash Table;false
+2955;Number of Same-End Substrings;https://leetcode.com/problems/number-of-same-end-substrings;Medium;Hash Table;true
+2956;Find Common Elements Between Two Arrays;https://leetcode.com/problems/find-common-elements-between-two-arrays;Easy;Hash Table;false
+2958;Length of Longest Subarray With at Most K Frequency;https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency;Medium;Hash Table;false
+2963;Count the Number of Good Partitions;https://leetcode.com/problems/count-the-number-of-good-partitions;Hard;Hash Table;false
+2964;Number of Divisible Triplet Sums;https://leetcode.com/problems/number-of-divisible-triplet-sums;Medium;Hash Table;true
+2965;Find Missing and Repeated Values;https://leetcode.com/problems/find-missing-and-repeated-values;Easy;Hash Table;false
+2975;Maximum Square Area by Removing Fences From a Field;https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field;Medium;Hash Table;false
+2981;Find Longest Special Substring That Occurs Thrice I;https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i;Medium;Hash Table;false
+2982;Find Longest Special Substring That Occurs Thrice II;https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-ii;Medium;Hash Table;false
+2983;Palindrome Rearrangement Queries;https://leetcode.com/problems/palindrome-rearrangement-queries;Hard;Hash Table;false
+2996;Smallest Missing Integer Greater Than Sequential Prefix Sum;https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum;Easy;Hash Table;false
+3002;Maximum Size of a Set After Removals;https://leetcode.com/problems/maximum-size-of-a-set-after-removals;Medium;Hash Table;false
+3005;Count Elements With Maximum Frequency;https://leetcode.com/problems/count-elements-with-maximum-frequency;Easy;Hash Table;false
+3013;Divide an Array Into Subarrays With Minimum Cost II;https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii;Hard;Hash Table;false
+3016;Minimum Number of Pushes to Type Word II;https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii;Medium;Hash Table;false
+3020;Find the Maximum Number of Elements in Subset;https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset;Medium;Hash Table;false
+3026;Maximum Good Subarray Sum;https://leetcode.com/problems/maximum-good-subarray-sum;Medium;Hash Table;false
+3032;Count Numbers With Unique Digits II;https://leetcode.com/problems/count-numbers-with-unique-digits-ii;Easy;Hash Table;true
+3035;Maximum Palindromes After Operations;https://leetcode.com/problems/maximum-palindromes-after-operations;Medium;Hash Table;false
+3039;Apply Operations to Make String Empty;https://leetcode.com/problems/apply-operations-to-make-string-empty;Medium;Hash Table;false
+3043;Find the Length of the Longest Common Prefix;https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix;Medium;Hash Table;false
+3044;Most Frequent Prime;https://leetcode.com/problems/most-frequent-prime;Medium;Hash Table;false
+3046;Split the Array;https://leetcode.com/problems/split-the-array;Easy;Hash Table;false
+3063;Linked List Frequency;https://leetcode.com/problems/linked-list-frequency;Easy;Hash Table;true
+3071;Minimum Operations to Write the Letter Y on a Grid;https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid;Medium;Hash Table;false
+3076;Shortest Uncommon Substring in an Array;https://leetcode.com/problems/shortest-uncommon-substring-in-an-array;Medium;Hash Table;false
+3078;Match Alphanumerical Pattern in Matrix I;https://leetcode.com/problems/match-alphanumerical-pattern-in-matrix-i;Medium;Hash Table;true
+3080;Mark Elements on Array by Performing Queries;https://leetcode.com/problems/mark-elements-on-array-by-performing-queries;Medium;Hash Table;false
+3081;Replace Question Marks in String to Minimize Its Value;https://leetcode.com/problems/replace-question-marks-in-string-to-minimize-its-value;Medium;Hash Table;false
+3083;Existence of a Substring in a String and Its Reverse;https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse;Easy;Hash Table;false
+3085;Minimum Deletions to Make String K-Special;https://leetcode.com/problems/minimum-deletions-to-make-string-k-special;Medium;Hash Table;false
+3090;Maximum Length Substring With Two Occurrences;https://leetcode.com/problems/maximum-length-substring-with-two-occurrences;Easy;Hash Table;false
+3092;Most Frequent IDs;https://leetcode.com/problems/most-frequent-ids;Medium;Hash Table;false
+3104;Find Longest Self-Contained Substring;https://leetcode.com/problems/find-longest-self-contained-substring;Hard;Hash Table;true
+3120;Count the Number of Special Characters I;https://leetcode.com/problems/count-the-number-of-special-characters-i;Easy;Hash Table;false
+3121;Count the Number of Special Characters II;https://leetcode.com/problems/count-the-number-of-special-characters-ii;Medium;Hash Table;false
+3128;Right Triangles;https://leetcode.com/problems/right-triangles;Medium;Hash Table;false
+3134;Find the Median of the Uniqueness Array;https://leetcode.com/problems/find-the-median-of-the-uniqueness-array;Hard;Hash Table;false
+3137;Minimum Number of Operations to Make Word K-Periodic;https://leetcode.com/problems/minimum-number-of-operations-to-make-word-k-periodic;Medium;Hash Table;false
+3138;Minimum Length of Anagram Concatenation;https://leetcode.com/problems/minimum-length-of-anagram-concatenation;Medium;Hash Table;false
+3143;Maximum Points Inside the Square;https://leetcode.com/problems/maximum-points-inside-the-square;Medium;Hash Table;false
+3144;Minimum Substring Partition of Equal Character Frequency;https://leetcode.com/problems/minimum-substring-partition-of-equal-character-frequency;Medium;Hash Table;false
+3146;Permutation Difference between Two Strings;https://leetcode.com/problems/permutation-difference-between-two-strings;Easy;Hash Table;false
+3153;Sum of Digit Differences of All Pairs;https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs;Medium;Hash Table;false
+3158;Find the XOR of Numbers Which Appear Twice;https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice;Easy;Hash Table;false
+3159;Find Occurrences of an Element in an Array;https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array;Medium;Hash Table;false
+3160;Find the Number of Distinct Colors Among the Balls;https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls;Medium;Hash Table;false
+3162;Find the Number of Good Pairs I;https://leetcode.com/problems/find-the-number-of-good-pairs-i;Easy;Hash Table;false
+3164;Find the Number of Good Pairs II;https://leetcode.com/problems/find-the-number-of-good-pairs-ii;Medium;Hash Table;false
+3167;Better Compression of String;https://leetcode.com/problems/better-compression-of-string;Medium;Hash Table;true
+3170;Lexicographically Minimum String After Removing Stars;https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars;Medium;Hash Table;false
+3176;Find the Maximum Length of a Good Subsequence I;https://leetcode.com/problems/find-the-maximum-length-of-a-good-subsequence-i;Medium;Hash Table;false
+3177;Find the Maximum Length of a Good Subsequence II;https://leetcode.com/problems/find-the-maximum-length-of-a-good-subsequence-ii;Hard;Hash Table;false
+3184;Count Pairs That Form a Complete Day I;https://leetcode.com/problems/count-pairs-that-form-a-complete-day-i;Easy;Hash Table;false
+3185;Count Pairs That Form a Complete Day II;https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii;Medium;Hash Table;false
+3186;Maximum Total Damage With Spell Casting;https://leetcode.com/problems/maximum-total-damage-with-spell-casting;Medium;Hash Table;false
+3217;Delete Nodes From Linked List Present in Array;https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array;Medium;Hash Table;false
+3223;Minimum Length of String After Operations;https://leetcode.com/problems/minimum-length-of-string-after-operations;Medium;Hash Table;false
+3224;Minimum Array Changes to Make Differences Equal;https://leetcode.com/problems/minimum-array-changes-to-make-differences-equal;Medium;Hash Table;false
+3237;Alt and Tab Simulation;https://leetcode.com/problems/alt-and-tab-simulation;Medium;Hash Table;true
+3238;Find the Number of Winning Players;https://leetcode.com/problems/find-the-number-of-winning-players;Easy;Hash Table;false
+3242;Design Neighbor Sum Service;https://leetcode.com/problems/design-neighbor-sum-service;Easy;Hash Table;false
+3265;Count Almost Equal Pairs I;https://leetcode.com/problems/count-almost-equal-pairs-i;Medium;Hash Table;false
+3267;Count Almost Equal Pairs II;https://leetcode.com/problems/count-almost-equal-pairs-ii;Hard;Hash Table;false
+3272;Find the Count of Good Integers;https://leetcode.com/problems/find-the-count-of-good-integers;Hard;Hash Table;false
+3279;Maximum Total Area Occupied by Pistons;https://leetcode.com/problems/maximum-total-area-occupied-by-pistons;Hard;Hash Table;true
+3289;The Two Sneaky Numbers of Digitville;https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville;Easy;Hash Table;false
+3295;Report Spam Message;https://leetcode.com/problems/report-spam-message;Medium;Hash Table;false
+3297;Count Substrings That Can Be Rearranged to Contain a String I;https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-i;Medium;Hash Table;false
+3298;Count Substrings That Can Be Rearranged to Contain a String II;https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii;Hard;Hash Table;false
+3299;Sum of Consecutive Subsequences;https://leetcode.com/problems/sum-of-consecutive-subsequences;Hard;Hash Table;true
+3305;Count of Substrings Containing Every Vowel and K Consonants I;https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-i;Medium;Hash Table;false
+3306;Count of Substrings Containing Every Vowel and K Consonants II;https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii;Medium;Hash Table;false
+3311;Construct 2D Grid Matching Graph Layout;https://leetcode.com/problems/construct-2d-grid-matching-graph-layout;Hard;Hash Table;false
+3312;Sorted GCD Pair Queries;https://leetcode.com/problems/sorted-gcd-pair-queries;Hard;Hash Table;false
+3316;Find Maximum Removals From Source String;https://leetcode.com/problems/find-maximum-removals-from-source-string;Medium;Hash Table;false
+3318;Find X-Sum of All K-Long Subarrays I;https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i;Easy;Hash Table;false
+3321;Find X-Sum of All K-Long Subarrays II;https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-ii;Hard;Hash Table;false
+3325;Count Substrings With K-Frequency Characters I;https://leetcode.com/problems/count-substrings-with-k-frequency-characters-i;Medium;Hash Table;false
+3327;Check if DFS Strings Are Palindromes;https://leetcode.com/problems/check-if-dfs-strings-are-palindromes;Hard;Hash Table;false
+3329;Count Substrings With K-Frequency Characters II;https://leetcode.com/problems/count-substrings-with-k-frequency-characters-ii;Hard;Hash Table;true
+3331;Find Subtree Sizes After Changes;https://leetcode.com/problems/find-subtree-sizes-after-changes;Medium;Hash Table;false
+3335;Total Characters in String After Transformations I;https://leetcode.com/problems/total-characters-in-string-after-transformations-i;Medium;Hash Table;false
+3337;Total Characters in String After Transformations II;https://leetcode.com/problems/total-characters-in-string-after-transformations-ii;Hard;Hash Table;false
+3351;Sum of Good Subsequences;https://leetcode.com/problems/sum-of-good-subsequences;Hard;Hash Table;false
+3365;Rearrange K Substrings to Form Target String;https://leetcode.com/problems/rearrange-k-substrings-to-form-target-string;Medium;Hash Table;false
+3369;Design an Array Statistics Tracker;https://leetcode.com/problems/design-an-array-statistics-tracker;Hard;Hash Table;true
+3371;Identify the Largest Outlier in an Array;https://leetcode.com/problems/identify-the-largest-outlier-in-an-array;Medium;Hash Table;false
+3375;Minimum Operations to Make Array Values Equal to K;https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k;Easy;Hash Table;false
+3378;Count Connected Components in LCM Graph;https://leetcode.com/problems/count-connected-components-in-lcm-graph;Hard;Hash Table;false
+3381;Maximum Subarray Sum With Length Divisible by K;https://leetcode.com/problems/maximum-subarray-sum-with-length-divisible-by-k;Medium;Hash Table;false
+3389;Minimum Operations to Make Character Frequencies Equal;https://leetcode.com/problems/minimum-operations-to-make-character-frequencies-equal;Hard;Hash Table;false
+3391;Design a 3D Binary Matrix with Efficient Layer Tracking;https://leetcode.com/problems/design-a-3d-binary-matrix-with-efficient-layer-tracking;Medium;Hash Table;true
+3395;Subsequences with a Unique Middle Mode I;https://leetcode.com/problems/subsequences-with-a-unique-middle-mode-i;Hard;Hash Table;false
+3396;Minimum Number of Operations to Make Elements in Array Distinct;https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct;Easy;Hash Table;false
+3404;Count Special Subsequences;https://leetcode.com/problems/count-special-subsequences;Medium;Hash Table;false
+3408;Design Task Manager;https://leetcode.com/problems/design-task-manager;Medium;Hash Table;false
+3412;Find Mirror Score of a String;https://leetcode.com/problems/find-mirror-score-of-a-string;Medium;Hash Table;false
+3416;Subsequences with a Unique Middle Mode II;https://leetcode.com/problems/subsequences-with-a-unique-middle-mode-ii;Hard;Hash Table;true
+3422;Minimum Operations to Make Subarray Elements Equal;https://leetcode.com/problems/minimum-operations-to-make-subarray-elements-equal;Medium;Hash Table;true
+3425;Longest Special Path;https://leetcode.com/problems/longest-special-path;Hard;Hash Table;false
+3431;Minimum Unlocked Indices to Sort Nums;https://leetcode.com/problems/minimum-unlocked-indices-to-sort-nums;Medium;Hash Table;true
+3434;Maximum Frequency After Subarray Operation;https://leetcode.com/problems/maximum-frequency-after-subarray-operation;Medium;Hash Table;false
+3438;Find Valid Pair of Adjacent Digits in String;https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string;Easy;Hash Table;false
+3442;Maximum Difference Between Even and Odd Frequency I;https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i;Easy;Hash Table;false
+3443;Maximum Manhattan Distance After K Changes;https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes;Medium;Hash Table;false
+3447;Assign Elements to Groups with Constraints;https://leetcode.com/problems/assign-elements-to-groups-with-constraints;Medium;Hash Table;false
+3450;Maximum Students on a Single Bench;https://leetcode.com/problems/maximum-students-on-a-single-bench;Easy;Hash Table;true
+3458;Select K Disjoint Special Substrings;https://leetcode.com/problems/select-k-disjoint-special-substrings;Medium;Hash Table;false
+3471;Find the Largest Almost Missing Integer;https://leetcode.com/problems/find-the-largest-almost-missing-integer;Easy;Hash Table;false
+3481;Apply Substitutions;https://leetcode.com/problems/apply-substitutions;Medium;Hash Table;true
+3483;Unique 3-Digit Even Numbers;https://leetcode.com/problems/unique-3-digit-even-numbers;Easy;Hash Table;false
+3484;Design Spreadsheet;https://leetcode.com/problems/design-spreadsheet;Medium;Hash Table;false
+3486;Longest Special Path II;https://leetcode.com/problems/longest-special-path-ii;Hard;Hash Table;false
+3487;Maximum Unique Subarray Sum After Deletion;https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion;Easy;Hash Table;false
+3488;Closest Equal Element Queries;https://leetcode.com/problems/closest-equal-element-queries;Medium;Hash Table;false
+3493;Properties Graph;https://leetcode.com/problems/properties-graph;Medium;Hash Table;false
+3505;Minimum Operations to Make Elements Within K Subarrays Equal;https://leetcode.com/problems/minimum-operations-to-make-elements-within-k-subarrays-equal;Hard;Hash Table;false
+3507;Minimum Pair Removal to Sort Array I;https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i;Easy;Hash Table;false
+3508;Implement Router;https://leetcode.com/problems/implement-router;Medium;Hash Table;false
+3509;Maximum Product of Subsequences With an Alternating Sum Equal to K;https://leetcode.com/problems/maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k;Hard;Hash Table;false
+3510;Minimum Pair Removal to Sort Array II;https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii;Hard;Hash Table;false
+3518;Smallest Palindromic Rearrangement II;https://leetcode.com/problems/smallest-palindromic-rearrangement-ii;Hard;Hash Table;false
+3522;Calculate Score After Performing Instructions;https://leetcode.com/problems/calculate-score-after-performing-instructions;Medium;Hash Table;false
+3527;Find the Most Common Response;https://leetcode.com/problems/find-the-most-common-response;Medium;Hash Table;false
+3531;Count Covered Buildings;https://leetcode.com/problems/count-covered-buildings;Medium;Hash Table;false
+3532;Path Existence Queries in a Graph I;https://leetcode.com/problems/path-existence-queries-in-a-graph-i;Medium;Hash Table;false
+3541;Find Most Frequent Vowel and Consonant;https://leetcode.com/problems/find-most-frequent-vowel-and-consonant;Easy;Hash Table;false
+3542;Minimum Operations to Convert All Elements to Zero;https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero;Medium;Hash Table;false
+3543;Maximum Weighted K-Edge Path;https://leetcode.com/problems/maximum-weighted-k-edge-path;Medium;Hash Table;false
+3545;Minimum Deletions for At Most K Distinct Characters;https://leetcode.com/problems/minimum-deletions-for-at-most-k-distinct-characters;Easy;Hash Table;false
+3548;Equal Sum Grid Partition II;https://leetcode.com/problems/equal-sum-grid-partition-ii;Hard;Hash Table;false
+3551;Minimum Swaps to Sort by Digit Sum;https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum;Medium;Hash Table;false
+3552;Grid Teleportation Traversal;https://leetcode.com/problems/grid-teleportation-traversal;Medium;Hash Table;false
+3556;Sum of Largest Prime Substrings;https://leetcode.com/problems/sum-of-largest-prime-substrings;Medium;Hash Table;false
+3557;Find Maximum Number of Non Intersecting Substrings;https://leetcode.com/problems/find-maximum-number-of-non-intersecting-substrings;Medium;Hash Table;false
+3568;Minimum Moves to Clean the Classroom;https://leetcode.com/problems/minimum-moves-to-clean-the-classroom;Medium;Hash Table;false
+3572;Maximize Y‑Sum by Picking a Triplet of Distinct X‑Values;https://leetcode.com/problems/maximize-ysum-by-picking-a-triplet-of-distinct-xvalues;Medium;Hash Table;false
+3581;Count Odd Letters from Number;https://leetcode.com/problems/count-odd-letters-from-number;Easy;Hash Table;true
+3583;Count Special Triplets;https://leetcode.com/problems/count-special-triplets;Medium;Hash Table;false
+3588;Find Maximum Area of a Triangle;https://leetcode.com/problems/find-maximum-area-of-a-triangle;Medium;Hash Table;false
+3591;Check if Any Element Has Prime Frequency;https://leetcode.com/problems/check-if-any-element-has-prime-frequency;Easy;Hash Table;false
+3597;Partition String;https://leetcode.com/problems/partition-string;Medium;Hash Table;false
+3606;Coupon Code Validator;https://leetcode.com/problems/coupon-code-validator;Easy;Hash Table;false
+3607;Power Grid Maintenance;https://leetcode.com/problems/power-grid-maintenance;Medium;Hash Table;false
+3623;Count Number of Trapezoids I;https://leetcode.com/problems/count-number-of-trapezoids-i;Medium;Hash Table;false
+3625;Count Number of Trapezoids II;https://leetcode.com/problems/count-number-of-trapezoids-ii;Hard;Hash Table;false
+3629;Minimum Jumps to Reach End via Prime Teleportation;https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation;Medium;Hash Table;false
+3636;Threshold Majority Queries;https://leetcode.com/problems/threshold-majority-queries;Hard;Hash Table;false

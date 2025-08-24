@@ -1,0 +1,93 @@
+id;name;url;difficulty;category;is_premium
+128;Longest Consecutive Sequence;https://leetcode.com/problems/longest-consecutive-sequence;Medium;Union Find;false
+130;Surrounded Regions;https://leetcode.com/problems/surrounded-regions;Medium;Union Find;false
+200;Number of Islands;https://leetcode.com/problems/number-of-islands;Medium;Union Find;false
+261;Graph Valid Tree;https://leetcode.com/problems/graph-valid-tree;Medium;Union Find;true
+305;Number of Islands II;https://leetcode.com/problems/number-of-islands-ii;Hard;Union Find;true
+323;Number of Connected Components in an Undirected Graph;https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph;Medium;Union Find;true
+399;Evaluate Division;https://leetcode.com/problems/evaluate-division;Medium;Union Find;false
+547;Number of Provinces;https://leetcode.com/problems/number-of-provinces;Medium;Union Find;false
+684;Redundant Connection;https://leetcode.com/problems/redundant-connection;Medium;Union Find;false
+685;Redundant Connection II;https://leetcode.com/problems/redundant-connection-ii;Hard;Union Find;false
+694;Number of Distinct Islands;https://leetcode.com/problems/number-of-distinct-islands;Medium;Union Find;true
+695;Max Area of Island;https://leetcode.com/problems/max-area-of-island;Medium;Union Find;false
+711;Number of Distinct Islands II;https://leetcode.com/problems/number-of-distinct-islands-ii;Hard;Union Find;true
+721;Accounts Merge;https://leetcode.com/problems/accounts-merge;Medium;Union Find;false
+737;Sentence Similarity II;https://leetcode.com/problems/sentence-similarity-ii;Medium;Union Find;true
+765;Couples Holding Hands;https://leetcode.com/problems/couples-holding-hands;Hard;Union Find;false
+778;Swim in Rising Water;https://leetcode.com/problems/swim-in-rising-water;Hard;Union Find;false
+785;Is Graph Bipartite?;https://leetcode.com/problems/is-graph-bipartite;Medium;Union Find;false
+803;Bricks Falling When Hit;https://leetcode.com/problems/bricks-falling-when-hit;Hard;Union Find;false
+827;Making A Large Island;https://leetcode.com/problems/making-a-large-island;Hard;Union Find;false
+839;Similar String Groups;https://leetcode.com/problems/similar-string-groups;Hard;Union Find;false
+886;Possible Bipartition;https://leetcode.com/problems/possible-bipartition;Medium;Union Find;false
+924;Minimize Malware Spread;https://leetcode.com/problems/minimize-malware-spread;Hard;Union Find;false
+928;Minimize Malware Spread II;https://leetcode.com/problems/minimize-malware-spread-ii;Hard;Union Find;false
+947;Most Stones Removed with Same Row or Column;https://leetcode.com/problems/most-stones-removed-with-same-row-or-column;Medium;Union Find;false
+952;Largest Component Size by Common Factor;https://leetcode.com/problems/largest-component-size-by-common-factor;Hard;Union Find;false
+959;Regions Cut By Slashes;https://leetcode.com/problems/regions-cut-by-slashes;Medium;Union Find;false
+990;Satisfiability of Equality Equations;https://leetcode.com/problems/satisfiability-of-equality-equations;Medium;Union Find;false
+1020;Number of Enclaves;https://leetcode.com/problems/number-of-enclaves;Medium;Union Find;false
+1061;Lexicographically Smallest Equivalent String;https://leetcode.com/problems/lexicographically-smallest-equivalent-string;Medium;Union Find;false
+1101;The Earliest Moment When Everyone Become Friends;https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends;Medium;Union Find;true
+1102;Path With Maximum Minimum Value;https://leetcode.com/problems/path-with-maximum-minimum-value;Medium;Union Find;true
+1135;Connecting Cities With Minimum Cost;https://leetcode.com/problems/connecting-cities-with-minimum-cost;Medium;Union Find;true
+1168;Optimize Water Distribution in a Village;https://leetcode.com/problems/optimize-water-distribution-in-a-village;Hard;Union Find;true
+1202;Smallest String With Swaps;https://leetcode.com/problems/smallest-string-with-swaps;Medium;Union Find;false
+1254;Number of Closed Islands;https://leetcode.com/problems/number-of-closed-islands;Medium;Union Find;false
+1258;Synonymous Sentences;https://leetcode.com/problems/synonymous-sentences;Medium;Union Find;true
+1267;Count Servers that Communicate;https://leetcode.com/problems/count-servers-that-communicate;Medium;Union Find;false
+1319;Number of Operations to Make Network Connected;https://leetcode.com/problems/number-of-operations-to-make-network-connected;Medium;Union Find;false
+1361;Validate Binary Tree Nodes;https://leetcode.com/problems/validate-binary-tree-nodes;Medium;Union Find;false
+1391;Check if There is a Valid Path in a Grid;https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid;Medium;Union Find;false
+1489;Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree;https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree;Hard;Union Find;false
+1559;Detect Cycles in 2D Grid;https://leetcode.com/problems/detect-cycles-in-2d-grid;Medium;Union Find;false
+1569;Number of Ways to Reorder Array to Get Same BST;https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst;Hard;Union Find;false
+1579;Remove Max Number of Edges to Keep Graph Fully Traversable;https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable;Hard;Union Find;false
+1584;Min Cost to Connect All Points;https://leetcode.com/problems/min-cost-to-connect-all-points;Medium;Union Find;false
+1627;Graph Connectivity With Threshold;https://leetcode.com/problems/graph-connectivity-with-threshold;Hard;Union Find;false
+1631;Path With Minimum Effort;https://leetcode.com/problems/path-with-minimum-effort;Medium;Union Find;false
+1632;Rank Transform of a Matrix;https://leetcode.com/problems/rank-transform-of-a-matrix;Hard;Union Find;false
+1697;Checking Existence of Edge Length Limited Paths;https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths;Hard;Union Find;false
+1722;Minimize Hamming Distance After Swap Operations;https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations;Medium;Union Find;false
+1724;Checking Existence of Edge Length Limited Paths II;https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths-ii;Hard;Union Find;true
+1905;Count Sub Islands;https://leetcode.com/problems/count-sub-islands;Medium;Union Find;false
+1970;Last Day Where You Can Still Cross;https://leetcode.com/problems/last-day-where-you-can-still-cross;Hard;Union Find;false
+1971;Find if Path Exists in Graph;https://leetcode.com/problems/find-if-path-exists-in-graph;Easy;Union Find;false
+1998;GCD Sort of an Array;https://leetcode.com/problems/gcd-sort-of-an-array;Hard;Union Find;false
+2003;Smallest Missing Genetic Value in Each Subtree;https://leetcode.com/problems/smallest-missing-genetic-value-in-each-subtree;Hard;Union Find;false
+2076;Process Restricted Friend Requests;https://leetcode.com/problems/process-restricted-friend-requests;Hard;Union Find;false
+2092;Find All People With Secret;https://leetcode.com/problems/find-all-people-with-secret;Hard;Union Find;false
+2157;Groups of Strings;https://leetcode.com/problems/groups-of-strings;Hard;Union Find;false
+2204;Distance to a Cycle in Undirected Graph;https://leetcode.com/problems/distance-to-a-cycle-in-undirected-graph;Hard;Union Find;true
+2307;Check for Contradictions in Equations;https://leetcode.com/problems/check-for-contradictions-in-equations;Hard;Union Find;true
+2316;Count Unreachable Pairs of Nodes in an Undirected Graph;https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph;Medium;Union Find;false
+2334;Subarray With Elements Greater Than Varying Threshold;https://leetcode.com/problems/subarray-with-elements-greater-than-varying-threshold;Hard;Union Find;false
+2368;Reachable Nodes With Restrictions;https://leetcode.com/problems/reachable-nodes-with-restrictions;Medium;Union Find;false
+2371;Minimize Maximum Value in a Grid;https://leetcode.com/problems/minimize-maximum-value-in-a-grid;Hard;Union Find;true
+2382;Maximum Segment Sum After Removals;https://leetcode.com/problems/maximum-segment-sum-after-removals;Hard;Union Find;false
+2421;Number of Good Paths;https://leetcode.com/problems/number-of-good-paths;Hard;Union Find;false
+2424;Longest Uploaded Prefix;https://leetcode.com/problems/longest-uploaded-prefix;Medium;Union Find;false
+2492;Minimum Score of a Path Between Two Cities;https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities;Medium;Union Find;false
+2493;Divide Nodes Into the Maximum Number of Groups;https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups;Hard;Union Find;false
+2503;Maximum Number of Points From Grid Queries;https://leetcode.com/problems/maximum-number-of-points-from-grid-queries;Hard;Union Find;false
+2573;Find the String with LCP;https://leetcode.com/problems/find-the-string-with-lcp;Hard;Union Find;false
+2617;Minimum Number of Visited Cells in a Grid;https://leetcode.com/problems/minimum-number-of-visited-cells-in-a-grid;Hard;Union Find;false
+2658;Maximum Number of Fish in a Grid;https://leetcode.com/problems/maximum-number-of-fish-in-a-grid;Medium;Union Find;false
+2685;Count the Number of Complete Components;https://leetcode.com/problems/count-the-number-of-complete-components;Medium;Union Find;false
+2709;Greatest Common Divisor Traversal;https://leetcode.com/problems/greatest-common-divisor-traversal;Hard;Union Find;false
+2782;Number of Unique Categories;https://leetcode.com/problems/number-of-unique-categories;Medium;Union Find;true
+2812;Find the Safest Path in a Grid;https://leetcode.com/problems/find-the-safest-path-in-a-grid;Medium;Union Find;false
+2852;Sum of Remoteness of All Cells;https://leetcode.com/problems/sum-of-remoteness-of-all-cells;Medium;Union Find;true
+2948;Make Lexicographically Smallest Array by Swapping Elements;https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements;Medium;Union Find;false
+3108;Minimum Cost Walk in Weighted Graph;https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph;Hard;Union Find;false
+3235;Check if the Rectangle Corner Is Reachable;https://leetcode.com/problems/check-if-the-rectangle-corner-is-reachable;Hard;Union Find;false
+3378;Count Connected Components in LCM Graph;https://leetcode.com/problems/count-connected-components-in-lcm-graph;Hard;Union Find;false
+3383;Minimum Runes to Add to Cast Spell;https://leetcode.com/problems/minimum-runes-to-add-to-cast-spell;Hard;Union Find;true
+3493;Properties Graph;https://leetcode.com/problems/properties-graph;Medium;Union Find;false
+3532;Path Existence Queries in a Graph I;https://leetcode.com/problems/path-existence-queries-in-a-graph-i;Medium;Union Find;false
+3600;Maximize Spanning Tree Stability with Upgrades;https://leetcode.com/problems/maximize-spanning-tree-stability-with-upgrades;Hard;Union Find;false
+3607;Power Grid Maintenance;https://leetcode.com/problems/power-grid-maintenance;Medium;Union Find;false
+3608;Minimum Time for K Connected Components;https://leetcode.com/problems/minimum-time-for-k-connected-components;Medium;Union Find;false
+3613;Minimize Maximum Component Cost;https://leetcode.com/problems/minimize-maximum-component-cost;Medium;Union Find;false
+3619;Count Islands With Total Value Divisible by K;https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k;Medium;Union Find;false

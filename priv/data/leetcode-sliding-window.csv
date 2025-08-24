@@ -1,0 +1,156 @@
+id;name;url;difficulty;category;is_premium
+3;Longest Substring Without Repeating Characters;https://leetcode.com/problems/longest-substring-without-repeating-characters;Medium;Sliding Window;false
+30;Substring with Concatenation of All Words;https://leetcode.com/problems/substring-with-concatenation-of-all-words;Hard;Sliding Window;false
+76;Minimum Window Substring;https://leetcode.com/problems/minimum-window-substring;Hard;Sliding Window;false
+159;Longest Substring with At Most Two Distinct Characters;https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters;Medium;Sliding Window;true
+187;Repeated DNA Sequences;https://leetcode.com/problems/repeated-dna-sequences;Medium;Sliding Window;false
+209;Minimum Size Subarray Sum;https://leetcode.com/problems/minimum-size-subarray-sum;Medium;Sliding Window;false
+219;Contains Duplicate II;https://leetcode.com/problems/contains-duplicate-ii;Easy;Sliding Window;false
+220;Contains Duplicate III;https://leetcode.com/problems/contains-duplicate-iii;Hard;Sliding Window;false
+239;Sliding Window Maximum;https://leetcode.com/problems/sliding-window-maximum;Hard;Sliding Window;false
+340;Longest Substring with At Most K Distinct Characters;https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters;Medium;Sliding Window;true
+395;Longest Substring with At Least K Repeating Characters;https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters;Medium;Sliding Window;false
+413;Arithmetic Slices;https://leetcode.com/problems/arithmetic-slices;Medium;Sliding Window;false
+424;Longest Repeating Character Replacement;https://leetcode.com/problems/longest-repeating-character-replacement;Medium;Sliding Window;false
+438;Find All Anagrams in a String;https://leetcode.com/problems/find-all-anagrams-in-a-string;Medium;Sliding Window;false
+480;Sliding Window Median;https://leetcode.com/problems/sliding-window-median;Hard;Sliding Window;false
+487;Max Consecutive Ones II;https://leetcode.com/problems/max-consecutive-ones-ii;Medium;Sliding Window;true
+567;Permutation in String;https://leetcode.com/problems/permutation-in-string;Medium;Sliding Window;false
+594;Longest Harmonious Subsequence;https://leetcode.com/problems/longest-harmonious-subsequence;Easy;Sliding Window;false
+632;Smallest Range Covering Elements from K Lists;https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists;Hard;Sliding Window;false
+643;Maximum Average Subarray I;https://leetcode.com/problems/maximum-average-subarray-i;Easy;Sliding Window;false
+658;Find K Closest Elements;https://leetcode.com/problems/find-k-closest-elements;Medium;Sliding Window;false
+683;K Empty Slots;https://leetcode.com/problems/k-empty-slots;Hard;Sliding Window;true
+689;Maximum Sum of 3 Non-Overlapping Subarrays;https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays;Hard;Sliding Window;false
+713;Subarray Product Less Than K;https://leetcode.com/problems/subarray-product-less-than-k;Medium;Sliding Window;false
+718;Maximum Length of Repeated Subarray;https://leetcode.com/problems/maximum-length-of-repeated-subarray;Medium;Sliding Window;false
+727;Minimum Window Subsequence;https://leetcode.com/problems/minimum-window-subsequence;Hard;Sliding Window;true
+837;New 21 Game;https://leetcode.com/problems/new-21-game;Medium;Sliding Window;false
+862;Shortest Subarray with Sum at Least K;https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k;Hard;Sliding Window;false
+904;Fruit Into Baskets;https://leetcode.com/problems/fruit-into-baskets;Medium;Sliding Window;false
+930;Binary Subarrays With Sum;https://leetcode.com/problems/binary-subarrays-with-sum;Medium;Sliding Window;false
+978;Longest Turbulent Subarray;https://leetcode.com/problems/longest-turbulent-subarray;Medium;Sliding Window;false
+992;Subarrays with K Different Integers;https://leetcode.com/problems/subarrays-with-k-different-integers;Hard;Sliding Window;false
+995;Minimum Number of K Consecutive Bit Flips;https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips;Hard;Sliding Window;false
+1004;Max Consecutive Ones III;https://leetcode.com/problems/max-consecutive-ones-iii;Medium;Sliding Window;false
+1016;Binary String With Substrings Representing 1 To N;https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n;Medium;Sliding Window;false
+1031;Maximum Sum of Two Non-Overlapping Subarrays;https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays;Medium;Sliding Window;false
+1040;Moving Stones Until Consecutive II;https://leetcode.com/problems/moving-stones-until-consecutive-ii;Medium;Sliding Window;false
+1044;Longest Duplicate Substring;https://leetcode.com/problems/longest-duplicate-substring;Hard;Sliding Window;false
+1052;Grumpy Bookstore Owner;https://leetcode.com/problems/grumpy-bookstore-owner;Medium;Sliding Window;false
+1100;Find K-Length Substrings With No Repeated Characters;https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters;Medium;Sliding Window;true
+1151;Minimum Swaps to Group All 1's Together;https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together;Medium;Sliding Window;true
+1156;Swap For Longest Repeated Character Substring;https://leetcode.com/problems/swap-for-longest-repeated-character-substring;Medium;Sliding Window;false
+1176;Diet Plan Performance;https://leetcode.com/problems/diet-plan-performance;Easy;Sliding Window;true
+1208;Get Equal Substrings Within Budget;https://leetcode.com/problems/get-equal-substrings-within-budget;Medium;Sliding Window;false
+1234;Replace the Substring for Balanced String;https://leetcode.com/problems/replace-the-substring-for-balanced-string;Medium;Sliding Window;false
+1248;Count Number of Nice Subarrays;https://leetcode.com/problems/count-number-of-nice-subarrays;Medium;Sliding Window;false
+1297;Maximum Number of Occurrences of a Substring;https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring;Medium;Sliding Window;false
+1343;Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold;https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold;Medium;Sliding Window;false
+1358;Number of Substrings Containing All Three Characters;https://leetcode.com/problems/number-of-substrings-containing-all-three-characters;Medium;Sliding Window;false
+1423;Maximum Points You Can Obtain from Cards;https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards;Medium;Sliding Window;false
+1425;Constrained Subsequence Sum;https://leetcode.com/problems/constrained-subsequence-sum;Hard;Sliding Window;false
+1438;Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit;https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit;Medium;Sliding Window;false
+1456;Maximum Number of Vowels in a Substring of Given Length;https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length;Medium;Sliding Window;false
+1477;Find Two Non-overlapping Sub-arrays Each With Target Sum;https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum;Medium;Sliding Window;false
+1493;Longest Subarray of 1's After Deleting One Element;https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element;Medium;Sliding Window;false
+1499;Max Value of Equation;https://leetcode.com/problems/max-value-of-equation;Hard;Sliding Window;false
+1610;Maximum Number of Visible Points;https://leetcode.com/problems/maximum-number-of-visible-points;Hard;Sliding Window;false
+1652;Defuse the Bomb;https://leetcode.com/problems/defuse-the-bomb;Easy;Sliding Window;false
+1658;Minimum Operations to Reduce X to Zero;https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero;Medium;Sliding Window;false
+1695;Maximum Erasure Value;https://leetcode.com/problems/maximum-erasure-value;Medium;Sliding Window;false
+1703;Minimum Adjacent Swaps for K Consecutive Ones;https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones;Hard;Sliding Window;false
+1763;Longest Nice Substring;https://leetcode.com/problems/longest-nice-substring;Easy;Sliding Window;false
+1838;Frequency of the Most Frequent Element;https://leetcode.com/problems/frequency-of-the-most-frequent-element;Medium;Sliding Window;false
+1839;Longest Substring Of All Vowels in Order;https://leetcode.com/problems/longest-substring-of-all-vowels-in-order;Medium;Sliding Window;false
+1852;Distinct Numbers in Each Subarray;https://leetcode.com/problems/distinct-numbers-in-each-subarray;Medium;Sliding Window;true
+1871;Jump Game VII;https://leetcode.com/problems/jump-game-vii;Medium;Sliding Window;false
+1876;Substrings of Size Three with Distinct Characters;https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters;Easy;Sliding Window;false
+1888;Minimum Number of Flips to Make the Binary String Alternating;https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating;Medium;Sliding Window;false
+1918;Kth Smallest Subarray Sum;https://leetcode.com/problems/kth-smallest-subarray-sum;Medium;Sliding Window;true
+1984;Minimum Difference Between Highest and Lowest of K Scores;https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores;Easy;Sliding Window;false
+2009;Minimum Number of Operations to Make Array Continuous;https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous;Hard;Sliding Window;false
+2024;Maximize the Confusion of an Exam;https://leetcode.com/problems/maximize-the-confusion-of-an-exam;Medium;Sliding Window;false
+2067;Number of Equal Count Substrings;https://leetcode.com/problems/number-of-equal-count-substrings;Medium;Sliding Window;true
+2090;K Radius Subarray Averages;https://leetcode.com/problems/k-radius-subarray-averages;Medium;Sliding Window;false
+2106;Maximum Fruits Harvested After at Most K Steps;https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps;Hard;Sliding Window;false
+2107;Number of Unique Flavors After Sharing K Candies;https://leetcode.com/problems/number-of-unique-flavors-after-sharing-k-candies;Medium;Sliding Window;true
+2134;Minimum Swaps to Group All 1's Together II;https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii;Medium;Sliding Window;false
+2156;Find Substring With Given Hash Value;https://leetcode.com/problems/find-substring-with-given-hash-value;Hard;Sliding Window;false
+2260;Minimum Consecutive Cards to Pick Up;https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up;Medium;Sliding Window;false
+2269;Find the K-Beauty of a Number;https://leetcode.com/problems/find-the-k-beauty-of-a-number;Easy;Sliding Window;false
+2271;Maximum White Tiles Covered by a Carpet;https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet;Medium;Sliding Window;false
+2302;Count Subarrays With Score Less Than K;https://leetcode.com/problems/count-subarrays-with-score-less-than-k;Hard;Sliding Window;false
+2379;Minimum Recolors to Get K Consecutive Black Blocks;https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks;Easy;Sliding Window;false
+2398;Maximum Number of Robots Within Budget;https://leetcode.com/problems/maximum-number-of-robots-within-budget;Hard;Sliding Window;false
+2401;Longest Nice Subarray;https://leetcode.com/problems/longest-nice-subarray;Medium;Sliding Window;false
+2411;Smallest Subarrays With Maximum Bitwise OR;https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or;Medium;Sliding Window;false
+2444;Count Subarrays With Fixed Bounds;https://leetcode.com/problems/count-subarrays-with-fixed-bounds;Hard;Sliding Window;false
+2461;Maximum Sum of Distinct Subarrays With Length K;https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k;Medium;Sliding Window;false
+2516;Take K of Each Character From Left and Right;https://leetcode.com/problems/take-k-of-each-character-from-left-and-right;Medium;Sliding Window;false
+2524;Maximum Frequency Score of a Subarray;https://leetcode.com/problems/maximum-frequency-score-of-a-subarray;Hard;Sliding Window;true
+2528;Maximize the Minimum Powered City;https://leetcode.com/problems/maximize-the-minimum-powered-city;Hard;Sliding Window;false
+2537;Count the Number of Good Subarrays;https://leetcode.com/problems/count-the-number-of-good-subarrays;Medium;Sliding Window;false
+2555;Maximize Win From Two Segments;https://leetcode.com/problems/maximize-win-from-two-segments;Medium;Sliding Window;false
+2653;Sliding Subarray Beauty;https://leetcode.com/problems/sliding-subarray-beauty;Medium;Sliding Window;false
+2730;Find the Longest Semi-Repetitive Substring;https://leetcode.com/problems/find-the-longest-semi-repetitive-substring;Medium;Sliding Window;false
+2743;Count Substrings Without Repeating Character;https://leetcode.com/problems/count-substrings-without-repeating-character;Medium;Sliding Window;true
+2747;Count Zero Request Servers;https://leetcode.com/problems/count-zero-request-servers;Medium;Sliding Window;false
+2760;Longest Even Odd Subarray With Threshold;https://leetcode.com/problems/longest-even-odd-subarray-with-threshold;Easy;Sliding Window;false
+2762;Continuous Subarrays;https://leetcode.com/problems/continuous-subarrays;Medium;Sliding Window;false
+2779;Maximum Beauty of an Array After Applying Operation;https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation;Medium;Sliding Window;false
+2781;Length of the Longest Valid Substring;https://leetcode.com/problems/length-of-the-longest-valid-substring;Hard;Sliding Window;false
+2799;Count Complete Subarrays in an Array;https://leetcode.com/problems/count-complete-subarrays-in-an-array;Medium;Sliding Window;false
+2831;Find the Longest Equal Subarray;https://leetcode.com/problems/find-the-longest-equal-subarray;Medium;Sliding Window;false
+2841;Maximum Sum of Almost Unique Subarray;https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray;Medium;Sliding Window;false
+2875;Minimum Size Subarray in Infinite Array;https://leetcode.com/problems/minimum-size-subarray-in-infinite-array;Medium;Sliding Window;false
+2902;Count of Sub-Multisets With Bounded Sum;https://leetcode.com/problems/count-of-sub-multisets-with-bounded-sum;Hard;Sliding Window;false
+2904;Shortest and Lexicographically Smallest Beautiful String;https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string;Medium;Sliding Window;false
+2932;Maximum Strong Pair XOR I;https://leetcode.com/problems/maximum-strong-pair-xor-i;Easy;Sliding Window;false
+2935;Maximum Strong Pair XOR II;https://leetcode.com/problems/maximum-strong-pair-xor-ii;Hard;Sliding Window;false
+2953;Count Complete Substrings;https://leetcode.com/problems/count-complete-substrings;Hard;Sliding Window;false
+2958;Length of Longest Subarray With at Most K Frequency;https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency;Medium;Sliding Window;false
+2962;Count Subarrays Where Max Element Appears at Least K Times;https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times;Medium;Sliding Window;false
+2968;Apply Operations to Maximize Frequency Score;https://leetcode.com/problems/apply-operations-to-maximize-frequency-score;Hard;Sliding Window;false
+2981;Find Longest Special Substring That Occurs Thrice I;https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i;Medium;Sliding Window;false
+2982;Find Longest Special Substring That Occurs Thrice II;https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-ii;Medium;Sliding Window;false
+3013;Divide an Array Into Subarrays With Minimum Cost II;https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii;Hard;Sliding Window;false
+3023;Find Pattern in Infinite Stream I;https://leetcode.com/problems/find-pattern-in-infinite-stream-i;Medium;Sliding Window;true
+3037;Find Pattern in Infinite Stream II;https://leetcode.com/problems/find-pattern-in-infinite-stream-ii;Hard;Sliding Window;true
+3086;Minimum Moves to Pick K Ones;https://leetcode.com/problems/minimum-moves-to-pick-k-ones;Hard;Sliding Window;false
+3090;Maximum Length Substring With Two Occurrences;https://leetcode.com/problems/maximum-length-substring-with-two-occurrences;Easy;Sliding Window;false
+3095;Shortest Subarray With OR at Least K I;https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-i;Easy;Sliding Window;false
+3097;Shortest Subarray With OR at Least K II;https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii;Medium;Sliding Window;false
+3134;Find the Median of the Uniqueness Array;https://leetcode.com/problems/find-the-median-of-the-uniqueness-array;Hard;Sliding Window;false
+3135;Equalize Strings by Adding or Removing Characters at Ends;https://leetcode.com/problems/equalize-strings-by-adding-or-removing-characters-at-ends;Medium;Sliding Window;true
+3191;Minimum Operations to Make Binary Array Elements Equal to One I;https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i;Medium;Sliding Window;false
+3206;Alternating Groups I;https://leetcode.com/problems/alternating-groups-i;Easy;Sliding Window;false
+3208;Alternating Groups II;https://leetcode.com/problems/alternating-groups-ii;Medium;Sliding Window;false
+3234;Count the Number of Substrings With Dominant Ones;https://leetcode.com/problems/count-the-number-of-substrings-with-dominant-ones;Medium;Sliding Window;false
+3254;Find the Power of K-Size Subarrays I;https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i;Medium;Sliding Window;false
+3255;Find the Power of K-Size Subarrays II;https://leetcode.com/problems/find-the-power-of-k-size-subarrays-ii;Medium;Sliding Window;false
+3258;Count Substrings That Satisfy K-Constraint I;https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i;Easy;Sliding Window;false
+3261;Count Substrings That Satisfy K-Constraint II;https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-ii;Hard;Sliding Window;false
+3297;Count Substrings That Can Be Rearranged to Contain a String I;https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-i;Medium;Sliding Window;false
+3298;Count Substrings That Can Be Rearranged to Contain a String II;https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii;Hard;Sliding Window;false
+3305;Count of Substrings Containing Every Vowel and K Consonants I;https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-i;Medium;Sliding Window;false
+3306;Count of Substrings Containing Every Vowel and K Consonants II;https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii;Medium;Sliding Window;false
+3318;Find X-Sum of All K-Long Subarrays I;https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i;Easy;Sliding Window;false
+3321;Find X-Sum of All K-Long Subarrays II;https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-ii;Hard;Sliding Window;false
+3323;Minimize Connected Groups by Inserting Interval;https://leetcode.com/problems/minimize-connected-groups-by-inserting-interval;Medium;Sliding Window;true
+3325;Count Substrings With K-Frequency Characters I;https://leetcode.com/problems/count-substrings-with-k-frequency-characters-i;Medium;Sliding Window;false
+3329;Count Substrings With K-Frequency Characters II;https://leetcode.com/problems/count-substrings-with-k-frequency-characters-ii;Hard;Sliding Window;true
+3346;Maximum Frequency of an Element After Performing Operations I;https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-i;Medium;Sliding Window;false
+3347;Maximum Frequency of an Element After Performing Operations II;https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii;Hard;Sliding Window;false
+3364;Minimum Positive Sum Subarray;https://leetcode.com/problems/minimum-positive-sum-subarray;Easy;Sliding Window;false
+3411;Maximum Subarray With Equal Products;https://leetcode.com/problems/maximum-subarray-with-equal-products;Easy;Sliding Window;false
+3413;Maximum Coins From K Consecutive Bags;https://leetcode.com/problems/maximum-coins-from-k-consecutive-bags;Medium;Sliding Window;false
+3420;Count Non-Decreasing Subarrays After K Operations;https://leetcode.com/problems/count-non-decreasing-subarrays-after-k-operations;Hard;Sliding Window;false
+3422;Minimum Operations to Make Subarray Elements Equal;https://leetcode.com/problems/minimum-operations-to-make-subarray-elements-equal;Medium;Sliding Window;true
+3439;Reschedule Meetings for Maximum Free Time I;https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-i;Medium;Sliding Window;false
+3445;Maximum Difference Between Even and Odd Frequency II;https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-ii;Hard;Sliding Window;false
+3505;Minimum Operations to Make Elements Within K Subarrays Equal;https://leetcode.com/problems/minimum-operations-to-make-elements-within-k-subarrays-equal;Hard;Sliding Window;false
+3578;Count Partitions With Max-Min Difference at Most K;https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k;Medium;Sliding Window;false
+3589;Count Prime-Gap Balanced Subarrays;https://leetcode.com/problems/count-prime-gap-balanced-subarrays;Medium;Sliding Window;false
+3634;Minimum Removals to Balance Array;https://leetcode.com/problems/minimum-removals-to-balance-array;Medium;Sliding Window;false
+3652;Best Time to Buy and Sell Stock using Strategy;https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy;Medium;Sliding Window;false

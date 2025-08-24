@@ -1,0 +1,224 @@
+id;name;url;difficulty;category;is_premium
+5;Longest Palindromic Substring;https://leetcode.com/problems/longest-palindromic-substring;Medium;Two Pointers;false
+11;Container With Most Water;https://leetcode.com/problems/container-with-most-water;Medium;Two Pointers;false
+15;3Sum;https://leetcode.com/problems/3sum;Medium;Two Pointers;false
+16;3Sum Closest;https://leetcode.com/problems/3sum-closest;Medium;Two Pointers;false
+18;4Sum;https://leetcode.com/problems/4sum;Medium;Two Pointers;false
+19;Remove Nth Node From End of List;https://leetcode.com/problems/remove-nth-node-from-end-of-list;Medium;Two Pointers;false
+26;Remove Duplicates from Sorted Array;https://leetcode.com/problems/remove-duplicates-from-sorted-array;Easy;Two Pointers;false
+27;Remove Element;https://leetcode.com/problems/remove-element;Easy;Two Pointers;false
+28;Find the Index of the First Occurrence in a String;https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string;Easy;Two Pointers;false
+31;Next Permutation;https://leetcode.com/problems/next-permutation;Medium;Two Pointers;false
+42;Trapping Rain Water;https://leetcode.com/problems/trapping-rain-water;Hard;Two Pointers;false
+61;Rotate List;https://leetcode.com/problems/rotate-list;Medium;Two Pointers;false
+75;Sort Colors;https://leetcode.com/problems/sort-colors;Medium;Two Pointers;false
+80;Remove Duplicates from Sorted Array II;https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii;Medium;Two Pointers;false
+82;Remove Duplicates from Sorted List II;https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii;Medium;Two Pointers;false
+86;Partition List;https://leetcode.com/problems/partition-list;Medium;Two Pointers;false
+88;Merge Sorted Array;https://leetcode.com/problems/merge-sorted-array;Easy;Two Pointers;false
+125;Valid Palindrome;https://leetcode.com/problems/valid-palindrome;Easy;Two Pointers;false
+141;Linked List Cycle;https://leetcode.com/problems/linked-list-cycle;Easy;Two Pointers;false
+142;Linked List Cycle II;https://leetcode.com/problems/linked-list-cycle-ii;Medium;Two Pointers;false
+143;Reorder List;https://leetcode.com/problems/reorder-list;Medium;Two Pointers;false
+148;Sort List;https://leetcode.com/problems/sort-list;Medium;Two Pointers;false
+151;Reverse Words in a String;https://leetcode.com/problems/reverse-words-in-a-string;Medium;Two Pointers;false
+160;Intersection of Two Linked Lists;https://leetcode.com/problems/intersection-of-two-linked-lists;Easy;Two Pointers;false
+161;One Edit Distance;https://leetcode.com/problems/one-edit-distance;Medium;Two Pointers;true
+165;Compare Version Numbers;https://leetcode.com/problems/compare-version-numbers;Medium;Two Pointers;false
+167;Two Sum II - Input Array Is Sorted;https://leetcode.com/problems/two-sum-ii-input-array-is-sorted;Medium;Two Pointers;false
+170;Two Sum III - Data structure design;https://leetcode.com/problems/two-sum-iii-data-structure-design;Easy;Two Pointers;true
+186;Reverse Words in a String II;https://leetcode.com/problems/reverse-words-in-a-string-ii;Medium;Two Pointers;true
+189;Rotate Array;https://leetcode.com/problems/rotate-array;Medium;Two Pointers;false
+202;Happy Number;https://leetcode.com/problems/happy-number;Easy;Two Pointers;false
+234;Palindrome Linked List;https://leetcode.com/problems/palindrome-linked-list;Easy;Two Pointers;false
+244;Shortest Word Distance II;https://leetcode.com/problems/shortest-word-distance-ii;Medium;Two Pointers;true
+246;Strobogrammatic Number;https://leetcode.com/problems/strobogrammatic-number;Easy;Two Pointers;true
+251;Flatten 2D Vector;https://leetcode.com/problems/flatten-2d-vector;Medium;Two Pointers;true
+253;Meeting Rooms II;https://leetcode.com/problems/meeting-rooms-ii;Medium;Two Pointers;true
+259;3Sum Smaller;https://leetcode.com/problems/3sum-smaller;Medium;Two Pointers;true
+272;Closest Binary Search Tree Value II;https://leetcode.com/problems/closest-binary-search-tree-value-ii;Hard;Two Pointers;true
+277;Find the Celebrity;https://leetcode.com/problems/find-the-celebrity;Medium;Two Pointers;true
+283;Move Zeroes;https://leetcode.com/problems/move-zeroes;Easy;Two Pointers;false
+287;Find the Duplicate Number;https://leetcode.com/problems/find-the-duplicate-number;Medium;Two Pointers;false
+295;Find Median from Data Stream;https://leetcode.com/problems/find-median-from-data-stream;Hard;Two Pointers;false
+321;Create Maximum Number;https://leetcode.com/problems/create-maximum-number;Hard;Two Pointers;false
+344;Reverse String;https://leetcode.com/problems/reverse-string;Easy;Two Pointers;false
+345;Reverse Vowels of a String;https://leetcode.com/problems/reverse-vowels-of-a-string;Easy;Two Pointers;false
+349;Intersection of Two Arrays;https://leetcode.com/problems/intersection-of-two-arrays;Easy;Two Pointers;false
+350;Intersection of Two Arrays II;https://leetcode.com/problems/intersection-of-two-arrays-ii;Easy;Two Pointers;false
+360;Sort Transformed Array;https://leetcode.com/problems/sort-transformed-array;Medium;Two Pointers;true
+392;Is Subsequence;https://leetcode.com/problems/is-subsequence;Easy;Two Pointers;false
+408;Valid Word Abbreviation;https://leetcode.com/problems/valid-word-abbreviation;Easy;Two Pointers;true
+443;String Compression;https://leetcode.com/problems/string-compression;Medium;Two Pointers;false
+455;Assign Cookies;https://leetcode.com/problems/assign-cookies;Easy;Two Pointers;false
+457;Circular Array Loop;https://leetcode.com/problems/circular-array-loop;Medium;Two Pointers;false
+475;Heaters;https://leetcode.com/problems/heaters;Medium;Two Pointers;false
+481;Magical String;https://leetcode.com/problems/magical-string;Medium;Two Pointers;false
+522;Longest Uncommon Subsequence II;https://leetcode.com/problems/longest-uncommon-subsequence-ii;Medium;Two Pointers;false
+524;Longest Word in Dictionary through Deleting;https://leetcode.com/problems/longest-word-in-dictionary-through-deleting;Medium;Two Pointers;false
+532;K-diff Pairs in an Array;https://leetcode.com/problems/k-diff-pairs-in-an-array;Medium;Two Pointers;false
+541;Reverse String II;https://leetcode.com/problems/reverse-string-ii;Easy;Two Pointers;false
+556;Next Greater Element III;https://leetcode.com/problems/next-greater-element-iii;Medium;Two Pointers;false
+557;Reverse Words in a String III;https://leetcode.com/problems/reverse-words-in-a-string-iii;Easy;Two Pointers;false
+567;Permutation in String;https://leetcode.com/problems/permutation-in-string;Medium;Two Pointers;false
+581;Shortest Unsorted Continuous Subarray;https://leetcode.com/problems/shortest-unsorted-continuous-subarray;Medium;Two Pointers;false
+611;Valid Triangle Number;https://leetcode.com/problems/valid-triangle-number;Medium;Two Pointers;false
+633;Sum of Square Numbers;https://leetcode.com/problems/sum-of-square-numbers;Medium;Two Pointers;false
+647;Palindromic Substrings;https://leetcode.com/problems/palindromic-substrings;Medium;Two Pointers;false
+653;Two Sum IV - Input is a BST;https://leetcode.com/problems/two-sum-iv-input-is-a-bst;Easy;Two Pointers;false
+658;Find K Closest Elements;https://leetcode.com/problems/find-k-closest-elements;Medium;Two Pointers;false
+680;Valid Palindrome II;https://leetcode.com/problems/valid-palindrome-ii;Easy;Two Pointers;false
+696;Count Binary Substrings;https://leetcode.com/problems/count-binary-substrings;Easy;Two Pointers;false
+719;Find K-th Smallest Pair Distance;https://leetcode.com/problems/find-k-th-smallest-pair-distance;Hard;Two Pointers;false
+723;Candy Crush;https://leetcode.com/problems/candy-crush;Medium;Two Pointers;true
+763;Partition Labels;https://leetcode.com/problems/partition-labels;Medium;Two Pointers;false
+777;Swap Adjacent in LR String;https://leetcode.com/problems/swap-adjacent-in-lr-string;Medium;Two Pointers;false
+786;K-th Smallest Prime Fraction;https://leetcode.com/problems/k-th-smallest-prime-fraction;Medium;Two Pointers;false
+795;Number of Subarrays with Bounded Maximum;https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum;Medium;Two Pointers;false
+809;Expressive Words;https://leetcode.com/problems/expressive-words;Medium;Two Pointers;false
+821;Shortest Distance to a Character;https://leetcode.com/problems/shortest-distance-to-a-character;Easy;Two Pointers;false
+825;Friends Of Appropriate Ages;https://leetcode.com/problems/friends-of-appropriate-ages;Medium;Two Pointers;false
+826;Most Profit Assigning Work;https://leetcode.com/problems/most-profit-assigning-work;Medium;Two Pointers;false
+832;Flipping an Image;https://leetcode.com/problems/flipping-an-image;Easy;Two Pointers;false
+838;Push Dominoes;https://leetcode.com/problems/push-dominoes;Medium;Two Pointers;false
+844;Backspace String Compare;https://leetcode.com/problems/backspace-string-compare;Easy;Two Pointers;false
+845;Longest Mountain in Array;https://leetcode.com/problems/longest-mountain-in-array;Medium;Two Pointers;false
+870;Advantage Shuffle;https://leetcode.com/problems/advantage-shuffle;Medium;Two Pointers;false
+876;Middle of the Linked List;https://leetcode.com/problems/middle-of-the-linked-list;Easy;Two Pointers;false
+881;Boats to Save People;https://leetcode.com/problems/boats-to-save-people;Medium;Two Pointers;false
+905;Sort Array By Parity;https://leetcode.com/problems/sort-array-by-parity;Easy;Two Pointers;false
+917;Reverse Only Letters;https://leetcode.com/problems/reverse-only-letters;Easy;Two Pointers;false
+922;Sort Array By Parity II;https://leetcode.com/problems/sort-array-by-parity-ii;Easy;Two Pointers;false
+923;3Sum With Multiplicity;https://leetcode.com/problems/3sum-with-multiplicity;Medium;Two Pointers;false
+925;Long Pressed Name;https://leetcode.com/problems/long-pressed-name;Easy;Two Pointers;false
+942;DI String Match;https://leetcode.com/problems/di-string-match;Easy;Two Pointers;false
+948;Bag of Tokens;https://leetcode.com/problems/bag-of-tokens;Medium;Two Pointers;false
+962;Maximum Width Ramp;https://leetcode.com/problems/maximum-width-ramp;Medium;Two Pointers;false
+969;Pancake Sorting;https://leetcode.com/problems/pancake-sorting;Medium;Two Pointers;false
+977;Squares of a Sorted Array;https://leetcode.com/problems/squares-of-a-sorted-array;Easy;Two Pointers;false
+986;Interval List Intersections;https://leetcode.com/problems/interval-list-intersections;Medium;Two Pointers;false
+1023;Camelcase Matching;https://leetcode.com/problems/camelcase-matching;Medium;Two Pointers;false
+1048;Longest String Chain;https://leetcode.com/problems/longest-string-chain;Medium;Two Pointers;false
+1055;Shortest Way to Form String;https://leetcode.com/problems/shortest-way-to-form-string;Medium;Two Pointers;true
+1089;Duplicate Zeros;https://leetcode.com/problems/duplicate-zeros;Easy;Two Pointers;false
+1099;Two Sum Less Than K;https://leetcode.com/problems/two-sum-less-than-k;Easy;Two Pointers;true
+1147;Longest Chunked Palindrome Decomposition;https://leetcode.com/problems/longest-chunked-palindrome-decomposition;Hard;Two Pointers;false
+1163;Last Substring in Lexicographical Order;https://leetcode.com/problems/last-substring-in-lexicographical-order;Hard;Two Pointers;false
+1214;Two Sum BSTs;https://leetcode.com/problems/two-sum-bsts;Medium;Two Pointers;true
+1229;Meeting Scheduler;https://leetcode.com/problems/meeting-scheduler;Medium;Two Pointers;true
+1237;Find Positive Integer Solution for a Given Equation;https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation;Medium;Two Pointers;false
+1265;Print Immutable Linked List in Reverse;https://leetcode.com/problems/print-immutable-linked-list-in-reverse;Medium;Two Pointers;true
+1332;Remove Palindromic Subsequences;https://leetcode.com/problems/remove-palindromic-subsequences;Easy;Two Pointers;false
+1346;Check If N and Its Double Exist;https://leetcode.com/problems/check-if-n-and-its-double-exist;Easy;Two Pointers;false
+1385;Find the Distance Value Between Two Arrays;https://leetcode.com/problems/find-the-distance-value-between-two-arrays;Easy;Two Pointers;false
+1455;Check If a Word Occurs As a Prefix of Any Word in a Sentence;https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence;Easy;Two Pointers;false
+1471;The k Strongest Values in an Array;https://leetcode.com/problems/the-k-strongest-values-in-an-array;Medium;Two Pointers;false
+1498;Number of Subsequences That Satisfy the Given Sum Condition;https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition;Medium;Two Pointers;false
+1508;Range Sum of Sorted Subarray Sums;https://leetcode.com/problems/range-sum-of-sorted-subarray-sums;Medium;Two Pointers;false
+1537;Get the Maximum Score;https://leetcode.com/problems/get-the-maximum-score;Hard;Two Pointers;false
+1570;Dot Product of Two Sparse Vectors;https://leetcode.com/problems/dot-product-of-two-sparse-vectors;Medium;Two Pointers;true
+1574;Shortest Subarray to be Removed to Make Array Sorted;https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted;Medium;Two Pointers;false
+1577;Number of Ways Where Square of Number Is Equal to Product of Two Numbers;https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers;Medium;Two Pointers;false
+1616;Split Two Strings to Make Palindrome;https://leetcode.com/problems/split-two-strings-to-make-palindrome;Medium;Two Pointers;false
+1634;Add Two Polynomials Represented as Linked Lists;https://leetcode.com/problems/add-two-polynomials-represented-as-linked-lists;Medium;Two Pointers;true
+1650;Lowest Common Ancestor of a Binary Tree III;https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii;Medium;Two Pointers;true
+1679;Max Number of K-Sum Pairs;https://leetcode.com/problems/max-number-of-k-sum-pairs;Medium;Two Pointers;false
+1697;Checking Existence of Edge Length Limited Paths;https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths;Hard;Two Pointers;false
+1712;Ways to Split Array Into Three Subarrays;https://leetcode.com/problems/ways-to-split-array-into-three-subarrays;Medium;Two Pointers;false
+1721;Swapping Nodes in a Linked List;https://leetcode.com/problems/swapping-nodes-in-a-linked-list;Medium;Two Pointers;false
+1750;Minimum Length of String After Deleting Similar Ends;https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends;Medium;Two Pointers;false
+1754;Largest Merge Of Two Strings;https://leetcode.com/problems/largest-merge-of-two-strings;Medium;Two Pointers;false
+1755;Closest Subsequence Sum;https://leetcode.com/problems/closest-subsequence-sum;Hard;Two Pointers;false
+1764;Form Array by Concatenating Subarrays of Another Array;https://leetcode.com/problems/form-array-by-concatenating-subarrays-of-another-array;Medium;Two Pointers;false
+1768;Merge Strings Alternately;https://leetcode.com/problems/merge-strings-alternately;Easy;Two Pointers;false
+1782;Count Pairs Of Nodes;https://leetcode.com/problems/count-pairs-of-nodes;Hard;Two Pointers;false
+1793;Maximum Score of a Good Subarray;https://leetcode.com/problems/maximum-score-of-a-good-subarray;Hard;Two Pointers;false
+1813;Sentence Similarity III;https://leetcode.com/problems/sentence-similarity-iii;Medium;Two Pointers;false
+1826;Faulty Sensor;https://leetcode.com/problems/faulty-sensor;Easy;Two Pointers;true
+1842;Next Palindrome Using Same Digits;https://leetcode.com/problems/next-palindrome-using-same-digits;Hard;Two Pointers;true
+1850;Minimum Adjacent Swaps to Reach the Kth Smallest Number;https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number;Medium;Two Pointers;false
+1855;Maximum Distance Between a Pair of Values;https://leetcode.com/problems/maximum-distance-between-a-pair-of-values;Medium;Two Pointers;false
+1861;Rotating the Box;https://leetcode.com/problems/rotating-the-box;Medium;Two Pointers;false
+1868;Product of Two Run-Length Encoded Arrays;https://leetcode.com/problems/product-of-two-run-length-encoded-arrays;Medium;Two Pointers;true
+1877;Minimize Maximum Pair Sum in Array;https://leetcode.com/problems/minimize-maximum-pair-sum-in-array;Medium;Two Pointers;false
+1885;Count Pairs in Two Arrays;https://leetcode.com/problems/count-pairs-in-two-arrays;Medium;Two Pointers;true
+1898;Maximum Number of Removable Characters;https://leetcode.com/problems/maximum-number-of-removable-characters;Medium;Two Pointers;false
+1961;Check If String Is a Prefix of Array;https://leetcode.com/problems/check-if-string-is-a-prefix-of-array;Easy;Two Pointers;false
+1963;Minimum Number of Swaps to Make the String Balanced;https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced;Medium;Two Pointers;false
+2000;Reverse Prefix of Word;https://leetcode.com/problems/reverse-prefix-of-word;Easy;Two Pointers;false
+2035;Partition Array Into Two Arrays to Minimize Sum Difference;https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference;Hard;Two Pointers;false
+2046;Sort Linked List Already Sorted Using Absolute Values;https://leetcode.com/problems/sort-linked-list-already-sorted-using-absolute-values;Medium;Two Pointers;true
+2071;Maximum Number of Tasks You Can Assign;https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign;Hard;Two Pointers;false
+2095;Delete the Middle Node of a Linked List;https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list;Medium;Two Pointers;false
+2105;Watering Plants II;https://leetcode.com/problems/watering-plants-ii;Medium;Two Pointers;false
+2108;Find First Palindromic String in the Array;https://leetcode.com/problems/find-first-palindromic-string-in-the-array;Easy;Two Pointers;false
+2109;Adding Spaces to a String;https://leetcode.com/problems/adding-spaces-to-a-string;Medium;Two Pointers;false
+2122;Recover the Original Array;https://leetcode.com/problems/recover-the-original-array;Hard;Two Pointers;false
+2130;Maximum Twin Sum of a Linked List;https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list;Medium;Two Pointers;false
+2149;Rearrange Array Elements by Sign;https://leetcode.com/problems/rearrange-array-elements-by-sign;Medium;Two Pointers;false
+2161;Partition Array According to Given Pivot;https://leetcode.com/problems/partition-array-according-to-given-pivot;Medium;Two Pointers;false
+2193;Minimum Number of Moves to Make Palindrome;https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome;Hard;Two Pointers;false
+2200;Find All K-Distant Indices in an Array;https://leetcode.com/problems/find-all-k-distant-indices-in-an-array;Easy;Two Pointers;false
+2234;Maximum Total Beauty of the Gardens;https://leetcode.com/problems/maximum-total-beauty-of-the-gardens;Hard;Two Pointers;false
+2300;Successful Pairs of Spells and Potions;https://leetcode.com/problems/successful-pairs-of-spells-and-potions;Medium;Two Pointers;false
+2330;Valid Palindrome IV;https://leetcode.com/problems/valid-palindrome-iv;Medium;Two Pointers;true
+2332;The Latest Time to Catch a Bus;https://leetcode.com/problems/the-latest-time-to-catch-a-bus;Medium;Two Pointers;false
+2337;Move Pieces to Obtain a String;https://leetcode.com/problems/move-pieces-to-obtain-a-string;Medium;Two Pointers;false
+2367;Number of Arithmetic Triplets;https://leetcode.com/problems/number-of-arithmetic-triplets;Easy;Two Pointers;false
+2396;Strictly Palindromic Number;https://leetcode.com/problems/strictly-palindromic-number;Medium;Two Pointers;false
+2406;Divide Intervals Into Minimum Number of Groups;https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups;Medium;Two Pointers;false
+2410;Maximum Matching of Players With Trainers;https://leetcode.com/problems/maximum-matching-of-players-with-trainers;Medium;Two Pointers;false
+2422;Merge Operations to Turn Array Into a Palindrome;https://leetcode.com/problems/merge-operations-to-turn-array-into-a-palindrome;Medium;Two Pointers;true
+2441;Largest Positive Integer That Exists With Its Negative;https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative;Easy;Two Pointers;false
+2460;Apply Operations to an Array;https://leetcode.com/problems/apply-operations-to-an-array;Easy;Two Pointers;false
+2462;Total Cost to Hire K Workers;https://leetcode.com/problems/total-cost-to-hire-k-workers;Medium;Two Pointers;false
+2465;Number of Distinct Averages;https://leetcode.com/problems/number-of-distinct-averages;Easy;Two Pointers;false
+2472;Maximum Number of Non-overlapping Palindrome Substrings;https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings;Hard;Two Pointers;false
+2486;Append Characters to String to Make Subsequence;https://leetcode.com/problems/append-characters-to-string-to-make-subsequence;Medium;Two Pointers;false
+2491;Divide Players Into Teams of Equal Skill;https://leetcode.com/problems/divide-players-into-teams-of-equal-skill;Medium;Two Pointers;false
+2503;Maximum Number of Points From Grid Queries;https://leetcode.com/problems/maximum-number-of-points-from-grid-queries;Hard;Two Pointers;false
+2511;Maximum Enemy Forts That Can Be Captured;https://leetcode.com/problems/maximum-enemy-forts-that-can-be-captured;Easy;Two Pointers;false
+2540;Minimum Common Value;https://leetcode.com/problems/minimum-common-value;Easy;Two Pointers;false
+2562;Find the Array Concatenation Value;https://leetcode.com/problems/find-the-array-concatenation-value;Easy;Two Pointers;false
+2563;Count the Number of Fair Pairs;https://leetcode.com/problems/count-the-number-of-fair-pairs;Medium;Two Pointers;false
+2565;Subsequence With the Minimum Score;https://leetcode.com/problems/subsequence-with-the-minimum-score;Hard;Two Pointers;false
+2570;Merge Two 2D Arrays by Summing Values;https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values;Easy;Two Pointers;false
+2576;Find the Maximum Number of Marked Indices;https://leetcode.com/problems/find-the-maximum-number-of-marked-indices;Medium;Two Pointers;false
+2592;Maximize Greatness of an Array;https://leetcode.com/problems/maximize-greatness-of-an-array;Medium;Two Pointers;false
+2604;Minimum Time to Eat All Grains;https://leetcode.com/problems/minimum-time-to-eat-all-grains;Hard;Two Pointers;true
+2674;Split a Circular Linked List;https://leetcode.com/problems/split-a-circular-linked-list;Medium;Two Pointers;true
+2697;Lexicographically Smallest Palindrome;https://leetcode.com/problems/lexicographically-smallest-palindrome;Easy;Two Pointers;false
+2824;Count Pairs Whose Sum is Less than Target;https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target;Easy;Two Pointers;false
+2825;Make String a Subsequence Using Cyclic Increments;https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments;Medium;Two Pointers;false
+2838;Maximum Coins Heroes Can Collect;https://leetcode.com/problems/maximum-coins-heroes-can-collect;Medium;Two Pointers;true
+2856;Minimum Array Length After Pair Removals;https://leetcode.com/problems/minimum-array-length-after-pair-removals;Medium;Two Pointers;false
+2868;The Wording Game;https://leetcode.com/problems/the-wording-game;Hard;Two Pointers;true
+2903;Find Indices With Index and Value Difference I;https://leetcode.com/problems/find-indices-with-index-and-value-difference-i;Easy;Two Pointers;false
+2905;Find Indices With Index and Value Difference II;https://leetcode.com/problems/find-indices-with-index-and-value-difference-ii;Medium;Two Pointers;false
+2911;Minimum Changes to Make K Semi-palindromes;https://leetcode.com/problems/minimum-changes-to-make-k-semi-palindromes;Hard;Two Pointers;false
+2938;Separate Black and White Balls;https://leetcode.com/problems/separate-black-and-white-balls;Medium;Two Pointers;false
+2970;Count the Number of Incremovable Subarrays I;https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i;Easy;Two Pointers;false
+2972;Count the Number of Incremovable Subarrays II;https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-ii;Hard;Two Pointers;false
+3006;Find Beautiful Indices in the Given Array I;https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-i;Medium;Two Pointers;false
+3008;Find Beautiful Indices in the Given Array II;https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-ii;Hard;Two Pointers;false
+3132;Find the Integer Added to Array II;https://leetcode.com/problems/find-the-integer-added-to-array-ii;Medium;Two Pointers;false
+3186;Maximum Total Damage With Spell Casting;https://leetcode.com/problems/maximum-total-damage-with-spell-casting;Medium;Two Pointers;false
+3194;Minimum Average of Smallest and Largest Elements;https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements;Easy;Two Pointers;false
+3239;Minimum Number of Flips to Make Binary Grid Palindromic I;https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-i;Medium;Two Pointers;false
+3240;Minimum Number of Flips to Make Binary Grid Palindromic II;https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-ii;Medium;Two Pointers;false
+3284;Sum of Consecutive Subarrays;https://leetcode.com/problems/sum-of-consecutive-subarrays;Medium;Two Pointers;true
+3302;Find the Lexicographically Smallest Valid Sequence;https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence;Medium;Two Pointers;false
+3316;Find Maximum Removals From Source String;https://leetcode.com/problems/find-maximum-removals-from-source-string;Medium;Two Pointers;false
+3400;Maximum Number of Matching Indices After Right Shifts;https://leetcode.com/problems/maximum-number-of-matching-indices-after-right-shifts;Medium;Two Pointers;true
+3403;Find the Lexicographically Largest String From the Box I;https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-i;Medium;Two Pointers;false
+3406;Find the Lexicographically Largest String From the Box II;https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-ii;Hard;Two Pointers;true
+3455;Shortest Matching Substring;https://leetcode.com/problems/shortest-matching-substring;Hard;Two Pointers;false
+3460;Longest Common Prefix After at Most One Removal;https://leetcode.com/problems/longest-common-prefix-after-at-most-one-removal;Medium;Two Pointers;true
+3503;Longest Palindrome After Substring Concatenation I;https://leetcode.com/problems/longest-palindrome-after-substring-concatenation-i;Medium;Two Pointers;false
+3504;Longest Palindrome After Substring Concatenation II;https://leetcode.com/problems/longest-palindrome-after-substring-concatenation-ii;Hard;Two Pointers;false
+3555;Smallest Subarray to Sort in Every Sliding Window;https://leetcode.com/problems/smallest-subarray-to-sort-in-every-sliding-window;Medium;Two Pointers;true
+3584;Maximum Product of First and Last Elements of a Subsequence;https://leetcode.com/problems/maximum-product-of-first-and-last-elements-of-a-subsequence;Medium;Two Pointers;false
+3633;Earliest Finish Time for Land and Water Rides I;https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i;Easy;Two Pointers;false
+3635;Earliest Finish Time for Land and Water Rides II;https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii;Medium;Two Pointers;false
+3643;Flip Square Submatrix Vertically;https://leetcode.com/problems/flip-square-submatrix-vertically;Easy;Two Pointers;false
+3645;Maximum Total from Optimal Activation Order;https://leetcode.com/problems/maximum-total-from-optimal-activation-order;Medium;Two Pointers;false

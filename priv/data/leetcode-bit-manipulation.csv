@@ -1,0 +1,248 @@
+id;name;url;difficulty;category;is_premium
+29;Divide Two Integers;https://leetcode.com/problems/divide-two-integers;Medium;Bit Manipulation;false
+67;Add Binary;https://leetcode.com/problems/add-binary;Easy;Bit Manipulation;false
+78;Subsets;https://leetcode.com/problems/subsets;Medium;Bit Manipulation;false
+89;Gray Code;https://leetcode.com/problems/gray-code;Medium;Bit Manipulation;false
+90;Subsets II;https://leetcode.com/problems/subsets-ii;Medium;Bit Manipulation;false
+136;Single Number;https://leetcode.com/problems/single-number;Easy;Bit Manipulation;false
+137;Single Number II;https://leetcode.com/problems/single-number-ii;Medium;Bit Manipulation;false
+187;Repeated DNA Sequences;https://leetcode.com/problems/repeated-dna-sequences;Medium;Bit Manipulation;false
+190;Reverse Bits;https://leetcode.com/problems/reverse-bits;Easy;Bit Manipulation;false
+191;Number of 1 Bits;https://leetcode.com/problems/number-of-1-bits;Easy;Bit Manipulation;false
+201;Bitwise AND of Numbers Range;https://leetcode.com/problems/bitwise-and-of-numbers-range;Medium;Bit Manipulation;false
+222;Count Complete Tree Nodes;https://leetcode.com/problems/count-complete-tree-nodes;Easy;Bit Manipulation;false
+231;Power of Two;https://leetcode.com/problems/power-of-two;Easy;Bit Manipulation;false
+260;Single Number III;https://leetcode.com/problems/single-number-iii;Medium;Bit Manipulation;false
+266;Palindrome Permutation;https://leetcode.com/problems/palindrome-permutation;Easy;Bit Manipulation;true
+268;Missing Number;https://leetcode.com/problems/missing-number;Easy;Bit Manipulation;false
+287;Find the Duplicate Number;https://leetcode.com/problems/find-the-duplicate-number;Medium;Bit Manipulation;false
+318;Maximum Product of Word Lengths;https://leetcode.com/problems/maximum-product-of-word-lengths;Medium;Bit Manipulation;false
+320;Generalized Abbreviation;https://leetcode.com/problems/generalized-abbreviation;Medium;Bit Manipulation;true
+338;Counting Bits;https://leetcode.com/problems/counting-bits;Easy;Bit Manipulation;false
+342;Power of Four;https://leetcode.com/problems/power-of-four;Easy;Bit Manipulation;false
+351;Android Unlock Patterns;https://leetcode.com/problems/android-unlock-patterns;Medium;Bit Manipulation;true
+371;Sum of Two Integers;https://leetcode.com/problems/sum-of-two-integers;Medium;Bit Manipulation;false
+389;Find the Difference;https://leetcode.com/problems/find-the-difference;Easy;Bit Manipulation;false
+393;UTF-8 Validation;https://leetcode.com/problems/utf-8-validation;Medium;Bit Manipulation;false
+397;Integer Replacement;https://leetcode.com/problems/integer-replacement;Medium;Bit Manipulation;false
+401;Binary Watch;https://leetcode.com/problems/binary-watch;Easy;Bit Manipulation;false
+405;Convert a Number to Hexadecimal;https://leetcode.com/problems/convert-a-number-to-hexadecimal;Easy;Bit Manipulation;false
+411;Minimum Unique Word Abbreviation;https://leetcode.com/problems/minimum-unique-word-abbreviation;Hard;Bit Manipulation;true
+421;Maximum XOR of Two Numbers in an Array;https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array;Medium;Bit Manipulation;false
+461;Hamming Distance;https://leetcode.com/problems/hamming-distance;Easy;Bit Manipulation;false
+464;Can I Win;https://leetcode.com/problems/can-i-win;Medium;Bit Manipulation;false
+465;Optimal Account Balancing;https://leetcode.com/problems/optimal-account-balancing;Hard;Bit Manipulation;true
+473;Matchsticks to Square;https://leetcode.com/problems/matchsticks-to-square;Medium;Bit Manipulation;false
+476;Number Complement;https://leetcode.com/problems/number-complement;Easy;Bit Manipulation;false
+477;Total Hamming Distance;https://leetcode.com/problems/total-hamming-distance;Medium;Bit Manipulation;false
+491;Non-decreasing Subsequences;https://leetcode.com/problems/non-decreasing-subsequences;Medium;Bit Manipulation;false
+526;Beautiful Arrangement;https://leetcode.com/problems/beautiful-arrangement;Medium;Bit Manipulation;false
+638;Shopping Offers;https://leetcode.com/problems/shopping-offers;Medium;Bit Manipulation;false
+645;Set Mismatch;https://leetcode.com/problems/set-mismatch;Easy;Bit Manipulation;false
+672;Bulb Switcher II;https://leetcode.com/problems/bulb-switcher-ii;Medium;Bit Manipulation;false
+691;Stickers to Spell Word;https://leetcode.com/problems/stickers-to-spell-word;Hard;Bit Manipulation;false
+693;Binary Number with Alternating Bits;https://leetcode.com/problems/binary-number-with-alternating-bits;Easy;Bit Manipulation;false
+698;Partition to K Equal Sum Subsets;https://leetcode.com/problems/partition-to-k-equal-sum-subsets;Medium;Bit Manipulation;false
+751;IP to CIDR;https://leetcode.com/problems/ip-to-cidr;Medium;Bit Manipulation;true
+756;Pyramid Transition Matrix;https://leetcode.com/problems/pyramid-transition-matrix;Medium;Bit Manipulation;false
+762;Prime Number of Set Bits in Binary Representation;https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation;Easy;Bit Manipulation;false
+779;K-th Symbol in Grammar;https://leetcode.com/problems/k-th-symbol-in-grammar;Medium;Bit Manipulation;false
+782;Transform to Chessboard;https://leetcode.com/problems/transform-to-chessboard;Hard;Bit Manipulation;false
+784;Letter Case Permutation;https://leetcode.com/problems/letter-case-permutation;Medium;Bit Manipulation;false
+805;Split Array With Same Average;https://leetcode.com/problems/split-array-with-same-average;Hard;Bit Manipulation;false
+810;Chalkboard XOR Game;https://leetcode.com/problems/chalkboard-xor-game;Hard;Bit Manipulation;false
+832;Flipping an Image;https://leetcode.com/problems/flipping-an-image;Easy;Bit Manipulation;false
+847;Shortest Path Visiting All Nodes;https://leetcode.com/problems/shortest-path-visiting-all-nodes;Hard;Bit Manipulation;false
+861;Score After Flipping Matrix;https://leetcode.com/problems/score-after-flipping-matrix;Medium;Bit Manipulation;false
+864;Shortest Path to Get All Keys;https://leetcode.com/problems/shortest-path-to-get-all-keys;Hard;Bit Manipulation;false
+868;Binary Gap;https://leetcode.com/problems/binary-gap;Easy;Bit Manipulation;false
+898;Bitwise ORs of Subarrays;https://leetcode.com/problems/bitwise-ors-of-subarrays;Medium;Bit Manipulation;false
+943;Find the Shortest Superstring;https://leetcode.com/problems/find-the-shortest-superstring;Hard;Bit Manipulation;false
+957;Prison Cells After N Days;https://leetcode.com/problems/prison-cells-after-n-days;Medium;Bit Manipulation;false
+980;Unique Paths III;https://leetcode.com/problems/unique-paths-iii;Hard;Bit Manipulation;false
+982;Triples with Bitwise AND Equal To Zero;https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero;Hard;Bit Manipulation;false
+995;Minimum Number of K Consecutive Bit Flips;https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips;Hard;Bit Manipulation;false
+996;Number of Squareful Arrays;https://leetcode.com/problems/number-of-squareful-arrays;Hard;Bit Manipulation;false
+1009;Complement of Base 10 Integer;https://leetcode.com/problems/complement-of-base-10-integer;Easy;Bit Manipulation;false
+1016;Binary String With Substrings Representing 1 To N;https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n;Medium;Bit Manipulation;false
+1018;Binary Prefix Divisible By 5;https://leetcode.com/problems/binary-prefix-divisible-by-5;Easy;Bit Manipulation;false
+1066;Campus Bikes II;https://leetcode.com/problems/campus-bikes-ii;Medium;Bit Manipulation;true
+1125;Smallest Sufficient Team;https://leetcode.com/problems/smallest-sufficient-team;Hard;Bit Manipulation;false
+1177;Can Make Palindrome from Substring;https://leetcode.com/problems/can-make-palindrome-from-substring;Medium;Bit Manipulation;false
+1178;Number of Valid Words for Each Puzzle;https://leetcode.com/problems/number-of-valid-words-for-each-puzzle;Hard;Bit Manipulation;false
+1238;Circular Permutation in Binary Representation;https://leetcode.com/problems/circular-permutation-in-binary-representation;Medium;Bit Manipulation;false
+1239;Maximum Length of a Concatenated String with Unique Characters;https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters;Medium;Bit Manipulation;false
+1255;Maximum Score Words Formed by Letters;https://leetcode.com/problems/maximum-score-words-formed-by-letters;Hard;Bit Manipulation;false
+1256;Encode Number;https://leetcode.com/problems/encode-number;Medium;Bit Manipulation;true
+1284;Minimum Number of Flips to Convert Binary Matrix to Zero Matrix;https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix;Hard;Bit Manipulation;false
+1310;XOR Queries of a Subarray;https://leetcode.com/problems/xor-queries-of-a-subarray;Medium;Bit Manipulation;false
+1318;Minimum Flips to Make a OR b Equal to c;https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c;Medium;Bit Manipulation;false
+1342;Number of Steps to Reduce a Number to Zero;https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero;Easy;Bit Manipulation;false
+1349;Maximum Students Taking Exam;https://leetcode.com/problems/maximum-students-taking-exam;Hard;Bit Manipulation;false
+1356;Sort Integers by The Number of 1 Bits;https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits;Easy;Bit Manipulation;false
+1371;Find the Longest Substring Containing Vowels in Even Counts;https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts;Medium;Bit Manipulation;false
+1386;Cinema Seat Allocation;https://leetcode.com/problems/cinema-seat-allocation;Medium;Bit Manipulation;false
+1404;Number of Steps to Reduce a Number in Binary Representation to One;https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one;Medium;Bit Manipulation;false
+1434;Number of Ways to Wear Different Hats to Each Other;https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other;Hard;Bit Manipulation;false
+1442;Count Triplets That Can Form Two Arrays of Equal XOR;https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor;Medium;Bit Manipulation;false
+1457;Pseudo-Palindromic Paths in a Binary Tree;https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree;Medium;Bit Manipulation;false
+1461;Check If a String Contains All Binary Codes of Size K;https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k;Medium;Bit Manipulation;false
+1486;XOR Operation in an Array;https://leetcode.com/problems/xor-operation-in-an-array;Easy;Bit Manipulation;false
+1494;Parallel Courses II;https://leetcode.com/problems/parallel-courses-ii;Hard;Bit Manipulation;false
+1506;Find Root of N-Ary Tree;https://leetcode.com/problems/find-root-of-n-ary-tree;Medium;Bit Manipulation;true
+1521;Find a Value of a Mysterious Function Closest to Target;https://leetcode.com/problems/find-a-value-of-a-mysterious-function-closest-to-target;Hard;Bit Manipulation;false
+1525;Number of Good Ways to Split a String;https://leetcode.com/problems/number-of-good-ways-to-split-a-string;Medium;Bit Manipulation;false
+1542;Find Longest Awesome Substring;https://leetcode.com/problems/find-longest-awesome-substring;Hard;Bit Manipulation;false
+1558;Minimum Numbers of Function Calls to Make Target Array;https://leetcode.com/problems/minimum-numbers-of-function-calls-to-make-target-array;Medium;Bit Manipulation;false
+1595;Minimum Cost to Connect Two Groups of Points;https://leetcode.com/problems/minimum-cost-to-connect-two-groups-of-points;Hard;Bit Manipulation;false
+1601;Maximum Number of Achievable Transfer Requests;https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests;Hard;Bit Manipulation;false
+1611;Minimum One Bit Operations to Make Integers Zero;https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero;Hard;Bit Manipulation;false
+1617;Count Subtrees With Max Distance Between Cities;https://leetcode.com/problems/count-subtrees-with-max-distance-between-cities;Hard;Bit Manipulation;false
+1655;Distribute Repeating Integers;https://leetcode.com/problems/distribute-repeating-integers;Hard;Bit Manipulation;false
+1659;Maximize Grid Happiness;https://leetcode.com/problems/maximize-grid-happiness;Hard;Bit Manipulation;false
+1680;Concatenation of Consecutive Binary Numbers;https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers;Medium;Bit Manipulation;false
+1681;Minimum Incompatibility;https://leetcode.com/problems/minimum-incompatibility;Hard;Bit Manipulation;false
+1684;Count the Number of Consistent Strings;https://leetcode.com/problems/count-the-number-of-consistent-strings;Easy;Bit Manipulation;false
+1707;Maximum XOR With an Element From Array;https://leetcode.com/problems/maximum-xor-with-an-element-from-array;Hard;Bit Manipulation;false
+1720;Decode XORed Array;https://leetcode.com/problems/decode-xored-array;Easy;Bit Manipulation;false
+1723;Find Minimum Time to Finish All Jobs;https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs;Hard;Bit Manipulation;false
+1734;Decode XORed Permutation;https://leetcode.com/problems/decode-xored-permutation;Medium;Bit Manipulation;false
+1738;Find Kth Largest XOR Coordinate Value;https://leetcode.com/problems/find-kth-largest-xor-coordinate-value;Medium;Bit Manipulation;false
+1755;Closest Subsequence Sum;https://leetcode.com/problems/closest-subsequence-sum;Hard;Bit Manipulation;false
+1763;Longest Nice Substring;https://leetcode.com/problems/longest-nice-substring;Easy;Bit Manipulation;false
+1787;Make the XOR of All Segments Equal to Zero;https://leetcode.com/problems/make-the-xor-of-all-segments-equal-to-zero;Hard;Bit Manipulation;false
+1799;Maximize Score After N Operations;https://leetcode.com/problems/maximize-score-after-n-operations;Hard;Bit Manipulation;false
+1803;Count Pairs With XOR in a Range;https://leetcode.com/problems/count-pairs-with-xor-in-a-range;Hard;Bit Manipulation;false
+1815;Maximum Number of Groups Getting Fresh Donuts;https://leetcode.com/problems/maximum-number-of-groups-getting-fresh-donuts;Hard;Bit Manipulation;false
+1829;Maximum XOR for Each Query;https://leetcode.com/problems/maximum-xor-for-each-query;Medium;Bit Manipulation;false
+1835;Find XOR Sum of All Pairs Bitwise AND;https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and;Hard;Bit Manipulation;false
+1863;Sum of All Subset XOR Totals;https://leetcode.com/problems/sum-of-all-subset-xor-totals;Easy;Bit Manipulation;false
+1879;Minimum XOR Sum of Two Arrays;https://leetcode.com/problems/minimum-xor-sum-of-two-arrays;Hard;Bit Manipulation;false
+1908;Game of Nim;https://leetcode.com/problems/game-of-nim;Medium;Bit Manipulation;true
+1915;Number of Wonderful Substrings;https://leetcode.com/problems/number-of-wonderful-substrings;Medium;Bit Manipulation;false
+1930;Unique Length-3 Palindromic Subsequences;https://leetcode.com/problems/unique-length-3-palindromic-subsequences;Medium;Bit Manipulation;false
+1938;Maximum Genetic Difference Query;https://leetcode.com/problems/maximum-genetic-difference-query;Hard;Bit Manipulation;false
+1947;Maximum Compatibility Score Sum;https://leetcode.com/problems/maximum-compatibility-score-sum;Medium;Bit Manipulation;false
+1986;Minimum Number of Work Sessions to Finish the Tasks;https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks;Medium;Bit Manipulation;false
+1994;The Number of Good Subsets;https://leetcode.com/problems/the-number-of-good-subsets;Hard;Bit Manipulation;false
+2002;Maximum Product of the Length of Two Palindromic Subsequences;https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-subsequences;Medium;Bit Manipulation;false
+2032;Two Out of Three;https://leetcode.com/problems/two-out-of-three;Easy;Bit Manipulation;false
+2035;Partition Array Into Two Arrays to Minimize Sum Difference;https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference;Hard;Bit Manipulation;false
+2044;Count Number of Maximum Bitwise-OR Subsets;https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets;Medium;Bit Manipulation;false
+2128;Remove All Ones With Row and Column Flips;https://leetcode.com/problems/remove-all-ones-with-row-and-column-flips;Medium;Bit Manipulation;true
+2135;Count Words Obtained After Adding a Letter;https://leetcode.com/problems/count-words-obtained-after-adding-a-letter;Medium;Bit Manipulation;false
+2151;Maximum Good People Based on Statements;https://leetcode.com/problems/maximum-good-people-based-on-statements;Hard;Bit Manipulation;false
+2152;Minimum Number of Lines to Cover Points;https://leetcode.com/problems/minimum-number-of-lines-to-cover-points;Medium;Bit Manipulation;true
+2157;Groups of Strings;https://leetcode.com/problems/groups-of-strings;Hard;Bit Manipulation;false
+2172;Maximum AND Sum of Array;https://leetcode.com/problems/maximum-and-sum-of-array;Hard;Bit Manipulation;false
+2174;Remove All Ones With Row and Column Flips II;https://leetcode.com/problems/remove-all-ones-with-row-and-column-flips-ii;Medium;Bit Manipulation;true
+2184;Number of Ways to Build Sturdy Brick Wall;https://leetcode.com/problems/number-of-ways-to-build-sturdy-brick-wall;Medium;Bit Manipulation;true
+2206;Divide Array Into Equal Pairs;https://leetcode.com/problems/divide-array-into-equal-pairs;Easy;Bit Manipulation;false
+2212;Maximum Points in an Archery Competition;https://leetcode.com/problems/maximum-points-in-an-archery-competition;Medium;Bit Manipulation;false
+2220;Minimum Bit Flips to Convert Number;https://leetcode.com/problems/minimum-bit-flips-to-convert-number;Easy;Bit Manipulation;false
+2247;Maximum Cost of Trip With K Highways;https://leetcode.com/problems/maximum-cost-of-trip-with-k-highways;Hard;Bit Manipulation;true
+2275;Largest Combination With Bitwise AND Greater Than Zero;https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero;Medium;Bit Manipulation;false
+2305;Fair Distribution of Cookies;https://leetcode.com/problems/fair-distribution-of-cookies;Medium;Bit Manipulation;false
+2306;Naming a Company;https://leetcode.com/problems/naming-a-company;Hard;Bit Manipulation;false
+2317;Maximum XOR After Operations;https://leetcode.com/problems/maximum-xor-after-operations;Medium;Bit Manipulation;false
+2322;Minimum Score After Removals on a Tree;https://leetcode.com/problems/minimum-score-after-removals-on-a-tree;Hard;Bit Manipulation;false
+2351;First Letter to Appear Twice;https://leetcode.com/problems/first-letter-to-appear-twice;Easy;Bit Manipulation;false
+2354;Number of Excellent Pairs;https://leetcode.com/problems/number-of-excellent-pairs;Hard;Bit Manipulation;false
+2397;Maximum Rows Covered by Columns;https://leetcode.com/problems/maximum-rows-covered-by-columns;Medium;Bit Manipulation;false
+2401;Longest Nice Subarray;https://leetcode.com/problems/longest-nice-subarray;Medium;Bit Manipulation;false
+2403;Minimum Time to Kill All Monsters;https://leetcode.com/problems/minimum-time-to-kill-all-monsters;Hard;Bit Manipulation;true
+2411;Smallest Subarrays With Maximum Bitwise OR;https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or;Medium;Bit Manipulation;false
+2419;Longest Subarray With Maximum Bitwise AND;https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and;Medium;Bit Manipulation;false
+2425;Bitwise XOR of All Pairings;https://leetcode.com/problems/bitwise-xor-of-all-pairings;Medium;Bit Manipulation;false
+2429;Minimize XOR;https://leetcode.com/problems/minimize-xor;Medium;Bit Manipulation;false
+2433;Find The Original Array of Prefix Xor;https://leetcode.com/problems/find-the-original-array-of-prefix-xor;Medium;Bit Manipulation;false
+2438;Range Product Queries of Powers;https://leetcode.com/problems/range-product-queries-of-powers;Medium;Bit Manipulation;false
+2505;Bitwise OR of All Subsequence Sums;https://leetcode.com/problems/bitwise-or-of-all-subsequence-sums;Medium;Bit Manipulation;true
+2506;Count Pairs Of Similar Strings;https://leetcode.com/problems/count-pairs-of-similar-strings;Easy;Bit Manipulation;false
+2527;Find Xor-Beauty of Array;https://leetcode.com/problems/find-xor-beauty-of-array;Medium;Bit Manipulation;false
+2546;Apply Bitwise Operations to Make Strings Equal;https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal;Medium;Bit Manipulation;false
+2564;Substring XOR Queries;https://leetcode.com/problems/substring-xor-queries;Medium;Bit Manipulation;false
+2568;Minimum Impossible OR;https://leetcode.com/problems/minimum-impossible-or;Medium;Bit Manipulation;false
+2571;Minimum Operations to Reduce an Integer to 0;https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0;Medium;Bit Manipulation;false
+2572;Count the Number of Square-Free Subsets;https://leetcode.com/problems/count-the-number-of-square-free-subsets;Medium;Bit Manipulation;false
+2588;Count the Number of Beautiful Subarrays;https://leetcode.com/problems/count-the-number-of-beautiful-subarrays;Medium;Bit Manipulation;false
+2595;Number of Even and Odd Bits;https://leetcode.com/problems/number-of-even-and-odd-bits;Easy;Bit Manipulation;false
+2657;Find the Prefix Common Array of Two Arrays;https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays;Medium;Bit Manipulation;false
+2680;Maximum OR;https://leetcode.com/problems/maximum-or;Medium;Bit Manipulation;false
+2683;Neighboring Bitwise XOR;https://leetcode.com/problems/neighboring-bitwise-xor;Medium;Bit Manipulation;false
+2708;Maximum Strength of a Group;https://leetcode.com/problems/maximum-strength-of-a-group;Medium;Bit Manipulation;false
+2732;Find a Good Subset of the Matrix;https://leetcode.com/problems/find-a-good-subset-of-the-matrix;Hard;Bit Manipulation;false
+2741;Special Permutations;https://leetcode.com/problems/special-permutations;Medium;Bit Manipulation;false
+2749;Minimum Operations to Make the Integer Zero;https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero;Medium;Bit Manipulation;false
+2791;Count Paths That Can Form a Palindrome in a Tree;https://leetcode.com/problems/count-paths-that-can-form-a-palindrome-in-a-tree;Hard;Bit Manipulation;false
+2802;Find The K-th Lucky Number;https://leetcode.com/problems/find-the-k-th-lucky-number;Medium;Bit Manipulation;true
+2835;Minimum Operations to Form Subsequence With Target Sum;https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum;Hard;Bit Manipulation;false
+2836;Maximize Value of Function in a Ball Passing Game;https://leetcode.com/problems/maximize-value-of-function-in-a-ball-passing-game;Hard;Bit Manipulation;false
+2857;Count Pairs of Points With Distance k;https://leetcode.com/problems/count-pairs-of-points-with-distance-k;Medium;Bit Manipulation;false
+2859;Sum of Values at Indices With K Set Bits;https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits;Easy;Bit Manipulation;false
+2869;Minimum Operations to Collect Elements;https://leetcode.com/problems/minimum-operations-to-collect-elements;Easy;Bit Manipulation;false
+2871;Split Array Into Maximum Number of Subarrays;https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays;Medium;Bit Manipulation;false
+2897;Apply Operations on Array to Maximize Sum of Squares;https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares;Hard;Bit Manipulation;false
+2917;Find the K-or of an Array;https://leetcode.com/problems/find-the-k-or-of-an-array;Easy;Bit Manipulation;false
+2920;Maximum Points After Collecting Coins From All Nodes;https://leetcode.com/problems/maximum-points-after-collecting-coins-from-all-nodes;Hard;Bit Manipulation;false
+2932;Maximum Strong Pair XOR I;https://leetcode.com/problems/maximum-strong-pair-xor-i;Easy;Bit Manipulation;false
+2935;Maximum Strong Pair XOR II;https://leetcode.com/problems/maximum-strong-pair-xor-ii;Hard;Bit Manipulation;false
+2939;Maximum Xor Product;https://leetcode.com/problems/maximum-xor-product;Medium;Bit Manipulation;false
+2959;Number of Possible Sets of Closing Branches;https://leetcode.com/problems/number-of-possible-sets-of-closing-branches;Hard;Bit Manipulation;false
+2980;Check if Bitwise OR Has Trailing Zeros;https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros;Easy;Bit Manipulation;false
+2992;Number of Self-Divisible Permutations;https://leetcode.com/problems/number-of-self-divisible-permutations;Medium;Bit Manipulation;true
+2997;Minimum Number of Operations to Make Array XOR Equal to K;https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k;Medium;Bit Manipulation;false
+3003;Maximize the Number of Partitions After Operations;https://leetcode.com/problems/maximize-the-number-of-partitions-after-operations;Hard;Bit Manipulation;false
+3007;Maximum Number That Sum of the Prices Is Less Than or Equal to K;https://leetcode.com/problems/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k;Medium;Bit Manipulation;false
+3011;Find if Array Can Be Sorted;https://leetcode.com/problems/find-if-array-can-be-sorted;Medium;Bit Manipulation;false
+3022;Minimize OR of Remaining Elements Using Operations;https://leetcode.com/problems/minimize-or-of-remaining-elements-using-operations;Hard;Bit Manipulation;false
+3064;Guess the Number Using Bitwise Questions I;https://leetcode.com/problems/guess-the-number-using-bitwise-questions-i;Medium;Bit Manipulation;true
+3068;Find the Maximum Sum of Node Values;https://leetcode.com/problems/find-the-maximum-sum-of-node-values;Hard;Bit Manipulation;false
+3094;Guess the Number Using Bitwise Questions II;https://leetcode.com/problems/guess-the-number-using-bitwise-questions-ii;Medium;Bit Manipulation;true
+3095;Shortest Subarray With OR at Least K I;https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-i;Easy;Bit Manipulation;false
+3097;Shortest Subarray With OR at Least K II;https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii;Medium;Bit Manipulation;false
+3108;Minimum Cost Walk in Weighted Graph;https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph;Hard;Bit Manipulation;false
+3116;Kth Smallest Amount With Single Denomination Combination;https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination;Hard;Bit Manipulation;false
+3117;Minimum Sum of Values by Dividing Array;https://leetcode.com/problems/minimum-sum-of-values-by-dividing-array;Hard;Bit Manipulation;false
+3133;Minimum Array End;https://leetcode.com/problems/minimum-array-end;Medium;Bit Manipulation;false
+3141;Maximum Hamming Distances;https://leetcode.com/problems/maximum-hamming-distances;Hard;Bit Manipulation;true
+3145;Find Products of Elements of Big Array;https://leetcode.com/problems/find-products-of-elements-of-big-array;Hard;Bit Manipulation;false
+3149;Find the Minimum Cost Array Permutation;https://leetcode.com/problems/find-the-minimum-cost-array-permutation;Hard;Bit Manipulation;false
+3154;Find Number of Ways to Reach the K-th Stair;https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair;Hard;Bit Manipulation;false
+3158;Find the XOR of Numbers Which Appear Twice;https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice;Easy;Bit Manipulation;false
+3171;Find Subarray With Bitwise OR Closest to K;https://leetcode.com/problems/find-subarray-with-bitwise-or-closest-to-k;Hard;Bit Manipulation;false
+3173;Bitwise OR of Adjacent Elements;https://leetcode.com/problems/bitwise-or-of-adjacent-elements;Easy;Bit Manipulation;true
+3181;Maximum Total Reward Using Operations II;https://leetcode.com/problems/maximum-total-reward-using-operations-ii;Hard;Bit Manipulation;false
+3191;Minimum Operations to Make Binary Array Elements Equal to One I;https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i;Medium;Bit Manipulation;false
+3199;Count Triplets with Even XOR Set Bits I;https://leetcode.com/problems/count-triplets-with-even-xor-set-bits-i;Easy;Bit Manipulation;true
+3209;Number of Subarrays With AND Value of K;https://leetcode.com/problems/number-of-subarrays-with-and-value-of-k;Hard;Bit Manipulation;false
+3211;Generate Binary Strings Without Adjacent Zeros;https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros;Medium;Bit Manipulation;false
+3215;Count Triplets with Even XOR Set Bits II;https://leetcode.com/problems/count-triplets-with-even-xor-set-bits-ii;Medium;Bit Manipulation;true
+3226;Number of Bit Changes to Make Two Integers Equal;https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal;Easy;Bit Manipulation;false
+3276;Select Cells in Grid With Maximum Score;https://leetcode.com/problems/select-cells-in-grid-with-maximum-score;Hard;Bit Manipulation;false
+3283;Maximum Number of Moves to Kill All Pawns;https://leetcode.com/problems/maximum-number-of-moves-to-kill-all-pawns;Hard;Bit Manipulation;false
+3287;Find the Maximum Sequence Value of Array;https://leetcode.com/problems/find-the-maximum-sequence-value-of-array;Hard;Bit Manipulation;false
+3304;Find the K-th Character in String Game I;https://leetcode.com/problems/find-the-k-th-character-in-string-game-i;Easy;Bit Manipulation;false
+3307;Find the K-th Character in String Game II;https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii;Hard;Bit Manipulation;false
+3309;Maximum Possible Number by Binary Concatenation;https://leetcode.com/problems/maximum-possible-number-by-binary-concatenation;Medium;Bit Manipulation;false
+3314;Construct the Minimum Bitwise Array I;https://leetcode.com/problems/construct-the-minimum-bitwise-array-i;Easy;Bit Manipulation;false
+3315;Construct the Minimum Bitwise Array II;https://leetcode.com/problems/construct-the-minimum-bitwise-array-ii;Medium;Bit Manipulation;false
+3344;Maximum Sized Array;https://leetcode.com/problems/maximum-sized-array;Medium;Bit Manipulation;true
+3370;Smallest Number With All Set Bits;https://leetcode.com/problems/smallest-number-with-all-set-bits;Easy;Bit Manipulation;false
+3376;Minimum Time to Break Locks I;https://leetcode.com/problems/minimum-time-to-break-locks-i;Medium;Bit Manipulation;false
+3393;Count Paths With the Given XOR Value;https://leetcode.com/problems/count-paths-with-the-given-xor-value;Medium;Bit Manipulation;false
+3435;Frequencies of Shortest Supersequences;https://leetcode.com/problems/frequencies-of-shortest-supersequences;Hard;Bit Manipulation;false
+3444;Minimum Increments for Target Multiples in an Array;https://leetcode.com/problems/minimum-increments-for-target-multiples-in-an-array;Hard;Bit Manipulation;false
+3495;Minimum Operations to Make Array Elements Zero;https://leetcode.com/problems/minimum-operations-to-make-array-elements-zero;Hard;Bit Manipulation;false
+3513;Number of Unique XOR Triplets I;https://leetcode.com/problems/number-of-unique-xor-triplets-i;Medium;Bit Manipulation;false
+3514;Number of Unique XOR Triplets II;https://leetcode.com/problems/number-of-unique-xor-triplets-ii;Medium;Bit Manipulation;false
+3530;Maximum Profit from Valid Topological Order in DAG;https://leetcode.com/problems/maximum-profit-from-valid-topological-order-in-dag;Hard;Bit Manipulation;false
+3533;Concatenated Divisibility;https://leetcode.com/problems/concatenated-divisibility;Hard;Bit Manipulation;false
+3539;Find Sum of Array Product of Magical Sequences;https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences;Hard;Bit Manipulation;false
+3566;Partition Array into Two Equal Product Subsets;https://leetcode.com/problems/partition-array-into-two-equal-product-subsets;Medium;Bit Manipulation;false
+3568;Minimum Moves to Clean the Classroom;https://leetcode.com/problems/minimum-moves-to-clean-the-classroom;Medium;Bit Manipulation;false
+3575;Maximum Good Subtree Score;https://leetcode.com/problems/maximum-good-subtree-score;Hard;Bit Manipulation;false
+3594;Minimum Time to Transport All Individuals;https://leetcode.com/problems/minimum-time-to-transport-all-individuals;Hard;Bit Manipulation;false
+3595;Once Twice;https://leetcode.com/problems/once-twice;Medium;Bit Manipulation;true
+3599;Partition Array to Minimize XOR;https://leetcode.com/problems/partition-array-to-minimize-xor;Medium;Bit Manipulation;false
+3615;Longest Palindromic Path in Graph;https://leetcode.com/problems/longest-palindromic-path-in-graph;Hard;Bit Manipulation;false

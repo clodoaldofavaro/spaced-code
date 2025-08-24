@@ -1,0 +1,38 @@
+id;name;url;difficulty;category;is_premium
+399;Evaluate Division;https://leetcode.com/problems/evaluate-division;Medium;Shortest Path;false
+499;The Maze III;https://leetcode.com/problems/the-maze-iii;Hard;Shortest Path;true
+505;The Maze II;https://leetcode.com/problems/the-maze-ii;Medium;Shortest Path;true
+743;Network Delay Time;https://leetcode.com/problems/network-delay-time;Medium;Shortest Path;false
+787;Cheapest Flights Within K Stops;https://leetcode.com/problems/cheapest-flights-within-k-stops;Medium;Shortest Path;false
+882;Reachable Nodes In Subdivided Graph;https://leetcode.com/problems/reachable-nodes-in-subdivided-graph;Hard;Shortest Path;false
+1334;Find the City With the Smallest Number of Neighbors at a Threshold Distance;https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance;Medium;Shortest Path;false
+1368;Minimum Cost to Make at Least One Valid Path in a Grid;https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid;Hard;Shortest Path;false
+1514;Path with Maximum Probability;https://leetcode.com/problems/path-with-maximum-probability;Medium;Shortest Path;false
+1786;Number of Restricted Paths From First to Last Node;https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node;Medium;Shortest Path;false
+1810;Minimum Path Cost in a Hidden Grid;https://leetcode.com/problems/minimum-path-cost-in-a-hidden-grid;Medium;Shortest Path;true
+1976;Number of Ways to Arrive at Destination;https://leetcode.com/problems/number-of-ways-to-arrive-at-destination;Medium;Shortest Path;false
+2045;Second Minimum Time to Reach Destination;https://leetcode.com/problems/second-minimum-time-to-reach-destination;Hard;Shortest Path;false
+2093;Minimum Cost to Reach City With Discounts;https://leetcode.com/problems/minimum-cost-to-reach-city-with-discounts;Medium;Shortest Path;true
+2203;Minimum Weighted Subgraph With the Required Paths;https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths;Hard;Shortest Path;false
+2290;Minimum Obstacle Removal to Reach Corner;https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner;Hard;Shortest Path;false
+2297;Jump Game VIII;https://leetcode.com/problems/jump-game-viii;Medium;Shortest Path;true
+2473;Minimum Cost to Buy Apples;https://leetcode.com/problems/minimum-cost-to-buy-apples;Medium;Shortest Path;true
+2577;Minimum Time to Visit a Cell In a Grid;https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid;Hard;Shortest Path;false
+2642;Design Graph With Shortest Path Calculator;https://leetcode.com/problems/design-graph-with-shortest-path-calculator;Hard;Shortest Path;false
+2662;Minimum Cost of a Path With Special Roads;https://leetcode.com/problems/minimum-cost-of-a-path-with-special-roads;Medium;Shortest Path;false
+2699;Modify Graph Edge Weights;https://leetcode.com/problems/modify-graph-edge-weights;Hard;Shortest Path;false
+2714;Find Shortest Path with K Hops;https://leetcode.com/problems/find-shortest-path-with-k-hops;Hard;Shortest Path;true
+2737;Find the Closest Marked Node;https://leetcode.com/problems/find-the-closest-marked-node;Medium;Shortest Path;true
+2959;Number of Possible Sets of Closing Branches;https://leetcode.com/problems/number-of-possible-sets-of-closing-branches;Hard;Shortest Path;false
+2976;Minimum Cost to Convert String I;https://leetcode.com/problems/minimum-cost-to-convert-string-i;Medium;Shortest Path;false
+2977;Minimum Cost to Convert String II;https://leetcode.com/problems/minimum-cost-to-convert-string-ii;Hard;Shortest Path;false
+3112;Minimum Time to Visit Disappearing Nodes;https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes;Medium;Shortest Path;false
+3123;Find Edges in Shortest Paths;https://leetcode.com/problems/find-edges-in-shortest-paths;Hard;Shortest Path;false
+3286;Find a Safe Walk Through a Grid;https://leetcode.com/problems/find-a-safe-walk-through-a-grid;Medium;Shortest Path;false
+3341;Find Minimum Time to Reach Last Room I;https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i;Medium;Shortest Path;false
+3342;Find Minimum Time to Reach Last Room II;https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii;Medium;Shortest Path;false
+3377;Digit Operations to Make Two Integers Equal;https://leetcode.com/problems/digit-operations-to-make-two-integers-equal;Medium;Shortest Path;false
+3419;Minimize the Maximum Edge Weight of Graph;https://leetcode.com/problems/minimize-the-maximum-edge-weight-of-graph;Medium;Shortest Path;false
+3594;Minimum Time to Transport All Individuals;https://leetcode.com/problems/minimum-time-to-transport-all-individuals;Hard;Shortest Path;false
+3604;Minimum Time to Reach Destination in Directed Graph;https://leetcode.com/problems/minimum-time-to-reach-destination-in-directed-graph;Medium;Shortest Path;false
+3620;Network Recovery Pathways;https://leetcode.com/problems/network-recovery-pathways;Hard;Shortest Path;false

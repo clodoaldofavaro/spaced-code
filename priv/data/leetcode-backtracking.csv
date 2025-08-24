@@ -1,0 +1,110 @@
+id;name;url;difficulty;category;is_premium
+17;Letter Combinations of a Phone Number;https://leetcode.com/problems/letter-combinations-of-a-phone-number;Medium;Backtracking;false
+22;Generate Parentheses;https://leetcode.com/problems/generate-parentheses;Medium;Backtracking;false
+37;Sudoku Solver;https://leetcode.com/problems/sudoku-solver;Hard;Backtracking;false
+39;Combination Sum;https://leetcode.com/problems/combination-sum;Medium;Backtracking;false
+40;Combination Sum II;https://leetcode.com/problems/combination-sum-ii;Medium;Backtracking;false
+46;Permutations;https://leetcode.com/problems/permutations;Medium;Backtracking;false
+47;Permutations II;https://leetcode.com/problems/permutations-ii;Medium;Backtracking;false
+51;N-Queens;https://leetcode.com/problems/n-queens;Hard;Backtracking;false
+52;N-Queens II;https://leetcode.com/problems/n-queens-ii;Hard;Backtracking;false
+77;Combinations;https://leetcode.com/problems/combinations;Medium;Backtracking;false
+78;Subsets;https://leetcode.com/problems/subsets;Medium;Backtracking;false
+79;Word Search;https://leetcode.com/problems/word-search;Medium;Backtracking;false
+89;Gray Code;https://leetcode.com/problems/gray-code;Medium;Backtracking;false
+90;Subsets II;https://leetcode.com/problems/subsets-ii;Medium;Backtracking;false
+93;Restore IP Addresses;https://leetcode.com/problems/restore-ip-addresses;Medium;Backtracking;false
+95;Unique Binary Search Trees II;https://leetcode.com/problems/unique-binary-search-trees-ii;Medium;Backtracking;false
+113;Path Sum II;https://leetcode.com/problems/path-sum-ii;Medium;Backtracking;false
+126;Word Ladder II;https://leetcode.com/problems/word-ladder-ii;Hard;Backtracking;false
+131;Palindrome Partitioning;https://leetcode.com/problems/palindrome-partitioning;Medium;Backtracking;false
+140;Word Break II;https://leetcode.com/problems/word-break-ii;Hard;Backtracking;false
+212;Word Search II;https://leetcode.com/problems/word-search-ii;Hard;Backtracking;false
+216;Combination Sum III;https://leetcode.com/problems/combination-sum-iii;Medium;Backtracking;false
+254;Factor Combinations;https://leetcode.com/problems/factor-combinations;Medium;Backtracking;true
+257;Binary Tree Paths;https://leetcode.com/problems/binary-tree-paths;Easy;Backtracking;false
+267;Palindrome Permutation II;https://leetcode.com/problems/palindrome-permutation-ii;Medium;Backtracking;true
+282;Expression Add Operators;https://leetcode.com/problems/expression-add-operators;Hard;Backtracking;false
+291;Word Pattern II;https://leetcode.com/problems/word-pattern-ii;Medium;Backtracking;true
+294;Flip Game II;https://leetcode.com/problems/flip-game-ii;Medium;Backtracking;true
+301;Remove Invalid Parentheses;https://leetcode.com/problems/remove-invalid-parentheses;Hard;Backtracking;false
+306;Additive Number;https://leetcode.com/problems/additive-number;Medium;Backtracking;false
+320;Generalized Abbreviation;https://leetcode.com/problems/generalized-abbreviation;Medium;Backtracking;true
+351;Android Unlock Patterns;https://leetcode.com/problems/android-unlock-patterns;Medium;Backtracking;true
+357;Count Numbers with Unique Digits;https://leetcode.com/problems/count-numbers-with-unique-digits;Medium;Backtracking;false
+401;Binary Watch;https://leetcode.com/problems/binary-watch;Easy;Backtracking;false
+411;Minimum Unique Word Abbreviation;https://leetcode.com/problems/minimum-unique-word-abbreviation;Hard;Backtracking;true
+425;Word Squares;https://leetcode.com/problems/word-squares;Hard;Backtracking;true
+465;Optimal Account Balancing;https://leetcode.com/problems/optimal-account-balancing;Hard;Backtracking;true
+473;Matchsticks to Square;https://leetcode.com/problems/matchsticks-to-square;Medium;Backtracking;false
+489;Robot Room Cleaner;https://leetcode.com/problems/robot-room-cleaner;Hard;Backtracking;true
+491;Non-decreasing Subsequences;https://leetcode.com/problems/non-decreasing-subsequences;Medium;Backtracking;false
+494;Target Sum;https://leetcode.com/problems/target-sum;Medium;Backtracking;false
+526;Beautiful Arrangement;https://leetcode.com/problems/beautiful-arrangement;Medium;Backtracking;false
+638;Shopping Offers;https://leetcode.com/problems/shopping-offers;Medium;Backtracking;false
+679;24 Game;https://leetcode.com/problems/24-game;Hard;Backtracking;false
+681;Next Closest Time;https://leetcode.com/problems/next-closest-time;Medium;Backtracking;true
+691;Stickers to Spell Word;https://leetcode.com/problems/stickers-to-spell-word;Hard;Backtracking;false
+698;Partition to K Equal Sum Subsets;https://leetcode.com/problems/partition-to-k-equal-sum-subsets;Medium;Backtracking;false
+773;Sliding Puzzle;https://leetcode.com/problems/sliding-puzzle;Hard;Backtracking;false
+784;Letter Case Permutation;https://leetcode.com/problems/letter-case-permutation;Medium;Backtracking;false
+797;All Paths From Source to Target;https://leetcode.com/problems/all-paths-from-source-to-target;Medium;Backtracking;false
+816;Ambiguous Coordinates;https://leetcode.com/problems/ambiguous-coordinates;Medium;Backtracking;false
+842;Split Array into Fibonacci Sequence;https://leetcode.com/problems/split-array-into-fibonacci-sequence;Medium;Backtracking;false
+949;Largest Time for Given Digits;https://leetcode.com/problems/largest-time-for-given-digits;Medium;Backtracking;false
+967;Numbers With Same Consecutive Differences;https://leetcode.com/problems/numbers-with-same-consecutive-differences;Medium;Backtracking;false
+980;Unique Paths III;https://leetcode.com/problems/unique-paths-iii;Hard;Backtracking;false
+988;Smallest String Starting From Leaf;https://leetcode.com/problems/smallest-string-starting-from-leaf;Medium;Backtracking;false
+996;Number of Squareful Arrays;https://leetcode.com/problems/number-of-squareful-arrays;Hard;Backtracking;false
+1066;Campus Bikes II;https://leetcode.com/problems/campus-bikes-ii;Medium;Backtracking;true
+1079;Letter Tile Possibilities;https://leetcode.com/problems/letter-tile-possibilities;Medium;Backtracking;false
+1087;Brace Expansion;https://leetcode.com/problems/brace-expansion;Medium;Backtracking;true
+1088;Confusing Number II;https://leetcode.com/problems/confusing-number-ii;Hard;Backtracking;true
+1096;Brace Expansion II;https://leetcode.com/problems/brace-expansion-ii;Hard;Backtracking;false
+1215;Stepping Numbers;https://leetcode.com/problems/stepping-numbers;Medium;Backtracking;true
+1219;Path with Maximum Gold;https://leetcode.com/problems/path-with-maximum-gold;Medium;Backtracking;false
+1238;Circular Permutation in Binary Representation;https://leetcode.com/problems/circular-permutation-in-binary-representation;Medium;Backtracking;false
+1239;Maximum Length of a Concatenated String with Unique Characters;https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters;Medium;Backtracking;false
+1240;Tiling a Rectangle with the Fewest Squares;https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares;Hard;Backtracking;false
+1255;Maximum Score Words Formed by Letters;https://leetcode.com/problems/maximum-score-words-formed-by-letters;Hard;Backtracking;false
+1258;Synonymous Sentences;https://leetcode.com/problems/synonymous-sentences;Medium;Backtracking;true
+1286;Iterator for Combination;https://leetcode.com/problems/iterator-for-combination;Medium;Backtracking;false
+1307;Verbal Arithmetic Puzzle;https://leetcode.com/problems/verbal-arithmetic-puzzle;Hard;Backtracking;false
+1415;The k-th Lexicographical String of All Happy Strings of Length n;https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n;Medium;Backtracking;false
+1467;Probability of a Two Boxes Having The Same Number of Distinct Balls;https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls;Hard;Backtracking;false
+1593;Split a String Into the Max Number of Unique Substrings;https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings;Medium;Backtracking;false
+1601;Maximum Number of Achievable Transfer Requests;https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests;Hard;Backtracking;false
+1655;Distribute Repeating Integers;https://leetcode.com/problems/distribute-repeating-integers;Hard;Backtracking;false
+1718;Construct the Lexicographically Largest Valid Sequence;https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence;Medium;Backtracking;false
+1723;Find Minimum Time to Finish All Jobs;https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs;Hard;Backtracking;false
+1774;Closest Dessert Cost;https://leetcode.com/problems/closest-dessert-cost;Medium;Backtracking;false
+1799;Maximize Score After N Operations;https://leetcode.com/problems/maximize-score-after-n-operations;Hard;Backtracking;false
+1849;Splitting a String Into Descending Consecutive Values;https://leetcode.com/problems/splitting-a-string-into-descending-consecutive-values;Medium;Backtracking;false
+1863;Sum of All Subset XOR Totals;https://leetcode.com/problems/sum-of-all-subset-xor-totals;Easy;Backtracking;false
+1947;Maximum Compatibility Score Sum;https://leetcode.com/problems/maximum-compatibility-score-sum;Medium;Backtracking;false
+1980;Find Unique Binary String;https://leetcode.com/problems/find-unique-binary-string;Medium;Backtracking;false
+1986;Minimum Number of Work Sessions to Finish the Tasks;https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks;Medium;Backtracking;false
+2002;Maximum Product of the Length of Two Palindromic Subsequences;https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-subsequences;Medium;Backtracking;false
+2014;Longest Subsequence Repeated k Times;https://leetcode.com/problems/longest-subsequence-repeated-k-times;Hard;Backtracking;false
+2044;Count Number of Maximum Bitwise-OR Subsets;https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets;Medium;Backtracking;false
+2048;Next Greater Numerically Balanced Number;https://leetcode.com/problems/next-greater-numerically-balanced-number;Medium;Backtracking;false
+2056;Number of Valid Move Combinations On Chessboard;https://leetcode.com/problems/number-of-valid-move-combinations-on-chessboard;Hard;Backtracking;false
+2065;Maximum Path Quality of a Graph;https://leetcode.com/problems/maximum-path-quality-of-a-graph;Hard;Backtracking;false
+2151;Maximum Good People Based on Statements;https://leetcode.com/problems/maximum-good-people-based-on-statements;Hard;Backtracking;false
+2152;Minimum Number of Lines to Cover Points;https://leetcode.com/problems/minimum-number-of-lines-to-cover-points;Medium;Backtracking;true
+2178;Maximum Split of Positive Even Integers;https://leetcode.com/problems/maximum-split-of-positive-even-integers;Medium;Backtracking;false
+2212;Maximum Points in an Archery Competition;https://leetcode.com/problems/maximum-points-in-an-archery-competition;Medium;Backtracking;false
+2305;Fair Distribution of Cookies;https://leetcode.com/problems/fair-distribution-of-cookies;Medium;Backtracking;false
+2375;Construct Smallest Number From DI String;https://leetcode.com/problems/construct-smallest-number-from-di-string;Medium;Backtracking;false
+2397;Maximum Rows Covered by Columns;https://leetcode.com/problems/maximum-rows-covered-by-columns;Medium;Backtracking;false
+2597;The Number of Beautiful Subsets;https://leetcode.com/problems/the-number-of-beautiful-subsets;Medium;Backtracking;false
+2664;The Knight’s Tour;https://leetcode.com/problems/the-knights-tour;Medium;Backtracking;true
+2698;Find the Punishment Number of an Integer;https://leetcode.com/problems/find-the-punishment-number-of-an-integer;Medium;Backtracking;false
+2708;Maximum Strength of a Group;https://leetcode.com/problems/maximum-strength-of-a-group;Medium;Backtracking;false
+2767;Partition String Into Minimum Beautiful Substrings;https://leetcode.com/problems/partition-string-into-minimum-beautiful-substrings;Medium;Backtracking;false
+2992;Number of Self-Divisible Permutations;https://leetcode.com/problems/number-of-self-divisible-permutations;Medium;Backtracking;true
+3211;Generate Binary Strings Without Adjacent Zeros;https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros;Medium;Backtracking;false
+3348;Smallest Divisible Digit Product II;https://leetcode.com/problems/smallest-divisible-digit-product-ii;Hard;Backtracking;false
+3376;Minimum Time to Break Locks I;https://leetcode.com/problems/minimum-time-to-break-locks-i;Medium;Backtracking;false
+3437;Permutations III;https://leetcode.com/problems/permutations-iii;Medium;Backtracking;true
+3646;Next Special Palindrome Number;https://leetcode.com/problems/next-special-palindrome-number;Hard;Backtracking;false

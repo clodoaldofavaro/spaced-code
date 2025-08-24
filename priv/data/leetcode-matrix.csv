@@ -1,0 +1,264 @@
+id;name;url;difficulty;category;is_premium
+36;Valid Sudoku;https://leetcode.com/problems/valid-sudoku;Medium;Matrix;false
+37;Sudoku Solver;https://leetcode.com/problems/sudoku-solver;Hard;Matrix;false
+48;Rotate Image;https://leetcode.com/problems/rotate-image;Medium;Matrix;false
+54;Spiral Matrix;https://leetcode.com/problems/spiral-matrix;Medium;Matrix;false
+59;Spiral Matrix II;https://leetcode.com/problems/spiral-matrix-ii;Medium;Matrix;false
+63;Unique Paths II;https://leetcode.com/problems/unique-paths-ii;Medium;Matrix;false
+64;Minimum Path Sum;https://leetcode.com/problems/minimum-path-sum;Medium;Matrix;false
+73;Set Matrix Zeroes;https://leetcode.com/problems/set-matrix-zeroes;Medium;Matrix;false
+74;Search a 2D Matrix;https://leetcode.com/problems/search-a-2d-matrix;Medium;Matrix;false
+79;Word Search;https://leetcode.com/problems/word-search;Medium;Matrix;false
+85;Maximal Rectangle;https://leetcode.com/problems/maximal-rectangle;Hard;Matrix;false
+130;Surrounded Regions;https://leetcode.com/problems/surrounded-regions;Medium;Matrix;false
+174;Dungeon Game;https://leetcode.com/problems/dungeon-game;Hard;Matrix;false
+200;Number of Islands;https://leetcode.com/problems/number-of-islands;Medium;Matrix;false
+212;Word Search II;https://leetcode.com/problems/word-search-ii;Hard;Matrix;false
+221;Maximal Square;https://leetcode.com/problems/maximal-square;Medium;Matrix;false
+240;Search a 2D Matrix II;https://leetcode.com/problems/search-a-2d-matrix-ii;Medium;Matrix;false
+286;Walls and Gates;https://leetcode.com/problems/walls-and-gates;Medium;Matrix;true
+289;Game of Life;https://leetcode.com/problems/game-of-life;Medium;Matrix;false
+296;Best Meeting Point;https://leetcode.com/problems/best-meeting-point;Hard;Matrix;true
+302;Smallest Rectangle Enclosing Black Pixels;https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels;Hard;Matrix;true
+304;Range Sum Query 2D - Immutable;https://leetcode.com/problems/range-sum-query-2d-immutable;Medium;Matrix;false
+308;Range Sum Query 2D - Mutable;https://leetcode.com/problems/range-sum-query-2d-mutable;Medium;Matrix;true
+311;Sparse Matrix Multiplication;https://leetcode.com/problems/sparse-matrix-multiplication;Medium;Matrix;true
+317;Shortest Distance from All Buildings;https://leetcode.com/problems/shortest-distance-from-all-buildings;Hard;Matrix;true
+329;Longest Increasing Path in a Matrix;https://leetcode.com/problems/longest-increasing-path-in-a-matrix;Hard;Matrix;false
+348;Design Tic-Tac-Toe;https://leetcode.com/problems/design-tic-tac-toe;Medium;Matrix;true
+361;Bomb Enemy;https://leetcode.com/problems/bomb-enemy;Medium;Matrix;true
+363;Max Sum of Rectangle No Larger Than K;https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k;Hard;Matrix;false
+378;Kth Smallest Element in a Sorted Matrix;https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix;Medium;Matrix;false
+407;Trapping Rain Water II;https://leetcode.com/problems/trapping-rain-water-ii;Hard;Matrix;false
+417;Pacific Atlantic Water Flow;https://leetcode.com/problems/pacific-atlantic-water-flow;Medium;Matrix;false
+419;Battleships in a Board;https://leetcode.com/problems/battleships-in-a-board;Medium;Matrix;false
+422;Valid Word Square;https://leetcode.com/problems/valid-word-square;Easy;Matrix;true
+427;Construct Quad Tree;https://leetcode.com/problems/construct-quad-tree;Medium;Matrix;false
+463;Island Perimeter;https://leetcode.com/problems/island-perimeter;Easy;Matrix;false
+490;The Maze;https://leetcode.com/problems/the-maze;Medium;Matrix;true
+498;Diagonal Traverse;https://leetcode.com/problems/diagonal-traverse;Medium;Matrix;false
+499;The Maze III;https://leetcode.com/problems/the-maze-iii;Hard;Matrix;true
+505;The Maze II;https://leetcode.com/problems/the-maze-ii;Medium;Matrix;true
+529;Minesweeper;https://leetcode.com/problems/minesweeper;Medium;Matrix;false
+531;Lonely Pixel I;https://leetcode.com/problems/lonely-pixel-i;Medium;Matrix;true
+533;Lonely Pixel II;https://leetcode.com/problems/lonely-pixel-ii;Medium;Matrix;true
+542;01 Matrix;https://leetcode.com/problems/01-matrix;Medium;Matrix;false
+562;Longest Line of Consecutive One in Matrix;https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix;Medium;Matrix;true
+566;Reshape the Matrix;https://leetcode.com/problems/reshape-the-matrix;Easy;Matrix;false
+568;Maximum Vacation Days;https://leetcode.com/problems/maximum-vacation-days;Hard;Matrix;true
+631;Design Excel Sum Formula;https://leetcode.com/problems/design-excel-sum-formula;Hard;Matrix;true
+661;Image Smoother;https://leetcode.com/problems/image-smoother;Easy;Matrix;false
+675;Cut Off Trees for Golf Event;https://leetcode.com/problems/cut-off-trees-for-golf-event;Hard;Matrix;false
+695;Max Area of Island;https://leetcode.com/problems/max-area-of-island;Medium;Matrix;false
+723;Candy Crush;https://leetcode.com/problems/candy-crush;Medium;Matrix;true
+733;Flood Fill;https://leetcode.com/problems/flood-fill;Easy;Matrix;false
+741;Cherry Pickup;https://leetcode.com/problems/cherry-pickup;Hard;Matrix;false
+749;Contain Virus;https://leetcode.com/problems/contain-virus;Hard;Matrix;false
+750;Number Of Corner Rectangles;https://leetcode.com/problems/number-of-corner-rectangles;Medium;Matrix;true
+766;Toeplitz Matrix;https://leetcode.com/problems/toeplitz-matrix;Easy;Matrix;false
+773;Sliding Puzzle;https://leetcode.com/problems/sliding-puzzle;Hard;Matrix;false
+778;Swim in Rising Water;https://leetcode.com/problems/swim-in-rising-water;Hard;Matrix;false
+782;Transform to Chessboard;https://leetcode.com/problems/transform-to-chessboard;Hard;Matrix;false
+794;Valid Tic-Tac-Toe State;https://leetcode.com/problems/valid-tic-tac-toe-state;Medium;Matrix;false
+803;Bricks Falling When Hit;https://leetcode.com/problems/bricks-falling-when-hit;Hard;Matrix;false
+807;Max Increase to Keep City Skyline;https://leetcode.com/problems/max-increase-to-keep-city-skyline;Medium;Matrix;false
+827;Making A Large Island;https://leetcode.com/problems/making-a-large-island;Hard;Matrix;false
+832;Flipping an Image;https://leetcode.com/problems/flipping-an-image;Easy;Matrix;false
+835;Image Overlap;https://leetcode.com/problems/image-overlap;Medium;Matrix;false
+840;Magic Squares In Grid;https://leetcode.com/problems/magic-squares-in-grid;Medium;Matrix;false
+861;Score After Flipping Matrix;https://leetcode.com/problems/score-after-flipping-matrix;Medium;Matrix;false
+864;Shortest Path to Get All Keys;https://leetcode.com/problems/shortest-path-to-get-all-keys;Hard;Matrix;false
+867;Transpose Matrix;https://leetcode.com/problems/transpose-matrix;Easy;Matrix;false
+883;Projection Area of 3D Shapes;https://leetcode.com/problems/projection-area-of-3d-shapes;Easy;Matrix;false
+885;Spiral Matrix III;https://leetcode.com/problems/spiral-matrix-iii;Medium;Matrix;false
+892;Surface Area of 3D Shapes;https://leetcode.com/problems/surface-area-of-3d-shapes;Easy;Matrix;false
+909;Snakes and Ladders;https://leetcode.com/problems/snakes-and-ladders;Medium;Matrix;false
+931;Minimum Falling Path Sum;https://leetcode.com/problems/minimum-falling-path-sum;Medium;Matrix;false
+934;Shortest Bridge;https://leetcode.com/problems/shortest-bridge;Medium;Matrix;false
+959;Regions Cut By Slashes;https://leetcode.com/problems/regions-cut-by-slashes;Medium;Matrix;false
+980;Unique Paths III;https://leetcode.com/problems/unique-paths-iii;Hard;Matrix;false
+994;Rotting Oranges;https://leetcode.com/problems/rotting-oranges;Medium;Matrix;false
+999;Available Captures for Rook;https://leetcode.com/problems/available-captures-for-rook;Easy;Matrix;false
+1020;Number of Enclaves;https://leetcode.com/problems/number-of-enclaves;Medium;Matrix;false
+1030;Matrix Cells in Distance Order;https://leetcode.com/problems/matrix-cells-in-distance-order;Easy;Matrix;false
+1034;Coloring A Border;https://leetcode.com/problems/coloring-a-border;Medium;Matrix;false
+1072;Flip Columns For Maximum Number of Equal Rows;https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows;Medium;Matrix;false
+1074;Number of Submatrices That Sum to Target;https://leetcode.com/problems/number-of-submatrices-that-sum-to-target;Hard;Matrix;false
+1091;Shortest Path in Binary Matrix;https://leetcode.com/problems/shortest-path-in-binary-matrix;Medium;Matrix;false
+1102;Path With Maximum Minimum Value;https://leetcode.com/problems/path-with-maximum-minimum-value;Medium;Matrix;true
+1139;Largest 1-Bordered Square;https://leetcode.com/problems/largest-1-bordered-square;Medium;Matrix;false
+1162;As Far from Land as Possible;https://leetcode.com/problems/as-far-from-land-as-possible;Medium;Matrix;false
+1198;Find Smallest Common Element in All Rows;https://leetcode.com/problems/find-smallest-common-element-in-all-rows;Medium;Matrix;true
+1210;Minimum Moves to Reach Target with Rotations;https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations;Hard;Matrix;false
+1219;Path with Maximum Gold;https://leetcode.com/problems/path-with-maximum-gold;Medium;Matrix;false
+1222;Queens That Can Attack the King;https://leetcode.com/problems/queens-that-can-attack-the-king;Medium;Matrix;false
+1253;Reconstruct a 2-Row Binary Matrix;https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix;Medium;Matrix;false
+1254;Number of Closed Islands;https://leetcode.com/problems/number-of-closed-islands;Medium;Matrix;false
+1260;Shift 2D Grid;https://leetcode.com/problems/shift-2d-grid;Easy;Matrix;false
+1263;Minimum Moves to Move a Box to Their Target Location;https://leetcode.com/problems/minimum-moves-to-move-a-box-to-their-target-location;Hard;Matrix;false
+1267;Count Servers that Communicate;https://leetcode.com/problems/count-servers-that-communicate;Medium;Matrix;false
+1275;Find Winner on a Tic Tac Toe Game;https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game;Easy;Matrix;false
+1277;Count Square Submatrices with All Ones;https://leetcode.com/problems/count-square-submatrices-with-all-ones;Medium;Matrix;false
+1284;Minimum Number of Flips to Convert Binary Matrix to Zero Matrix;https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix;Hard;Matrix;false
+1289;Minimum Falling Path Sum II;https://leetcode.com/problems/minimum-falling-path-sum-ii;Hard;Matrix;false
+1292;Maximum Side Length of a Square with Sum Less than or Equal to Threshold;https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold;Medium;Matrix;false
+1293;Shortest Path in a Grid with Obstacles Elimination;https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination;Hard;Matrix;false
+1301;Number of Paths with Max Score;https://leetcode.com/problems/number-of-paths-with-max-score;Hard;Matrix;false
+1314;Matrix Block Sum;https://leetcode.com/problems/matrix-block-sum;Medium;Matrix;false
+1329;Sort the Matrix Diagonally;https://leetcode.com/problems/sort-the-matrix-diagonally;Medium;Matrix;false
+1337;The K Weakest Rows in a Matrix;https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix;Easy;Matrix;false
+1349;Maximum Students Taking Exam;https://leetcode.com/problems/maximum-students-taking-exam;Hard;Matrix;false
+1351;Count Negative Numbers in a Sorted Matrix;https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix;Easy;Matrix;false
+1368;Minimum Cost to Make at Least One Valid Path in a Grid;https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid;Hard;Matrix;false
+1380;Lucky Numbers in a Matrix;https://leetcode.com/problems/lucky-numbers-in-a-matrix;Easy;Matrix;false
+1391;Check if There is a Valid Path in a Grid;https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid;Medium;Matrix;false
+1428;Leftmost Column with at Least a One;https://leetcode.com/problems/leftmost-column-with-at-least-a-one;Medium;Matrix;true
+1439;Find the Kth Smallest Sum of a Matrix With Sorted Rows;https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows;Hard;Matrix;false
+1444;Number of Ways of Cutting a Pizza;https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza;Hard;Matrix;false
+1463;Cherry Pickup II;https://leetcode.com/problems/cherry-pickup-ii;Hard;Matrix;false
+1476;Subrectangle Queries;https://leetcode.com/problems/subrectangle-queries;Medium;Matrix;false
+1504;Count Submatrices With All Ones;https://leetcode.com/problems/count-submatrices-with-all-ones;Medium;Matrix;false
+1536;Minimum Swaps to Arrange a Binary Grid;https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid;Medium;Matrix;false
+1559;Detect Cycles in 2D Grid;https://leetcode.com/problems/detect-cycles-in-2d-grid;Medium;Matrix;false
+1568;Minimum Number of Days to Disconnect Island;https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island;Hard;Matrix;false
+1572;Matrix Diagonal Sum;https://leetcode.com/problems/matrix-diagonal-sum;Easy;Matrix;false
+1582;Special Positions in a Binary Matrix;https://leetcode.com/problems/special-positions-in-a-binary-matrix;Easy;Matrix;false
+1591;Strange Printer II;https://leetcode.com/problems/strange-printer-ii;Hard;Matrix;false
+1594;Maximum Non Negative Product in a Matrix;https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix;Medium;Matrix;false
+1595;Minimum Cost to Connect Two Groups of Points;https://leetcode.com/problems/minimum-cost-to-connect-two-groups-of-points;Hard;Matrix;false
+1605;Find Valid Matrix Given Row and Column Sums;https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums;Medium;Matrix;false
+1631;Path With Minimum Effort;https://leetcode.com/problems/path-with-minimum-effort;Medium;Matrix;false
+1632;Rank Transform of a Matrix;https://leetcode.com/problems/rank-transform-of-a-matrix;Hard;Matrix;false
+1672;Richest Customer Wealth;https://leetcode.com/problems/richest-customer-wealth;Easy;Matrix;false
+1706;Where Will the Ball Fall;https://leetcode.com/problems/where-will-the-ball-fall;Medium;Matrix;false
+1727;Largest Submatrix With Rearrangements;https://leetcode.com/problems/largest-submatrix-with-rearrangements;Medium;Matrix;false
+1728;Cat and Mouse II;https://leetcode.com/problems/cat-and-mouse-ii;Hard;Matrix;false
+1730;Shortest Path to Get Food;https://leetcode.com/problems/shortest-path-to-get-food;Medium;Matrix;true
+1738;Find Kth Largest XOR Coordinate Value;https://leetcode.com/problems/find-kth-largest-xor-coordinate-value;Medium;Matrix;false
+1765;Map of Highest Peak;https://leetcode.com/problems/map-of-highest-peak;Medium;Matrix;false
+1778;Shortest Path in a Hidden Grid;https://leetcode.com/problems/shortest-path-in-a-hidden-grid;Medium;Matrix;true
+1810;Minimum Path Cost in a Hidden Grid;https://leetcode.com/problems/minimum-path-cost-in-a-hidden-grid;Medium;Matrix;true
+1820;Maximum Number of Accepted Invitations;https://leetcode.com/problems/maximum-number-of-accepted-invitations;Medium;Matrix;true
+1861;Rotating the Box;https://leetcode.com/problems/rotating-the-box;Medium;Matrix;false
+1878;Get Biggest Three Rhombus Sums in a Grid;https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid;Medium;Matrix;false
+1886;Determine Whether Matrix Can Be Obtained By Rotation;https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation;Easy;Matrix;false
+1895;Largest Magic Square;https://leetcode.com/problems/largest-magic-square;Medium;Matrix;false
+1901;Find a Peak Element II;https://leetcode.com/problems/find-a-peak-element-ii;Medium;Matrix;false
+1905;Count Sub Islands;https://leetcode.com/problems/count-sub-islands;Medium;Matrix;false
+1914;Cyclically Rotating a Grid;https://leetcode.com/problems/cyclically-rotating-a-grid;Medium;Matrix;false
+1926;Nearest Exit from Entrance in Maze;https://leetcode.com/problems/nearest-exit-from-entrance-in-maze;Medium;Matrix;false
+1937;Maximum Number of Points with Cost;https://leetcode.com/problems/maximum-number-of-points-with-cost;Medium;Matrix;false
+1958;Check if Move is Legal;https://leetcode.com/problems/check-if-move-is-legal;Medium;Matrix;false
+1970;Last Day Where You Can Still Cross;https://leetcode.com/problems/last-day-where-you-can-still-cross;Hard;Matrix;false
+1975;Maximum Matrix Sum;https://leetcode.com/problems/maximum-matrix-sum;Medium;Matrix;false
+1981;Minimize the Difference Between Target and Chosen Elements;https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements;Medium;Matrix;false
+1992;Find All Groups of Farmland;https://leetcode.com/problems/find-all-groups-of-farmland;Medium;Matrix;false
+2017;Grid Game;https://leetcode.com/problems/grid-game;Medium;Matrix;false
+2018;Check if Word Can Be Placed In Crossword;https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword;Medium;Matrix;false
+2022;Convert 1D Array Into 2D Array;https://leetcode.com/problems/convert-1d-array-into-2d-array;Easy;Matrix;false
+2033;Minimum Operations to Make a Uni-Value Grid;https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid;Medium;Matrix;false
+2061;Number of Spaces Cleaning Robot Cleaned;https://leetcode.com/problems/number-of-spaces-cleaning-robot-cleaned;Medium;Matrix;true
+2088;Count Fertile Pyramids in a Land;https://leetcode.com/problems/count-fertile-pyramids-in-a-land;Hard;Matrix;false
+2123;Minimum Operations to Remove Adjacent Ones in Matrix;https://leetcode.com/problems/minimum-operations-to-remove-adjacent-ones-in-matrix;Hard;Matrix;true
+2125;Number of Laser Beams in a Bank;https://leetcode.com/problems/number-of-laser-beams-in-a-bank;Medium;Matrix;false
+2128;Remove All Ones With Row and Column Flips;https://leetcode.com/problems/remove-all-ones-with-row-and-column-flips;Medium;Matrix;true
+2132;Stamping the Grid;https://leetcode.com/problems/stamping-the-grid;Hard;Matrix;false
+2133;Check if Every Row and Column Contains All Numbers;https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers;Easy;Matrix;false
+2146;K Highest Ranked Items Within a Price Range;https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range;Medium;Matrix;false
+2174;Remove All Ones With Row and Column Flips II;https://leetcode.com/problems/remove-all-ones-with-row-and-column-flips-ii;Medium;Matrix;true
+2245;Maximum Trailing Zeros in a Cornered Path;https://leetcode.com/problems/maximum-trailing-zeros-in-a-cornered-path;Medium;Matrix;false
+2257;Count Unguarded Cells in the Grid;https://leetcode.com/problems/count-unguarded-cells-in-the-grid;Medium;Matrix;false
+2258;Escape the Spreading Fire;https://leetcode.com/problems/escape-the-spreading-fire;Hard;Matrix;false
+2267;Check if There Is a Valid Parentheses String Path;https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path;Hard;Matrix;false
+2282;Number of People That Can Be Seen in a Grid;https://leetcode.com/problems/number-of-people-that-can-be-seen-in-a-grid;Medium;Matrix;true
+2290;Minimum Obstacle Removal to Reach Corner;https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner;Hard;Matrix;false
+2304;Minimum Path Cost in a Grid;https://leetcode.com/problems/minimum-path-cost-in-a-grid;Medium;Matrix;false
+2319;Check if Matrix Is X-Matrix;https://leetcode.com/problems/check-if-matrix-is-x-matrix;Easy;Matrix;false
+2326;Spiral Matrix IV;https://leetcode.com/problems/spiral-matrix-iv;Medium;Matrix;false
+2328;Number of Increasing Paths in a Grid;https://leetcode.com/problems/number-of-increasing-paths-in-a-grid;Hard;Matrix;false
+2352;Equal Row and Column Pairs;https://leetcode.com/problems/equal-row-and-column-pairs;Medium;Matrix;false
+2371;Minimize Maximum Value in a Grid;https://leetcode.com/problems/minimize-maximum-value-in-a-grid;Hard;Matrix;true
+2373;Largest Local Values in a Matrix;https://leetcode.com/problems/largest-local-values-in-a-matrix;Easy;Matrix;false
+2387;Median of a Row Wise Sorted Matrix;https://leetcode.com/problems/median-of-a-row-wise-sorted-matrix;Medium;Matrix;true
+2392;Build a Matrix With Conditions;https://leetcode.com/problems/build-a-matrix-with-conditions;Hard;Matrix;false
+2397;Maximum Rows Covered by Columns;https://leetcode.com/problems/maximum-rows-covered-by-columns;Medium;Matrix;false
+2428;Maximum Sum of an Hourglass;https://leetcode.com/problems/maximum-sum-of-an-hourglass;Medium;Matrix;false
+2435;Paths in Matrix Whose Sum Is Divisible by K;https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k;Hard;Matrix;false
+2482;Difference Between Ones and Zeros in Row and Column;https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column;Medium;Matrix;false
+2500;Delete Greatest Value in Each Row;https://leetcode.com/problems/delete-greatest-value-in-each-row;Easy;Matrix;false
+2503;Maximum Number of Points From Grid Queries;https://leetcode.com/problems/maximum-number-of-points-from-grid-queries;Hard;Matrix;false
+2510;Check if There is a Path With Equal Number of 0's And 1's;https://leetcode.com/problems/check-if-there-is-a-path-with-equal-number-of-0s-and-1s;Medium;Matrix;true
+2536;Increment Submatrices by One;https://leetcode.com/problems/increment-submatrices-by-one;Medium;Matrix;false
+2545;Sort the Students by Their Kth Score;https://leetcode.com/problems/sort-the-students-by-their-kth-score;Medium;Matrix;false
+2556;Disconnect Path in a Binary Matrix by at Most One Flip;https://leetcode.com/problems/disconnect-path-in-a-binary-matrix-by-at-most-one-flip;Medium;Matrix;false
+2573;Find the String with LCP;https://leetcode.com/problems/find-the-string-with-lcp;Hard;Matrix;false
+2577;Minimum Time to Visit a Cell In a Grid;https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid;Hard;Matrix;false
+2596;Check Knight Tour Configuration;https://leetcode.com/problems/check-knight-tour-configuration;Medium;Matrix;false
+2614;Prime In Diagonal;https://leetcode.com/problems/prime-in-diagonal;Easy;Matrix;false
+2617;Minimum Number of Visited Cells in a Grid;https://leetcode.com/problems/minimum-number-of-visited-cells-in-a-grid;Hard;Matrix;false
+2639;Find the Width of Columns of a Grid;https://leetcode.com/problems/find-the-width-of-columns-of-a-grid;Easy;Matrix;false
+2643;Row With Maximum Ones;https://leetcode.com/problems/row-with-maximum-ones;Easy;Matrix;false
+2658;Maximum Number of Fish in a Grid;https://leetcode.com/problems/maximum-number-of-fish-in-a-grid;Medium;Matrix;false
+2661;First Completely Painted Row or Column;https://leetcode.com/problems/first-completely-painted-row-or-column;Medium;Matrix;false
+2664;The Knight’s Tour;https://leetcode.com/problems/the-knights-tour;Medium;Matrix;true
+2679;Sum in a Matrix;https://leetcode.com/problems/sum-in-a-matrix;Medium;Matrix;false
+2684;Maximum Number of Moves in a Grid;https://leetcode.com/problems/maximum-number-of-moves-in-a-grid;Medium;Matrix;false
+2711;Difference of Number of Distinct Values on Diagonals;https://leetcode.com/problems/difference-of-number-of-distinct-values-on-diagonals;Medium;Matrix;false
+2713;Maximum Strictly Increasing Cells in a Matrix;https://leetcode.com/problems/maximum-strictly-increasing-cells-in-a-matrix;Hard;Matrix;false
+2732;Find a Good Subset of the Matrix;https://leetcode.com/problems/find-a-good-subset-of-the-matrix;Hard;Matrix;false
+2812;Find the Safest Path in a Grid;https://leetcode.com/problems/find-the-safest-path-in-a-grid;Medium;Matrix;false
+2814;Minimum Time Takes to Reach Destination Without Drowning;https://leetcode.com/problems/minimum-time-takes-to-reach-destination-without-drowning;Hard;Matrix;true
+2850;Minimum Moves to Spread Stones Over Grid;https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid;Medium;Matrix;false
+2852;Sum of Remoteness of All Cells;https://leetcode.com/problems/sum-of-remoteness-of-all-cells;Medium;Matrix;true
+2906;Construct Product Matrix;https://leetcode.com/problems/construct-product-matrix;Medium;Matrix;false
+2923;Find Champion I;https://leetcode.com/problems/find-champion-i;Easy;Matrix;false
+2931;Maximum Spending After Buying Items;https://leetcode.com/problems/maximum-spending-after-buying-items;Hard;Matrix;false
+2946;Matrix Similarity After Cyclic Shifts;https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts;Easy;Matrix;false
+2965;Find Missing and Repeated Values;https://leetcode.com/problems/find-missing-and-repeated-values;Easy;Matrix;false
+3030;Find the Grid of Region Average;https://leetcode.com/problems/find-the-grid-of-region-average;Medium;Matrix;false
+3033;Modify the Matrix;https://leetcode.com/problems/modify-the-matrix;Easy;Matrix;false
+3044;Most Frequent Prime;https://leetcode.com/problems/most-frequent-prime;Medium;Matrix;false
+3070;Count Submatrices with Top-Left Element and Sum Less Than k;https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k;Medium;Matrix;false
+3071;Minimum Operations to Write the Letter Y on a Grid;https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid;Medium;Matrix;false
+3078;Match Alphanumerical Pattern in Matrix I;https://leetcode.com/problems/match-alphanumerical-pattern-in-matrix-i;Medium;Matrix;true
+3122;Minimum Number of Operations to Satisfy Conditions;https://leetcode.com/problems/minimum-number-of-operations-to-satisfy-conditions;Medium;Matrix;false
+3127;Make a Square with the Same Color;https://leetcode.com/problems/make-a-square-with-the-same-color;Easy;Matrix;false
+3142;Check if Grid Satisfies Conditions;https://leetcode.com/problems/check-if-grid-satisfies-conditions;Easy;Matrix;false
+3148;Maximum Difference Score in a Grid;https://leetcode.com/problems/maximum-difference-score-in-a-grid;Medium;Matrix;false
+3195;Find the Minimum Area to Cover All Ones I;https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-i;Medium;Matrix;false
+3197;Find the Minimum Area to Cover All Ones II;https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-ii;Hard;Matrix;false
+3212;Count Submatrices With Equal Frequency of X and Y;https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y;Medium;Matrix;false
+3225;Maximum Score From Grid Operations;https://leetcode.com/problems/maximum-score-from-grid-operations;Hard;Matrix;false
+3239;Minimum Number of Flips to Make Binary Grid Palindromic I;https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-i;Medium;Matrix;false
+3240;Minimum Number of Flips to Make Binary Grid Palindromic II;https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-ii;Medium;Matrix;false
+3242;Design Neighbor Sum Service;https://leetcode.com/problems/design-neighbor-sum-service;Easy;Matrix;false
+3256;Maximum Value Sum by Placing Three Rooks I;https://leetcode.com/problems/maximum-value-sum-by-placing-three-rooks-i;Hard;Matrix;false
+3257;Maximum Value Sum by Placing Three Rooks II;https://leetcode.com/problems/maximum-value-sum-by-placing-three-rooks-ii;Hard;Matrix;false
+3276;Select Cells in Grid With Maximum Score;https://leetcode.com/problems/select-cells-in-grid-with-maximum-score;Hard;Matrix;false
+3286;Find a Safe Walk Through a Grid;https://leetcode.com/problems/find-a-safe-walk-through-a-grid;Medium;Matrix;false
+3311;Construct 2D Grid Matching Graph Layout;https://leetcode.com/problems/construct-2d-grid-matching-graph-layout;Hard;Matrix;false
+3332;Maximum Points Tourist Can Earn;https://leetcode.com/problems/maximum-points-tourist-can-earn;Medium;Matrix;false
+3341;Find Minimum Time to Reach Last Room I;https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i;Medium;Matrix;false
+3342;Find Minimum Time to Reach Last Room II;https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii;Medium;Matrix;false
+3359;Find Sorted Submatrices With Maximum Element at Most K;https://leetcode.com/problems/find-sorted-submatrices-with-maximum-element-at-most-k;Hard;Matrix;true
+3363;Find the Maximum Number of Fruits Collected;https://leetcode.com/problems/find-the-maximum-number-of-fruits-collected;Hard;Matrix;false
+3391;Design a 3D Binary Matrix with Efficient Layer Tracking;https://leetcode.com/problems/design-a-3d-binary-matrix-with-efficient-layer-tracking;Medium;Matrix;true
+3393;Count Paths With the Given XOR Value;https://leetcode.com/problems/count-paths-with-the-given-xor-value;Medium;Matrix;false
+3402;Minimum Operations to Make Columns Strictly Increasing;https://leetcode.com/problems/minimum-operations-to-make-columns-strictly-increasing;Easy;Matrix;false
+3417;Zigzag Grid Traversal With Skip;https://leetcode.com/problems/zigzag-grid-traversal-with-skip;Easy;Matrix;false
+3418;Maximum Amount of Money Robot Can Earn;https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn;Medium;Matrix;false
+3446;Sort Matrix by Diagonals;https://leetcode.com/problems/sort-matrix-by-diagonals;Medium;Matrix;false
+3459;Length of Longest V-Shaped Diagonal Segment;https://leetcode.com/problems/length-of-longest-v-shaped-diagonal-segment;Hard;Matrix;false
+3462;Maximum Sum With at Most K Elements;https://leetcode.com/problems/maximum-sum-with-at-most-k-elements;Medium;Matrix;false
+3484;Design Spreadsheet;https://leetcode.com/problems/design-spreadsheet;Medium;Matrix;false
+3529;Count Cells in Overlapping Horizontal and Vertical Substrings;https://leetcode.com/problems/count-cells-in-overlapping-horizontal-and-vertical-substrings;Medium;Matrix;false
+3537;Fill a Special Grid;https://leetcode.com/problems/fill-a-special-grid;Medium;Matrix;false
+3546;Equal Sum Grid Partition I;https://leetcode.com/problems/equal-sum-grid-partition-i;Medium;Matrix;false
+3548;Equal Sum Grid Partition II;https://leetcode.com/problems/equal-sum-grid-partition-ii;Hard;Matrix;false
+3552;Grid Teleportation Traversal;https://leetcode.com/problems/grid-teleportation-traversal;Medium;Matrix;false
+3565;Sequential Grid Path Cover;https://leetcode.com/problems/sequential-grid-path-cover;Medium;Matrix;true
+3567;Minimum Absolute Difference in Sliding Submatrix;https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix;Medium;Matrix;false
+3568;Minimum Moves to Clean the Classroom;https://leetcode.com/problems/minimum-moves-to-clean-the-classroom;Medium;Matrix;false
+3603;Minimum Cost Path with Alternating Directions II;https://leetcode.com/problems/minimum-cost-path-with-alternating-directions-ii;Medium;Matrix;false
+3619;Count Islands With Total Value Divisible by K;https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k;Medium;Matrix;false
+3643;Flip Square Submatrix Vertically;https://leetcode.com/problems/flip-square-submatrix-vertically;Easy;Matrix;false

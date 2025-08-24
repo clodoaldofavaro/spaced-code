@@ -1,0 +1,38 @@
+id;name;url;difficulty;category;is_premium
+207;Course Schedule;https://leetcode.com/problems/course-schedule;Medium;Topological Sort;false
+210;Course Schedule II;https://leetcode.com/problems/course-schedule-ii;Medium;Topological Sort;false
+269;Alien Dictionary;https://leetcode.com/problems/alien-dictionary;Hard;Topological Sort;true
+310;Minimum Height Trees;https://leetcode.com/problems/minimum-height-trees;Medium;Topological Sort;false
+329;Longest Increasing Path in a Matrix;https://leetcode.com/problems/longest-increasing-path-in-a-matrix;Hard;Topological Sort;false
+444;Sequence Reconstruction;https://leetcode.com/problems/sequence-reconstruction;Medium;Topological Sort;true
+631;Design Excel Sum Formula;https://leetcode.com/problems/design-excel-sum-formula;Hard;Topological Sort;true
+802;Find Eventual Safe States;https://leetcode.com/problems/find-eventual-safe-states;Medium;Topological Sort;false
+851;Loud and Rich;https://leetcode.com/problems/loud-and-rich;Medium;Topological Sort;false
+913;Cat and Mouse;https://leetcode.com/problems/cat-and-mouse;Hard;Topological Sort;false
+1059;All Paths from Source Lead to Destination;https://leetcode.com/problems/all-paths-from-source-lead-to-destination;Medium;Topological Sort;true
+1136;Parallel Courses;https://leetcode.com/problems/parallel-courses;Medium;Topological Sort;true
+1203;Sort Items by Groups Respecting Dependencies;https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies;Hard;Topological Sort;false
+1245;Tree Diameter;https://leetcode.com/problems/tree-diameter;Medium;Topological Sort;true
+1462;Course Schedule IV;https://leetcode.com/problems/course-schedule-iv;Medium;Topological Sort;false
+1591;Strange Printer II;https://leetcode.com/problems/strange-printer-ii;Hard;Topological Sort;false
+1632;Rank Transform of a Matrix;https://leetcode.com/problems/rank-transform-of-a-matrix;Hard;Topological Sort;false
+1728;Cat and Mouse II;https://leetcode.com/problems/cat-and-mouse-ii;Hard;Topological Sort;false
+1786;Number of Restricted Paths From First to Last Node;https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node;Medium;Topological Sort;false
+1857;Largest Color Value in a Directed Graph;https://leetcode.com/problems/largest-color-value-in-a-directed-graph;Hard;Topological Sort;false
+1916;Count Ways to Build Rooms in an Ant Colony;https://leetcode.com/problems/count-ways-to-build-rooms-in-an-ant-colony;Hard;Topological Sort;false
+1976;Number of Ways to Arrive at Destination;https://leetcode.com/problems/number-of-ways-to-arrive-at-destination;Medium;Topological Sort;false
+2050;Parallel Courses III;https://leetcode.com/problems/parallel-courses-iii;Hard;Topological Sort;false
+2115;Find All Possible Recipes from Given Supplies;https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies;Medium;Topological Sort;false
+2127;Maximum Employees to Be Invited to a Meeting;https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting;Hard;Topological Sort;false
+2192;All Ancestors of a Node in a Directed Acyclic Graph;https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph;Medium;Topological Sort;false
+2246;Longest Path With Different Adjacent Characters;https://leetcode.com/problems/longest-path-with-different-adjacent-characters;Hard;Topological Sort;false
+2328;Number of Increasing Paths in a Grid;https://leetcode.com/problems/number-of-increasing-paths-in-a-grid;Hard;Topological Sort;false
+2360;Longest Cycle in a Graph;https://leetcode.com/problems/longest-cycle-in-a-graph;Hard;Topological Sort;false
+2371;Minimize Maximum Value in a Grid;https://leetcode.com/problems/minimize-maximum-value-in-a-grid;Hard;Topological Sort;true
+2392;Build a Matrix With Conditions;https://leetcode.com/problems/build-a-matrix-with-conditions;Hard;Topological Sort;false
+2603;Collect Coins in a Tree;https://leetcode.com/problems/collect-coins-in-a-tree;Hard;Topological Sort;false
+3383;Minimum Runes to Add to Cast Spell;https://leetcode.com/problems/minimum-runes-to-add-to-cast-spell;Hard;Topological Sort;true
+3435;Frequencies of Shortest Supersequences;https://leetcode.com/problems/frequencies-of-shortest-supersequences;Hard;Topological Sort;false
+3481;Apply Substitutions;https://leetcode.com/problems/apply-substitutions;Medium;Topological Sort;true
+3530;Maximum Profit from Valid Topological Order in DAG;https://leetcode.com/problems/maximum-profit-from-valid-topological-order-in-dag;Hard;Topological Sort;false
+3620;Network Recovery Pathways;https://leetcode.com/problems/network-recovery-pathways;Hard;Topological Sort;false

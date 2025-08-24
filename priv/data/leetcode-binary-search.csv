@@ -1,0 +1,318 @@
+id;name;url;difficulty;category;is_premium
+4;Median of Two Sorted Arrays;https://leetcode.com/problems/median-of-two-sorted-arrays;Hard;Binary Search;false
+33;Search in Rotated Sorted Array;https://leetcode.com/problems/search-in-rotated-sorted-array;Medium;Binary Search;false
+34;Find First and Last Position of Element in Sorted Array;https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array;Medium;Binary Search;false
+35;Search Insert Position;https://leetcode.com/problems/search-insert-position;Easy;Binary Search;false
+69;Sqrt(x);https://leetcode.com/problems/sqrtx;Easy;Binary Search;false
+74;Search a 2D Matrix;https://leetcode.com/problems/search-a-2d-matrix;Medium;Binary Search;false
+81;Search in Rotated Sorted Array II;https://leetcode.com/problems/search-in-rotated-sorted-array-ii;Medium;Binary Search;false
+153;Find Minimum in Rotated Sorted Array;https://leetcode.com/problems/find-minimum-in-rotated-sorted-array;Medium;Binary Search;false
+154;Find Minimum in Rotated Sorted Array II;https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii;Hard;Binary Search;false
+162;Find Peak Element;https://leetcode.com/problems/find-peak-element;Medium;Binary Search;false
+167;Two Sum II - Input Array Is Sorted;https://leetcode.com/problems/two-sum-ii-input-array-is-sorted;Medium;Binary Search;false
+209;Minimum Size Subarray Sum;https://leetcode.com/problems/minimum-size-subarray-sum;Medium;Binary Search;false
+222;Count Complete Tree Nodes;https://leetcode.com/problems/count-complete-tree-nodes;Easy;Binary Search;false
+240;Search a 2D Matrix II;https://leetcode.com/problems/search-a-2d-matrix-ii;Medium;Binary Search;false
+259;3Sum Smaller;https://leetcode.com/problems/3sum-smaller;Medium;Binary Search;true
+268;Missing Number;https://leetcode.com/problems/missing-number;Easy;Binary Search;false
+270;Closest Binary Search Tree Value;https://leetcode.com/problems/closest-binary-search-tree-value;Easy;Binary Search;true
+275;H-Index II;https://leetcode.com/problems/h-index-ii;Medium;Binary Search;false
+278;First Bad Version;https://leetcode.com/problems/first-bad-version;Easy;Binary Search;false
+287;Find the Duplicate Number;https://leetcode.com/problems/find-the-duplicate-number;Medium;Binary Search;false
+300;Longest Increasing Subsequence;https://leetcode.com/problems/longest-increasing-subsequence;Medium;Binary Search;false
+302;Smallest Rectangle Enclosing Black Pixels;https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels;Hard;Binary Search;true
+315;Count of Smaller Numbers After Self;https://leetcode.com/problems/count-of-smaller-numbers-after-self;Hard;Binary Search;false
+327;Count of Range Sum;https://leetcode.com/problems/count-of-range-sum;Hard;Binary Search;false
+349;Intersection of Two Arrays;https://leetcode.com/problems/intersection-of-two-arrays;Easy;Binary Search;false
+350;Intersection of Two Arrays II;https://leetcode.com/problems/intersection-of-two-arrays-ii;Easy;Binary Search;false
+352;Data Stream as Disjoint Intervals;https://leetcode.com/problems/data-stream-as-disjoint-intervals;Hard;Binary Search;false
+354;Russian Doll Envelopes;https://leetcode.com/problems/russian-doll-envelopes;Hard;Binary Search;false
+362;Design Hit Counter;https://leetcode.com/problems/design-hit-counter;Medium;Binary Search;true
+363;Max Sum of Rectangle No Larger Than K;https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k;Hard;Binary Search;false
+367;Valid Perfect Square;https://leetcode.com/problems/valid-perfect-square;Easy;Binary Search;false
+374;Guess Number Higher or Lower;https://leetcode.com/problems/guess-number-higher-or-lower;Easy;Binary Search;false
+378;Kth Smallest Element in a Sorted Matrix;https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix;Medium;Binary Search;false
+400;Nth Digit;https://leetcode.com/problems/nth-digit;Medium;Binary Search;false
+410;Split Array Largest Sum;https://leetcode.com/problems/split-array-largest-sum;Hard;Binary Search;false
+436;Find Right Interval;https://leetcode.com/problems/find-right-interval;Medium;Binary Search;false
+441;Arranging Coins;https://leetcode.com/problems/arranging-coins;Easy;Binary Search;false
+456;132 Pattern;https://leetcode.com/problems/132-pattern;Medium;Binary Search;false
+475;Heaters;https://leetcode.com/problems/heaters;Medium;Binary Search;false
+483;Smallest Good Base;https://leetcode.com/problems/smallest-good-base;Hard;Binary Search;false
+493;Reverse Pairs;https://leetcode.com/problems/reverse-pairs;Hard;Binary Search;false
+497;Random Point in Non-overlapping Rectangles;https://leetcode.com/problems/random-point-in-non-overlapping-rectangles;Medium;Binary Search;false
+528;Random Pick with Weight;https://leetcode.com/problems/random-pick-with-weight;Medium;Binary Search;false
+532;K-diff Pairs in an Array;https://leetcode.com/problems/k-diff-pairs-in-an-array;Medium;Binary Search;false
+540;Single Element in a Sorted Array;https://leetcode.com/problems/single-element-in-a-sorted-array;Medium;Binary Search;false
+611;Valid Triangle Number;https://leetcode.com/problems/valid-triangle-number;Medium;Binary Search;false
+633;Sum of Square Numbers;https://leetcode.com/problems/sum-of-square-numbers;Medium;Binary Search;false
+644;Maximum Average Subarray II;https://leetcode.com/problems/maximum-average-subarray-ii;Hard;Binary Search;true
+658;Find K Closest Elements;https://leetcode.com/problems/find-k-closest-elements;Medium;Binary Search;false
+668;Kth Smallest Number in Multiplication Table;https://leetcode.com/problems/kth-smallest-number-in-multiplication-table;Hard;Binary Search;false
+702;Search in a Sorted Array of Unknown Size;https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size;Medium;Binary Search;true
+704;Binary Search;https://leetcode.com/problems/binary-search;Easy;Binary Search;false
+710;Random Pick with Blacklist;https://leetcode.com/problems/random-pick-with-blacklist;Hard;Binary Search;false
+713;Subarray Product Less Than K;https://leetcode.com/problems/subarray-product-less-than-k;Medium;Binary Search;false
+718;Maximum Length of Repeated Subarray;https://leetcode.com/problems/maximum-length-of-repeated-subarray;Medium;Binary Search;false
+719;Find K-th Smallest Pair Distance;https://leetcode.com/problems/find-k-th-smallest-pair-distance;Hard;Binary Search;false
+729;My Calendar I;https://leetcode.com/problems/my-calendar-i;Medium;Binary Search;false
+731;My Calendar II;https://leetcode.com/problems/my-calendar-ii;Medium;Binary Search;false
+732;My Calendar III;https://leetcode.com/problems/my-calendar-iii;Hard;Binary Search;false
+744;Find Smallest Letter Greater Than Target;https://leetcode.com/problems/find-smallest-letter-greater-than-target;Easy;Binary Search;false
+754;Reach a Number;https://leetcode.com/problems/reach-a-number;Medium;Binary Search;false
+774;Minimize Max Distance to Gas Station;https://leetcode.com/problems/minimize-max-distance-to-gas-station;Hard;Binary Search;true
+778;Swim in Rising Water;https://leetcode.com/problems/swim-in-rising-water;Hard;Binary Search;false
+786;K-th Smallest Prime Fraction;https://leetcode.com/problems/k-th-smallest-prime-fraction;Medium;Binary Search;false
+792;Number of Matching Subsequences;https://leetcode.com/problems/number-of-matching-subsequences;Medium;Binary Search;false
+793;Preimage Size of Factorial Zeroes Function;https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function;Hard;Binary Search;false
+825;Friends Of Appropriate Ages;https://leetcode.com/problems/friends-of-appropriate-ages;Medium;Binary Search;false
+826;Most Profit Assigning Work;https://leetcode.com/problems/most-profit-assigning-work;Medium;Binary Search;false
+852;Peak Index in a Mountain Array;https://leetcode.com/problems/peak-index-in-a-mountain-array;Medium;Binary Search;false
+862;Shortest Subarray with Sum at Least K;https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k;Hard;Binary Search;false
+875;Koko Eating Bananas;https://leetcode.com/problems/koko-eating-bananas;Medium;Binary Search;false
+878;Nth Magical Number;https://leetcode.com/problems/nth-magical-number;Hard;Binary Search;false
+887;Super Egg Drop;https://leetcode.com/problems/super-egg-drop;Hard;Binary Search;false
+888;Fair Candy Swap;https://leetcode.com/problems/fair-candy-swap;Easy;Binary Search;false
+902;Numbers At Most N Given Digit Set;https://leetcode.com/problems/numbers-at-most-n-given-digit-set;Hard;Binary Search;false
+911;Online Election;https://leetcode.com/problems/online-election;Medium;Binary Search;false
+981;Time Based Key-Value Store;https://leetcode.com/problems/time-based-key-value-store;Medium;Binary Search;false
+1004;Max Consecutive Ones III;https://leetcode.com/problems/max-consecutive-ones-iii;Medium;Binary Search;false
+1011;Capacity To Ship Packages Within D Days;https://leetcode.com/problems/capacity-to-ship-packages-within-d-days;Medium;Binary Search;false
+1027;Longest Arithmetic Subsequence;https://leetcode.com/problems/longest-arithmetic-subsequence;Medium;Binary Search;false
+1044;Longest Duplicate Substring;https://leetcode.com/problems/longest-duplicate-substring;Hard;Binary Search;false
+1055;Shortest Way to Form String;https://leetcode.com/problems/shortest-way-to-form-string;Medium;Binary Search;true
+1060;Missing Element in Sorted Array;https://leetcode.com/problems/missing-element-in-sorted-array;Medium;Binary Search;true
+1062;Longest Repeating Substring;https://leetcode.com/problems/longest-repeating-substring;Medium;Binary Search;true
+1064;Fixed Point;https://leetcode.com/problems/fixed-point;Easy;Binary Search;true
+1095;Find in Mountain Array;https://leetcode.com/problems/find-in-mountain-array;Hard;Binary Search;false
+1099;Two Sum Less Than K;https://leetcode.com/problems/two-sum-less-than-k;Easy;Binary Search;true
+1102;Path With Maximum Minimum Value;https://leetcode.com/problems/path-with-maximum-minimum-value;Medium;Binary Search;true
+1146;Snapshot Array;https://leetcode.com/problems/snapshot-array;Medium;Binary Search;false
+1150;Check If a Number Is Majority Element in a Sorted Array;https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array;Easy;Binary Search;true
+1157;Online Majority Element In Subarray;https://leetcode.com/problems/online-majority-element-in-subarray;Hard;Binary Search;false
+1170;Compare Strings by Frequency of the Smallest Character;https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character;Medium;Binary Search;false
+1182;Shortest Distance to Target Color;https://leetcode.com/problems/shortest-distance-to-target-color;Medium;Binary Search;true
+1187;Make Array Strictly Increasing;https://leetcode.com/problems/make-array-strictly-increasing;Hard;Binary Search;false
+1198;Find Smallest Common Element in All Rows;https://leetcode.com/problems/find-smallest-common-element-in-all-rows;Medium;Binary Search;true
+1201;Ugly Number III;https://leetcode.com/problems/ugly-number-iii;Medium;Binary Search;false
+1208;Get Equal Substrings Within Budget;https://leetcode.com/problems/get-equal-substrings-within-budget;Medium;Binary Search;false
+1213;Intersection of Three Sorted Arrays;https://leetcode.com/problems/intersection-of-three-sorted-arrays;Easy;Binary Search;true
+1214;Two Sum BSTs;https://leetcode.com/problems/two-sum-bsts;Medium;Binary Search;true
+1231;Divide Chocolate;https://leetcode.com/problems/divide-chocolate;Hard;Binary Search;true
+1235;Maximum Profit in Job Scheduling;https://leetcode.com/problems/maximum-profit-in-job-scheduling;Hard;Binary Search;false
+1237;Find Positive Integer Solution for a Given Equation;https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation;Medium;Binary Search;false
+1268;Search Suggestions System;https://leetcode.com/problems/search-suggestions-system;Medium;Binary Search;false
+1283;Find the Smallest Divisor Given a Threshold;https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold;Medium;Binary Search;false
+1292;Maximum Side Length of a Square with Sum Less than or Equal to Threshold;https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold;Medium;Binary Search;false
+1300;Sum of Mutated Array Closest to Target;https://leetcode.com/problems/sum-of-mutated-array-closest-to-target;Medium;Binary Search;false
+1337;The K Weakest Rows in a Matrix;https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix;Easy;Binary Search;false
+1346;Check If N and Its Double Exist;https://leetcode.com/problems/check-if-n-and-its-double-exist;Easy;Binary Search;false
+1348;Tweet Counts Per Frequency;https://leetcode.com/problems/tweet-counts-per-frequency;Medium;Binary Search;false
+1351;Count Negative Numbers in a Sorted Matrix;https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix;Easy;Binary Search;false
+1385;Find the Distance Value Between Two Arrays;https://leetcode.com/problems/find-the-distance-value-between-two-arrays;Easy;Binary Search;false
+1428;Leftmost Column with at Least a One;https://leetcode.com/problems/leftmost-column-with-at-least-a-one;Medium;Binary Search;true
+1439;Find the Kth Smallest Sum of a Matrix With Sorted Rows;https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows;Hard;Binary Search;false
+1477;Find Two Non-overlapping Sub-arrays Each With Target Sum;https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum;Medium;Binary Search;false
+1482;Minimum Number of Days to Make m Bouquets;https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets;Medium;Binary Search;false
+1483;Kth Ancestor of a Tree Node;https://leetcode.com/problems/kth-ancestor-of-a-tree-node;Hard;Binary Search;false
+1488;Avoid Flood in The City;https://leetcode.com/problems/avoid-flood-in-the-city;Medium;Binary Search;false
+1498;Number of Subsequences That Satisfy the Given Sum Condition;https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition;Medium;Binary Search;false
+1508;Range Sum of Sorted Subarray Sums;https://leetcode.com/problems/range-sum-of-sorted-subarray-sums;Medium;Binary Search;false
+1521;Find a Value of a Mysterious Function Closest to Target;https://leetcode.com/problems/find-a-value-of-a-mysterious-function-closest-to-target;Hard;Binary Search;false
+1533;Find the Index of the Large Integer;https://leetcode.com/problems/find-the-index-of-the-large-integer;Medium;Binary Search;true
+1539;Kth Missing Positive Number;https://leetcode.com/problems/kth-missing-positive-number;Easy;Binary Search;false
+1552;Magnetic Force Between Two Balls;https://leetcode.com/problems/magnetic-force-between-two-balls;Medium;Binary Search;false
+1562;Find Latest Group of Size M;https://leetcode.com/problems/find-latest-group-of-size-m;Medium;Binary Search;false
+1574;Shortest Subarray to be Removed to Make Array Sorted;https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted;Medium;Binary Search;false
+1608;Special Array With X Elements Greater Than or Equal X;https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x;Easy;Binary Search;false
+1618;Maximum Font to Fit a Sentence in a Screen;https://leetcode.com/problems/maximum-font-to-fit-a-sentence-in-a-screen;Medium;Binary Search;true
+1631;Path With Minimum Effort;https://leetcode.com/problems/path-with-minimum-effort;Medium;Binary Search;false
+1648;Sell Diminishing-Valued Colored Balls;https://leetcode.com/problems/sell-diminishing-valued-colored-balls;Medium;Binary Search;false
+1649;Create Sorted Array through Instructions;https://leetcode.com/problems/create-sorted-array-through-instructions;Hard;Binary Search;false
+1658;Minimum Operations to Reduce X to Zero;https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero;Medium;Binary Search;false
+1671;Minimum Number of Removals to Make Mountain Array;https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array;Hard;Binary Search;false
+1712;Ways to Split Array Into Three Subarrays;https://leetcode.com/problems/ways-to-split-array-into-three-subarrays;Medium;Binary Search;false
+1713;Minimum Operations to Make a Subsequence;https://leetcode.com/problems/minimum-operations-to-make-a-subsequence;Hard;Binary Search;false
+1739;Building Boxes;https://leetcode.com/problems/building-boxes;Hard;Binary Search;false
+1751;Maximum Number of Events That Can Be Attended II;https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii;Hard;Binary Search;false
+1760;Minimum Limit of Balls in a Bag;https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag;Medium;Binary Search;false
+1782;Count Pairs Of Nodes;https://leetcode.com/problems/count-pairs-of-nodes;Hard;Binary Search;false
+1793;Maximum Score of a Good Subarray;https://leetcode.com/problems/maximum-score-of-a-good-subarray;Hard;Binary Search;false
+1802;Maximum Value at a Given Index in a Bounded Array;https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array;Medium;Binary Search;false
+1818;Minimum Absolute Sum Difference;https://leetcode.com/problems/minimum-absolute-sum-difference;Medium;Binary Search;false
+1838;Frequency of the Most Frequent Element;https://leetcode.com/problems/frequency-of-the-most-frequent-element;Medium;Binary Search;false
+1847;Closest Room;https://leetcode.com/problems/closest-room;Hard;Binary Search;false
+1851;Minimum Interval to Include Each Query;https://leetcode.com/problems/minimum-interval-to-include-each-query;Hard;Binary Search;false
+1855;Maximum Distance Between a Pair of Values;https://leetcode.com/problems/maximum-distance-between-a-pair-of-values;Medium;Binary Search;false
+1862;Sum of Floored Pairs;https://leetcode.com/problems/sum-of-floored-pairs;Hard;Binary Search;false
+1870;Minimum Speed to Arrive on Time;https://leetcode.com/problems/minimum-speed-to-arrive-on-time;Medium;Binary Search;false
+1885;Count Pairs in Two Arrays;https://leetcode.com/problems/count-pairs-in-two-arrays;Medium;Binary Search;true
+1889;Minimum Space Wasted From Packaging;https://leetcode.com/problems/minimum-space-wasted-from-packaging;Hard;Binary Search;false
+1891;Cutting Ribbons;https://leetcode.com/problems/cutting-ribbons;Medium;Binary Search;true
+1894;Find the Student that Will Replace the Chalk;https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk;Medium;Binary Search;false
+1898;Maximum Number of Removable Characters;https://leetcode.com/problems/maximum-number-of-removable-characters;Medium;Binary Search;false
+1901;Find a Peak Element II;https://leetcode.com/problems/find-a-peak-element-ii;Medium;Binary Search;false
+1918;Kth Smallest Subarray Sum;https://leetcode.com/problems/kth-smallest-subarray-sum;Medium;Binary Search;true
+1923;Longest Common Subpath;https://leetcode.com/problems/longest-common-subpath;Hard;Binary Search;false
+1932;Merge BSTs to Create Single BST;https://leetcode.com/problems/merge-bsts-to-create-single-bst;Hard;Binary Search;false
+1954;Minimum Garden Perimeter to Collect Enough Apples;https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples;Medium;Binary Search;false
+1956;Minimum Time For K Virus Variants to Spread;https://leetcode.com/problems/minimum-time-for-k-virus-variants-to-spread;Hard;Binary Search;true
+1964;Find the Longest Valid Obstacle Course at Each Position;https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position;Hard;Binary Search;false
+1966;Binary Searchable Numbers in an Unsorted Array;https://leetcode.com/problems/binary-searchable-numbers-in-an-unsorted-array;Medium;Binary Search;true
+1970;Last Day Where You Can Still Cross;https://leetcode.com/problems/last-day-where-you-can-still-cross;Hard;Binary Search;false
+2008;Maximum Earnings From Taxi;https://leetcode.com/problems/maximum-earnings-from-taxi;Medium;Binary Search;false
+2009;Minimum Number of Operations to Make Array Continuous;https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous;Hard;Binary Search;false
+2024;Maximize the Confusion of an Exam;https://leetcode.com/problems/maximize-the-confusion-of-an-exam;Medium;Binary Search;false
+2031;Count Subarrays With More Ones Than Zeros;https://leetcode.com/problems/count-subarrays-with-more-ones-than-zeros;Medium;Binary Search;true
+2035;Partition Array Into Two Arrays to Minimize Sum Difference;https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference;Hard;Binary Search;false
+2040;Kth Smallest Product of Two Sorted Arrays;https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays;Hard;Binary Search;false
+2054;Two Best Non-Overlapping Events;https://leetcode.com/problems/two-best-non-overlapping-events;Medium;Binary Search;false
+2055;Plates Between Candles;https://leetcode.com/problems/plates-between-candles;Medium;Binary Search;false
+2064;Minimized Maximum of Products Distributed to Any Store;https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store;Medium;Binary Search;false
+2070;Most Beautiful Item for Each Query;https://leetcode.com/problems/most-beautiful-item-for-each-query;Medium;Binary Search;false
+2071;Maximum Number of Tasks You Can Assign;https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign;Hard;Binary Search;false
+2080;Range Frequency Queries;https://leetcode.com/problems/range-frequency-queries;Medium;Binary Search;false
+2089;Find Target Indices After Sorting Array;https://leetcode.com/problems/find-target-indices-after-sorting-array;Easy;Binary Search;false
+2106;Maximum Fruits Harvested After at Most K Steps;https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps;Hard;Binary Search;false
+2111;Minimum Operations to Make the Array K-Increasing;https://leetcode.com/problems/minimum-operations-to-make-the-array-k-increasing;Hard;Binary Search;false
+2137;Pour Water Between Buckets to Make Water Levels Equal;https://leetcode.com/problems/pour-water-between-buckets-to-make-water-levels-equal;Medium;Binary Search;true
+2141;Maximum Running Time of N Computers;https://leetcode.com/problems/maximum-running-time-of-n-computers;Hard;Binary Search;false
+2179;Count Good Triplets in an Array;https://leetcode.com/problems/count-good-triplets-in-an-array;Hard;Binary Search;false
+2187;Minimum Time to Complete Trips;https://leetcode.com/problems/minimum-time-to-complete-trips;Medium;Binary Search;false
+2223;Sum of Scores of Built Strings;https://leetcode.com/problems/sum-of-scores-of-built-strings;Hard;Binary Search;false
+2226;Maximum Candies Allocated to K Children;https://leetcode.com/problems/maximum-candies-allocated-to-k-children;Medium;Binary Search;false
+2234;Maximum Total Beauty of the Gardens;https://leetcode.com/problems/maximum-total-beauty-of-the-gardens;Hard;Binary Search;false
+2250;Count Number of Rectangles Containing Each Point;https://leetcode.com/problems/count-number-of-rectangles-containing-each-point;Medium;Binary Search;false
+2251;Number of Flowers in Full Bloom;https://leetcode.com/problems/number-of-flowers-in-full-bloom;Hard;Binary Search;false
+2258;Escape the Spreading Fire;https://leetcode.com/problems/escape-the-spreading-fire;Hard;Binary Search;false
+2271;Maximum White Tiles Covered by a Carpet;https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet;Medium;Binary Search;false
+2286;Booking Concert Tickets in Groups;https://leetcode.com/problems/booking-concert-tickets-in-groups;Hard;Binary Search;false
+2300;Successful Pairs of Spells and Potions;https://leetcode.com/problems/successful-pairs-of-spells-and-potions;Medium;Binary Search;false
+2302;Count Subarrays With Score Less Than K;https://leetcode.com/problems/count-subarrays-with-score-less-than-k;Hard;Binary Search;false
+2332;The Latest Time to Catch a Bus;https://leetcode.com/problems/the-latest-time-to-catch-a-bus;Medium;Binary Search;false
+2333;Minimum Sum of Squared Difference;https://leetcode.com/problems/minimum-sum-of-squared-difference;Medium;Binary Search;false
+2354;Number of Excellent Pairs;https://leetcode.com/problems/number-of-excellent-pairs;Hard;Binary Search;false
+2358;Maximum Number of Groups Entering a Competition;https://leetcode.com/problems/maximum-number-of-groups-entering-a-competition;Medium;Binary Search;false
+2387;Median of a Row Wise Sorted Matrix;https://leetcode.com/problems/median-of-a-row-wise-sorted-matrix;Medium;Binary Search;true
+2389;Longest Subsequence With Limited Sum;https://leetcode.com/problems/longest-subsequence-with-limited-sum;Easy;Binary Search;false
+2398;Maximum Number of Robots Within Budget;https://leetcode.com/problems/maximum-number-of-robots-within-budget;Hard;Binary Search;false
+2411;Smallest Subarrays With Maximum Bitwise OR;https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or;Medium;Binary Search;false
+2424;Longest Uploaded Prefix;https://leetcode.com/problems/longest-uploaded-prefix;Medium;Binary Search;false
+2426;Number of Pairs Satisfying Inequality;https://leetcode.com/problems/number-of-pairs-satisfying-inequality;Hard;Binary Search;false
+2439;Minimize Maximum of Array;https://leetcode.com/problems/minimize-maximum-of-array;Medium;Binary Search;false
+2448;Minimum Cost to Make Array Equal;https://leetcode.com/problems/minimum-cost-to-make-array-equal;Hard;Binary Search;false
+2454;Next Greater Element IV;https://leetcode.com/problems/next-greater-element-iv;Hard;Binary Search;false
+2468;Split Message Based on Limit;https://leetcode.com/problems/split-message-based-on-limit;Hard;Binary Search;false
+2476;Closest Nodes Queries in a Binary Search Tree;https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree;Medium;Binary Search;false
+2498;Frog Jump II;https://leetcode.com/problems/frog-jump-ii;Medium;Binary Search;false
+2501;Longest Square Streak in an Array;https://leetcode.com/problems/longest-square-streak-in-an-array;Medium;Binary Search;false
+2513;Minimize the Maximum of Two Arrays;https://leetcode.com/problems/minimize-the-maximum-of-two-arrays;Medium;Binary Search;false
+2517;Maximum Tastiness of Candy Basket;https://leetcode.com/problems/maximum-tastiness-of-candy-basket;Medium;Binary Search;false
+2519;Count the Number of K-Big Indices;https://leetcode.com/problems/count-the-number-of-k-big-indices;Hard;Binary Search;true
+2528;Maximize the Minimum Powered City;https://leetcode.com/problems/maximize-the-minimum-powered-city;Hard;Binary Search;false
+2529;Maximum Count of Positive Integer and Negative Integer;https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer;Easy;Binary Search;false
+2540;Minimum Common Value;https://leetcode.com/problems/minimum-common-value;Easy;Binary Search;false
+2554;Maximum Number of Integers to Choose From a Range I;https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i;Medium;Binary Search;false
+2555;Maximize Win From Two Segments;https://leetcode.com/problems/maximize-win-from-two-segments;Medium;Binary Search;false
+2557;Maximum Number of Integers to Choose From a Range II;https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-ii;Medium;Binary Search;true
+2560;House Robber IV;https://leetcode.com/problems/house-robber-iv;Medium;Binary Search;false
+2563;Count the Number of Fair Pairs;https://leetcode.com/problems/count-the-number-of-fair-pairs;Medium;Binary Search;false
+2565;Subsequence With the Minimum Score;https://leetcode.com/problems/subsequence-with-the-minimum-score;Hard;Binary Search;false
+2576;Find the Maximum Number of Marked Indices;https://leetcode.com/problems/find-the-maximum-number-of-marked-indices;Medium;Binary Search;false
+2589;Minimum Time to Complete All Tasks;https://leetcode.com/problems/minimum-time-to-complete-all-tasks;Hard;Binary Search;false
+2594;Minimum Time to Repair Cars;https://leetcode.com/problems/minimum-time-to-repair-cars;Medium;Binary Search;false
+2601;Prime Subtraction Operation;https://leetcode.com/problems/prime-subtraction-operation;Medium;Binary Search;false
+2602;Minimum Operations to Make All Array Elements Equal;https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal;Medium;Binary Search;false
+2604;Minimum Time to Eat All Grains;https://leetcode.com/problems/minimum-time-to-eat-all-grains;Hard;Binary Search;true
+2616;Minimize the Maximum Difference of Pairs;https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs;Medium;Binary Search;false
+2659;Make Array Empty;https://leetcode.com/problems/make-array-empty;Hard;Binary Search;false
+2702;Minimum Operations to Make Numbers Non-positive;https://leetcode.com/problems/minimum-operations-to-make-numbers-non-positive;Hard;Binary Search;true
+2713;Maximum Strictly Increasing Cells in a Matrix;https://leetcode.com/problems/maximum-strictly-increasing-cells-in-a-matrix;Hard;Binary Search;false
+2736;Maximum Sum Queries;https://leetcode.com/problems/maximum-sum-queries;Hard;Binary Search;false
+2779;Maximum Beauty of an Array After Applying Operation;https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation;Medium;Binary Search;false
+2790;Maximum Number of Groups With Increasing Length;https://leetcode.com/problems/maximum-number-of-groups-with-increasing-length;Hard;Binary Search;false
+2812;Find the Safest Path in a Grid;https://leetcode.com/problems/find-the-safest-path-in-a-grid;Medium;Binary Search;false
+2817;Minimum Absolute Difference Between Elements With Constraint;https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint;Medium;Binary Search;false
+2819;Minimum Relative Loss After Buying Chocolates;https://leetcode.com/problems/minimum-relative-loss-after-buying-chocolates;Hard;Binary Search;true
+2824;Count Pairs Whose Sum is Less than Target;https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target;Easy;Binary Search;false
+2826;Sorting Three Groups;https://leetcode.com/problems/sorting-three-groups;Medium;Binary Search;false
+2830;Maximize the Profit as the Salesman;https://leetcode.com/problems/maximize-the-profit-as-the-salesman;Medium;Binary Search;false
+2831;Find the Longest Equal Subarray;https://leetcode.com/problems/find-the-longest-equal-subarray;Medium;Binary Search;false
+2838;Maximum Coins Heroes Can Collect;https://leetcode.com/problems/maximum-coins-heroes-can-collect;Medium;Binary Search;true
+2856;Minimum Array Length After Pair Removals;https://leetcode.com/problems/minimum-array-length-after-pair-removals;Medium;Binary Search;false
+2861;Maximum Number of Alloys;https://leetcode.com/problems/maximum-number-of-alloys;Medium;Binary Search;false
+2926;Maximum Balanced Subsequence Sum;https://leetcode.com/problems/maximum-balanced-subsequence-sum;Hard;Binary Search;false
+2936;Number of Equal Numbers Blocks;https://leetcode.com/problems/number-of-equal-numbers-blocks;Medium;Binary Search;true
+2940;Find Building Where Alice and Bob Can Meet;https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet;Hard;Binary Search;false
+2941;Maximum GCD-Sum of a Subarray;https://leetcode.com/problems/maximum-gcd-sum-of-a-subarray;Hard;Binary Search;true
+2945;Find Maximum Non-decreasing Array Length;https://leetcode.com/problems/find-maximum-non-decreasing-array-length;Hard;Binary Search;false
+2967;Minimum Cost to Make Array Equalindromic;https://leetcode.com/problems/minimum-cost-to-make-array-equalindromic;Medium;Binary Search;false
+2968;Apply Operations to Maximize Frequency Score;https://leetcode.com/problems/apply-operations-to-maximize-frequency-score;Hard;Binary Search;false
+2970;Count the Number of Incremovable Subarrays I;https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i;Easy;Binary Search;false
+2972;Count the Number of Incremovable Subarrays II;https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-ii;Hard;Binary Search;false
+2981;Find Longest Special Substring That Occurs Thrice I;https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i;Medium;Binary Search;false
+2982;Find Longest Special Substring That Occurs Thrice II;https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-ii;Medium;Binary Search;false
+3006;Find Beautiful Indices in the Given Array I;https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-i;Medium;Binary Search;false
+3007;Maximum Number That Sum of the Prices Is Less Than or Equal to K;https://leetcode.com/problems/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k;Medium;Binary Search;false
+3008;Find Beautiful Indices in the Given Array II;https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-ii;Hard;Binary Search;false
+3048;Earliest Second to Mark Indices I;https://leetcode.com/problems/earliest-second-to-mark-indices-i;Medium;Binary Search;false
+3049;Earliest Second to Mark Indices II;https://leetcode.com/problems/earliest-second-to-mark-indices-ii;Hard;Binary Search;false
+3104;Find Longest Self-Contained Substring;https://leetcode.com/problems/find-longest-self-contained-substring;Hard;Binary Search;true
+3109;Find the Index of Permutation;https://leetcode.com/problems/find-the-index-of-permutation;Medium;Binary Search;true
+3113;Find the Number of Subarrays Where Boundary Elements Are Maximum;https://leetcode.com/problems/find-the-number-of-subarrays-where-boundary-elements-are-maximum;Hard;Binary Search;false
+3116;Kth Smallest Amount With Single Denomination Combination;https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination;Hard;Binary Search;false
+3117;Minimum Sum of Values by Dividing Array;https://leetcode.com/problems/minimum-sum-of-values-by-dividing-array;Hard;Binary Search;false
+3134;Find the Median of the Uniqueness Array;https://leetcode.com/problems/find-the-median-of-the-uniqueness-array;Hard;Binary Search;false
+3135;Equalize Strings by Adding or Removing Characters at Ends;https://leetcode.com/problems/equalize-strings-by-adding-or-removing-characters-at-ends;Medium;Binary Search;true
+3143;Maximum Points Inside the Square;https://leetcode.com/problems/maximum-points-inside-the-square;Medium;Binary Search;false
+3145;Find Products of Elements of Big Array;https://leetcode.com/problems/find-products-of-elements-of-big-array;Hard;Binary Search;false
+3152;Special Array II;https://leetcode.com/problems/special-array-ii;Medium;Binary Search;false
+3155;Maximum Number of Upgradable Servers;https://leetcode.com/problems/maximum-number-of-upgradable-servers;Medium;Binary Search;true
+3161;Block Placement Queries;https://leetcode.com/problems/block-placement-queries;Hard;Binary Search;false
+3171;Find Subarray With Bitwise OR Closest to K;https://leetcode.com/problems/find-subarray-with-bitwise-or-closest-to-k;Hard;Binary Search;false
+3186;Maximum Total Damage With Spell Casting;https://leetcode.com/problems/maximum-total-damage-with-spell-casting;Medium;Binary Search;false
+3209;Number of Subarrays With AND Value of K;https://leetcode.com/problems/number-of-subarrays-with-and-value-of-k;Hard;Binary Search;false
+3231;Minimum Number of Increasing Subsequence to Be Removed;https://leetcode.com/problems/minimum-number-of-increasing-subsequence-to-be-removed;Hard;Binary Search;true
+3261;Count Substrings That Satisfy K-Constraint II;https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-ii;Hard;Binary Search;false
+3281;Maximize Score of Numbers in Ranges;https://leetcode.com/problems/maximize-score-of-numbers-in-ranges;Medium;Binary Search;false
+3288;Length of the Longest Increasing Path;https://leetcode.com/problems/length-of-the-longest-increasing-path;Hard;Binary Search;false
+3291;Minimum Number of Valid Strings to Form Target I;https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-i;Medium;Binary Search;false
+3292;Minimum Number of Valid Strings to Form Target II;https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-ii;Hard;Binary Search;false
+3296;Minimum Number of Seconds to Make Mountain Height Zero;https://leetcode.com/problems/minimum-number-of-seconds-to-make-mountain-height-zero;Medium;Binary Search;false
+3312;Sorted GCD Pair Queries;https://leetcode.com/problems/sorted-gcd-pair-queries;Hard;Binary Search;false
+3323;Minimize Connected Groups by Inserting Interval;https://leetcode.com/problems/minimize-connected-groups-by-inserting-interval;Medium;Binary Search;true
+3344;Maximum Sized Array;https://leetcode.com/problems/maximum-sized-array;Medium;Binary Search;true
+3346;Maximum Frequency of an Element After Performing Operations I;https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-i;Medium;Binary Search;false
+3347;Maximum Frequency of an Element After Performing Operations II;https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii;Hard;Binary Search;false
+3350;Adjacent Increasing Subarrays Detection II;https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii;Medium;Binary Search;false
+3356;Zero Array Transformation II;https://leetcode.com/problems/zero-array-transformation-ii;Medium;Binary Search;false
+3357;Minimize the Maximum Adjacent Element Difference;https://leetcode.com/problems/minimize-the-maximum-adjacent-element-difference;Hard;Binary Search;false
+3369;Design an Array Statistics Tracker;https://leetcode.com/problems/design-an-array-statistics-tracker;Hard;Binary Search;true
+3398;Smallest Substring With Identical Characters I;https://leetcode.com/problems/smallest-substring-with-identical-characters-i;Hard;Binary Search;false
+3399;Smallest Substring With Identical Characters II;https://leetcode.com/problems/smallest-substring-with-identical-characters-ii;Hard;Binary Search;false
+3413;Maximum Coins From K Consecutive Bags;https://leetcode.com/problems/maximum-coins-from-k-consecutive-bags;Medium;Binary Search;false
+3414;Maximum Score of Non-overlapping Intervals;https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals;Hard;Binary Search;false
+3419;Minimize the Maximum Edge Weight of Graph;https://leetcode.com/problems/minimize-the-maximum-edge-weight-of-graph;Medium;Binary Search;false
+3449;Maximize the Minimum Game Score;https://leetcode.com/problems/maximize-the-minimum-game-score;Hard;Binary Search;false
+3453;Separate Squares I;https://leetcode.com/problems/separate-squares-i;Medium;Binary Search;false
+3454;Separate Squares II;https://leetcode.com/problems/separate-squares-ii;Hard;Binary Search;false
+3455;Shortest Matching Substring;https://leetcode.com/problems/shortest-matching-substring;Hard;Binary Search;false
+3464;Maximize the Distance Between Points on a Square;https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square;Hard;Binary Search;false
+3477;Fruits Into Baskets II;https://leetcode.com/problems/fruits-into-baskets-ii;Easy;Binary Search;false
+3479;Fruits Into Baskets III;https://leetcode.com/problems/fruits-into-baskets-iii;Medium;Binary Search;false
+3488;Closest Equal Element Queries;https://leetcode.com/problems/closest-equal-element-queries;Medium;Binary Search;false
+3501;Maximize Active Section with Trade II;https://leetcode.com/problems/maximize-active-section-with-trade-ii;Hard;Binary Search;false
+3508;Implement Router;https://leetcode.com/problems/implement-router;Medium;Binary Search;false
+3520;Minimum Threshold for Inversion Pairs Count;https://leetcode.com/problems/minimum-threshold-for-inversion-pairs-count;Medium;Binary Search;true
+3532;Path Existence Queries in a Graph I;https://leetcode.com/problems/path-existence-queries-in-a-graph-i;Medium;Binary Search;false
+3534;Path Existence Queries in a Graph II;https://leetcode.com/problems/path-existence-queries-in-a-graph-ii;Hard;Binary Search;false
+3585;Find Weighted Median Node in Tree;https://leetcode.com/problems/find-weighted-median-node-in-tree;Hard;Binary Search;false
+3600;Maximize Spanning Tree Stability with Upgrades;https://leetcode.com/problems/maximize-spanning-tree-stability-with-upgrades;Hard;Binary Search;false
+3605;Minimum Stability Factor of Array;https://leetcode.com/problems/minimum-stability-factor-of-array;Hard;Binary Search;false
+3608;Minimum Time for K Connected Components;https://leetcode.com/problems/minimum-time-for-k-connected-components;Medium;Binary Search;false
+3613;Minimize Maximum Component Cost;https://leetcode.com/problems/minimize-maximum-component-cost;Medium;Binary Search;false
+3620;Network Recovery Pathways;https://leetcode.com/problems/network-recovery-pathways;Hard;Binary Search;false
+3633;Earliest Finish Time for Land and Water Rides I;https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i;Easy;Binary Search;false
+3635;Earliest Finish Time for Land and Water Rides II;https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii;Medium;Binary Search;false
+3636;Threshold Majority Queries;https://leetcode.com/problems/threshold-majority-queries;Hard;Binary Search;false
+3639;Minimum Time to Activate String;https://leetcode.com/problems/minimum-time-to-activate-string;Medium;Binary Search;false

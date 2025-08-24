@@ -1,0 +1,431 @@
+id;name;url;difficulty;category;is_premium
+11;Container With Most Water;https://leetcode.com/problems/container-with-most-water;Medium;Greedy;false
+44;Wildcard Matching;https://leetcode.com/problems/wildcard-matching;Hard;Greedy;false
+45;Jump Game II;https://leetcode.com/problems/jump-game-ii;Medium;Greedy;false
+55;Jump Game;https://leetcode.com/problems/jump-game;Medium;Greedy;false
+122;Best Time to Buy and Sell Stock II;https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii;Medium;Greedy;false
+134;Gas Station;https://leetcode.com/problems/gas-station;Medium;Greedy;false
+135;Candy;https://leetcode.com/problems/candy;Hard;Greedy;false
+179;Largest Number;https://leetcode.com/problems/largest-number;Medium;Greedy;false
+253;Meeting Rooms II;https://leetcode.com/problems/meeting-rooms-ii;Medium;Greedy;true
+280;Wiggle Sort;https://leetcode.com/problems/wiggle-sort;Medium;Greedy;true
+316;Remove Duplicate Letters;https://leetcode.com/problems/remove-duplicate-letters;Medium;Greedy;false
+321;Create Maximum Number;https://leetcode.com/problems/create-maximum-number;Hard;Greedy;false
+324;Wiggle Sort II;https://leetcode.com/problems/wiggle-sort-ii;Medium;Greedy;false
+330;Patching Array;https://leetcode.com/problems/patching-array;Hard;Greedy;false
+334;Increasing Triplet Subsequence;https://leetcode.com/problems/increasing-triplet-subsequence;Medium;Greedy;false
+358;Rearrange String k Distance Apart;https://leetcode.com/problems/rearrange-string-k-distance-apart;Hard;Greedy;true
+376;Wiggle Subsequence;https://leetcode.com/problems/wiggle-subsequence;Medium;Greedy;false
+397;Integer Replacement;https://leetcode.com/problems/integer-replacement;Medium;Greedy;false
+402;Remove K Digits;https://leetcode.com/problems/remove-k-digits;Medium;Greedy;false
+409;Longest Palindrome;https://leetcode.com/problems/longest-palindrome;Easy;Greedy;false
+410;Split Array Largest Sum;https://leetcode.com/problems/split-array-largest-sum;Hard;Greedy;false
+420;Strong Password Checker;https://leetcode.com/problems/strong-password-checker;Hard;Greedy;false
+435;Non-overlapping Intervals;https://leetcode.com/problems/non-overlapping-intervals;Medium;Greedy;false
+452;Minimum Number of Arrows to Burst Balloons;https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons;Medium;Greedy;false
+455;Assign Cookies;https://leetcode.com/problems/assign-cookies;Easy;Greedy;false
+484;Find Permutation;https://leetcode.com/problems/find-permutation;Medium;Greedy;true
+502;IPO;https://leetcode.com/problems/ipo;Hard;Greedy;false
+517;Super Washing Machines;https://leetcode.com/problems/super-washing-machines;Hard;Greedy;false
+527;Word Abbreviation;https://leetcode.com/problems/word-abbreviation;Hard;Greedy;true
+555;Split Concatenated Strings;https://leetcode.com/problems/split-concatenated-strings;Medium;Greedy;true
+561;Array Partition;https://leetcode.com/problems/array-partition;Easy;Greedy;false
+581;Shortest Unsorted Continuous Subarray;https://leetcode.com/problems/shortest-unsorted-continuous-subarray;Medium;Greedy;false
+605;Can Place Flowers;https://leetcode.com/problems/can-place-flowers;Easy;Greedy;false
+611;Valid Triangle Number;https://leetcode.com/problems/valid-triangle-number;Medium;Greedy;false
+621;Task Scheduler;https://leetcode.com/problems/task-scheduler;Medium;Greedy;false
+624;Maximum Distance in Arrays;https://leetcode.com/problems/maximum-distance-in-arrays;Medium;Greedy;false
+625;Minimum Factorization;https://leetcode.com/problems/minimum-factorization;Medium;Greedy;true
+630;Course Schedule III;https://leetcode.com/problems/course-schedule-iii;Hard;Greedy;false
+632;Smallest Range Covering Elements from K Lists;https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists;Hard;Greedy;false
+646;Maximum Length of Pair Chain;https://leetcode.com/problems/maximum-length-of-pair-chain;Medium;Greedy;false
+649;Dota2 Senate;https://leetcode.com/problems/dota2-senate;Medium;Greedy;false
+659;Split Array into Consecutive Subsequences;https://leetcode.com/problems/split-array-into-consecutive-subsequences;Medium;Greedy;false
+670;Maximum Swap;https://leetcode.com/problems/maximum-swap;Medium;Greedy;false
+678;Valid Parenthesis String;https://leetcode.com/problems/valid-parenthesis-string;Medium;Greedy;false
+680;Valid Palindrome II;https://leetcode.com/problems/valid-palindrome-ii;Easy;Greedy;false
+714;Best Time to Buy and Sell Stock with Transaction Fee;https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee;Medium;Greedy;false
+738;Monotone Increasing Digits;https://leetcode.com/problems/monotone-increasing-digits;Medium;Greedy;false
+757;Set Intersection Size At Least Two;https://leetcode.com/problems/set-intersection-size-at-least-two;Hard;Greedy;false
+763;Partition Labels;https://leetcode.com/problems/partition-labels;Medium;Greedy;false
+765;Couples Holding Hands;https://leetcode.com/problems/couples-holding-hands;Hard;Greedy;false
+767;Reorganize String;https://leetcode.com/problems/reorganize-string;Medium;Greedy;false
+768;Max Chunks To Make Sorted II;https://leetcode.com/problems/max-chunks-to-make-sorted-ii;Hard;Greedy;false
+769;Max Chunks To Make Sorted;https://leetcode.com/problems/max-chunks-to-make-sorted;Medium;Greedy;false
+781;Rabbits in Forest;https://leetcode.com/problems/rabbits-in-forest;Medium;Greedy;false
+807;Max Increase to Keep City Skyline;https://leetcode.com/problems/max-increase-to-keep-city-skyline;Medium;Greedy;false
+826;Most Profit Assigning Work;https://leetcode.com/problems/most-profit-assigning-work;Medium;Greedy;false
+846;Hand of Straights;https://leetcode.com/problems/hand-of-straights;Medium;Greedy;false
+857;Minimum Cost to Hire K Workers;https://leetcode.com/problems/minimum-cost-to-hire-k-workers;Hard;Greedy;false
+860;Lemonade Change;https://leetcode.com/problems/lemonade-change;Easy;Greedy;false
+861;Score After Flipping Matrix;https://leetcode.com/problems/score-after-flipping-matrix;Medium;Greedy;false
+870;Advantage Shuffle;https://leetcode.com/problems/advantage-shuffle;Medium;Greedy;false
+871;Minimum Number of Refueling Stops;https://leetcode.com/problems/minimum-number-of-refueling-stops;Hard;Greedy;false
+881;Boats to Save People;https://leetcode.com/problems/boats-to-save-people;Medium;Greedy;false
+910;Smallest Range II;https://leetcode.com/problems/smallest-range-ii;Medium;Greedy;false
+921;Minimum Add to Make Parentheses Valid;https://leetcode.com/problems/minimum-add-to-make-parentheses-valid;Medium;Greedy;false
+936;Stamping The Sequence;https://leetcode.com/problems/stamping-the-sequence;Hard;Greedy;false
+942;DI String Match;https://leetcode.com/problems/di-string-match;Easy;Greedy;false
+945;Minimum Increment to Make Array Unique;https://leetcode.com/problems/minimum-increment-to-make-array-unique;Medium;Greedy;false
+948;Bag of Tokens;https://leetcode.com/problems/bag-of-tokens;Medium;Greedy;false
+954;Array of Doubled Pairs;https://leetcode.com/problems/array-of-doubled-pairs;Medium;Greedy;false
+955;Delete Columns to Make Sorted II;https://leetcode.com/problems/delete-columns-to-make-sorted-ii;Medium;Greedy;false
+969;Pancake Sorting;https://leetcode.com/problems/pancake-sorting;Medium;Greedy;false
+976;Largest Perimeter Triangle;https://leetcode.com/problems/largest-perimeter-triangle;Easy;Greedy;false
+984;String Without AAA or BBB;https://leetcode.com/problems/string-without-aaa-or-bbb;Medium;Greedy;false
+991;Broken Calculator;https://leetcode.com/problems/broken-calculator;Medium;Greedy;false
+1005;Maximize Sum Of Array After K Negations;https://leetcode.com/problems/maximize-sum-of-array-after-k-negations;Easy;Greedy;false
+1007;Minimum Domino Rotations For Equal Row;https://leetcode.com/problems/minimum-domino-rotations-for-equal-row;Medium;Greedy;false
+1013;Partition Array Into Three Parts With Equal Sum;https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum;Easy;Greedy;false
+1024;Video Stitching;https://leetcode.com/problems/video-stitching;Medium;Greedy;false
+1029;Two City Scheduling;https://leetcode.com/problems/two-city-scheduling;Medium;Greedy;false
+1053;Previous Permutation With One Swap;https://leetcode.com/problems/previous-permutation-with-one-swap;Medium;Greedy;false
+1054;Distant Barcodes;https://leetcode.com/problems/distant-barcodes;Medium;Greedy;false
+1055;Shortest Way to Form String;https://leetcode.com/problems/shortest-way-to-form-string;Medium;Greedy;true
+1058;Minimize Rounding Error to Meet Target;https://leetcode.com/problems/minimize-rounding-error-to-meet-target;Medium;Greedy;true
+1081;Smallest Subsequence of Distinct Characters;https://leetcode.com/problems/smallest-subsequence-of-distinct-characters;Medium;Greedy;false
+1090;Largest Values From Labels;https://leetcode.com/problems/largest-values-from-labels;Medium;Greedy;false
+1130;Minimum Cost Tree From Leaf Values;https://leetcode.com/problems/minimum-cost-tree-from-leaf-values;Medium;Greedy;false
+1144;Decrease Elements To Make Array Zigzag;https://leetcode.com/problems/decrease-elements-to-make-array-zigzag;Medium;Greedy;false
+1147;Longest Chunked Palindrome Decomposition;https://leetcode.com/problems/longest-chunked-palindrome-decomposition;Hard;Greedy;false
+1167;Minimum Cost to Connect Sticks;https://leetcode.com/problems/minimum-cost-to-connect-sticks;Medium;Greedy;true
+1183;Maximum Number of Ones;https://leetcode.com/problems/maximum-number-of-ones;Hard;Greedy;true
+1196;How Many Apples Can You Put into the Basket;https://leetcode.com/problems/how-many-apples-can-you-put-into-the-basket;Easy;Greedy;true
+1199;Minimum Time to Build Blocks;https://leetcode.com/problems/minimum-time-to-build-blocks;Hard;Greedy;true
+1217;Minimum Cost to Move Chips to The Same Position;https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position;Easy;Greedy;false
+1221;Split a String in Balanced Strings;https://leetcode.com/problems/split-a-string-in-balanced-strings;Easy;Greedy;false
+1247;Minimum Swaps to Make Strings Equal;https://leetcode.com/problems/minimum-swaps-to-make-strings-equal;Medium;Greedy;false
+1253;Reconstruct a 2-Row Binary Matrix;https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix;Medium;Greedy;false
+1262;Greatest Sum Divisible by Three;https://leetcode.com/problems/greatest-sum-divisible-by-three;Medium;Greedy;false
+1282;Group the People Given the Group Size They Belong To;https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to;Medium;Greedy;false
+1296;Divide Array in Sets of K Consecutive Numbers;https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers;Medium;Greedy;false
+1323;Maximum 69 Number;https://leetcode.com/problems/maximum-69-number;Easy;Greedy;false
+1326;Minimum Number of Taps to Open to Water a Garden;https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden;Hard;Greedy;false
+1328;Break a Palindrome;https://leetcode.com/problems/break-a-palindrome;Medium;Greedy;false
+1330;Reverse Subarray To Maximize Array Value;https://leetcode.com/problems/reverse-subarray-to-maximize-array-value;Hard;Greedy;false
+1338;Reduce Array Size to The Half;https://leetcode.com/problems/reduce-array-size-to-the-half;Medium;Greedy;false
+1353;Maximum Number of Events That Can Be Attended;https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended;Medium;Greedy;false
+1363;Largest Multiple of Three;https://leetcode.com/problems/largest-multiple-of-three;Hard;Greedy;false
+1382;Balance a Binary Search Tree;https://leetcode.com/problems/balance-a-binary-search-tree;Medium;Greedy;false
+1383;Maximum Performance of a Team;https://leetcode.com/problems/maximum-performance-of-a-team;Hard;Greedy;false
+1386;Cinema Seat Allocation;https://leetcode.com/problems/cinema-seat-allocation;Medium;Greedy;false
+1388;Pizza With 3n Slices;https://leetcode.com/problems/pizza-with-3n-slices;Hard;Greedy;false
+1400;Construct K Palindrome Strings;https://leetcode.com/problems/construct-k-palindrome-strings;Medium;Greedy;false
+1402;Reducing Dishes;https://leetcode.com/problems/reducing-dishes;Hard;Greedy;false
+1403;Minimum Subsequence in Non-Increasing Order;https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order;Easy;Greedy;false
+1405;Longest Happy String;https://leetcode.com/problems/longest-happy-string;Medium;Greedy;false
+1414;Find the Minimum Number of Fibonacci Numbers Whose Sum Is K;https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k;Medium;Greedy;false
+1432;Max Difference You Can Get From Changing an Integer;https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer;Medium;Greedy;false
+1433;Check If a String Can Break Another String;https://leetcode.com/problems/check-if-a-string-can-break-another-string;Medium;Greedy;false
+1465;Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts;https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts;Medium;Greedy;false
+1481;Least Number of Unique Integers after K Removals;https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals;Medium;Greedy;false
+1488;Avoid Flood in The City;https://leetcode.com/problems/avoid-flood-in-the-city;Medium;Greedy;false
+1505;Minimum Possible Integer After at Most K Adjacent Swaps On Digits;https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits;Hard;Greedy;false
+1509;Minimum Difference Between Largest and Smallest Value in Three Moves;https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves;Medium;Greedy;false
+1520;Maximum Number of Non-Overlapping Substrings;https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings;Hard;Greedy;false
+1526;Minimum Number of Increments on Subarrays to Form a Target Array;https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array;Hard;Greedy;false
+1529;Minimum Suffix Flips;https://leetcode.com/problems/minimum-suffix-flips;Medium;Greedy;false
+1536;Minimum Swaps to Arrange a Binary Grid;https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid;Medium;Greedy;false
+1537;Get the Maximum Score;https://leetcode.com/problems/get-the-maximum-score;Hard;Greedy;false
+1541;Minimum Insertions to Balance a Parentheses String;https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string;Medium;Greedy;false
+1546;Maximum Number of Non-Overlapping Subarrays With Sum Equals Target;https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target;Medium;Greedy;false
+1558;Minimum Numbers of Function Calls to Make Target Array;https://leetcode.com/problems/minimum-numbers-of-function-calls-to-make-target-array;Medium;Greedy;false
+1561;Maximum Number of Coins You Can Get;https://leetcode.com/problems/maximum-number-of-coins-you-can-get;Medium;Greedy;false
+1564;Put Boxes Into the Warehouse I;https://leetcode.com/problems/put-boxes-into-the-warehouse-i;Medium;Greedy;true
+1567;Maximum Length of Subarray With Positive Product;https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product;Medium;Greedy;false
+1578;Minimum Time to Make Rope Colorful;https://leetcode.com/problems/minimum-time-to-make-rope-colorful;Medium;Greedy;false
+1580;Put Boxes Into the Warehouse II;https://leetcode.com/problems/put-boxes-into-the-warehouse-ii;Medium;Greedy;true
+1585;Check If String Is Transformable With Substring Sort Operations;https://leetcode.com/problems/check-if-string-is-transformable-with-substring-sort-operations;Hard;Greedy;false
+1589;Maximum Sum Obtained of Any Permutation;https://leetcode.com/problems/maximum-sum-obtained-of-any-permutation;Medium;Greedy;false
+1605;Find Valid Matrix Given Row and Column Sums;https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums;Medium;Greedy;false
+1606;Find Servers That Handled Most Number of Requests;https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests;Hard;Greedy;false
+1642;Furthest Building You Can Reach;https://leetcode.com/problems/furthest-building-you-can-reach;Medium;Greedy;false
+1647;Minimum Deletions to Make Character Frequencies Unique;https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique;Medium;Greedy;false
+1648;Sell Diminishing-Valued Colored Balls;https://leetcode.com/problems/sell-diminishing-valued-colored-balls;Medium;Greedy;false
+1663;Smallest String With A Given Numeric Value;https://leetcode.com/problems/smallest-string-with-a-given-numeric-value;Medium;Greedy;false
+1665;Minimum Initial Energy to Finish Tasks;https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks;Hard;Greedy;false
+1671;Minimum Number of Removals to Make Mountain Array;https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array;Hard;Greedy;false
+1673;Find the Most Competitive Subsequence;https://leetcode.com/problems/find-the-most-competitive-subsequence;Medium;Greedy;false
+1675;Minimize Deviation in Array;https://leetcode.com/problems/minimize-deviation-in-array;Hard;Greedy;false
+1686;Stone Game VI;https://leetcode.com/problems/stone-game-vi;Medium;Greedy;false
+1689;Partitioning Into Minimum Number Of Deci-Binary Numbers;https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers;Medium;Greedy;false
+1702;Maximum Binary String After Change;https://leetcode.com/problems/maximum-binary-string-after-change;Medium;Greedy;false
+1703;Minimum Adjacent Swaps for K Consecutive Ones;https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones;Hard;Greedy;false
+1705;Maximum Number of Eaten Apples;https://leetcode.com/problems/maximum-number-of-eaten-apples;Medium;Greedy;false
+1708;Largest Subarray Length K;https://leetcode.com/problems/largest-subarray-length-k;Easy;Greedy;true
+1710;Maximum Units on a Truck;https://leetcode.com/problems/maximum-units-on-a-truck;Easy;Greedy;false
+1713;Minimum Operations to Make a Subsequence;https://leetcode.com/problems/minimum-operations-to-make-a-subsequence;Hard;Greedy;false
+1717;Maximum Score From Removing Substrings;https://leetcode.com/problems/maximum-score-from-removing-substrings;Medium;Greedy;false
+1727;Largest Submatrix With Rearrangements;https://leetcode.com/problems/largest-submatrix-with-rearrangements;Medium;Greedy;false
+1733;Minimum Number of People to Teach;https://leetcode.com/problems/minimum-number-of-people-to-teach;Medium;Greedy;false
+1736;Latest Time by Replacing Hidden Digits;https://leetcode.com/problems/latest-time-by-replacing-hidden-digits;Easy;Greedy;false
+1739;Building Boxes;https://leetcode.com/problems/building-boxes;Hard;Greedy;false
+1753;Maximum Score From Removing Stones;https://leetcode.com/problems/maximum-score-from-removing-stones;Medium;Greedy;false
+1754;Largest Merge Of Two Strings;https://leetcode.com/problems/largest-merge-of-two-strings;Medium;Greedy;false
+1764;Form Array by Concatenating Subarrays of Another Array;https://leetcode.com/problems/form-array-by-concatenating-subarrays-of-another-array;Medium;Greedy;false
+1775;Equal Sum Arrays With Minimum Number of Operations;https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations;Medium;Greedy;false
+1785;Minimum Elements to Add to Form a Given Sum;https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum;Medium;Greedy;false
+1788;Maximize the Beauty of the Garden;https://leetcode.com/problems/maximize-the-beauty-of-the-garden;Hard;Greedy;true
+1792;Maximum Average Pass Ratio;https://leetcode.com/problems/maximum-average-pass-ratio;Medium;Greedy;false
+1794;Count Pairs of Equal Substrings With Minimum Difference;https://leetcode.com/problems/count-pairs-of-equal-substrings-with-minimum-difference;Medium;Greedy;true
+1798;Maximum Number of Consecutive Values You Can Make;https://leetcode.com/problems/maximum-number-of-consecutive-values-you-can-make;Medium;Greedy;false
+1802;Maximum Value at a Given Index in a Bounded Array;https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array;Medium;Greedy;false
+1824;Minimum Sideway Jumps;https://leetcode.com/problems/minimum-sideway-jumps;Medium;Greedy;false
+1827;Minimum Operations to Make the Array Increasing;https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing;Easy;Greedy;false
+1833;Maximum Ice Cream Bars;https://leetcode.com/problems/maximum-ice-cream-bars;Medium;Greedy;false
+1838;Frequency of the Most Frequent Element;https://leetcode.com/problems/frequency-of-the-most-frequent-element;Medium;Greedy;false
+1846;Maximum Element After Decreasing and Rearranging;https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging;Medium;Greedy;false
+1850;Minimum Adjacent Swaps to Reach the Kth Smallest Number;https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number;Medium;Greedy;false
+1864;Minimum Number of Swaps to Make the Binary String Alternating;https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating;Medium;Greedy;false
+1874;Minimize Product Sum of Two Arrays;https://leetcode.com/problems/minimize-product-sum-of-two-arrays;Medium;Greedy;true
+1877;Minimize Maximum Pair Sum in Array;https://leetcode.com/problems/minimize-maximum-pair-sum-in-array;Medium;Greedy;false
+1881;Maximum Value after Insertion;https://leetcode.com/problems/maximum-value-after-insertion;Medium;Greedy;false
+1899;Merge Triplets to Form Target Triplet;https://leetcode.com/problems/merge-triplets-to-form-target-triplet;Medium;Greedy;false
+1903;Largest Odd Number in String;https://leetcode.com/problems/largest-odd-number-in-string;Easy;Greedy;false
+1921;Eliminate Maximum Number of Monsters;https://leetcode.com/problems/eliminate-maximum-number-of-monsters;Medium;Greedy;false
+1927;Sum Game;https://leetcode.com/problems/sum-game;Medium;Greedy;false
+1936;Add Minimum Number of Rungs;https://leetcode.com/problems/add-minimum-number-of-rungs;Medium;Greedy;false
+1946;Largest Number After Mutating Substring;https://leetcode.com/problems/largest-number-after-mutating-substring;Medium;Greedy;false
+1953;Maximum Number of Weeks for Which You Can Work;https://leetcode.com/problems/maximum-number-of-weeks-for-which-you-can-work;Medium;Greedy;false
+1962;Remove Stones to Minimize the Total;https://leetcode.com/problems/remove-stones-to-minimize-the-total;Medium;Greedy;false
+1963;Minimum Number of Swaps to Make the String Balanced;https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced;Medium;Greedy;false
+1968;Array With Elements Not Equal to Average of Neighbors;https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors;Medium;Greedy;false
+1969;Minimum Non-Zero Product of the Array Elements;https://leetcode.com/problems/minimum-non-zero-product-of-the-array-elements;Medium;Greedy;false
+1974;Minimum Time to Type Word Using Special Typewriter;https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter;Easy;Greedy;false
+1975;Maximum Matrix Sum;https://leetcode.com/problems/maximum-matrix-sum;Medium;Greedy;false
+1989;Maximum Number of People That Can Be Caught in Tag;https://leetcode.com/problems/maximum-number-of-people-that-can-be-caught-in-tag;Medium;Greedy;true
+1996;The Number of Weak Characters in the Game;https://leetcode.com/problems/the-number-of-weak-characters-in-the-game;Medium;Greedy;false
+2007;Find Original Array From Doubled Array;https://leetcode.com/problems/find-original-array-from-doubled-array;Medium;Greedy;false
+2014;Longest Subsequence Repeated k Times;https://leetcode.com/problems/longest-subsequence-repeated-k-times;Hard;Greedy;false
+2015;Average Height of Buildings in Each Segment;https://leetcode.com/problems/average-height-of-buildings-in-each-segment;Medium;Greedy;true
+2027;Minimum Moves to Convert String;https://leetcode.com/problems/minimum-moves-to-convert-string;Easy;Greedy;false
+2029;Stone Game IX;https://leetcode.com/problems/stone-game-ix;Medium;Greedy;false
+2030;Smallest K-Length Subsequence With Occurrences of a Letter;https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter;Hard;Greedy;false
+2037;Minimum Number of Moves to Seat Everyone;https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone;Easy;Greedy;false
+2038;Remove Colored Pieces if Both Neighbors are the Same Color;https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color;Medium;Greedy;false
+2064;Minimized Maximum of Products Distributed to Any Store;https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store;Medium;Greedy;false
+2071;Maximum Number of Tasks You Can Assign;https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign;Hard;Greedy;false
+2078;Two Furthest Houses With Different Colors;https://leetcode.com/problems/two-furthest-houses-with-different-colors;Easy;Greedy;false
+2086;Minimum Number of Food Buckets to Feed the Hamsters;https://leetcode.com/problems/minimum-number-of-food-buckets-to-feed-the-hamsters;Medium;Greedy;false
+2087;Minimum Cost Homecoming of a Robot in a Grid;https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid;Medium;Greedy;false
+2091;Removing Minimum and Maximum From Array;https://leetcode.com/problems/removing-minimum-and-maximum-from-array;Medium;Greedy;false
+2098;Subsequence of Size K With the Largest Even Sum;https://leetcode.com/problems/subsequence-of-size-k-with-the-largest-even-sum;Medium;Greedy;true
+2116;Check if a Parentheses String Can Be Valid;https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid;Medium;Greedy;false
+2126;Destroying Asteroids;https://leetcode.com/problems/destroying-asteroids;Medium;Greedy;false
+2131;Longest Palindrome by Concatenating Two Letter Words;https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words;Medium;Greedy;false
+2132;Stamping the Grid;https://leetcode.com/problems/stamping-the-grid;Hard;Greedy;false
+2136;Earliest Possible Day of Full Bloom;https://leetcode.com/problems/earliest-possible-day-of-full-bloom;Hard;Greedy;false
+2139;Minimum Moves to Reach Target Score;https://leetcode.com/problems/minimum-moves-to-reach-target-score;Medium;Greedy;false
+2141;Maximum Running Time of N Computers;https://leetcode.com/problems/maximum-running-time-of-n-computers;Hard;Greedy;false
+2144;Minimum Cost of Buying Candies With Discount;https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount;Easy;Greedy;false
+2160;Minimum Sum of Four Digit Number After Splitting Digits;https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits;Easy;Greedy;false
+2170;Minimum Operations to Make the Array Alternating;https://leetcode.com/problems/minimum-operations-to-make-the-array-alternating;Medium;Greedy;false
+2171;Removing Minimum Number of Magic Beans;https://leetcode.com/problems/removing-minimum-number-of-magic-beans;Medium;Greedy;false
+2178;Maximum Split of Positive Even Integers;https://leetcode.com/problems/maximum-split-of-positive-even-integers;Medium;Greedy;false
+2182;Construct String With Repeat Limit;https://leetcode.com/problems/construct-string-with-repeat-limit;Medium;Greedy;false
+2193;Minimum Number of Moves to Make Palindrome;https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome;Hard;Greedy;false
+2195;Append K Integers With Minimal Sum;https://leetcode.com/problems/append-k-integers-with-minimal-sum;Medium;Greedy;false
+2202;Maximize the Topmost Element After K Moves;https://leetcode.com/problems/maximize-the-topmost-element-after-k-moves;Medium;Greedy;false
+2207;Maximize Number of Subsequences in a String;https://leetcode.com/problems/maximize-number-of-subsequences-in-a-string;Medium;Greedy;false
+2208;Minimum Operations to Halve Array Sum;https://leetcode.com/problems/minimum-operations-to-halve-array-sum;Medium;Greedy;false
+2214;Minimum Health to Beat Game;https://leetcode.com/problems/minimum-health-to-beat-game;Medium;Greedy;true
+2216;Minimum Deletions to Make Array Beautiful;https://leetcode.com/problems/minimum-deletions-to-make-array-beautiful;Medium;Greedy;false
+2224;Minimum Number of Operations to Convert Time;https://leetcode.com/problems/minimum-number-of-operations-to-convert-time;Easy;Greedy;false
+2233;Maximum Product After K Increments;https://leetcode.com/problems/maximum-product-after-k-increments;Medium;Greedy;false
+2234;Maximum Total Beauty of the Gardens;https://leetcode.com/problems/maximum-total-beauty-of-the-gardens;Hard;Greedy;false
+2241;Design an ATM Machine;https://leetcode.com/problems/design-an-atm-machine;Medium;Greedy;false
+2244;Minimum Rounds to Complete All Tasks;https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks;Medium;Greedy;false
+2259;Remove Digit From Number to Maximize Result;https://leetcode.com/problems/remove-digit-from-number-to-maximize-result;Easy;Greedy;false
+2263;Make Array Non-decreasing or Non-increasing;https://leetcode.com/problems/make-array-non-decreasing-or-non-increasing;Hard;Greedy;true
+2268;Minimum Number of Keypresses;https://leetcode.com/problems/minimum-number-of-keypresses;Medium;Greedy;true
+2271;Maximum White Tiles Covered by a Carpet;https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet;Medium;Greedy;false
+2279;Maximum Bags With Full Capacity of Rocks;https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks;Medium;Greedy;false
+2285;Maximum Total Importance of Roads;https://leetcode.com/problems/maximum-total-importance-of-roads;Medium;Greedy;false
+2294;Partition Array Such That Maximum Difference Is K;https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k;Medium;Greedy;false
+2310;Sum of Numbers With Units Digit K;https://leetcode.com/problems/sum-of-numbers-with-units-digit-k;Medium;Greedy;false
+2311;Longest Binary Subsequence Less Than or Equal to K;https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k;Medium;Greedy;false
+2323;Find Minimum Time to Finish All Jobs II;https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs-ii;Medium;Greedy;true
+2333;Minimum Sum of Squared Difference;https://leetcode.com/problems/minimum-sum-of-squared-difference;Medium;Greedy;false
+2335;Minimum Amount of Time to Fill Cups;https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups;Easy;Greedy;false
+2340;Minimum Adjacent Swaps to Make a Valid Array;https://leetcode.com/problems/minimum-adjacent-swaps-to-make-a-valid-array;Medium;Greedy;true
+2350;Shortest Impossible Sequence of Rolls;https://leetcode.com/problems/shortest-impossible-sequence-of-rolls;Hard;Greedy;false
+2357;Make Array Zero by Subtracting Equal Amounts;https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts;Easy;Greedy;false
+2358;Maximum Number of Groups Entering a Competition;https://leetcode.com/problems/maximum-number-of-groups-entering-a-competition;Medium;Greedy;false
+2366;Minimum Replacements to Sort the Array;https://leetcode.com/problems/minimum-replacements-to-sort-the-array;Hard;Greedy;false
+2375;Construct Smallest Number From DI String;https://leetcode.com/problems/construct-smallest-number-from-di-string;Medium;Greedy;false
+2383;Minimum Hours of Training to Win a Competition;https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition;Easy;Greedy;false
+2384;Largest Palindromic Number;https://leetcode.com/problems/largest-palindromic-number;Medium;Greedy;false
+2389;Longest Subsequence With Limited Sum;https://leetcode.com/problems/longest-subsequence-with-limited-sum;Easy;Greedy;false
+2405;Optimal Partition of String;https://leetcode.com/problems/optimal-partition-of-string;Medium;Greedy;false
+2406;Divide Intervals Into Minimum Number of Groups;https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups;Medium;Greedy;false
+2410;Maximum Matching of Players With Trainers;https://leetcode.com/problems/maximum-matching-of-players-with-trainers;Medium;Greedy;false
+2412;Minimum Money Required Before Transactions;https://leetcode.com/problems/minimum-money-required-before-transactions;Hard;Greedy;false
+2422;Merge Operations to Turn Array Into a Palindrome;https://leetcode.com/problems/merge-operations-to-turn-array-into-a-palindrome;Medium;Greedy;true
+2429;Minimize XOR;https://leetcode.com/problems/minimize-xor;Medium;Greedy;false
+2434;Using a Robot to Print the Lexicographically Smallest String;https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string;Medium;Greedy;false
+2436;Minimum Split Into Subarrays With GCD Greater Than One;https://leetcode.com/problems/minimum-split-into-subarrays-with-gcd-greater-than-one;Medium;Greedy;true
+2439;Minimize Maximum of Array;https://leetcode.com/problems/minimize-maximum-of-array;Medium;Greedy;false
+2448;Minimum Cost to Make Array Equal;https://leetcode.com/problems/minimum-cost-to-make-array-equal;Hard;Greedy;false
+2449;Minimum Number of Operations to Make Arrays Similar;https://leetcode.com/problems/minimum-number-of-operations-to-make-arrays-similar;Hard;Greedy;false
+2457;Minimum Addition to Make Integer Beautiful;https://leetcode.com/problems/minimum-addition-to-make-integer-beautiful;Medium;Greedy;false
+2459;Sort Array by Moving Items to Empty Space;https://leetcode.com/problems/sort-array-by-moving-items-to-empty-space;Hard;Greedy;true
+2472;Maximum Number of Non-overlapping Palindrome Substrings;https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings;Hard;Greedy;false
+2486;Append Characters to String to Make Subsequence;https://leetcode.com/problems/append-characters-to-string-to-make-subsequence;Medium;Greedy;false
+2497;Maximum Star Sum of a Graph;https://leetcode.com/problems/maximum-star-sum-of-a-graph;Medium;Greedy;false
+2498;Frog Jump II;https://leetcode.com/problems/frog-jump-ii;Medium;Greedy;false
+2499;Minimum Total Cost to Make Arrays Unequal;https://leetcode.com/problems/minimum-total-cost-to-make-arrays-unequal;Hard;Greedy;false
+2517;Maximum Tastiness of Candy Basket;https://leetcode.com/problems/maximum-tastiness-of-candy-basket;Medium;Greedy;false
+2522;Partition String Into Substrings With Values at Most K;https://leetcode.com/problems/partition-string-into-substrings-with-values-at-most-k;Medium;Greedy;false
+2528;Maximize the Minimum Powered City;https://leetcode.com/problems/maximize-the-minimum-powered-city;Hard;Greedy;false
+2530;Maximal Score After Applying K Operations;https://leetcode.com/problems/maximal-score-after-applying-k-operations;Medium;Greedy;false
+2541;Minimum Operations to Make Array Equal II;https://leetcode.com/problems/minimum-operations-to-make-array-equal-ii;Medium;Greedy;false
+2542;Maximum Subsequence Score;https://leetcode.com/problems/maximum-subsequence-score;Medium;Greedy;false
+2548;Maximum Price to Fill a Bag;https://leetcode.com/problems/maximum-price-to-fill-a-bag;Medium;Greedy;true
+2551;Put Marbles in Bags;https://leetcode.com/problems/put-marbles-in-bags;Hard;Greedy;false
+2554;Maximum Number of Integers to Choose From a Range I;https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i;Medium;Greedy;false
+2557;Maximum Number of Integers to Choose From a Range II;https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-ii;Medium;Greedy;true
+2560;House Robber IV;https://leetcode.com/problems/house-robber-iv;Medium;Greedy;false
+2561;Rearranging Fruits;https://leetcode.com/problems/rearranging-fruits;Hard;Greedy;false
+2566;Maximum Difference by Remapping a Digit;https://leetcode.com/problems/maximum-difference-by-remapping-a-digit;Easy;Greedy;false
+2567;Minimum Score by Changing Two Elements;https://leetcode.com/problems/minimum-score-by-changing-two-elements;Medium;Greedy;false
+2571;Minimum Operations to Reduce an Integer to 0;https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0;Medium;Greedy;false
+2573;Find the String with LCP;https://leetcode.com/problems/find-the-string-with-lcp;Hard;Greedy;false
+2576;Find the Maximum Number of Marked Indices;https://leetcode.com/problems/find-the-maximum-number-of-marked-indices;Medium;Greedy;false
+2578;Split With Minimum Sum;https://leetcode.com/problems/split-with-minimum-sum;Easy;Greedy;false
+2587;Rearrange Array to Maximize Prefix Score;https://leetcode.com/problems/rearrange-array-to-maximize-prefix-score;Medium;Greedy;false
+2589;Minimum Time to Complete All Tasks;https://leetcode.com/problems/minimum-time-to-complete-all-tasks;Hard;Greedy;false
+2591;Distribute Money to Maximum Children;https://leetcode.com/problems/distribute-money-to-maximum-children;Easy;Greedy;false
+2592;Maximize Greatness of an Array;https://leetcode.com/problems/maximize-greatness-of-an-array;Medium;Greedy;false
+2598;Smallest Missing Non-negative Integer After Operations;https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations;Medium;Greedy;false
+2599;Make the Prefix Sum Non-negative;https://leetcode.com/problems/make-the-prefix-sum-non-negative;Medium;Greedy;true
+2600;K Items With the Maximum Sum;https://leetcode.com/problems/k-items-with-the-maximum-sum;Easy;Greedy;false
+2601;Prime Subtraction Operation;https://leetcode.com/problems/prime-subtraction-operation;Medium;Greedy;false
+2607;Make K-Subarray Sums Equal;https://leetcode.com/problems/make-k-subarray-sums-equal;Medium;Greedy;false
+2611;Mice and Cheese;https://leetcode.com/problems/mice-and-cheese;Medium;Greedy;false
+2616;Minimize the Maximum Difference of Pairs;https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs;Medium;Greedy;false
+2645;Minimum Additions to Make Valid String;https://leetcode.com/problems/minimum-additions-to-make-valid-string;Medium;Greedy;false
+2656;Maximum Sum With Exactly K Elements;https://leetcode.com/problems/maximum-sum-with-exactly-k-elements;Easy;Greedy;false
+2659;Make Array Empty;https://leetcode.com/problems/make-array-empty;Hard;Greedy;false
+2663;Lexicographically Smallest Beautiful String;https://leetcode.com/problems/lexicographically-smallest-beautiful-string;Hard;Greedy;false
+2673;Make Costs of Paths Equal in a Binary Tree;https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree;Medium;Greedy;false
+2680;Maximum OR;https://leetcode.com/problems/maximum-or;Medium;Greedy;false
+2697;Lexicographically Smallest Palindrome;https://leetcode.com/problems/lexicographically-smallest-palindrome;Easy;Greedy;false
+2706;Buy Two Chocolates;https://leetcode.com/problems/buy-two-chocolates;Easy;Greedy;false
+2708;Maximum Strength of a Group;https://leetcode.com/problems/maximum-strength-of-a-group;Medium;Greedy;false
+2712;Minimum Cost to Make All Characters Equal;https://leetcode.com/problems/minimum-cost-to-make-all-characters-equal;Medium;Greedy;false
+2734;Lexicographically Smallest String After Substring Operation;https://leetcode.com/problems/lexicographically-smallest-string-after-substring-operation;Medium;Greedy;false
+2745;Construct the Longest New String;https://leetcode.com/problems/construct-the-longest-new-string;Medium;Greedy;false
+2789;Largest Element in an Array after Merge Operations;https://leetcode.com/problems/largest-element-in-an-array-after-merge-operations;Medium;Greedy;false
+2790;Maximum Number of Groups With Increasing Length;https://leetcode.com/problems/maximum-number-of-groups-with-increasing-length;Hard;Greedy;false
+2800;Shortest String That Contains Three Strings;https://leetcode.com/problems/shortest-string-that-contains-three-strings;Medium;Greedy;false
+2811;Check if it is Possible to Split Array;https://leetcode.com/problems/check-if-it-is-possible-to-split-array;Medium;Greedy;false
+2813;Maximum Elegance of a K-Length Subsequence;https://leetcode.com/problems/maximum-elegance-of-a-k-length-subsequence;Hard;Greedy;false
+2818;Apply Operations to Maximize Score;https://leetcode.com/problems/apply-operations-to-maximize-score;Hard;Greedy;false
+2829;Determine the Minimum Sum of a k-avoiding Array;https://leetcode.com/problems/determine-the-minimum-sum-of-a-k-avoiding-array;Medium;Greedy;false
+2834;Find the Minimum Possible Sum of a Beautiful Array;https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array;Medium;Greedy;false
+2835;Minimum Operations to Form Subsequence With Target Sum;https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum;Hard;Greedy;false
+2842;Count K-Subsequences of a String With Maximum Beauty;https://leetcode.com/problems/count-k-subsequences-of-a-string-with-maximum-beauty;Hard;Greedy;false
+2844;Minimum Operations to Make a Special Number;https://leetcode.com/problems/minimum-operations-to-make-a-special-number;Medium;Greedy;false
+2847;Smallest Number With Given Digit Product;https://leetcode.com/problems/smallest-number-with-given-digit-product;Medium;Greedy;true
+2856;Minimum Array Length After Pair Removals;https://leetcode.com/problems/minimum-array-length-after-pair-removals;Medium;Greedy;false
+2864;Maximum Odd Binary Number;https://leetcode.com/problems/maximum-odd-binary-number;Easy;Greedy;false
+2868;The Wording Game;https://leetcode.com/problems/the-wording-game;Hard;Greedy;true
+2870;Minimum Number of Operations to Make Array Empty;https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty;Medium;Greedy;false
+2871;Split Array Into Maximum Number of Subarrays;https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays;Medium;Greedy;false
+2892;Minimizing Array After Replacing Pairs With Their Product;https://leetcode.com/problems/minimizing-array-after-replacing-pairs-with-their-product;Medium;Greedy;true
+2895;Minimum Processing Time;https://leetcode.com/problems/minimum-processing-time;Medium;Greedy;false
+2897;Apply Operations on Array to Maximize Sum of Squares;https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares;Hard;Greedy;false
+2900;Longest Unequal Adjacent Groups Subsequence I;https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i;Easy;Greedy;false
+2910;Minimum Number of Groups to Create a Valid Assignment;https://leetcode.com/problems/minimum-number-of-groups-to-create-a-valid-assignment;Medium;Greedy;false
+2918;Minimum Equal Sum of Two Arrays After Replacing Zeros;https://leetcode.com/problems/minimum-equal-sum-of-two-arrays-after-replacing-zeros;Medium;Greedy;false
+2931;Maximum Spending After Buying Items;https://leetcode.com/problems/maximum-spending-after-buying-items;Hard;Greedy;false
+2938;Separate Black and White Balls;https://leetcode.com/problems/separate-black-and-white-balls;Medium;Greedy;false
+2939;Maximum Xor Product;https://leetcode.com/problems/maximum-xor-product;Medium;Greedy;false
+2952;Minimum Number of Coins to be Added;https://leetcode.com/problems/minimum-number-of-coins-to-be-added;Medium;Greedy;false
+2957;Remove Adjacent Almost-Equal Characters;https://leetcode.com/problems/remove-adjacent-almost-equal-characters;Medium;Greedy;false
+2966;Divide Array Into Arrays With Max Difference;https://leetcode.com/problems/divide-array-into-arrays-with-max-difference;Medium;Greedy;false
+2967;Minimum Cost to Make Array Equalindromic;https://leetcode.com/problems/minimum-cost-to-make-array-equalindromic;Medium;Greedy;false
+2971;Find Polygon With the Largest Perimeter;https://leetcode.com/problems/find-polygon-with-the-largest-perimeter;Medium;Greedy;false
+3002;Maximum Size of a Set After Removals;https://leetcode.com/problems/maximum-size-of-a-set-after-removals;Medium;Greedy;false
+3012;Minimize Length of Array Using Operations;https://leetcode.com/problems/minimize-length-of-array-using-operations;Medium;Greedy;false
+3014;Minimum Number of Pushes to Type Word I;https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i;Easy;Greedy;false
+3016;Minimum Number of Pushes to Type Word II;https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii;Medium;Greedy;false
+3022;Minimize OR of Remaining Elements Using Operations;https://leetcode.com/problems/minimize-or-of-remaining-elements-using-operations;Hard;Greedy;false
+3035;Maximum Palindromes After Operations;https://leetcode.com/problems/maximum-palindromes-after-operations;Medium;Greedy;false
+3049;Earliest Second to Mark Indices II;https://leetcode.com/problems/earliest-second-to-mark-indices-ii;Hard;Greedy;false
+3068;Find the Maximum Sum of Node Values;https://leetcode.com/problems/find-the-maximum-sum-of-node-values;Hard;Greedy;false
+3074;Apple Redistribution into Boxes;https://leetcode.com/problems/apple-redistribution-into-boxes;Easy;Greedy;false
+3075;Maximize Happiness of Selected Children;https://leetcode.com/problems/maximize-happiness-of-selected-children;Medium;Greedy;false
+3081;Replace Question Marks in String to Minimize Its Value;https://leetcode.com/problems/replace-question-marks-in-string-to-minimize-its-value;Medium;Greedy;false
+3085;Minimum Deletions to Make String K-Special;https://leetcode.com/problems/minimum-deletions-to-make-string-k-special;Medium;Greedy;false
+3086;Minimum Moves to Pick K Ones;https://leetcode.com/problems/minimum-moves-to-pick-k-ones;Hard;Greedy;false
+3088;Make String Anti-palindrome;https://leetcode.com/problems/make-string-anti-palindrome;Hard;Greedy;true
+3091;Apply Operations to Make Sum of Array Greater Than or Equal to k;https://leetcode.com/problems/apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k;Medium;Greedy;false
+3106;Lexicographically Smallest String After Operations With Constraint;https://leetcode.com/problems/lexicographically-smallest-string-after-operations-with-constraint;Medium;Greedy;false
+3107;Minimum Operations to Make Median of Array Equal to K;https://leetcode.com/problems/minimum-operations-to-make-median-of-array-equal-to-k;Medium;Greedy;false
+3111;Minimum Rectangles to Cover Points;https://leetcode.com/problems/minimum-rectangles-to-cover-points;Medium;Greedy;false
+3119;Maximum Number of Potholes That Can Be Fixed;https://leetcode.com/problems/maximum-number-of-potholes-that-can-be-fixed;Medium;Greedy;true
+3125;Maximum Number That Makes Result of Bitwise AND Zero;https://leetcode.com/problems/maximum-number-that-makes-result-of-bitwise-and-zero;Medium;Greedy;true
+3139;Minimum Cost to Equalize Array;https://leetcode.com/problems/minimum-cost-to-equalize-array;Hard;Greedy;false
+3170;Lexicographically Minimum String After Removing Stars;https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars;Medium;Greedy;false
+3189;Minimum Moves to Get a Peaceful Board;https://leetcode.com/problems/minimum-moves-to-get-a-peaceful-board;Medium;Greedy;true
+3192;Minimum Operations to Make Binary Array Elements Equal to One II;https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-ii;Medium;Greedy;false
+3205;Maximum Array Hopping Score I;https://leetcode.com/problems/maximum-array-hopping-score-i;Medium;Greedy;true
+3207;Maximum Points After Enemy Battles;https://leetcode.com/problems/maximum-points-after-enemy-battles;Medium;Greedy;false
+3216;Lexicographically Smallest String After a Swap;https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap;Easy;Greedy;false
+3218;Minimum Cost for Cutting Cake I;https://leetcode.com/problems/minimum-cost-for-cutting-cake-i;Medium;Greedy;false
+3219;Minimum Cost for Cutting Cake II;https://leetcode.com/problems/minimum-cost-for-cutting-cake-ii;Hard;Greedy;false
+3221;Maximum Array Hopping Score II;https://leetcode.com/problems/maximum-array-hopping-score-ii;Medium;Greedy;true
+3228;Maximum Number of Operations to Move Ones to the End;https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end;Medium;Greedy;false
+3229;Minimum Operations to Make Array Equal to Target;https://leetcode.com/problems/minimum-operations-to-make-array-equal-to-target;Hard;Greedy;false
+3244;Shortest Distance After Road Addition Queries II;https://leetcode.com/problems/shortest-distance-after-road-addition-queries-ii;Hard;Greedy;false
+3260;Find the Largest Palindrome Divisible by K;https://leetcode.com/problems/find-the-largest-palindrome-divisible-by-k;Hard;Greedy;false
+3273;Minimum Amount of Damage Dealt to Bob;https://leetcode.com/problems/minimum-amount-of-damage-dealt-to-bob;Hard;Greedy;false
+3281;Maximize Score of Numbers in Ranges;https://leetcode.com/problems/maximize-score-of-numbers-in-ranges;Medium;Greedy;false
+3282;Reach End of Array With Max Score;https://leetcode.com/problems/reach-end-of-array-with-max-score;Medium;Greedy;false
+3296;Minimum Number of Seconds to Make Mountain Height Zero;https://leetcode.com/problems/minimum-number-of-seconds-to-make-mountain-height-zero;Medium;Greedy;false
+3301;Maximize the Total Height of Unique Towers;https://leetcode.com/problems/maximize-the-total-height-of-unique-towers;Medium;Greedy;false
+3302;Find the Lexicographically Smallest Valid Sequence;https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence;Medium;Greedy;false
+3326;Minimum Division Operations to Make Array Non Decreasing;https://leetcode.com/problems/minimum-division-operations-to-make-array-non-decreasing;Medium;Greedy;false
+3348;Smallest Divisible Digit Product II;https://leetcode.com/problems/smallest-divisible-digit-product-ii;Hard;Greedy;false
+3357;Minimize the Maximum Adjacent Element Difference;https://leetcode.com/problems/minimize-the-maximum-adjacent-element-difference;Hard;Greedy;false
+3362;Zero Array Transformation III;https://leetcode.com/problems/zero-array-transformation-iii;Medium;Greedy;false
+3397;Maximum Number of Distinct Elements After Operations;https://leetcode.com/problems/maximum-number-of-distinct-elements-after-operations;Medium;Greedy;false
+3402;Minimum Operations to Make Columns Strictly Increasing;https://leetcode.com/problems/minimum-operations-to-make-columns-strictly-increasing;Easy;Greedy;false
+3413;Maximum Coins From K Consecutive Bags;https://leetcode.com/problems/maximum-coins-from-k-consecutive-bags;Medium;Greedy;false
+3424;Minimum Cost to Make Arrays Identical;https://leetcode.com/problems/minimum-cost-to-make-arrays-identical;Medium;Greedy;false
+3434;Maximum Frequency After Subarray Operation;https://leetcode.com/problems/maximum-frequency-after-subarray-operation;Medium;Greedy;false
+3439;Reschedule Meetings for Maximum Free Time I;https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-i;Medium;Greedy;false
+3440;Reschedule Meetings for Maximum Free Time II;https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-ii;Medium;Greedy;false
+3449;Maximize the Minimum Game Score;https://leetcode.com/problems/maximize-the-minimum-game-score;Hard;Greedy;false
+3457;Eat Pizzas!;https://leetcode.com/problems/eat-pizzas;Medium;Greedy;false
+3458;Select K Disjoint Special Substrings;https://leetcode.com/problems/select-k-disjoint-special-substrings;Medium;Greedy;false
+3462;Maximum Sum With at Most K Elements;https://leetcode.com/problems/maximum-sum-with-at-most-k-elements;Medium;Greedy;false
+3464;Maximize the Distance Between Points on a Square;https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square;Hard;Greedy;false
+3474;Lexicographically Smallest Generated String;https://leetcode.com/problems/lexicographically-smallest-generated-string;Hard;Greedy;false
+3476;Maximize Profit from Task Assignment;https://leetcode.com/problems/maximize-profit-from-task-assignment;Medium;Greedy;true
+3487;Maximum Unique Subarray Sum After Deletion;https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion;Easy;Greedy;false
+3496;Maximize Score After Pair Deletions;https://leetcode.com/problems/maximize-score-after-pair-deletions;Medium;Greedy;true
+3506;Find Time Required to Eliminate Bacterial Strains;https://leetcode.com/problems/find-time-required-to-eliminate-bacterial-strains;Hard;Greedy;true
+3511;Make a Positive Array;https://leetcode.com/problems/make-a-positive-array;Medium;Greedy;true
+3523;Make Array Non-decreasing;https://leetcode.com/problems/make-array-non-decreasing;Medium;Greedy;false
+3534;Path Existence Queries in a Graph II;https://leetcode.com/problems/path-existence-queries-in-a-graph-ii;Hard;Greedy;false
+3542;Minimum Operations to Convert All Elements to Zero;https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero;Medium;Greedy;false
+3545;Minimum Deletions for At Most K Distinct Characters;https://leetcode.com/problems/minimum-deletions-for-at-most-k-distinct-characters;Easy;Greedy;false
+3547;Maximum Sum of Edge Values in a Graph;https://leetcode.com/problems/maximum-sum-of-edge-values-in-a-graph;Hard;Greedy;false
+3555;Smallest Subarray to Sort in Every Sliding Window;https://leetcode.com/problems/smallest-subarray-to-sort-in-every-sliding-window;Medium;Greedy;true
+3557;Find Maximum Number of Non Intersecting Substrings;https://leetcode.com/problems/find-maximum-number-of-non-intersecting-substrings;Medium;Greedy;false
+3572;Maximize Y‑Sum by Picking a Triplet of Distinct X‑Values;https://leetcode.com/problems/maximize-ysum-by-picking-a-triplet-of-distinct-xvalues;Medium;Greedy;false
+3576;Transform Array to All Equal Elements;https://leetcode.com/problems/transform-array-to-all-equal-elements;Medium;Greedy;false
+3579;Minimum Steps to Convert String with Operations;https://leetcode.com/problems/minimum-steps-to-convert-string-with-operations;Hard;Greedy;false
+3587;Minimum Adjacent Swaps to Alternate Parity;https://leetcode.com/problems/minimum-adjacent-swaps-to-alternate-parity;Medium;Greedy;false
+3588;Find Maximum Area of a Triangle;https://leetcode.com/problems/find-maximum-area-of-a-triangle;Medium;Greedy;false
+3600;Maximize Spanning Tree Stability with Upgrades;https://leetcode.com/problems/maximize-spanning-tree-stability-with-upgrades;Hard;Greedy;false
+3605;Minimum Stability Factor of Array;https://leetcode.com/problems/minimum-stability-factor-of-array;Hard;Greedy;false
+3627;Maximum Median Sum of Subsequences of Size 3;https://leetcode.com/problems/maximum-median-sum-of-subsequences-of-size-3;Medium;Greedy;false
+3628;Maximum Number of Subsequences After One Inserting;https://leetcode.com/problems/maximum-number-of-subsequences-after-one-inserting;Medium;Greedy;false
+3630;Partition Array for Maximum XOR and AND;https://leetcode.com/problems/partition-array-for-maximum-xor-and-and;Hard;Greedy;false
+3633;Earliest Finish Time for Land and Water Rides I;https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i;Easy;Greedy;false
+3635;Earliest Finish Time for Land and Water Rides II;https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii;Medium;Greedy;false
+3638;Maximum Balanced Shipments;https://leetcode.com/problems/maximum-balanced-shipments;Medium;Greedy;false
+3645;Maximum Total from Optimal Activation Order;https://leetcode.com/problems/maximum-total-from-optimal-activation-order;Medium;Greedy;false

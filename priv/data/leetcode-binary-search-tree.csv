@@ -1,0 +1,41 @@
+id;name;url;difficulty;category;is_premium
+95;Unique Binary Search Trees II;https://leetcode.com/problems/unique-binary-search-trees-ii;Medium;Binary Search Tree;false
+96;Unique Binary Search Trees;https://leetcode.com/problems/unique-binary-search-trees;Medium;Binary Search Tree;false
+98;Validate Binary Search Tree;https://leetcode.com/problems/validate-binary-search-tree;Medium;Binary Search Tree;false
+99;Recover Binary Search Tree;https://leetcode.com/problems/recover-binary-search-tree;Medium;Binary Search Tree;false
+108;Convert Sorted Array to Binary Search Tree;https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree;Easy;Binary Search Tree;false
+109;Convert Sorted List to Binary Search Tree;https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree;Medium;Binary Search Tree;false
+173;Binary Search Tree Iterator;https://leetcode.com/problems/binary-search-tree-iterator;Medium;Binary Search Tree;false
+230;Kth Smallest Element in a BST;https://leetcode.com/problems/kth-smallest-element-in-a-bst;Medium;Binary Search Tree;false
+235;Lowest Common Ancestor of a Binary Search Tree;https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree;Medium;Binary Search Tree;false
+255;Verify Preorder Sequence in Binary Search Tree;https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree;Medium;Binary Search Tree;true
+270;Closest Binary Search Tree Value;https://leetcode.com/problems/closest-binary-search-tree-value;Easy;Binary Search Tree;true
+272;Closest Binary Search Tree Value II;https://leetcode.com/problems/closest-binary-search-tree-value-ii;Hard;Binary Search Tree;true
+285;Inorder Successor in BST;https://leetcode.com/problems/inorder-successor-in-bst;Medium;Binary Search Tree;true
+333;Largest BST Subtree;https://leetcode.com/problems/largest-bst-subtree;Medium;Binary Search Tree;true
+426;Convert Binary Search Tree to Sorted Doubly Linked List;https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list;Medium;Binary Search Tree;true
+449;Serialize and Deserialize BST;https://leetcode.com/problems/serialize-and-deserialize-bst;Medium;Binary Search Tree;false
+450;Delete Node in a BST;https://leetcode.com/problems/delete-node-in-a-bst;Medium;Binary Search Tree;false
+501;Find Mode in Binary Search Tree;https://leetcode.com/problems/find-mode-in-binary-search-tree;Easy;Binary Search Tree;false
+510;Inorder Successor in BST II;https://leetcode.com/problems/inorder-successor-in-bst-ii;Medium;Binary Search Tree;true
+530;Minimum Absolute Difference in BST;https://leetcode.com/problems/minimum-absolute-difference-in-bst;Easy;Binary Search Tree;false
+538;Convert BST to Greater Tree;https://leetcode.com/problems/convert-bst-to-greater-tree;Medium;Binary Search Tree;false
+653;Two Sum IV - Input is a BST;https://leetcode.com/problems/two-sum-iv-input-is-a-bst;Easy;Binary Search Tree;false
+669;Trim a Binary Search Tree;https://leetcode.com/problems/trim-a-binary-search-tree;Medium;Binary Search Tree;false
+700;Search in a Binary Search Tree;https://leetcode.com/problems/search-in-a-binary-search-tree;Easy;Binary Search Tree;false
+701;Insert into a Binary Search Tree;https://leetcode.com/problems/insert-into-a-binary-search-tree;Medium;Binary Search Tree;false
+703;Kth Largest Element in a Stream;https://leetcode.com/problems/kth-largest-element-in-a-stream;Easy;Binary Search Tree;false
+776;Split BST;https://leetcode.com/problems/split-bst;Medium;Binary Search Tree;true
+783;Minimum Distance Between BST Nodes;https://leetcode.com/problems/minimum-distance-between-bst-nodes;Easy;Binary Search Tree;false
+897;Increasing Order Search Tree;https://leetcode.com/problems/increasing-order-search-tree;Easy;Binary Search Tree;false
+938;Range Sum of BST;https://leetcode.com/problems/range-sum-of-bst;Easy;Binary Search Tree;false
+1008;Construct Binary Search Tree from Preorder Traversal;https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal;Medium;Binary Search Tree;false
+1038;Binary Search Tree to Greater Sum Tree;https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree;Medium;Binary Search Tree;false
+1214;Two Sum BSTs;https://leetcode.com/problems/two-sum-bsts;Medium;Binary Search Tree;true
+1305;All Elements in Two Binary Search Trees;https://leetcode.com/problems/all-elements-in-two-binary-search-trees;Medium;Binary Search Tree;false
+1373;Maximum Sum BST in Binary Tree;https://leetcode.com/problems/maximum-sum-bst-in-binary-tree;Hard;Binary Search Tree;false
+1382;Balance a Binary Search Tree;https://leetcode.com/problems/balance-a-binary-search-tree;Medium;Binary Search Tree;false
+1569;Number of Ways to Reorder Array to Get Same BST;https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst;Hard;Binary Search Tree;false
+1586;Binary Search Tree Iterator II;https://leetcode.com/problems/binary-search-tree-iterator-ii;Medium;Binary Search Tree;true
+1902;Depth of BST Given Insertion Order;https://leetcode.com/problems/depth-of-bst-given-insertion-order;Medium;Binary Search Tree;true
+2476;Closest Nodes Queries in a Binary Search Tree;https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree;Medium;Binary Search Tree;false
