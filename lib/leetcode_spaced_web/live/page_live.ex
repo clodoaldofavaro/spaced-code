@@ -1,5 +1,6 @@
 defmodule LeetcodeSpacedWeb.PageLive do
   use LeetcodeSpacedWeb, :live_view
+  import LeetcodeSpacedWeb.Layouts, only: [navbar: 1]
 
   def mount(_params, session, socket) do
     current_user = get_current_user(session)
@@ -45,79 +46,9 @@ defmodule LeetcodeSpacedWeb.PageLive do
   def render(assigns) do
     ~H"""
     <div class="min-h-screen bg-base-100">
-      <!-- Navigation -->
-      <nav class="bg-base-100 shadow-sm border-b border-base-300">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="flex justify-between h-16">
-            <div class="flex items-center">
-              <h1 class="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                SpacedCode
-              </h1>
-            </div>
-            <div class="flex items-center space-x-4">
-              <button
-                type="button"
-                phx-click="toggle_theme"
-                phx-hook="ThemeToggle"
-                id="theme-toggle"
-                data-theme={@current_theme}
-                class="p-2 text-base-content/60 hover:text-base-content rounded-lg hover:bg-base-200 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primary/20"
-              >
-                <%= if @current_theme == "light" do %>
-                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
-                  </svg>
-                <% else %>
-                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" />
-                  </svg>
-                <% end %>
-              </button>
-
-              <%= if @current_user do %>
-                <div class="flex items-center space-x-3">
-                  <%= if @current_user.avatar_url && @current_user.avatar_url != "" do %>
-                    <img
-                      src={@current_user.avatar_url}
-                      alt={@current_user.name}
-                      class="w-8 h-8 rounded-full border border-base-300"
-                      referrerpolicy="no-referrer"
-                      onload="console.log('Avatar loaded successfully')"
-                      onerror="console.log('Avatar failed to load'); this.style.display='none'; this.nextElementSibling.style.display='flex';"
-                    />
-                    <div
-                      class="w-8 h-8 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center text-white font-semibold text-sm"
-                      style="display: none;"
-                    >
-                      {String.first(@current_user.name || "U") |> String.upcase()}
-                    </div>
-                  <% else %>
-                    <div class="w-8 h-8 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center text-white font-semibold text-sm">
-                      {String.first(@current_user.name || "U") |> String.upcase()}
-                    </div>
-                  <% end %>
-                  <span class="text-base-content font-medium">{@current_user.name}</span>
-                  <.link
-                    href="/auth/logout"
-                    class="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white px-4 py-2 rounded-lg font-medium transition-all duration-200 shadow-sm hover:shadow-md"
-                  >
-                    Logout
-                  </.link>
-                </div>
-              <% else %>
-                <.link
-                  href="/auth/google"
-                  class="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-4 py-2 rounded-lg font-medium transition-all duration-200 shadow-sm hover:shadow-md"
-                >
-                  Sign in with Google
-                </.link>
-              <% end %>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <.navbar current_user={@current_user} />
       
-    <!-- Hero Section -->
+      <!-- Hero Section -->
       <div class="bg-gradient-to-b from-base-200 to-base-100 py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <%= if @current_user do %>

@@ -1,5 +1,6 @@
 defmodule LeetcodeSpacedWeb.ListDetailsLive do
   use LeetcodeSpacedWeb, :live_view
+  import LeetcodeSpacedWeb.Layouts, only: [navbar: 1]
   alias LeetcodeSpaced.Study
   alias LeetcodeSpaced.Reviews
 
@@ -143,52 +144,9 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
   def render(assigns) do
     ~H"""
     <div class="min-h-screen bg-base-100">
-      <!-- Navigation -->
-      <nav class="bg-base-100 shadow-sm border-b border-base-300">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="flex justify-between h-16">
-            <div class="flex items-center space-x-4">
-              <.link
-                href="/"
-                class="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
-              >
-                SpacedCode
-              </.link>
-              <span class="text-base-content/60">/</span>
-              <.link href="/lists" class="text-base-content/80 hover:text-base-content">Lists</.link>
-              <span class="text-base-content/60">/</span>
-              <span class="text-base-content">{@list.name}</span>
-            </div>
-            <div class="flex items-center space-x-4">
-              <%= if @current_user do %>
-                <div class="flex items-center space-x-3">
-                  <%= if @current_user.avatar_url && @current_user.avatar_url != "" do %>
-                    <img
-                      src={@current_user.avatar_url}
-                      alt={@current_user.name}
-                      class="w-8 h-8 rounded-full border border-base-300"
-                      referrerpolicy="no-referrer"
-                    />
-                  <% else %>
-                    <div class="w-8 h-8 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center text-white font-semibold text-sm">
-                      {String.first(@current_user.name || "U") |> String.upcase()}
-                    </div>
-                  <% end %>
-                  <span class="text-base-content font-medium">{@current_user.name}</span>
-                  <.link
-                    href="/auth/logout"
-                    class="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white px-4 py-2 rounded-lg font-medium transition-all duration-200 shadow-sm hover:shadow-md"
-                  >
-                    Logout
-                  </.link>
-                </div>
-              <% end %>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <.navbar current_user={@current_user} />
       
-    <!-- Main Content -->
+      <!-- Main Content -->
       <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
         <!-- Header -->
         <div class="mb-8">
