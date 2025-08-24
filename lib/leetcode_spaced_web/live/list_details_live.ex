@@ -1,7 +1,6 @@
 defmodule LeetcodeSpacedWeb.ListDetailsLive do
   use LeetcodeSpacedWeb, :live_view
   alias LeetcodeSpaced.Study
-  alias LeetcodeSpaced.Study.Problem
   alias LeetcodeSpaced.Reviews
 
   def mount(%{"id" => list_id}, session, socket) do
@@ -21,8 +20,6 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
         |> assign(problems: problems)
         |> assign(due_problems: due_problems)
         |> assign(show_all: false)
-        |> assign(show_add_form: false)
-        |> assign(problem_form: to_form(Study.change_problem(%Problem{})))
         |> assign(recently_solved: [])
 
       {:ok, socket}
@@ -42,37 +39,6 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
 
   def handle_event("toggle_view", _params, socket) do
     {:noreply, assign(socket, show_all: !socket.assigns.show_all)}
-  end
-
-  def handle_event("toggle_add_form", _params, socket) do
-    {:noreply, assign(socket, show_add_form: !socket.assigns.show_add_form)}
-  end
-
-  def handle_event("add_problem", %{"problem" => problem_params}, socket) do
-    case Study.create_problem(problem_params) do
-      {:ok, problem} ->
-        case Study.add_problem_to_list(socket.assigns.list_id, problem.id) do
-          {:ok, _} ->
-            problems = Study.get_problems_for_list(socket.assigns.list_id)
-            due_problems = Reviews.get_due_problems_for_list(socket.assigns.list_id, socket.assigns.current_user.id)
-
-            socket =
-              socket
-              |> assign(problems: problems)
-              |> assign(due_problems: due_problems)
-              |> assign(show_add_form: false)
-              |> assign(problem_form: to_form(Study.change_problem(%Problem{})))
-              |> put_flash(:info, "Problem added successfully!")
-
-            {:noreply, socket}
-
-          {:error, _} ->
-            {:noreply, put_flash(socket, :error, "Failed to add problem to list")}
-        end
-
-      {:error, changeset} ->
-        {:noreply, assign(socket, problem_form: to_form(changeset))}
-    end
   end
 
   def handle_event("remove_problem", %{"problem_id" => problem_id}, socket) do
@@ -217,16 +183,15 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
                 </span>
               <% end %>
             </div>
-            <button
-              type="button"
-              phx-click="toggle_add_form"
+            <.link
+              href="/problems"
               class="inline-flex items-center bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-6 py-3 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200"
             >
               <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
               </svg>
               Add Problem
-            </button>
+            </.link>
           </div>
 
           <!-- Stats -->
@@ -296,30 +261,6 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
           </div>
         </div>
 
-        <!-- Add Problem Form -->
-        <%= if @show_add_form do %>
-          <div class="mb-8 bg-base-200 rounded-xl p-6 border border-base-300">
-            <h2 class="text-xl font-semibold text-base-content mb-4">Add New Problem</h2>
-            <.form for={@problem_form} phx-submit="add_problem" class="space-y-4">
-              <.input field={@problem_form[:url]} type="url" label="LeetCode URL" placeholder="https://leetcode.com/problems/flood-fill/description/" />
-              <div class="flex space-x-3">
-                <button
-                  type="submit"
-                  class="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-4 py-2 rounded-lg font-medium transition-all duration-200"
-                >
-                  Add Problem
-                </button>
-                <button
-                  type="button"
-                  phx-click="toggle_add_form"
-                  class="bg-base-300 hover:bg-base-400 text-base-content px-4 py-2 rounded-lg font-medium transition-all duration-200"
-                >
-                  Cancel
-                </button>
-              </div>
-            </.form>
-          </div>
-        <% end %>
 
         <!-- Problems List -->
         <div class="space-y-4">
@@ -435,16 +376,15 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
                 <% end %>
               </p>
               <%= if @show_all do %>
-                <button
-                  type="button"
-                  phx-click="toggle_add_form"
+                <.link
+                  href="/problems"
                   class="inline-flex items-center bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-6 py-3 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200"
                 >
                   <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
                   </svg>
                   Add Your First Problem
-                </button>
+                </.link>
               <% else %>
                 <button
                   type="button"
