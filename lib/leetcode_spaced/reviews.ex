@@ -107,7 +107,7 @@ defmodule LeetcodeSpaced.Reviews do
   """
   def get_due_problems_for_list(list_id, user_id) do
     today = DateTime.utc_now()
-    
+
     from(p in LeetcodeSpaced.Study.Problem,
       join: lp in "lists_problems", on: lp.problem_id == p.id,
       left_join: r in Review, on: r.problem_id == p.id and r.user_id == ^user_id,
@@ -120,7 +120,7 @@ defmodule LeetcodeSpaced.Reviews do
 
   @doc """
   Marks a problem as solved with an FSRS rating and schedules next review.
-  
+
   ## Parameters
     - problem_id: ID of the problem
     - user_id: ID of the user
@@ -129,24 +129,24 @@ defmodule LeetcodeSpaced.Reviews do
   def mark_problem_solved(problem_id, user_id, rating) do
     require Logger
     alias LeetcodeSpaced.FsrsIntegration
-    
+
     Logger.info("Reviews.mark_problem_solved called with: #{problem_id}, #{user_id}, #{rating}")
-    
+
     existing_review = get_existing_review(problem_id, user_id)
     Logger.info("Existing review: #{inspect(existing_review)}")
-    
+
     review = if existing_review do
       existing_review
     else
       FsrsIntegration.new_card(problem_id, user_id)
     end
-    
+
     Logger.info("Review to process: #{inspect(review)}")
-    
+
     case FsrsIntegration.review_card(review, rating) do
       {:ok, updated_review} ->
         Logger.info("FSRS review_card successful: #{inspect(updated_review)}")
-        
+
         attrs = %{
           problem_id: updated_review.problem_id,
           user_id: updated_review.user_id,
@@ -160,9 +160,9 @@ defmodule LeetcodeSpaced.Reviews do
           reviewed_at: updated_review.reviewed_at,
           next_review: updated_review.next_review
         }
-        
+
         Logger.info("Attributes to save: #{inspect(attrs)}")
-        
+
         result = if existing_review do
           Logger.info("Updating existing review")
           update_review(existing_review, attrs)
@@ -170,10 +170,10 @@ defmodule LeetcodeSpaced.Reviews do
           Logger.info("Creating new review")
           create_review(attrs)
         end
-        
+
         Logger.info("Database operation result: #{inspect(result)}")
         result
-        
+
       {:error, reason} ->
         Logger.error("FSRS review_card failed: #{inspect(reason)}")
         {:error, reason}

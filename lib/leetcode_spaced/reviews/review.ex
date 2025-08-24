@@ -9,7 +9,7 @@ defmodule LeetcodeSpaced.Reviews.Review do
     field :review_count, :integer
     field :user_id, :id
     field :problem_id, :id
-    
+
     # FSRS fields
     field :fsrs_state, :string, default: "learning"
     field :fsrs_step, :integer
@@ -25,7 +25,7 @@ defmodule LeetcodeSpaced.Reviews.Review do
   def changeset(review, attrs) do
     review
     |> cast(attrs, [
-      :confidence, :reviewed_at, :next_review, :review_count, 
+      :confidence, :reviewed_at, :next_review, :review_count,
       :user_id, :problem_id,
       :fsrs_state, :fsrs_step, :stability, :difficulty, :due, :last_review
     ])

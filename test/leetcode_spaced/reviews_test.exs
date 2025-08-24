@@ -9,7 +9,7 @@ defmodule LeetcodeSpaced.ReviewsTest do
 
     @valid_attrs %{
       problem_id: 1,
-      user_id: 1, 
+      user_id: 1,
       fsrs_state: "learning",
       fsrs_step: 0,
       stability: 2.5,
@@ -92,7 +92,7 @@ defmodule LeetcodeSpaced.ReviewsTest do
       list = list_fixture(%{user_id: user.id})
       problem1 = problem_fixture()
       problem2 = problem_fixture()
-      
+
       # Add problems to list
       LeetcodeSpaced.Study.add_problem_to_list(list.id, problem1.id)
       LeetcodeSpaced.Study.add_problem_to_list(list.id, problem2.id)
@@ -114,7 +114,7 @@ defmodule LeetcodeSpaced.ReviewsTest do
       })
 
       due_problems = Reviews.get_due_problems_for_list(list.id, user.id)
-      
+
       assert length(due_problems) == 1
       assert Enum.find(due_problems, fn p -> p.id == problem1.id end)
       refute Enum.find(due_problems, fn p -> p.id == problem2.id end)
@@ -124,12 +124,12 @@ defmodule LeetcodeSpaced.ReviewsTest do
       user = user_fixture()
       list = list_fixture(%{user_id: user.id})
       problem = problem_fixture()
-      
+
       # Add problem to list but create no review
       LeetcodeSpaced.Study.add_problem_to_list(list.id, problem.id)
 
       due_problems = Reviews.get_due_problems_for_list(list.id, user.id)
-      
+
       assert length(due_problems) == 1
       assert Enum.find(due_problems, fn p -> p.id == problem.id end)
     end
@@ -139,7 +139,7 @@ defmodule LeetcodeSpaced.ReviewsTest do
       list = list_fixture(%{user_id: user.id})
       problem1 = problem_fixture()
       problem2 = problem_fixture()
-      
+
       # Add problems to list
       LeetcodeSpaced.Study.add_problem_to_list(list.id, problem1.id)
       LeetcodeSpaced.Study.add_problem_to_list(list.id, problem2.id)
@@ -160,7 +160,7 @@ defmodule LeetcodeSpaced.ReviewsTest do
       })
 
       due_problems = Reviews.get_due_problems_for_list(list.id, user.id)
-      
+
       assert length(due_problems) == 2
       # Should be ordered by due date (oldest first)
       assert List.first(due_problems).id == problem1.id
@@ -176,11 +176,11 @@ defmodule LeetcodeSpaced.ReviewsTest do
       user = user_fixture()
       list = list_fixture(%{user_id: user.id})
       problem = problem_fixture()
-      
+
       LeetcodeSpaced.Study.add_problem_to_list(list.id, problem.id)
 
       assert {:ok, _result} = Reviews.mark_problem_solved(problem.id, user.id, list.id, :good)
-      
+
       # Check that a review was created
       from(r in Review,
         where: r.problem_id == ^problem.id and r.user_id == ^user.id and r.list_id == ^list.id
@@ -201,7 +201,7 @@ defmodule LeetcodeSpaced.ReviewsTest do
       user = user_fixture()
       list = list_fixture(%{user_id: user.id})
       problem = problem_fixture()
-      
+
       LeetcodeSpaced.Study.add_problem_to_list(list.id, problem.id)
 
       # Create initial review
@@ -213,7 +213,7 @@ defmodule LeetcodeSpaced.ReviewsTest do
       })
 
       assert {:ok, _result} = Reviews.mark_problem_solved(problem.id, user.id, list.id, :easy)
-      
+
       # Check that the review was updated
       updated_review = Reviews.get_review!(existing_review.id)
       assert updated_review.review_count == 2
@@ -223,13 +223,13 @@ defmodule LeetcodeSpaced.ReviewsTest do
     test "handles all FSRS ratings" do
       user = user_fixture()
       list = list_fixture(%{user_id: user.id})
-      
+
       for rating <- [:again, :hard, :good, :easy] do
         problem = problem_fixture()
         LeetcodeSpaced.Study.add_problem_to_list(list.id, problem.id)
 
         assert {:ok, _result} = Reviews.mark_problem_solved(problem.id, user.id, list.id, rating)
-        
+
         from(r in Review,
           where: r.problem_id == ^problem.id and r.user_id == ^user.id and r.list_id == ^list.id
         )
@@ -246,7 +246,7 @@ defmodule LeetcodeSpaced.ReviewsTest do
       user = user_fixture()
       list = list_fixture(%{user_id: user.id})
       problem = problem_fixture()
-      
+
       LeetcodeSpaced.Study.add_problem_to_list(list.id, problem.id)
 
       assert {:error, :invalid_rating} = Reviews.mark_problem_solved(problem.id, user.id, list.id, :invalid)

@@ -12,7 +12,7 @@ defmodule LeetcodeSpaced.ReviewsFixtures do
       attrs
       |> Enum.into(%{
         problem_id: 1,
-        user_id: 1, 
+        user_id: 1,
         fsrs_state: "learning",
         fsrs_step: 0,
         stability: 2.5,
