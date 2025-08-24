@@ -21,6 +21,7 @@ defmodule Mix.Tasks.LeetcodeSpaced.ImportProblems do
     case parse_args(args) do
       {:ok, %{file: nil}} ->
         IO.puts("Importing all CSV files...")
+
         case LeetcodeProblems.import_all() do
           {:ok, summary} ->
             IO.puts("Import completed successfully!")
@@ -34,6 +35,7 @@ defmodule Mix.Tasks.LeetcodeSpaced.ImportProblems do
 
       {:ok, %{file: filename}} ->
         IO.puts("Importing file: #{filename}")
+
         case LeetcodeProblems.import_file(filename) do
           {:ok, summary} ->
             IO.puts("Import completed successfully!")

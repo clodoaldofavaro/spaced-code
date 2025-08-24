@@ -1,6 +1,6 @@
 defmodule LeetcodeSpaced.FsrsIntegrationTest do
   use ExUnit.Case, async: true
-  
+
   alias LeetcodeSpaced.FsrsIntegration
   alias LeetcodeSpaced.Reviews.Review
 
@@ -13,7 +13,7 @@ defmodule LeetcodeSpaced.FsrsIntegrationTest do
       card = FsrsIntegration.new_card(problem_id, user_id, list_id)
 
       assert card.problem_id == problem_id
-      assert card.user_id == user_id  
+      assert card.user_id == user_id
       assert card.list_id == list_id
       assert card.fsrs_state == "learning"
       assert card.fsrs_step == 0
@@ -206,15 +206,16 @@ defmodule LeetcodeSpaced.FsrsIntegrationTest do
 
   describe "from_fsrs_card/3" do
     test "converts ExFsrs card back to Review attributes" do
-      fsrs_card = ExFsrs.new(
-        card_id: 1,
-        state: :review,
-        step: nil,
-        stability: 15.3,
-        difficulty: 3.8,
-        due: ~U[2025-02-01 10:00:00Z],
-        last_review: ~U[2025-01-15 10:00:00Z]
-      )
+      fsrs_card =
+        ExFsrs.new(
+          card_id: 1,
+          state: :review,
+          step: nil,
+          stability: 15.3,
+          difficulty: 3.8,
+          due: ~U[2025-02-01 10:00:00Z],
+          last_review: ~U[2025-01-15 10:00:00Z]
+        )
 
       user_id = 5
       list_id = 10
@@ -233,15 +234,16 @@ defmodule LeetcodeSpaced.FsrsIntegrationTest do
     end
 
     test "converts relearning state correctly" do
-      fsrs_card = ExFsrs.new(
-        card_id: 3,
-        state: :relearning,
-        step: 0,
-        stability: 2.1,
-        difficulty: 7.5,
-        due: DateTime.utc_now(),
-        last_review: DateTime.utc_now()
-      )
+      fsrs_card =
+        ExFsrs.new(
+          card_id: 3,
+          state: :relearning,
+          step: 0,
+          stability: 2.1,
+          difficulty: 7.5,
+          due: DateTime.utc_now(),
+          last_review: DateTime.utc_now()
+        )
 
       attrs = FsrsIntegration.from_fsrs_card(fsrs_card, 1, 1)
 

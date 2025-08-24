@@ -31,8 +31,18 @@ defmodule LeetcodeSpaced.Study do
 
   """
   def list_lists_for_user(user_id) do
-    from(l in List, where: l.user_id == ^user_id, order_by: [desc: l.inserted_at])
-    |> Repo.all()
+    lists =
+      from(l in List, where: l.user_id == ^user_id, order_by: [desc: l.inserted_at])
+      |> Repo.all()
+
+    # Add problem counts to each list
+    Enum.map(lists, fn list ->
+      problem_count =
+        from(lp in "lists_problems", where: lp.list_id == ^list.id)
+        |> Repo.aggregate(:count, :problem_id)
+
+      Map.put(list, :problem_count, problem_count)
+    end)
   end
 
   @doc """
@@ -218,7 +228,8 @@ defmodule LeetcodeSpaced.Study do
   """
   def get_problems_for_list(list_id) do
     from(p in Problem,
-      join: lp in "lists_problems", on: lp.problem_id == p.id,
+      join: lp in "lists_problems",
+      on: lp.problem_id == p.id,
       where: lp.list_id == ^list_id,
       order_by: [asc: p.old_leetcode_id]
     )
@@ -247,9 +258,9 @@ defmodule LeetcodeSpaced.Study do
   """
   def remove_problem_from_list(list_id, problem_id) do
     case from(lp in "lists_problems",
-      where: lp.list_id == ^list_id and lp.problem_id == ^problem_id
-    )
-    |> Repo.delete_all() do
+           where: lp.list_id == ^list_id and lp.problem_id == ^problem_id
+         )
+         |> Repo.delete_all() do
       {1, _} -> {:ok, :removed}
       {0, _} -> {:error, :not_found}
       _ -> {:error, :failed}
@@ -271,21 +282,23 @@ defmodule LeetcodeSpaced.Study do
     base_query = from(lp in LeetcodeProblem)
 
     # Apply filters
-    filtered_query = base_query
-    |> maybe_filter_by_search(search)
-    |> maybe_filter_by_difficulty(difficulty)
-    |> maybe_filter_by_category(category)
+    filtered_query =
+      base_query
+      |> maybe_filter_by_search(search)
+      |> maybe_filter_by_difficulty(difficulty)
+      |> maybe_filter_by_category(category)
 
     # Get total count for pagination
     total_count = Repo.aggregate(filtered_query, :count, :id)
 
     # Get paginated results with preloads
-    problems = filtered_query
-    |> order_by([lp], [asc: lp.leetcode_id])
-    |> limit(^per_page)
-    |> offset(^offset)
-    |> preload(:categories)
-    |> Repo.all()
+    problems =
+      filtered_query
+      |> order_by([lp], asc: lp.leetcode_id)
+      |> limit(^per_page)
+      |> offset(^offset)
+      |> preload(:categories)
+      |> Repo.all()
 
     %{
       problems: problems,
@@ -298,6 +311,7 @@ defmodule LeetcodeSpaced.Study do
 
   defp maybe_filter_by_search(query, nil), do: query
   defp maybe_filter_by_search(query, ""), do: query
+
   defp maybe_filter_by_search(query, search) do
     search_term = "%#{search}%"
     from(lp in query, where: ilike(lp.name, ^search_term))
@@ -305,16 +319,20 @@ defmodule LeetcodeSpaced.Study do
 
   defp maybe_filter_by_difficulty(query, nil), do: query
   defp maybe_filter_by_difficulty(query, ""), do: query
+
   defp maybe_filter_by_difficulty(query, difficulty) do
     from(lp in query, where: lp.difficulty == ^difficulty)
   end
 
   defp maybe_filter_by_category(query, nil), do: query
   defp maybe_filter_by_category(query, ""), do: query
+
   defp maybe_filter_by_category(query, category) do
     from(lp in query,
-      join: lpc in "leetcode_problem_categories", on: lpc.leetcode_problem_id == lp.id,
-      join: c in Category, on: c.id == lpc.category_id,
+      join: lpc in "leetcode_problem_categories",
+      on: lpc.leetcode_problem_id == lp.id,
+      join: c in Category,
+      on: c.id == lpc.category_id,
       where: c.name == ^category
     )
   end
@@ -337,47 +355,57 @@ defmodule LeetcodeSpaced.Study do
   Adds multiple LeetCode problems to a list.
   """
   def add_leetcode_problems_to_list(list_id, leetcode_problem_ids) do
-    # First, create Problem records for each LeetCode problem
-    problems_to_create = Enum.map(leetcode_problem_ids, fn leetcode_id ->
-      leetcode_problem = Repo.get_by(LeetcodeProblem, leetcode_id: leetcode_id)
-      if leetcode_problem do
-        %{
-          title: leetcode_problem.name,
-          url: leetcode_problem.url,
-          old_leetcode_id: leetcode_problem.leetcode_id,
-          difficulty: leetcode_problem.difficulty,
-          topics: Enum.map(leetcode_problem.categories, & &1.name),
-          platform: "leetcode",
-          platform_id: leetcode_problem.leetcode_id,
-          description: "Imported from LeetCode",
-          custom_problem: false,
-          inserted_at: DateTime.utc_now(),
-          updated_at: DateTime.utc_now()
-        }
-      end
-    end)
-    |> Enum.filter(& &1)
+    # Get or create Problem records for each LeetCode problem
+    problem_ids =
+      Enum.map(leetcode_problem_ids, fn leetcode_id ->
+        leetcode_problem =
+          Repo.get_by(LeetcodeProblem, leetcode_id: leetcode_id) |> Repo.preload(:categories)
 
-    # Insert all problems
-    case Repo.insert_all(Problem, problems_to_create, returning: [:id]) do
-      {count, problems} when count > 0 ->
-        # Add problems to list
-        list_problems = Enum.map(problems, fn problem ->
-          %{
-            list_id: list_id,
-            problem_id: problem.id,
-            inserted_at: DateTime.utc_now(),
-            updated_at: DateTime.utc_now()
-          }
-        end)
+        if leetcode_problem do
+          # Check if Problem already exists
+          existing_problem =
+            Repo.get_by(Problem, platform: "leetcode", platform_id: to_string(leetcode_id))
 
-        case Repo.insert_all("lists_problems", list_problems) do
-          {^count, _} -> {:ok, count}
-          _ -> {:error, :failed_to_add_to_list}
+          if existing_problem do
+            existing_problem.id
+          else
+            # Create new Problem
+            problem_attrs = %{
+              title: leetcode_problem.name,
+              url: leetcode_problem.url,
+              old_leetcode_id: leetcode_problem.leetcode_id,
+              difficulty: leetcode_problem.difficulty,
+              topics: Enum.map(leetcode_problem.categories, & &1.name),
+              platform: "leetcode",
+              platform_id: to_string(leetcode_problem.leetcode_id),
+              description: "Imported from LeetCode",
+              custom_problem: false
+            }
+
+            case create_problem(problem_attrs) do
+              {:ok, problem} -> problem.id
+              {:error, _} -> nil
+            end
+          end
         end
+      end)
+      |> Enum.filter(& &1)
 
-      _ ->
-        {:error, :failed_to_create_problems}
+    # Add problems to list (avoid duplicates)
+    now = DateTime.utc_now() |> DateTime.truncate(:second)
+
+    list_problems =
+      Enum.map(problem_ids, fn problem_id ->
+        %{
+          list_id: list_id,
+          problem_id: problem_id,
+          inserted_at: now,
+          updated_at: now
+        }
+      end)
+
+    case Repo.insert_all("lists_problems", list_problems, on_conflict: :nothing) do
+      {count, _} -> {:ok, count}
     end
   end
 end

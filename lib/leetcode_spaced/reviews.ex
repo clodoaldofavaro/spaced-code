@@ -109,8 +109,10 @@ defmodule LeetcodeSpaced.Reviews do
     today = DateTime.utc_now()
 
     from(p in LeetcodeSpaced.Study.Problem,
-      join: lp in "lists_problems", on: lp.problem_id == p.id,
-      left_join: r in Review, on: r.problem_id == p.id and r.user_id == ^user_id,
+      join: lp in "lists_problems",
+      on: lp.problem_id == p.id,
+      left_join: r in Review,
+      on: r.problem_id == p.id and r.user_id == ^user_id,
       where: lp.list_id == ^list_id and (is_nil(r.due) or r.due <= ^today),
       order_by: [asc: coalesce(r.due, p.inserted_at)],
       select: p
@@ -135,11 +137,12 @@ defmodule LeetcodeSpaced.Reviews do
     existing_review = get_existing_review(problem_id, user_id)
     Logger.info("Existing review: #{inspect(existing_review)}")
 
-    review = if existing_review do
-      existing_review
-    else
-      FsrsIntegration.new_card(problem_id, user_id)
-    end
+    review =
+      if existing_review do
+        existing_review
+      else
+        FsrsIntegration.new_card(problem_id, user_id)
+      end
 
     Logger.info("Review to process: #{inspect(review)}")
 
@@ -163,13 +166,14 @@ defmodule LeetcodeSpaced.Reviews do
 
         Logger.info("Attributes to save: #{inspect(attrs)}")
 
-        result = if existing_review do
-          Logger.info("Updating existing review")
-          update_review(existing_review, attrs)
-        else
-          Logger.info("Creating new review")
-          create_review(attrs)
-        end
+        result =
+          if existing_review do
+            Logger.info("Updating existing review")
+            update_review(existing_review, attrs)
+          else
+            Logger.info("Creating new review")
+            create_review(attrs)
+          end
 
         Logger.info("Database operation result: #{inspect(result)}")
         result

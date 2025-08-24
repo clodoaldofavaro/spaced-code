@@ -25,9 +25,18 @@ defmodule LeetcodeSpaced.Reviews.Review do
   def changeset(review, attrs) do
     review
     |> cast(attrs, [
-      :confidence, :reviewed_at, :next_review, :review_count,
-      :user_id, :problem_id,
-      :fsrs_state, :fsrs_step, :stability, :difficulty, :due, :last_review
+      :confidence,
+      :reviewed_at,
+      :next_review,
+      :review_count,
+      :user_id,
+      :problem_id,
+      :fsrs_state,
+      :fsrs_step,
+      :stability,
+      :difficulty,
+      :due,
+      :last_review
     ])
     |> validate_required([:user_id, :problem_id])
     |> validate_inclusion(:fsrs_state, ["learning", "review", "relearning"])

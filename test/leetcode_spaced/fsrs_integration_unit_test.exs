@@ -1,6 +1,6 @@
 defmodule LeetcodeSpaced.FsrsIntegrationUnitTest do
   use ExUnit.Case, async: true
-  
+
   alias LeetcodeSpaced.FsrsIntegration
 
   describe "valid_rating?/1" do

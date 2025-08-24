@@ -50,13 +50,14 @@ defmodule LeetcodeSpacedWeb.ProblemSelectionLive do
   end
 
   def handle_event("search", %{"search" => search}, socket) do
-    result = Study.list_leetcode_problems(
-      page: 1,
-      per_page: socket.assigns.per_page,
-      search: search,
-      difficulty: socket.assigns.selected_difficulty,
-      category: socket.assigns.selected_category
-    )
+    result =
+      Study.list_leetcode_problems(
+        page: 1,
+        per_page: socket.assigns.per_page,
+        search: search,
+        difficulty: socket.assigns.selected_difficulty,
+        category: socket.assigns.selected_category
+      )
 
     {:noreply,
      socket
@@ -68,13 +69,14 @@ defmodule LeetcodeSpacedWeb.ProblemSelectionLive do
   end
 
   def handle_event("filter_difficulty", %{"difficulty" => difficulty}, socket) do
-    result = Study.list_leetcode_problems(
-      page: 1,
-      per_page: socket.assigns.per_page,
-      search: socket.assigns.search,
-      difficulty: difficulty,
-      category: socket.assigns.selected_category
-    )
+    result =
+      Study.list_leetcode_problems(
+        page: 1,
+        per_page: socket.assigns.per_page,
+        search: socket.assigns.search,
+        difficulty: difficulty,
+        category: socket.assigns.selected_category
+      )
 
     {:noreply,
      socket
@@ -86,13 +88,14 @@ defmodule LeetcodeSpacedWeb.ProblemSelectionLive do
   end
 
   def handle_event("filter_category", %{"category" => category}, socket) do
-    result = Study.list_leetcode_problems(
-      page: 1,
-      per_page: socket.assigns.per_page,
-      search: socket.assigns.search,
-      difficulty: socket.assigns.selected_difficulty,
-      category: category
-    )
+    result =
+      Study.list_leetcode_problems(
+        page: 1,
+        per_page: socket.assigns.per_page,
+        search: socket.assigns.search,
+        difficulty: socket.assigns.selected_difficulty,
+        category: category
+      )
 
     {:noreply,
      socket
@@ -107,13 +110,14 @@ defmodule LeetcodeSpacedWeb.ProblemSelectionLive do
     next_page = socket.assigns.page + 1
 
     if next_page <= socket.assigns.total_pages do
-      result = Study.list_leetcode_problems(
-        page: next_page,
-        per_page: socket.assigns.per_page,
-        search: socket.assigns.search,
-        difficulty: socket.assigns.selected_difficulty,
-        category: socket.assigns.selected_category
-      )
+      result =
+        Study.list_leetcode_problems(
+          page: next_page,
+          per_page: socket.assigns.per_page,
+          search: socket.assigns.search,
+          difficulty: socket.assigns.selected_difficulty,
+          category: socket.assigns.selected_category
+        )
 
       {:noreply,
        socket
@@ -128,18 +132,21 @@ defmodule LeetcodeSpacedWeb.ProblemSelectionLive do
     leetcode_id_int = String.to_integer(leetcode_id)
     selected_problems = socket.assigns.selected_problems
 
-    new_selected_problems = if MapSet.member?(selected_problems, leetcode_id_int) do
-      MapSet.delete(selected_problems, leetcode_id_int)
-    else
-      MapSet.put(selected_problems, leetcode_id_int)
-    end
+    new_selected_problems =
+      if MapSet.member?(selected_problems, leetcode_id_int) do
+        MapSet.delete(selected_problems, leetcode_id_int)
+      else
+        MapSet.put(selected_problems, leetcode_id_int)
+      end
 
     {:noreply, assign(socket, selected_problems: new_selected_problems)}
   end
 
   def handle_event("select_all", _params, socket) do
     all_problem_ids = Enum.map(socket.assigns.problems, & &1.leetcode_id)
-    new_selected_problems = MapSet.union(socket.assigns.selected_problems, MapSet.new(all_problem_ids))
+
+    new_selected_problems =
+      MapSet.union(socket.assigns.selected_problems, MapSet.new(all_problem_ids))
 
     {:noreply, assign(socket, selected_problems: new_selected_problems)}
   end
@@ -164,11 +171,12 @@ defmodule LeetcodeSpacedWeb.ProblemSelectionLive do
     list_id_int = String.to_integer(list_id)
     selected_lists = socket.assigns.selected_lists
 
-    new_selected_lists = if list_id_int in selected_lists do
-      List.delete(selected_lists, list_id_int)
-    else
-      [list_id_int | selected_lists]
-    end
+    new_selected_lists =
+      if list_id_int in selected_lists do
+        List.delete(selected_lists, list_id_int)
+      else
+        [list_id_int | selected_lists]
+      end
 
     {:noreply, assign(socket, selected_lists: new_selected_lists)}
   end
@@ -179,13 +187,15 @@ defmodule LeetcodeSpacedWeb.ProblemSelectionLive do
     else
       selected_problem_ids = MapSet.to_list(socket.assigns.selected_problems)
 
-      results = Enum.map(socket.assigns.selected_lists, fn list_id ->
-        Study.add_leetcode_problems_to_list(list_id, selected_problem_ids)
-      end)
+      results =
+        Enum.map(socket.assigns.selected_lists, fn list_id ->
+          Study.add_leetcode_problems_to_list(list_id, selected_problem_ids)
+        end)
 
       case Enum.find(results, fn result -> match?({:error, _}, result) end) do
         nil ->
           total_added = Enum.sum(Enum.map(results, fn {:ok, count} -> count end))
+
           {:noreply,
            socket
            |> assign(selected_problems: MapSet.new())
@@ -234,7 +244,10 @@ defmodule LeetcodeSpacedWeb.ProblemSelectionLive do
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="flex justify-between h-16">
             <div class="flex items-center space-x-4">
-              <.link href="/" class="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              <.link
+                href="/"
+                class="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
+              >
                 SpacedCode
               </.link>
               <span class="text-base-content/60">/</span>
@@ -268,16 +281,16 @@ defmodule LeetcodeSpacedWeb.ProblemSelectionLive do
           </div>
         </div>
       </nav>
-
-      <!-- Main Content -->
+      
+    <!-- Main Content -->
       <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
         <!-- Header -->
         <div class="mb-8">
           <h1 class="text-3xl font-bold text-base-content">Select Problems</h1>
           <p class="text-base-content/70 mt-2">Choose LeetCode problems to add to your lists</p>
         </div>
-
-        <!-- Filters and Search -->
+        
+    <!-- Filters and Search -->
         <div class="bg-base-200 rounded-xl p-6 border border-base-300 mb-6">
           <div class="grid md:grid-cols-4 gap-4">
             <!-- Search -->
@@ -295,8 +308,8 @@ defmodule LeetcodeSpacedWeb.ProblemSelectionLive do
                 />
               </form>
             </div>
-
-            <!-- Difficulty Filter -->
+            
+    <!-- Difficulty Filter -->
             <div>
               <label class="label">
                 <span class="label-text font-medium">Difficulty</span>
@@ -312,8 +325,8 @@ defmodule LeetcodeSpacedWeb.ProblemSelectionLive do
                 </select>
               </form>
             </div>
-
-            <!-- Category Filter -->
+            
+    <!-- Category Filter -->
             <div>
               <label class="label">
                 <span class="label-text font-medium">Category</span>
@@ -329,8 +342,8 @@ defmodule LeetcodeSpacedWeb.ProblemSelectionLive do
                 </select>
               </form>
             </div>
-
-            <!-- Selection Actions -->
+            
+    <!-- Selection Actions -->
             <div class="flex items-end space-x-2">
               <button
                 type="button"
@@ -349,14 +362,16 @@ defmodule LeetcodeSpacedWeb.ProblemSelectionLive do
             </div>
           </div>
         </div>
-
-        <!-- Selection Summary -->
+        
+    <!-- Selection Summary -->
         <%= if MapSet.size(@selected_problems) > 0 do %>
           <div class="bg-primary/10 border border-primary/20 rounded-lg p-4 mb-6">
             <div class="flex items-center justify-between">
               <div class="flex items-center space-x-4">
                 <span class="text-primary font-semibold">
-                  {MapSet.size(@selected_problems)} problem{if MapSet.size(@selected_problems) == 1, do: "", else: "s"} selected
+                  {MapSet.size(@selected_problems)} problem{if MapSet.size(@selected_problems) == 1,
+                    do: "",
+                    else: "s"} selected
                 </span>
                 <button
                   type="button"
@@ -376,13 +391,16 @@ defmodule LeetcodeSpacedWeb.ProblemSelectionLive do
             </div>
           </div>
         <% end %>
-
-        <!-- Problems Grid -->
+        
+    <!-- Problems Grid -->
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           <%= for problem <- @problems do %>
             <div class={[
               "bg-base-200 rounded-xl p-4 border transition-all duration-200 cursor-pointer",
-              if(MapSet.member?(@selected_problems, problem.leetcode_id), do: "border-primary bg-primary/5", else: "border-base-300 hover:border-base-400")
+              if(MapSet.member?(@selected_problems, problem.leetcode_id),
+                do: "border-primary bg-primary/5",
+                else: "border-base-300 hover:border-base-400"
+              )
             ]}>
               <div class="flex items-start space-x-3">
                 <input
@@ -438,7 +456,12 @@ defmodule LeetcodeSpacedWeb.ProblemSelectionLive do
                   >
                     View on LeetCode
                     <svg class="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      />
                     </svg>
                   </a>
                 </div>
@@ -446,8 +469,8 @@ defmodule LeetcodeSpacedWeb.ProblemSelectionLive do
             </div>
           <% end %>
         </div>
-
-        <!-- Load More Button -->
+        
+    <!-- Load More Button -->
         <%= if @page < @total_pages do %>
           <div class="text-center mt-8">
             <button
@@ -459,14 +482,14 @@ defmodule LeetcodeSpacedWeb.ProblemSelectionLive do
             </button>
           </div>
         <% end %>
-
-        <!-- Results Summary -->
+        
+    <!-- Results Summary -->
         <div class="text-center mt-8 text-base-content/60">
           Showing {length(@problems)} of {@total_count} problems
         </div>
       </div>
-
-      <!-- List Selection Modal -->
+      
+    <!-- List Selection Modal -->
       <%= if @show_list_modal do %>
         <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div class="bg-base-100 rounded-xl p-6 max-w-md w-full mx-4">
@@ -474,7 +497,11 @@ defmodule LeetcodeSpacedWeb.ProblemSelectionLive do
               Add to Lists
             </h2>
             <p class="text-base-content/70 mb-4">
-              Select the lists you want to add {MapSet.size(@selected_problems)} problem{if MapSet.size(@selected_problems) == 1, do: "", else: "s"} to:
+              Select the lists you want to add {MapSet.size(@selected_problems)} problem{if MapSet.size(
+                                                                                              @selected_problems
+                                                                                            ) == 1,
+                                                                                            do: "",
+                                                                                            else: "s"} to:
             </p>
 
             <div class="space-y-3 mb-6 max-h-64 overflow-y-auto">
@@ -524,8 +551,8 @@ defmodule LeetcodeSpacedWeb.ProblemSelectionLive do
           </div>
         </div>
       <% end %>
-
-      <!-- Create List Modal -->
+      
+    <!-- Create List Modal -->
       <%= if @show_create_list_modal do %>
         <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div class="bg-base-100 rounded-xl p-6 max-w-md w-full mx-4">
@@ -534,9 +561,23 @@ defmodule LeetcodeSpacedWeb.ProblemSelectionLive do
             </h2>
 
             <.form for={@new_list_form} phx-submit="create_list" class="space-y-4">
-              <.input field={@new_list_form[:name]} type="text" label="Name" placeholder="Enter list name..." />
-              <.input field={@new_list_form[:description]} type="textarea" label="Description" placeholder="Enter list description..." />
-              <.input field={@new_list_form[:is_public]} type="checkbox" label="Make this list public" />
+              <.input
+                field={@new_list_form[:name]}
+                type="text"
+                label="Name"
+                placeholder="Enter list name..."
+              />
+              <.input
+                field={@new_list_form[:description]}
+                type="textarea"
+                label="Description"
+                placeholder="Enter list description..."
+              />
+              <.input
+                field={@new_list_form[:is_public]}
+                type="checkbox"
+                label="Make this list public"
+              />
 
               <div class="flex space-x-3">
                 <button

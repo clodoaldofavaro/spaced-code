@@ -43,10 +43,16 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
 
   def handle_event("remove_problem", %{"problem_id" => problem_id}, socket) do
     problem_id_int = String.to_integer(problem_id)
+
     case Study.remove_problem_from_list(socket.assigns.list_id, problem_id_int) do
       {:ok, _} ->
         problems = Study.get_problems_for_list(socket.assigns.list_id)
-        due_problems = Reviews.get_due_problems_for_list(socket.assigns.list_id, socket.assigns.current_user.id)
+
+        due_problems =
+          Reviews.get_due_problems_for_list(
+            socket.assigns.list_id,
+            socket.assigns.current_user.id
+          )
 
         socket =
           socket
@@ -74,9 +80,15 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
       problem_id_int = String.to_integer(problem_id)
       rating_atom = String.to_atom(rating)
 
-      Logger.info("Calling mark_problem_solved with: problem_id=#{problem_id_int}, user_id=#{socket.assigns.current_user.id}, rating=#{rating_atom}")
+      Logger.info(
+        "Calling mark_problem_solved with: problem_id=#{problem_id_int}, user_id=#{socket.assigns.current_user.id}, rating=#{rating_atom}"
+      )
 
-      case Reviews.mark_problem_solved(problem_id_int, socket.assigns.current_user.id, rating_atom) do
+      case Reviews.mark_problem_solved(
+             problem_id_int,
+             socket.assigns.current_user.id,
+             rating_atom
+           ) do
         {:ok, result} ->
           Logger.info("Review successful: #{inspect(result)}")
           # Add to recently solved for temporary green state
@@ -84,9 +96,16 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
 
           # Refresh both problems and due problems
           problems = Study.get_problems_for_list(socket.assigns.list_id)
-          due_problems = Reviews.get_due_problems_for_list(socket.assigns.list_id, socket.assigns.current_user.id)
 
-          Logger.info("Refreshed data - problems: #{length(problems)}, due_problems: #{length(due_problems)}")
+          due_problems =
+            Reviews.get_due_problems_for_list(
+              socket.assigns.list_id,
+              socket.assigns.current_user.id
+            )
+
+          Logger.info(
+            "Refreshed data - problems: #{length(problems)}, due_problems: #{length(due_problems)}"
+          )
 
           socket =
             socket
@@ -129,7 +148,10 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="flex justify-between h-16">
             <div class="flex items-center space-x-4">
-              <.link href="/" class="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              <.link
+                href="/"
+                class="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
+              >
                 SpacedCode
               </.link>
               <span class="text-base-content/60">/</span>
@@ -165,8 +187,8 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
           </div>
         </div>
       </nav>
-
-      <!-- Main Content -->
+      
+    <!-- Main Content -->
       <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
         <!-- Header -->
         <div class="mb-8">
@@ -177,7 +199,12 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
               <%= if @list.is_public do %>
                 <span class="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800 mt-2">
                   <svg class="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
                   </svg>
                   Public
                 </span>
@@ -188,19 +215,34 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
               class="inline-flex items-center bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-6 py-3 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200"
             >
               <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                />
               </svg>
               Add Problem
             </.link>
           </div>
-
-          <!-- Stats -->
+          
+    <!-- Stats -->
           <div class="grid md:grid-cols-3 gap-4 mb-6">
             <div class="bg-base-200 rounded-lg p-4 border border-base-300">
               <div class="flex items-center">
                 <div class="bg-blue-100 rounded-lg p-2 mr-3">
-                  <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 8l2 2 4-4" />
+                  <svg
+                    class="w-6 h-6 text-blue-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 8l2 2 4-4"
+                    />
                   </svg>
                 </div>
                 <div>
@@ -213,8 +255,18 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
             <div class="bg-base-200 rounded-lg p-4 border border-base-300">
               <div class="flex items-center">
                 <div class="bg-orange-100 rounded-lg p-2 mr-3">
-                  <svg class="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <svg
+                    class="w-6 h-6 text-orange-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
                   </svg>
                 </div>
                 <div>
@@ -227,26 +279,41 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
             <div class="bg-base-200 rounded-lg p-4 border border-base-300">
               <div class="flex items-center">
                 <div class="bg-green-100 rounded-lg p-2 mr-3">
-                  <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <svg
+                    class="w-6 h-6 text-green-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
                   </svg>
                 </div>
                 <div>
-                  <p class="text-2xl font-semibold text-base-content">{length(@problems) - length(@due_problems)}</p>
+                  <p class="text-2xl font-semibold text-base-content">
+                    {length(@problems) - length(@due_problems)}
+                  </p>
                   <p class="text-base-content/60">Completed</p>
                 </div>
               </div>
             </div>
           </div>
-
-          <!-- View Toggle -->
+          
+    <!-- View Toggle -->
           <div class="flex items-center space-x-4">
             <button
               type="button"
               phx-click="toggle_view"
               class={[
                 "px-4 py-2 rounded-lg font-medium transition-all duration-200",
-                if(@show_all, do: "bg-base-300 text-base-content", else: "bg-gradient-to-r from-orange-500 to-orange-600 text-white")
+                if(@show_all,
+                  do: "bg-base-300 text-base-content",
+                  else: "bg-gradient-to-r from-orange-500 to-orange-600 text-white"
+                )
               ]}
             >
               <%= if @show_all do %>
@@ -260,9 +327,8 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
             </span>
           </div>
         </div>
-
-
-        <!-- Problems List -->
+        
+    <!-- Problems List -->
         <div class="space-y-4">
           <%= for problem <- displayed_problems(assigns) do %>
             <div class="bg-base-200 rounded-xl p-6 border border-base-300 hover:shadow-lg transition-all duration-200">
@@ -325,8 +391,8 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
                       </button>
                     </form>
                   <% end %>
-
-                  <!-- Open in LeetCode -->
+                  
+    <!-- Open in LeetCode -->
                   <a
                     href={problem.url}
                     target="_blank"
@@ -334,12 +400,17 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
                     class="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-3 py-1 rounded-lg font-medium transition-all duration-200 text-sm inline-flex items-center"
                   >
                     <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      />
                     </svg>
                     Solve
                   </a>
-
-                  <!-- Remove from List -->
+                  
+    <!-- Remove from List -->
                   <button
                     type="button"
                     phx-click="remove_problem"
@@ -348,7 +419,12 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
                     class="text-base-content/40 hover:text-red-500 transition-colors duration-200"
                   >
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+                      />
                     </svg>
                   </button>
                 </div>
@@ -358,8 +434,18 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
 
           <%= if Enum.empty?(displayed_problems(assigns)) do %>
             <div class="text-center py-12">
-              <svg class="w-20 h-20 text-base-content/30 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 8l2 2 4-4" />
+              <svg
+                class="w-20 h-20 text-base-content/30 mx-auto mb-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 8l2 2 4-4"
+                />
               </svg>
               <h3 class="text-xl font-semibold text-base-content/60 mb-2">
                 <%= if @show_all do %>
@@ -381,7 +467,12 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
                   class="inline-flex items-center bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-6 py-3 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200"
                 >
                   <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                    />
                   </svg>
                   Add Your First Problem
                 </.link>
@@ -392,7 +483,12 @@ defmodule LeetcodeSpacedWeb.ListDetailsLive do
                   class="inline-flex items-center bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-6 py-3 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-200"
                 >
                   <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
+                    />
                   </svg>
                   View All Problems
                 </button>

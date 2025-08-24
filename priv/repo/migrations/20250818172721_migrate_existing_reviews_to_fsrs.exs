@@ -3,12 +3,12 @@ defmodule LeetcodeSpaced.Repo.Migrations.MigrateExistingReviewsToFsrs do
   import Ecto.Query
 
   alias LeetcodeSpaced.Repo
-  
+
   def up do
     # This migration converts existing reviews that might have confidence-based
     # data to the new FSRS system. Since we just implemented FSRS, this is mainly
     # for safety and future-proofing.
-    
+
     # Update any existing reviews that don't have FSRS fields set
     execute """
     UPDATE reviews 
@@ -22,7 +22,7 @@ defmodule LeetcodeSpaced.Repo.Migrations.MigrateExistingReviewsToFsrs do
        OR fsrs_step IS NULL 
        OR due IS NULL
     """
-    
+
     # For reviews that had confidence scores, convert them to approximate FSRS difficulty
     execute """
     UPDATE reviews 
@@ -41,7 +41,7 @@ defmodule LeetcodeSpaced.Repo.Migrations.MigrateExistingReviewsToFsrs do
     # This migration is largely irreversible since we're converting from
     # a confidence system to FSRS. We can't accurately convert back.
     # The best we can do is clear the FSRS fields.
-    
+
     execute """
     UPDATE reviews 
     SET 

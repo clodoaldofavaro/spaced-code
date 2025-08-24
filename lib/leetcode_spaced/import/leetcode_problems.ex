@@ -49,10 +49,11 @@ defmodule LeetcodeSpaced.Import.LeetcodeProblems do
   end
 
   defp import_files(files, data_dir) do
-    results = Enum.map(files, fn file ->
-      file_path = Path.join(data_dir, file)
-      import_single_file(file_path, file)
-    end)
+    results =
+      Enum.map(files, fn file ->
+        file_path = Path.join(data_dir, file)
+        import_single_file(file_path, file)
+      end)
 
     summarize_results(results)
   end
@@ -96,14 +97,17 @@ defmodule LeetcodeSpaced.Import.LeetcodeProblems do
 
   defp process_data_lines(lines, filename) do
     Repo.transaction(fn ->
-      results = Enum.map(lines, fn line ->
-        case parse_csv_line(line) do
-          {:ok, data} -> process_problem(data, filename)
-          {:error, reason} ->
-            IO.puts("Error parsing line in #{filename}: #{reason}")
-            {:error, reason}
-        end
-      end)
+      results =
+        Enum.map(lines, fn line ->
+          case parse_csv_line(line) do
+            {:ok, data} ->
+              process_problem(data, filename)
+
+            {:error, reason} ->
+              IO.puts("Error parsing line in #{filename}: #{reason}")
+              {:error, reason}
+          end
+        end)
 
       # Return summary
       successful = Enum.count(results, &match?({:ok, _}, &1))
@@ -118,14 +122,15 @@ defmodule LeetcodeSpaced.Import.LeetcodeProblems do
       [id_str, name, url, difficulty, category, is_premium_str] ->
         with {:ok, id} <- parse_integer(id_str),
              {:ok, is_premium} <- parse_boolean(is_premium_str) do
-          {:ok, %{
-            leetcode_id: id,
-            name: name,
-            url: url,
-            difficulty: difficulty,
-            category: category,
-            is_premium: is_premium
-          }}
+          {:ok,
+           %{
+             leetcode_id: id,
+             name: name,
+             url: url,
+             difficulty: difficulty,
+             category: category,
+             is_premium: is_premium
+           }}
         end
 
       _ ->
@@ -192,9 +197,11 @@ defmodule LeetcodeSpaced.Import.LeetcodeProblems do
   defp get_or_create_category(name) do
     case Repo.get_by(Category, name: name) do
       nil ->
-        {:ok, category} = %Category{}
-                        |> Category.changeset(%{name: name})
-                        |> Repo.insert()
+        {:ok, category} =
+          %Category{}
+          |> Category.changeset(%{name: name})
+          |> Repo.insert()
+
         category
 
       category ->
@@ -212,12 +219,14 @@ defmodule LeetcodeSpaced.Import.LeetcodeProblems do
     case Repo.query(query, [problem.id, category.id]) do
       {:ok, %{num_rows: 0}} ->
         # Association doesn't exist, create it
-        Repo.insert_all("leetcode_problem_categories", [[
-          leetcode_problem_id: problem.id,
-          category_id: category.id,
-          inserted_at: NaiveDateTime.utc_now() |> NaiveDateTime.truncate(:second),
-          updated_at: NaiveDateTime.utc_now() |> NaiveDateTime.truncate(:second)
-        ]])
+        Repo.insert_all("leetcode_problem_categories", [
+          [
+            leetcode_problem_id: problem.id,
+            category_id: category.id,
+            inserted_at: NaiveDateTime.utc_now() |> NaiveDateTime.truncate(:second),
+            updated_at: NaiveDateTime.utc_now() |> NaiveDateTime.truncate(:second)
+          ]
+        ])
 
       _ ->
         # Association already exists, do nothing
@@ -226,16 +235,23 @@ defmodule LeetcodeSpaced.Import.LeetcodeProblems do
   end
 
   defp summarize_results(results) do
-    total_created = Enum.sum(Enum.map(results, fn
-      %{created: created} -> created
-      {:ok, %{created: created}} -> created
-      _ -> 0
-    end))
-    total_errors = Enum.sum(Enum.map(results, fn
-      %{errors: errors} -> errors
-      {:ok, %{errors: errors}} -> errors
-      _ -> 0
-    end))
+    total_created =
+      Enum.sum(
+        Enum.map(results, fn
+          %{created: created} -> created
+          {:ok, %{created: created}} -> created
+          _ -> 0
+        end)
+      )
+
+    total_errors =
+      Enum.sum(
+        Enum.map(results, fn
+          %{errors: errors} -> errors
+          {:ok, %{errors: errors}} -> errors
+          _ -> 0
+        end)
+      )
 
     IO.puts("\n=== Import Summary ===")
     IO.puts("Total problems created: #{total_created}")

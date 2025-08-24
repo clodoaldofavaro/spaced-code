@@ -62,10 +62,11 @@ defmodule LeetcodeSpaced.FsrsIntegration do
       updated_review = from_fsrs_card(updated_fsrs_card, review.user_id)
 
       # Update review count and timestamps
-      updated_review = %{updated_review |
-        review_count: review.review_count + 1,
-        reviewed_at: DateTime.utc_now(),
-        next_review: updated_review.due
+      updated_review = %{
+        updated_review
+        | review_count: review.review_count + 1,
+          reviewed_at: DateTime.utc_now(),
+          next_review: updated_review.due
       }
 
       {:ok, updated_review}
@@ -89,12 +90,13 @@ defmodule LeetcodeSpaced.FsrsIntegration do
     - An ExFsrs card struct
   """
   def to_fsrs_card(%Review{} = review) do
-    state = case review.fsrs_state do
-      "learning" -> :learning
-      "review" -> :review
-      "relearning" -> :relearning
-      _ -> :learning
-    end
+    state =
+      case review.fsrs_state do
+        "learning" -> :learning
+        "review" -> :review
+        "relearning" -> :relearning
+        _ -> :learning
+      end
 
     ExFsrs.new(
       card_id: review.problem_id,
@@ -118,12 +120,13 @@ defmodule LeetcodeSpaced.FsrsIntegration do
     - A Review struct with updated FSRS data
   """
   def from_fsrs_card(fsrs_card, user_id) do
-    state = case fsrs_card.state do
-      :learning -> "learning"
-      :review -> "review"
-      :relearning -> "relearning"
-      _ -> "learning"
-    end
+    state =
+      case fsrs_card.state do
+        :learning -> "learning"
+        :review -> "review"
+        :relearning -> "relearning"
+        _ -> "learning"
+      end
 
     %Review{
       problem_id: fsrs_card.card_id,
@@ -134,7 +137,8 @@ defmodule LeetcodeSpaced.FsrsIntegration do
       difficulty: fsrs_card.difficulty,
       due: fsrs_card.due,
       last_review: fsrs_card.last_review,
-      review_count: 0,  # This will be updated by the caller
+      # This will be updated by the caller
+      review_count: 0,
       confidence: nil,
       reviewed_at: nil,
       next_review: fsrs_card.due
@@ -153,7 +157,8 @@ defmodule LeetcodeSpaced.FsrsIntegration do
   """
   def is_due?(%Review{} = review, current_time \\ DateTime.utc_now()) do
     case review.due do
-      nil -> true  # If no due date, consider it due
+      # If no due date, consider it due
+      nil -> true
       due_date -> DateTime.compare(due_date, current_time) != :gt
     end
   end
@@ -170,8 +175,12 @@ defmodule LeetcodeSpaced.FsrsIntegration do
   """
   def calculate_retention(%Review{} = review, current_time \\ DateTime.utc_now()) do
     case {review.stability, review.last_review} do
-      {nil, _} -> 0.0
-      {_, nil} -> 0.0
+      {nil, _} ->
+        0.0
+
+      {_, nil} ->
+        0.0
+
       {_stability, _last_review} ->
         fsrs_card = to_fsrs_card(review)
         ExFsrs.get_retrievability(fsrs_card, current_time)
@@ -188,7 +197,8 @@ defmodule LeetcodeSpaced.FsrsIntegration do
     ExFsrs.Scheduler.new(
       desired_retention: 0.9,
       enable_fuzzing: true,
-      maximum_interval: 36500  # ~100 years max
+      # ~100 years max
+      maximum_interval: 36500
     )
   end
 

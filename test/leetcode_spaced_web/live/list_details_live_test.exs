@@ -12,38 +12,45 @@ defmodule LeetcodeSpacedWeb.ListDetailsLiveTest do
       user = user_fixture()
       list = list_fixture(%{user_id: user.id})
       problem = problem_fixture()
-      
+
       LeetcodeSpaced.Study.add_problem_to_list(list.id, problem.id)
 
       %{user: user, list: list, problem: problem}
     end
 
-    test "handles FSRS rating conversion from form", %{conn: conn, user: user, list: list, problem: problem} do
-      {:ok, view, _html} = 
+    test "handles FSRS rating conversion from form", %{
+      conn: conn,
+      user: user,
+      list: list,
+      problem: problem
+    } do
+      {:ok, view, _html} =
         conn
         |> log_in_user(user)
         |> live(~p"/lists/#{list.id}")
 
       # Test each FSRS rating
       for {rating_value, rating_atom} <- [
-        {"again", :again},
-        {"hard", :hard}, 
-        {"good", :good},
-        {"easy", :easy}
-      ] do
+            {"again", :again},
+            {"hard", :hard},
+            {"good", :good},
+            {"easy", :easy}
+          ] do
         # Submit the form with the rating
-        result = view
-        |> form("form[phx-submit='mark_solved']", %{
-          "problem_id" => to_string(problem.id),
-          "rating" => rating_value
-        })
-        |> render_submit()
+        result =
+          view
+          |> form("form[phx-submit='mark_solved']", %{
+            "problem_id" => to_string(problem.id),
+            "rating" => rating_value
+          })
+          |> render_submit()
 
         # Check that the rating was converted correctly and processed
-        review = from(r in Reviews.Review,
-          where: r.problem_id == ^problem.id and r.user_id == ^user.id and r.list_id == ^list.id
-        )
-        |> LeetcodeSpaced.Repo.one()
+        review =
+          from(r in Reviews.Review,
+            where: r.problem_id == ^problem.id and r.user_id == ^user.id and r.list_id == ^list.id
+          )
+          |> LeetcodeSpaced.Repo.one()
 
         assert review != nil, "Review should be created for rating #{rating_value}"
         assert review.review_count >= 1
@@ -54,33 +61,35 @@ defmodule LeetcodeSpacedWeb.ListDetailsLiveTest do
     end
 
     test "rejects empty rating", %{conn: conn, user: user, list: list, problem: problem} do
-      {:ok, view, _html} = 
+      {:ok, view, _html} =
         conn
         |> log_in_user(user)
         |> live(~p"/lists/#{list.id}")
 
       # Submit the form with empty rating
-      html = view
-      |> form("form[phx-submit='mark_solved']", %{
-        "problem_id" => to_string(problem.id),
-        "rating" => ""
-      })
-      |> render_submit()
+      html =
+        view
+        |> form("form[phx-submit='mark_solved']", %{
+          "problem_id" => to_string(problem.id),
+          "rating" => ""
+        })
+        |> render_submit()
 
       # Should show error message
       assert html =~ "Please select how you did first"
-      
+
       # Should not create a review
-      review = from(r in Reviews.Review,
-        where: r.problem_id == ^problem.id and r.user_id == ^user.id and r.list_id == ^list.id
-      )
-      |> LeetcodeSpaced.Repo.one()
+      review =
+        from(r in Reviews.Review,
+          where: r.problem_id == ^problem.id and r.user_id == ^user.id and r.list_id == ^list.id
+        )
+        |> LeetcodeSpaced.Repo.one()
 
       assert review == nil
     end
 
     test "shows rating options in select", %{conn: conn, user: user, list: list} do
-      {:ok, _view, html} = 
+      {:ok, _view, html} =
         conn
         |> log_in_user(user)
         |> live(~p"/lists/#{list.id}")
@@ -88,10 +97,10 @@ defmodule LeetcodeSpacedWeb.ListDetailsLiveTest do
       # Check that all FSRS rating options are present
       assert html =~ "How did you do?"
       assert html =~ "❌ Again - I forgot"
-      assert html =~ "😰 Hard - Difficult to recall"  
+      assert html =~ "😰 Hard - Difficult to recall"
       assert html =~ "😊 Good - I remembered"
       assert html =~ "🚀 Easy - Very easy"
-      
+
       # Check that the select has the correct name
       assert html =~ ~s(name="rating")
       assert html =~ ~s(value="again")
@@ -100,8 +109,13 @@ defmodule LeetcodeSpacedWeb.ListDetailsLiveTest do
       assert html =~ ~s(value="easy")
     end
 
-    test "updates UI state after successful review", %{conn: conn, user: user, list: list, problem: problem} do
-      {:ok, view, _html} = 
+    test "updates UI state after successful review", %{
+      conn: conn,
+      user: user,
+      list: list,
+      problem: problem
+    } do
+      {:ok, view, _html} =
         conn
         |> log_in_user(user)
         |> live(~p"/lists/#{list.id}")
@@ -116,7 +130,7 @@ defmodule LeetcodeSpacedWeb.ListDetailsLiveTest do
 
       # Check for success feedback
       assert render(view) =~ "Problem reviewed! 🎉"
-      
+
       # Check that the problem shows as recently solved temporarily
       assert render(view) =~ "✅ Reviewed!"
     end
@@ -127,14 +141,19 @@ defmodule LeetcodeSpacedWeb.ListDetailsLiveTest do
       user = user_fixture()
       list = list_fixture(%{user_id: user.id})
       problem = problem_fixture()
-      
+
       LeetcodeSpaced.Study.add_problem_to_list(list.id, problem.id)
 
       %{user: user, list: list, problem: problem}
     end
 
-    test "temporarily shows reviewed state", %{conn: conn, user: user, list: list, problem: problem} do
-      {:ok, view, _html} = 
+    test "temporarily shows reviewed state", %{
+      conn: conn,
+      user: user,
+      list: list,
+      problem: problem
+    } do
+      {:ok, view, _html} =
         conn
         |> log_in_user(user)
         |> live(~p"/lists/#{list.id}")

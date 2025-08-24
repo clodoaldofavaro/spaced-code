@@ -102,7 +102,8 @@ defmodule LeetcodeSpaced.ReviewsTest do
         problem_id: problem1.id,
         user_id: user.id,
         list_id: list.id,
-        due: DateTime.add(DateTime.utc_now(), -1, :hour)  # Due 1 hour ago
+        # Due 1 hour ago
+        due: DateTime.add(DateTime.utc_now(), -1, :hour)
       })
 
       # Create a review for problem2 that's not due yet
@@ -110,7 +111,8 @@ defmodule LeetcodeSpaced.ReviewsTest do
         problem_id: problem2.id,
         user_id: user.id,
         list_id: list.id,
-        due: DateTime.add(DateTime.utc_now(), 1, :hour)  # Due in 1 hour
+        # Due in 1 hour
+        due: DateTime.add(DateTime.utc_now(), 1, :hour)
       })
 
       due_problems = Reviews.get_due_problems_for_list(list.id, user.id)
@@ -149,14 +151,16 @@ defmodule LeetcodeSpaced.ReviewsTest do
         problem_id: problem1.id,
         user_id: user.id,
         list_id: list.id,
-        due: DateTime.add(DateTime.utc_now(), -2, :hour)  # Due 2 hours ago (older)
+        # Due 2 hours ago (older)
+        due: DateTime.add(DateTime.utc_now(), -2, :hour)
       })
 
       review_fixture(%{
         problem_id: problem2.id,
         user_id: user.id,
         list_id: list.id,
-        due: DateTime.add(DateTime.utc_now(), -1, :hour)  # Due 1 hour ago (newer)
+        # Due 1 hour ago (newer)
+        due: DateTime.add(DateTime.utc_now(), -1, :hour)
       })
 
       due_problems = Reviews.get_due_problems_for_list(list.id, user.id)
@@ -187,7 +191,9 @@ defmodule LeetcodeSpaced.ReviewsTest do
       )
       |> LeetcodeSpaced.Repo.one()
       |> case do
-        nil -> flunk("Expected review to be created")
+        nil ->
+          flunk("Expected review to be created")
+
         review ->
           assert review.problem_id == problem.id
           assert review.user_id == user.id
@@ -205,12 +211,13 @@ defmodule LeetcodeSpaced.ReviewsTest do
       LeetcodeSpaced.Study.add_problem_to_list(list.id, problem.id)
 
       # Create initial review
-      existing_review = review_fixture(%{
-        problem_id: problem.id,
-        user_id: user.id,
-        list_id: list.id,
-        review_count: 1
-      })
+      existing_review =
+        review_fixture(%{
+          problem_id: problem.id,
+          user_id: user.id,
+          list_id: list.id,
+          review_count: 1
+        })
 
       assert {:ok, _result} = Reviews.mark_problem_solved(problem.id, user.id, list.id, :easy)
 
@@ -235,7 +242,9 @@ defmodule LeetcodeSpaced.ReviewsTest do
         )
         |> LeetcodeSpaced.Repo.one()
         |> case do
-          nil -> flunk("Expected review to be created for rating #{rating}")
+          nil ->
+            flunk("Expected review to be created for rating #{rating}")
+
           review ->
             assert review.review_count == 1
         end
@@ -249,7 +258,8 @@ defmodule LeetcodeSpaced.ReviewsTest do
 
       LeetcodeSpaced.Study.add_problem_to_list(list.id, problem.id)
 
-      assert {:error, :invalid_rating} = Reviews.mark_problem_solved(problem.id, user.id, list.id, :invalid)
+      assert {:error, :invalid_rating} =
+               Reviews.mark_problem_solved(problem.id, user.id, list.id, :invalid)
     end
   end
 end

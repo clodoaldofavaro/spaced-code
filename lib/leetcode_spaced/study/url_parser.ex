@@ -5,9 +5,9 @@ defmodule LeetcodeSpaced.Study.UrlParser do
 
   @doc """
   Extracts the problem title from a LeetCode URL.
-  
+
   ## Examples
-  
+
       iex> LeetcodeSpaced.Study.UrlParser.extract_title("https://leetcode.com/problems/flood-fill/description/")
       "Flood Fill"
       
@@ -31,9 +31,9 @@ defmodule LeetcodeSpaced.Study.UrlParser do
 
   @doc """
   Extracts the problem slug from a LeetCode URL.
-  
+
   ## Examples
-  
+
       iex> LeetcodeSpaced.Study.UrlParser.extract_problem_slug("https://leetcode.com/problems/flood-fill/description/")
       "flood-fill"
       
@@ -52,9 +52,9 @@ defmodule LeetcodeSpaced.Study.UrlParser do
 
   @doc """
   Converts a problem slug to a human-readable title.
-  
+
   ## Examples
-  
+
       iex> LeetcodeSpaced.Study.UrlParser.slug_to_title("flood-fill")
       "Flood Fill"
       
@@ -87,9 +87,9 @@ defmodule LeetcodeSpaced.Study.UrlParser do
 
   @doc """
   Validates if a URL is a valid LeetCode problem URL.
-  
+
   ## Examples
-  
+
       iex> LeetcodeSpaced.Study.UrlParser.valid_leetcode_url?("https://leetcode.com/problems/flood-fill/")
       true
       
