@@ -20,6 +20,7 @@ defmodule LeetcodeSpacedWeb.Router do
     live "/", PageLive, :index
     live "/lists", ListsLive, :index
     live "/lists/:id", ListDetailsLive, :show
+    live "/problems", ProblemSelectionLive, :index
   end
 
   scope "/auth", LeetcodeSpacedWeb do
